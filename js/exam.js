@@ -76,10 +76,10 @@ const ExamModule = (() => {
   function init(el, appData) {
     container = el;
     data = appData;
-    _bindToolbar();
   }
 
   function render(_container, subRoute) {
+    _bindToolbar();
     if (examActive) {
       // If returning to exam page while active, re-render current section
       _renderCurrentSection();

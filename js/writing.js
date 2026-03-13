@@ -329,10 +329,10 @@ const WritingModule = (() => {
   function init(el, appData) {
     container = el;
     data = appData;
-    _bindToolbar();
   }
 
   function render(_container, subRoute) {
+    _bindToolbar();
     if (subRoute) {
       switch (subRoute) {
         case 'email': _startWriting('email'); return;

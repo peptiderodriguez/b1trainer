@@ -12362,5 +12362,347 @@
       "reflexive": false,
       "withSein": true
     }
+  },
+  {
+    "word": "sein",
+    "translation": "to be",
+    "type": "verb",
+    "level": "A1",
+    "examples": [
+      "Ich bin müde.",
+      "Er ist Arzt.",
+      "Wir sind zu Hause."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "bin",
+        "du": "bist",
+        "es": "ist",
+        "wir": "sind",
+        "ihr": "seid",
+        "Sie": "sind"
+      },
+      "präteritum": {
+        "ich": "war",
+        "du": "warst",
+        "es": "war",
+        "wir": "waren",
+        "ihr": "wart",
+        "Sie": "waren"
+      },
+      "perfekt": "gewesen",
+      "imperativ": {
+        "du": "sei",
+        "ihr": "seid"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": true
+    }
+  },
+  {
+    "word": "sehen",
+    "translation": "to see",
+    "type": "verb",
+    "level": "A1",
+    "examples": [
+      "Ich sehe den Berg.",
+      "Siehst du das?",
+      "Er sieht gut aus."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "sehe",
+        "du": "siehst",
+        "es": "sieht",
+        "wir": "sehen",
+        "ihr": "seht",
+        "Sie": "sehen"
+      },
+      "präteritum": {
+        "ich": "sah",
+        "du": "sahst",
+        "es": "sah",
+        "wir": "sahen",
+        "ihr": "saht",
+        "Sie": "sahen"
+      },
+      "perfekt": "gesehen",
+      "imperativ": {
+        "du": "sieh",
+        "ihr": "seht"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "nehmen",
+    "translation": "to take",
+    "type": "verb",
+    "level": "A1",
+    "examples": [
+      "Ich nehme einen Kaffee.",
+      "Nimm bitte Platz.",
+      "Er nimmt die Tablette."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "nehme",
+        "du": "nimmst",
+        "es": "nimmt",
+        "wir": "nehmen",
+        "ihr": "nehmt",
+        "Sie": "nehmen"
+      },
+      "präteritum": {
+        "ich": "nahm",
+        "du": "nahmst",
+        "es": "nahm",
+        "wir": "nahmen",
+        "ihr": "nahmt",
+        "Sie": "nahmen"
+      },
+      "perfekt": "genommen",
+      "imperativ": {
+        "du": "nimm",
+        "ihr": "nehmt"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "sprechen",
+    "translation": "to speak",
+    "type": "verb",
+    "level": "A1",
+    "examples": [
+      "Sprechen Sie Deutsch?",
+      "Er spricht drei Sprachen.",
+      "Wir müssen darüber sprechen."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "spreche",
+        "du": "sprichst",
+        "es": "spricht",
+        "wir": "sprechen",
+        "ihr": "sprecht",
+        "Sie": "sprechen"
+      },
+      "präteritum": {
+        "ich": "sprach",
+        "du": "sprachst",
+        "es": "sprach",
+        "wir": "sprachen",
+        "ihr": "spracht",
+        "Sie": "sprachen"
+      },
+      "perfekt": "gesprochen",
+      "imperativ": {
+        "du": "sprich",
+        "ihr": "sprecht"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "lesen",
+    "translation": "to read",
+    "type": "verb",
+    "level": "A1",
+    "examples": [
+      "Ich lese ein Buch.",
+      "Liest du gern?",
+      "Der Arzt liest den Befund."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "lese",
+        "du": "liest",
+        "es": "liest",
+        "wir": "lesen",
+        "ihr": "lest",
+        "Sie": "lesen"
+      },
+      "präteritum": {
+        "ich": "las",
+        "du": "last",
+        "es": "las",
+        "wir": "lasen",
+        "ihr": "last",
+        "Sie": "lasen"
+      },
+      "perfekt": "gelesen",
+      "imperativ": {
+        "du": "lies",
+        "ihr": "lest"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "schreiben",
+    "translation": "to write",
+    "type": "verb",
+    "level": "A1",
+    "examples": [
+      "Ich schreibe einen Brief.",
+      "Schreib mir bitte eine Nachricht.",
+      "Der Arzt schreibt ein Rezept."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "schreibe",
+        "du": "schreibst",
+        "es": "schreibt",
+        "wir": "schreiben",
+        "ihr": "schreibt",
+        "Sie": "schreiben"
+      },
+      "präteritum": {
+        "ich": "schrieb",
+        "du": "schriebst",
+        "es": "schrieb",
+        "wir": "schrieben",
+        "ihr": "schriebt",
+        "Sie": "schrieben"
+      },
+      "perfekt": "geschrieben",
+      "imperativ": {
+        "du": "schreib(e)",
+        "ihr": "schreibt"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "wissen",
+    "translation": "to know (a fact)",
+    "type": "verb",
+    "level": "A2",
+    "examples": [
+      "Ich weiß es nicht.",
+      "Weißt du, wo die Apotheke ist?",
+      "Er weiß Bescheid."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "weiß",
+        "du": "weißt",
+        "es": "weiß",
+        "wir": "wissen",
+        "ihr": "wisst",
+        "Sie": "wissen"
+      },
+      "präteritum": {
+        "ich": "wusste",
+        "du": "wusstest",
+        "es": "wusste",
+        "wir": "wussten",
+        "ihr": "wusstet",
+        "Sie": "wussten"
+      },
+      "perfekt": "gewusst",
+      "imperativ": {
+        "du": "wisse",
+        "ihr": "wisst"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "stehen",
+    "translation": "to stand",
+    "type": "verb",
+    "level": "A1",
+    "examples": [
+      "Ich stehe vor dem Krankenhaus.",
+      "Der Patient steht auf.",
+      "Es steht im Bericht."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "stehe",
+        "du": "stehst",
+        "es": "steht",
+        "wir": "stehen",
+        "ihr": "steht",
+        "Sie": "stehen"
+      },
+      "präteritum": {
+        "ich": "stand",
+        "du": "standest",
+        "es": "stand",
+        "wir": "standen",
+        "ihr": "standet",
+        "Sie": "standen"
+      },
+      "perfekt": "gestanden",
+      "imperativ": {
+        "du": "steh(e)",
+        "ihr": "steht"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "tragen",
+    "translation": "to carry, to wear",
+    "type": "verb",
+    "level": "A2",
+    "examples": [
+      "Sie trägt einen weißen Kittel.",
+      "Ich trage die Tasche.",
+      "Der Patient trägt einen Verband."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "trage",
+        "du": "trägst",
+        "es": "trägt",
+        "wir": "tragen",
+        "ihr": "tragt",
+        "Sie": "tragen"
+      },
+      "präteritum": {
+        "ich": "trug",
+        "du": "trugst",
+        "es": "trug",
+        "wir": "trugen",
+        "ihr": "trugt",
+        "Sie": "trugen"
+      },
+      "perfekt": "getragen",
+      "imperativ": {
+        "du": "trag(e)",
+        "ihr": "tragt"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
   }
 ]

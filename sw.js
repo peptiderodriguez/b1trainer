@@ -80,7 +80,7 @@ self.addEventListener('fetch', (event) => {
           caches.open(CACHE_VERSION).then((cache) => cache.put(event.request, clone));
           return response;
         })
-        .catch(() => caches.match(event.request) || caches.match('./index.html'))
+        .catch(() => caches.match(event.request).then(r => r || caches.match('./index.html')))
     );
     return;
   }

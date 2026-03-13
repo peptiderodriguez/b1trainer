@@ -164,7 +164,7 @@
             "G) Vitamine in Tablettenform"
           ],
           "answer": "D) Vorausplanung hilft beim gesunden Essen",
-          "explanation": "Im dritten Absatz geht es um Mahlzeitenplanung und wochentliches Einkaufen. 'Vorausplanung hilft beim gesunden Essen' beschreibt das am besten."
+          "explanation": "Im dritten Absatz geht es um Mahlzeitenplanung und wöchentliches Einkaufen. 'Vorausplanung hilft beim gesunden Essen' beschreibt das am besten."
         },
         {
           "id": "r2q4",
@@ -206,7 +206,7 @@
       "examPart": 2,
       "title": "Homeoffice verändert die Arbeitswelt",
       "source": "Süddeutsche Zeitung (adaptiert)",
-      "text": "Die Corona-Pandemie hat die Arbeitswelt in Deutschland grundlegend verändert. Vor 2020 arbeiteten nur etwa 12 Prozent der Beschäftigten regelmäßig von zu Hause. Heute sind es fast 40 Prozent. Viele Unternehmen haben erkannt, dass Homeoffice nicht nur möglich ist, sondern in vielen Fällen sogar produktiver sein kann als die Arbeit im Büro.\n\nEine neue Studie des Deutschen Instituts für Wirtschaftsforschung zeigt, dass die meisten Arbeitnehmer das Homeoffice sehr positiv bewerten. 72 Prozent der Befragten gaben an, dass sie im Homeoffice mindestens genauso produktiv sind wie im Büro. Als größten Vorteil nannten die meisten Teilnehmer die eingesparte Pendelzeit. Wer früher eine Stunde zur Arbeit fahren musste, gewinnt jetzt zwei Stunden am Tag für Familie, Hobbys oder einfach mehr Schlaf.\n\nAllerdings hat das Arbeiten von zu Hause auch Nachteile. Viele Beschäftigte berichten, dass die Grenzen zwischen Arbeit und Privatleben verschwimmen. Man sitzt abends noch am Laptop, beantwortet E-Mails oder bereitet eine Präsentation vor, weil der Arbeitsplatz ja nur ein paar Schritte entfernt ist. Arbeitspsychologen warnen vor einem erhöhten Burnout-Risiko, wenn Arbeitnehmer nicht lernen, klare Grenzen zu setzen.\n\nEin weiteres Problem ist die soziale Isolation. Der informelle Austausch mit Kollegen in der Kaffeeeküche fällt weg, und manche Mitarbeiter fühlen sich einsam. Besonders für neue Mitarbeiter ist es schwierig, sich in ein Team zu integrieren, wenn man die Kollegen nur auf dem Bildschirm sieht.\n\nExperten empfehlen deshalb ein hybrides Modell: Zwei bis drei Tage im Büro und den Rest zu Hause. So kann man die Vorteile beider Welten kombinieren. Viele große Unternehmen in Deutschland, darunter Siemens, SAP und die Deutsche Telekom, haben bereits solche Modelle eingeführt. Es scheint, als wäre das hybride Arbeiten die Zukunft der deutschen Arbeitswelt.",
+      "text": "Die Corona-Pandemie hat die Arbeitswelt in Deutschland grundlegend verändert. Vor 2020 arbeiteten nur etwa 12 Prozent der Beschäftigten regelmäßig von zu Hause. Heute sind es fast 40 Prozent. Viele Unternehmen haben erkannt, dass Homeoffice nicht nur möglich ist, sondern in vielen Fällen sogar produktiver sein kann als die Arbeit im Büro.\n\nEine neue Studie des Deutschen Instituts für Wirtschaftsforschung zeigt, dass die meisten Arbeitnehmer das Homeoffice sehr positiv bewerten. 72 Prozent der Befragten gaben an, dass sie im Homeoffice mindestens genauso produktiv sind wie im Büro. Als größten Vorteil nannten die meisten Teilnehmer die eingesparte Pendelzeit. Wer früher eine Stunde zur Arbeit fahren musste, gewinnt jetzt zwei Stunden am Tag für Familie, Hobbys oder einfach mehr Schlaf.\n\nAllerdings hat das Arbeiten von zu Hause auch Nachteile. Viele Beschäftigte berichten, dass die Grenzen zwischen Arbeit und Privatleben verschwimmen. Man sitzt abends noch am Laptop, beantwortet E-Mails oder bereitet eine Präsentation vor, weil der Arbeitsplatz ja nur ein paar Schritte entfernt ist. Arbeitspsychologen warnen vor einem erhöhten Burnout-Risiko, wenn Arbeitnehmer nicht lernen, klare Grenzen zu setzen.\n\nEin weiteres Problem ist die soziale Isolation. Der informelle Austausch mit Kollegen in der Kaffeeküche fällt weg, und manche Mitarbeiter fühlen sich einsam. Besonders für neue Mitarbeiter ist es schwierig, sich in ein Team zu integrieren, wenn man die Kollegen nur auf dem Bildschirm sieht.\n\nExperten empfehlen deshalb ein hybrides Modell: Zwei bis drei Tage im Büro und den Rest zu Hause. So kann man die Vorteile beider Welten kombinieren. Viele große Unternehmen in Deutschland, darunter Siemens, SAP und die Deutsche Telekom, haben bereits solche Modelle eingeführt. Es scheint, als wäre das hybride Arbeiten die Zukunft der deutschen Arbeitswelt.",
       "questions": [
         {
           "id": "r3q1",
@@ -223,7 +223,7 @@
         {
           "id": "r3q2",
           "type": "multiple_choice",
-          "question": "Was ist laut Studie der grösste Vorteil des Homeoffice?",
+          "question": "Was ist laut Studie der größte Vorteil des Homeoffice?",
           "options": [
             "a) Man verdient mehr Geld.",
             "b) Man hat weniger Stress mit den Kollegen.",
@@ -612,7 +612,7 @@
         },
         {
           "person": "Yusuf, 26, Student aus Stuttgart",
-          "text": "Als Student brauche ich die Stadt. Die Uni, Bibliotheken, Jobs, Partys - alles ist in der Nähe. Auf dem Land wäre ich total isoliert. Außerdem ist es für junge Leute auf dem Land oft langweilig: Es gibt keine Bars, keine Kinos, keine Konzerte. Ich verstehe, dass Familien aufs Land ziehen, aber für mich persönlich ist das Stadt-leben viel aufregender."
+          "text": "Als Student brauche ich die Stadt. Die Uni, Bibliotheken, Jobs, Partys - alles ist in der Nähe. Auf dem Land wäre ich total isoliert. Außerdem ist es für junge Leute auf dem Land oft langweilig: Es gibt keine Bars, keine Kinos, keine Konzerte. Ich verstehe, dass Familien aufs Land ziehen, aber für mich persönlich ist das Stadtleben viel aufregender."
         },
         {
           "person": "Gisela, 67, Rentnerin aus der Eifel",
@@ -838,7 +838,7 @@
       "examPart": 1,
       "title": "Mein Jahr als Freiwilliger in einem Naturschutzprojekt",
       "author": "Jonas, 22, aus Freiburg",
-      "text": "Nach dem Abitur wusste ich nicht genau, was ich studieren wollte. Meine Eltern haben mir geraten, erst einmal ein Freiwilliges Ökologisches Jahr (FOEJ) zu machen. Zuerst war ich skeptisch, aber dann habe ich mich für ein Projekt in der Lüneburger Heide beworben - und es wurde das beste Jahr meines Lebens.\n\nMeine Hauptaufgabe war die Pflege der Heidelandschaft. Das klingt vielleicht langweilig, aber es war körperlich sehr anstrengend und gleichzeitig unglaublich befriedigend. Wir haben alte Bäume geschnitten, Wege freigelegt und invasive Pflanzenarten entfernt. Bei Wind und Wetter waren wir draußen, und am Ende des Tages konnte ich sofort einschlafen.\n\nNeben der praktischen Arbeit habe ich auch viel über Ökologie gelernt. Einmal pro Monat hatten wir Seminare zu Themen wie Klimawandel, Artenvielfalt und nachhaltige Landwirtschaft. Ein Biologe hat uns gezeigt, wie man Vögel an ihrem Gesang erkennt, und eine Försterin hat uns erklärt, wie ein gesunder Wald funktioniert. Dieses Wissen hat mein Verhältnis zur Natur völlig verändert.\n\nAm meisten hat mich aber die Arbeit mit Schulklassen begeistert. Zweimal im Monat kamen Kinder zu uns, und wir haben ihnen die Natur gezeigt: Insekten bestimmen, Spuren lesen, Feuer machen. Die Begeisterung der Kinder war ansteckend, und ich habe gemerkt, dass ich gut erklären kann.\n\nDurch das FOEJ weiß ich jetzt, was ich machen will: Ich studiere seit Oktober Biologie und möchte später im Bereich Umweltbildung arbeiten. Allen jungen Menschen, die sich nach der Schule orientieren müssen, kann ich ein Freiwilligenjahr nur empfehlen. Man lernt so viel - nicht nur über die Natur, sondern auch über sich selbst.",
+      "text": "Nach dem Abitur wusste ich nicht genau, was ich studieren wollte. Meine Eltern haben mir geraten, erst einmal ein Freiwilliges Ökologisches Jahr (FÖJ) zu machen. Zuerst war ich skeptisch, aber dann habe ich mich für ein Projekt in der Lüneburger Heide beworben - und es wurde das beste Jahr meines Lebens.\n\nMeine Hauptaufgabe war die Pflege der Heidelandschaft. Das klingt vielleicht langweilig, aber es war körperlich sehr anstrengend und gleichzeitig unglaublich befriedigend. Wir haben alte Bäume geschnitten, Wege freigelegt und invasive Pflanzenarten entfernt. Bei Wind und Wetter waren wir draußen, und am Ende des Tages konnte ich sofort einschlafen.\n\nNeben der praktischen Arbeit habe ich auch viel über Ökologie gelernt. Einmal pro Monat hatten wir Seminare zu Themen wie Klimawandel, Artenvielfalt und nachhaltige Landwirtschaft. Ein Biologe hat uns gezeigt, wie man Vögel an ihrem Gesang erkennt, und eine Försterin hat uns erklärt, wie ein gesunder Wald funktioniert. Dieses Wissen hat mein Verhältnis zur Natur völlig verändert.\n\nAm meisten hat mich aber die Arbeit mit Schulklassen begeistert. Zweimal im Monat kamen Kinder zu uns, und wir haben ihnen die Natur gezeigt: Insekten bestimmen, Spuren lesen, Feuer machen. Die Begeisterung der Kinder war ansteckend, und ich habe gemerkt, dass ich gut erklären kann.\n\nDurch das FÖJ weiß ich jetzt, was ich machen will: Ich studiere seit Oktober Biologie und möchte später im Bereich Umweltbildung arbeiten. Allen jungen Menschen, die sich nach der Schule orientieren müssen, kann ich ein Freiwilligenjahr nur empfehlen. Man lernt so viel - nicht nur über die Natur, sondern auch über sich selbst.",
       "headings": [
         "A) Berufswunsch gefunden",
         "B) Wie ich zum Freiwilligendienst kam",
@@ -863,7 +863,7 @@
             "G) Geld verdienen nach der Schule"
           ],
           "answer": "B) Wie ich zum Freiwilligendienst kam",
-          "explanation": "Im ersten Absatz erklärt Jonas, wie er zum FOEJ gekommen ist: Er wusste nicht, was er studieren wollte, und seine Eltern haben es ihm empfohlen."
+          "explanation": "Im ersten Absatz erklärt Jonas, wie er zum FÖJ gekommen ist: Er wusste nicht, was er studieren wollte, und seine Eltern haben es ihm empfohlen."
         },
         {
           "id": "r11q2",

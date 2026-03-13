@@ -264,7 +264,7 @@
       "complaint": "starke Bauchschmerzen seit gestern Abend",
       "treatment": "operative Behandlung mittels Appendektomie und antibiotische Abdeckung",
       "history": "Der Patient berichtet über plötzlich aufgetretene Schmerzen im rechten Unterbauch, die seit gestern Abend zunehmend stärker werden. Zunächst bestanden die Schmerzen periumbilikal, dann wanderten sie in den rechten Unterbauch. Begleitend bestehen Übelkeit und einmaliges Erbrechen. Fieber bis 38,5 °C seit heute Morgen. Kein Durchfall, kein Blut im Stuhl. Letzter Stuhlgang gestern, unauffällig. Keine Voroperationen am Bauch. Keine regelmäßige Medikamenteneinnahme. Keine Allergien bekannt.",
-      "vitalSigns": { "temperatur": "38,5 °C", "blutdruck": "130/85 mmHg", "puls": "92/min", "atemfrequenz": "18/min", "spiO2": "98 %" },
+      "vitalSigns": { "temperatur": "38,5 °C", "blutdruck": "130/85 mmHg", "puls": "92/min", "atemfrequenz": "18/min", "SpO2": "98 %" },
       "diagnosis": "Appendizitis",
       "questions": [
         { "q": "Welche Diagnose vermuten Sie?", "options": ["Appendizitis", "Gastritis", "Nierenkolik", "Ileus"], "answer": 0 },
@@ -282,7 +282,7 @@
       "complaint": "plötzliche starke Brustschmerzen mit Ausstrahlung in den linken Arm",
       "treatment": "Herzkatheteruntersuchung mit Stentimplantation und medikamentöse Therapie",
       "history": "Der 62-jährige Patient wird vom Rettungsdienst eingeliefert mit seit etwa einer Stunde bestehenden, retrosternalen Brustschmerzen, die in den linken Arm und den Unterkiefer ausstrahlen. Begleitend bestehen Kaltschweißigkeit, Übelkeit und ein Engegefühl in der Brust. Der Patient raucht seit 30 Jahren ca. 20 Zigaretten täglich. Bekannte arterielle Hypertonie, Medikation mit Ramipril 5 mg. Familiäre Belastung: Vater verstarb mit 55 Jahren an einem Herzinfarkt.",
-      "vitalSigns": { "temperatur": "36,8 °C", "blutdruck": "100/65 mmHg", "puls": "110/min", "atemfrequenz": "22/min", "spiO2": "94 %" },
+      "vitalSigns": { "temperatur": "36,8 °C", "blutdruck": "100/65 mmHg", "puls": "110/min", "atemfrequenz": "22/min", "SpO2": "94 %" },
       "diagnosis": "Akuter Myokardinfarkt (STEMI)",
       "questions": [
         { "q": "Welche Diagnose liegt am wahrscheinlichsten vor?", "options": ["Akuter Myokardinfarkt", "Lungenembolie", "Pneumothorax", "Refluxösophagitis"], "answer": 0 },
@@ -300,7 +300,7 @@
       "complaint": "zunehmende Atemnot und produktiver Husten seit einer Woche",
       "treatment": "antibiotische Therapie und Sauerstoffgabe",
       "history": "Die 58-jährige Patientin stellt sich mit seit 7 Tagen bestehender, zunehmender Atemnot und produktivem Husten mit gelblich-grünlichem Auswurf vor. Seit 3 Tagen besteht Fieber bis 39,0 °C und Schüttelfrost. Sie fühlt sich allgemein sehr abgeschlagen. Die Patientin leidet an COPD und benutzt regelmäßig einen Salbutamol-Inhalator. Nichtraucherin seit 5 Jahren, zuvor 25 pack-years. Keine Allergien bekannt.",
-      "vitalSigns": { "temperatur": "39,0 °C", "blutdruck": "135/80 mmHg", "puls": "100/min", "atemfrequenz": "24/min", "spiO2": "90 %" },
+      "vitalSigns": { "temperatur": "39,0 °C", "blutdruck": "135/80 mmHg", "puls": "100/min", "atemfrequenz": "24/min", "SpO2": "90 %" },
       "diagnosis": "Ambulant erworbene Pneumonie bei COPD",
       "questions": [
         { "q": "Welche Diagnose ist am wahrscheinlichsten?", "options": ["Pneumonie", "Lungenembolie", "Pneumothorax", "Asthma-Anfall"], "answer": 0 },
@@ -318,7 +318,7 @@
       "complaint": "einseitige pochende Kopfschmerzen mit Übelkeit und Lichtempfindlichkeit",
       "treatment": "Akuttherapie mit Triptanen und Reizabschirmung",
       "history": "Die 34-jährige Patientin stellt sich mit seit heute Morgen bestehenden, einseitig links betonten, pochenden Kopfschmerzen vor. Begleitend bestehen Übelkeit, Lichtempfindlichkeit und Geräuschempfindlichkeit. Sie berichtet über eine visuelle Aura mit Flimmerskotomen, die ca. 30 Minuten vor dem Kopfschmerzbeginn auftraten. Ähnliche Episoden treten ca. 2-3 Mal pro Monat auf. Die Mutter der Patientin leidet ebenfalls an Migräne. Keine Vorerkrankungen. Einnahme eines oralen Kontrazeptivums.",
-      "vitalSigns": { "temperatur": "36,6 °C", "blutdruck": "120/75 mmHg", "puls": "72/min", "atemfrequenz": "16/min", "spiO2": "99 %" },
+      "vitalSigns": { "temperatur": "36,6 °C", "blutdruck": "120/75 mmHg", "puls": "72/min", "atemfrequenz": "16/min", "SpO2": "99 %" },
       "diagnosis": "Migräne mit Aura",
       "questions": [
         { "q": "Welche Diagnose stellen Sie?", "options": ["Migräne mit Aura", "Spannungskopfschmerz", "Meningitis", "Clusterkopfschmerz"], "answer": 0 },
@@ -336,7 +336,7 @@
       "complaint": "starke Rückenschmerzen mit Ausstrahlung ins linke Bein und Taubheitsgefühl",
       "treatment": "Schmerzmedikation, Physiotherapie und Schonung",
       "history": "Der 52-jährige Patient berichtet über seit 4 Tagen bestehende, zunehmende Schmerzen in der Lendenwirbelsäule mit Ausstrahlung ins linke Bein bis zum Fuß. Die Schmerzen verstärken sich beim Husten und Niesen. Außerdem besteht ein Taubheitsgefühl an der Außenseite des linken Unterschenkels. Er arbeitet als Lagerarbeiter und hat vor einer Woche schwer gehoben. Keine Blasen- oder Mastdarmstörung. Keine Vorerkrankungen. Gelegentlich Ibuprofen bei Bedarf.",
-      "vitalSigns": { "temperatur": "36,7 °C", "blutdruck": "140/85 mmHg", "puls": "78/min", "atemfrequenz": "16/min", "spiO2": "99 %" },
+      "vitalSigns": { "temperatur": "36,7 °C", "blutdruck": "140/85 mmHg", "puls": "78/min", "atemfrequenz": "16/min", "SpO2": "99 %" },
       "diagnosis": "Lumbaler Bandscheibenvorfall",
       "questions": [
         { "q": "Welche Diagnose ist am wahrscheinlichsten?", "options": ["Bandscheibenvorfall", "Nierenkolik", "Wirbelkörperfraktur", "Aortenaneurysma"], "answer": 0 },
@@ -354,7 +354,7 @@
       "complaint": "vermehrter Durst, häufiges Wasserlassen und starke Müdigkeit",
       "treatment": "Ernährungsberatung, Lebensstiländerung und Metformin als orale Therapie",
       "history": "Die 55-jährige Patientin stellt sich mit seit ca. 6 Wochen bestehendem vermehrtem Durst (Polydipsie) und häufigem Wasserlassen (Polyurie) vor. Sie fühlt sich zunehmend müde und hat ungewollt 4 kg abgenommen. Gelegentlich verschwommenes Sehen. Familienanamnese: Mutter und Großmutter hatten Diabetes mellitus Typ 2. Die Patientin hat einen BMI von 32 kg/m². Keine bisherige Medikation. Nichtraucherin, gelegentlich Alkohol.",
-      "vitalSigns": { "temperatur": "36,5 °C", "blutdruck": "145/92 mmHg", "puls": "80/min", "atemfrequenz": "16/min", "spiO2": "98 %" },
+      "vitalSigns": { "temperatur": "36,5 °C", "blutdruck": "145/92 mmHg", "puls": "80/min", "atemfrequenz": "16/min", "SpO2": "98 %" },
       "diagnosis": "Diabetes mellitus Typ 2",
       "questions": [
         { "q": "Welche Diagnose ist am wahrscheinlichsten?", "options": ["Diabetes mellitus Typ 2", "Diabetes mellitus Typ 1", "Diabetes insipidus", "Hyperthyreose"], "answer": 0 },
@@ -372,7 +372,7 @@
       "complaint": "plötzlicher Drehschwindel mit Übelkeit und Erbrechen",
       "treatment": "Lagerungsmanöver nach Epley und ggf. Antivertiginosa",
       "history": "Der 68-jährige Patient berichtet über einen heute Morgen beim Aufstehen plötzlich aufgetretenen Drehschwindel mit Übelkeit und einmaligem Erbrechen. Die Symptome verstärken sich bei Kopfbewegungen und Lagewechsel. Kein Ohrgeräusch, keine Hörstörung. Kein Kopfschmerz, keine fokalen neurologischen Defizite. Vorerkrankungen: arterielle Hypertonie (Amlodipin 5 mg), Hyperlipidämie (Simvastatin 20 mg). Kein Nikotinabusus. Kein Alkoholmissbrauch.",
-      "vitalSigns": { "temperatur": "36,6 °C", "blutdruck": "150/90 mmHg", "puls": "76/min", "atemfrequenz": "16/min", "spiO2": "97 %" },
+      "vitalSigns": { "temperatur": "36,6 °C", "blutdruck": "150/90 mmHg", "puls": "76/min", "atemfrequenz": "16/min", "SpO2": "97 %" },
       "diagnosis": "Benigner paroxysmaler Lagerungsschwindel (BPLS)",
       "questions": [
         { "q": "Welche Diagnose ist am wahrscheinlichsten?", "options": ["Benigner paroxysmaler Lagerungsschwindel", "Morbus Menière", "Akuter Schlaganfall", "Akustikusneurinom"], "answer": 0 },
@@ -390,7 +390,7 @@
       "complaint": "plötzlich aufgetretener juckender Hautausschlag am ganzen Körper",
       "treatment": "Absetzen des auslösenden Medikaments, Antihistaminikum und Beobachtung",
       "history": "Die 29-jährige Patientin stellt sich mit einem seit gestern bestehenden, stark juckenden Hautausschlag vor, der am Rumpf begonnen hat und sich auf die Extremitäten ausgebreitet hat. Es bestehen Quaddeln (Urtikae), die wandern und nach einigen Stunden an einer Stelle wieder verschwinden. Keine Atemnot, keine Schwellung im Gesicht oder an den Lippen. Vor 2 Tagen hat sie erstmalig ein neues Antibiotikum (Amoxicillin) wegen einer Harnwegsinfektion eingenommen. Keine bekannten Allergien bisher. Keine Vorerkrankungen.",
-      "vitalSigns": { "temperatur": "36,8 °C", "blutdruck": "118/72 mmHg", "puls": "82/min", "atemfrequenz": "16/min", "spiO2": "99 %" },
+      "vitalSigns": { "temperatur": "36,8 °C", "blutdruck": "118/72 mmHg", "puls": "82/min", "atemfrequenz": "16/min", "SpO2": "99 %" },
       "diagnosis": "Arzneimittelexanthem (Urtikaria) durch Amoxicillin",
       "questions": [
         { "q": "Welche Diagnose ist am wahrscheinlichsten?", "options": ["Arzneimittelexanthem / allergische Reaktion", "Masern", "Windpocken", "Psoriasis"], "answer": 0 },
@@ -408,7 +408,7 @@
       "complaint": "zunehmende Knieschmerzen und Schwellung im rechten Kniegelenk",
       "treatment": "Physiotherapie, Gewichtsreduktion und Schmerzmedikation mit NSAR",
       "history": "Die 67-jährige Patientin klagt über seit ca. 4 Monaten zunehmende Schmerzen im rechten Kniegelenk, besonders beim Treppensteigen und nach längerem Sitzen. Morgensteifigkeit für ca. 15 Minuten. Das Knie ist zeitweise geschwollen. Sie berichtet über ein gelegentliches Knirschen im Gelenk. Vorerkrankungen: arterielle Hypertonie, Adipositas (BMI 31). Medikation: Candesartan 8 mg. Familienanamnese: Mutter hatte Arthrose beider Kniegelenke. Keine Verletzung in der Vorgeschichte.",
-      "vitalSigns": { "temperatur": "36,5 °C", "blutdruck": "140/88 mmHg", "puls": "74/min", "atemfrequenz": "15/min", "spiO2": "98 %" },
+      "vitalSigns": { "temperatur": "36,5 °C", "blutdruck": "140/88 mmHg", "puls": "74/min", "atemfrequenz": "15/min", "SpO2": "98 %" },
       "diagnosis": "Gonarthrose (Kniegelenksarthrose)",
       "questions": [
         { "q": "Welche Diagnose ist am wahrscheinlichsten?", "options": ["Gonarthrose", "Rheumatoide Arthritis", "Meniskusriss", "Gichtanfall"], "answer": 0 },
@@ -426,7 +426,7 @@
       "complaint": "anhaltende Traurigkeit, Antriebslosigkeit und Schlafstörungen",
       "treatment": "Psychotherapie und ggf. Behandlung mit einem Antidepressivum",
       "history": "Der 42-jährige Patient berichtet über eine seit ca. 8 Wochen bestehende gedrückte Stimmung, Interessenverlust und Antriebslosigkeit. Er wacht morgens um 4 Uhr auf und kann nicht mehr einschlafen. Appetitlosigkeit mit Gewichtsverlust von 3 kg. Er kann sich schlecht konzentrieren und ist weniger leistungsfähig bei der Arbeit. Vor 3 Monaten Trennung von der langjährigen Partnerin. Keine Suizidgedanken. Kein Alkohol- oder Drogenmissbrauch. Keine Vorerkrankungen. Keine Medikamenteneinnahme. Familienanamnese: Mutter wurde wegen Depression behandelt.",
-      "vitalSigns": { "temperatur": "36,6 °C", "blutdruck": "125/80 mmHg", "puls": "68/min", "atemfrequenz": "14/min", "spiO2": "99 %" },
+      "vitalSigns": { "temperatur": "36,6 °C", "blutdruck": "125/80 mmHg", "puls": "68/min", "atemfrequenz": "14/min", "SpO2": "99 %" },
       "diagnosis": "Mittelgradige depressive Episode",
       "questions": [
         { "q": "Welche Diagnose ist am wahrscheinlichsten?", "options": ["Mittelgradige depressive Episode", "Burnout-Syndrom", "Generalisierte Angststörung", "Hypothyreose"], "answer": 0 },

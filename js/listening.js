@@ -30,10 +30,10 @@ const ListeningModule = (() => {
   function init(el, appData) {
     container = el;
     data = appData;
-    _bindToolbar();
   }
 
   function render(_container, subRoute) {
+    _bindToolbar();
     if (subRoute) {
       switch (subRoute) {
         case 'hoerverstehen': _startHoerverstehen(); return;

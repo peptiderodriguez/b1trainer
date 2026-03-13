@@ -40,10 +40,10 @@ const ReadingModule = (() => {
     data = appData;
     passages = (data.reading && data.reading.passages) || [];
 
-    _bindToolbar();
   }
 
   function render(_container, subRoute) {
+    _bindToolbar();
     if (subRoute && subRoute.startsWith('passage/')) {
       const id = subRoute.replace('passage/', '');
       const passage = passages.find(p => String(p.id) === id);

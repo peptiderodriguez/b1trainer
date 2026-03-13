@@ -65,10 +65,17 @@ const GrammarModule = {
   _pronounLabels: {
     ich: 'ich',
     du: 'du',
-    es: 'er/sie/es',
+    er: 'er',
+    sie: 'sie',
+    es: 'es',
     wir: 'wir',
     ihr: 'ihr',
-    Sie: 'Sie/sie',
+    Sie: 'Sie',
+  },
+
+  /** Map display pronoun to conjugation data key (verbs.json uses 'es' for 3rd person singular) */
+  _conjKey(pronoun) {
+    return (pronoun === 'er' || pronoun === 'sie') ? 'es' : pronoun;
   },
 
   /** Prepositions that govern specific cases */
@@ -692,21 +699,20 @@ const GrammarModule = {
 
     const selected = pickRandom(pool, 20);
     const exercises = [];
-    const pronouns = ['ich', 'du', 'er/sie/es', 'wir', 'ihr', 'Sie'];
+    const pronouns = ['ich', 'du', 'er', 'sie', 'es', 'wir', 'ihr', 'Sie'];
 
     selected.forEach(verb => {
       const conj = verb.conjugation;
       if (!conj || !conj.präsens) return;
 
       const pronoun = pronouns[Math.floor(Math.random() * pronouns.length)];
-      // Map display pronoun to conjugation key
-      const conjKey = pronoun === 'er/sie/es' ? 'es' : pronoun;
+      const conjKey = this._conjKey(pronoun);
       const correctForm = conj.präsens[conjKey];
       if (!correctForm) return;
 
       // Build wrong options from other pronouns of the same verb
       const wrongForms = pronouns
-        .map(p => p === 'er/sie/es' ? 'es' : p)
+        .map(p => this._conjKey(p))
         .filter(p => p !== conjKey)
         .map(p => conj.präsens[p])
         .filter(f => f && f !== correctForm);
@@ -721,7 +727,7 @@ const GrammarModule = {
       const uniqueWrong = [...new Set(wrongForms)].slice(0, 3);
       const options = shuffleArray([correctForm, ...uniqueWrong]);
 
-      const pronounDisplay = this._pronounLabels[conjKey] || pronoun;
+      const pronounDisplay = this._pronounLabels[pronoun] || pronoun;
       const isReflexive = verb.word.startsWith('sich ');
       const reflexiveNote = isReflexive ? ' (reflexiv)' : '';
       const separableNote = conj.separable ? ' (trennbar)' : '';
@@ -772,10 +778,11 @@ const GrammarModule = {
     if (!conj || !conj.präsens) return `Infinitiv: ${verb.word}`;
 
     const pronounOrder = ['ich', 'du', 'es', 'wir', 'ihr', 'Sie'];
+    const tableLabels = { ich: 'ich', du: 'du', es: 'er/sie/es', wir: 'wir', ihr: 'ihr', Sie: 'Sie' };
     let table = `<strong>${escapeHtml(verb.word)}</strong> — Präsens:<br>`;
     table += '<table class="grammar-conj-table">';
     pronounOrder.forEach(p => {
-      const label = this._pronounLabels[p] || p;
+      const label = tableLabels[p] || p;
       const form = conj.präsens[p] || '—';
       table += `<tr><td>${escapeHtml(label)}</td><td>${escapeHtml(form)}</td></tr>`;
     });
@@ -837,14 +844,15 @@ const GrammarModule = {
 
   _generatePräsensExercises(verbs) {
     const exercises = [];
-    const pronouns = ['ich', 'du', 'es', 'wir', 'ihr', 'Sie'];
+    const pronouns = ['ich', 'du', 'er', 'sie', 'es', 'wir', 'ihr', 'Sie'];
 
     verbs.forEach(verb => {
       const conj = verb.conjugation;
       if (!conj || !conj.präsens) return;
 
       const pronoun = pronouns[Math.floor(Math.random() * pronouns.length)];
-      const correctForm = conj.präsens[pronoun];
+      const conjKey = this._conjKey(pronoun);
+      const correctForm = conj.präsens[conjKey];
       if (!correctForm) return;
 
       const pronounDisplay = this._pronounLabels[pronoun] || pronoun;
@@ -916,21 +924,23 @@ const GrammarModule = {
 
   _generatePräteritumExercises(verbs) {
     const exercises = [];
-    const pronouns = ['ich', 'du', 'es', 'wir', 'ihr', 'Sie'];
+    const pronouns = ['ich', 'du', 'er', 'sie', 'es', 'wir', 'ihr', 'Sie'];
 
     verbs.forEach(verb => {
       const conj = verb.conjugation;
       if (!conj || !conj.präteritum) return;
 
       const pronoun = pronouns[Math.floor(Math.random() * pronouns.length)];
-      const correctForm = conj.präteritum[pronoun];
+      const conjKey = this._conjKey(pronoun);
+      const correctForm = conj.präteritum[conjKey];
       if (!correctForm) return;
 
       const pronounDisplay = this._pronounLabels[pronoun] || pronoun;
 
       // Build wrong options
       const wrongForms = pronouns
-        .filter(p => p !== pronoun)
+        .map(p => this._conjKey(p))
+        .filter(p => p !== conjKey)
         .map(p => conj.präteritum[p])
         .filter(f => f && f !== correctForm);
       const uniqueWrong = [...new Set(wrongForms)].slice(0, 3);
@@ -969,18 +979,19 @@ const GrammarModule = {
     ];
 
     const exercises = [];
-    const pronouns = ['ich', 'du', 'es', 'wir', 'ihr', 'Sie'];
+    const pronouns = ['ich', 'du', 'er', 'sie', 'es', 'wir', 'ihr', 'Sie'];
 
     konjunktivForms.forEach(entry => {
       const pronoun = pronouns[Math.floor(Math.random() * pronouns.length)];
-      const correct = entry.forms[pronoun];
+      const conjKey = this._conjKey(pronoun);
+      const correct = entry.forms[conjKey];
       if (!correct) return;
 
       const pronounDisplay = this._pronounLabels[pronoun] || pronoun;
 
       // Gather wrong options
       const wrong = Object.entries(entry.forms)
-        .filter(([p, f]) => p !== pronoun && f !== correct)
+        .filter(([p, f]) => p !== conjKey && f !== correct)
         .map(([, f]) => f);
       const options = shuffleArray([correct, ...pickRandom(wrong, 3)]);
 
