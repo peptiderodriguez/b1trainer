@@ -32,7 +32,21 @@
     { "de": "der Knochen", "en": "bone", "article": "der", "plural": "die Knochen", "system": "Bewegungsapparat" },
     { "de": "der Muskel", "en": "muscle", "article": "der", "plural": "die Muskeln", "system": "Bewegungsapparat" },
     { "de": "das Blut", "en": "blood", "article": "das", "plural": "—", "system": "Herz-Kreislauf-System" },
-    { "de": "die Blase", "en": "bladder", "article": "die", "plural": "die Blasen", "system": "Harnsystem" }
+    { "de": "die Blase", "en": "bladder", "article": "die", "plural": "die Blasen", "system": "Harnsystem" },
+    { "de": "die Milz", "en": "spleen", "article": "die", "plural": "die Milzen", "system": "Immunsystem", "description": "Lymphatisches Organ im linken Oberbauch, zuständig für Blutfilterung und Immunabwehr" },
+    { "de": "die Bauchspeicheldrüse", "en": "pancreas", "article": "die", "plural": "die Bauchspeicheldrüsen", "system": "Verdauungssystem", "description": "Drüse hinter dem Magen, produziert Verdauungsenzyme und Insulin" },
+    { "de": "die Gallenblase", "en": "gallbladder", "article": "die", "plural": "die Gallenblasen", "system": "Verdauungssystem", "description": "Kleines Hohlorgan an der Unterseite der Leber, speichert die Gallenflüssigkeit" },
+    { "de": "die Schilddrüse", "en": "thyroid gland", "article": "die", "plural": "die Schilddrüsen", "system": "Hormonsystem", "description": "Schmetterlingsförmige Drüse am Hals, reguliert den Stoffwechsel über Schilddrüsenhormone" },
+    { "de": "die Nebenniere", "en": "adrenal gland", "article": "die", "plural": "die Nebennieren", "system": "Hormonsystem", "description": "Kleine Drüse auf der Niere, produziert Cortisol, Adrenalin und Aldosteron" },
+    { "de": "die Bandscheibe", "en": "intervertebral disc", "article": "die", "plural": "die Bandscheiben", "system": "Bewegungsapparat", "description": "Knorpelige Pufferstruktur zwischen den Wirbelkörpern, dient als Stoßdämpfer" },
+    { "de": "das Gelenk", "en": "joint", "article": "das", "plural": "die Gelenke", "system": "Bewegungsapparat", "description": "Bewegliche Verbindung zwischen zwei oder mehr Knochen" },
+    { "de": "die Sehne", "en": "tendon", "article": "die", "plural": "die Sehnen", "system": "Bewegungsapparat", "description": "Bindegewebsstrang, der den Muskel mit dem Knochen verbindet" },
+    { "de": "die Schleimhaut", "en": "mucous membrane", "article": "die", "plural": "die Schleimhäute", "system": "Verdauungssystem", "description": "Feuchte Gewebsschicht, die Körperhohlräume wie Mund, Magen und Darm auskleidet" },
+    { "de": "der Lymphknoten", "en": "lymph node", "article": "der", "plural": "die Lymphknoten", "system": "Immunsystem", "description": "Bohnenförmige Filterstation des Lymphsystems, Teil der Immunabwehr" },
+    { "de": "das Zwerchfell", "en": "diaphragm", "article": "das", "plural": "die Zwerchfelle", "system": "Atemwege", "description": "Kuppelförmiger Muskel, der Brust- und Bauchhöhle trennt und die Atmung steuert" },
+    { "de": "der Blinddarm", "en": "appendix / cecum", "article": "der", "plural": "die Blinddärme", "system": "Verdauungssystem", "description": "Erster Abschnitt des Dickdarms mit dem Wurmfortsatz (Appendix vermiformis)" },
+    { "de": "die Speiseröhre", "en": "esophagus", "article": "die", "plural": "die Speiseröhren", "system": "Verdauungssystem", "description": "Muskulärer Schlauch, der den Rachen mit dem Magen verbindet" },
+    { "de": "die Nebenhöhle", "en": "paranasal sinus", "article": "die", "plural": "die Nebenhöhlen", "system": "Atemwege", "description": "Luftgefüllte Hohlräume in den Schädelknochen neben der Nasenhöhle" }
   ],
 
   "symptoms": [
@@ -65,7 +79,19 @@
     { "de": "die Blutung", "en": "bleeding", "article": "die", "plural": "die Blutungen", "bodyPart": "Blut", "severity": "severe" },
     { "de": "die Ohnmacht", "en": "fainting", "article": "die", "plural": "die Ohnmachten", "bodyPart": "Kopf", "severity": "severe" },
     { "de": "die Krämpfe", "en": "cramps", "article": "die", "plural": "die Krämpfe", "bodyPart": "Muskel", "severity": "moderate" },
-    { "de": "der Schüttelfrost", "en": "chills", "article": "der", "plural": "—", "bodyPart": "Haut", "severity": "moderate" }
+    { "de": "der Schüttelfrost", "en": "chills", "article": "der", "plural": "—", "bodyPart": "Haut", "severity": "moderate" },
+    { "de": "die Brustenge", "en": "chest tightness", "article": "die", "plural": "—", "bodyPart": "Brust", "severity": "severe" },
+    { "de": "der Nachtschweiß", "en": "night sweats", "article": "der", "plural": "—", "bodyPart": "Haut", "severity": "moderate" },
+    { "de": "die Bewusstlosigkeit", "en": "unconsciousness", "article": "die", "plural": "—", "bodyPart": "Kopf", "severity": "severe" },
+    { "de": "der Krampfanfall", "en": "seizure", "article": "der", "plural": "die Krampfanfälle", "bodyPart": "Gehirn", "severity": "severe" },
+    { "de": "die Wassereinlagerungen", "en": "fluid retention / edema", "article": "die", "plural": "die Wassereinlagerungen", "bodyPart": "Bein", "severity": "moderate" },
+    { "de": "der Ikterus", "en": "jaundice", "article": "der", "plural": "—", "bodyPart": "Leber", "severity": "severe" },
+    { "de": "die Zyanose", "en": "cyanosis", "article": "die", "plural": "—", "bodyPart": "Haut", "severity": "severe" },
+    { "de": "die Hämaturie", "en": "hematuria", "article": "die", "plural": "—", "bodyPart": "Niere", "severity": "severe" },
+    { "de": "die Dysphagie", "en": "dysphagia", "article": "die", "plural": "—", "bodyPart": "Hals", "severity": "moderate" },
+    { "de": "die Heiserkeit", "en": "hoarseness", "article": "die", "plural": "—", "bodyPart": "Hals", "severity": "mild" },
+    { "de": "der Harndrang", "en": "urinary urgency", "article": "der", "plural": "—", "bodyPart": "Blase", "severity": "moderate" },
+    { "de": "die Sprachstörung", "en": "speech disorder", "article": "die", "plural": "die Sprachstörungen", "bodyPart": "Gehirn", "severity": "severe" }
   ],
 
   "diseases": [
@@ -88,7 +114,16 @@
     { "de": "die Schilddrüsenerkrankung", "en": "thyroid disease", "article": "die", "symptoms": ["Müdigkeit", "Gewichtsverlust", "Herzrasen", "Schlaflosigkeit"], "treatment": "Je nach Form: Thyreostatika bei Hyperthyreose, L-Thyroxin-Substitution bei Hypothyreose, regelmäßige Laborkontrollen" },
     { "de": "die Osteoporose", "en": "osteoporosis", "article": "die", "symptoms": ["Rückenschmerzen", "Krämpfe"], "treatment": "Kalzium- und Vitamin-D-Supplementierung, Bisphosphonate, Sturzprophylaxe, gewichtsbelastende Bewegung" },
     { "de": "der Bandscheibenvorfall", "en": "herniated disc", "article": "der", "symptoms": ["Rückenschmerzen", "Taubheitsgefühl", "Krämpfe", "Gelenkschmerzen"], "treatment": "Konservative Therapie mit Schmerzmedikation, Physiotherapie, ggf. operative Entlastung bei schwerer Neurologie" },
-    { "de": "die Appendizitis", "en": "appendicitis", "article": "die", "symptoms": ["Bauchschmerzen", "Fieber", "Übelkeit", "Erbrechen"], "treatment": "In der Regel operative Therapie (Appendektomie), antibiotische Abdeckung, stationäre Überwachung" }
+    { "de": "die Appendizitis", "en": "appendicitis", "article": "die", "symptoms": ["Bauchschmerzen", "Fieber", "Übelkeit", "Erbrechen"], "treatment": "In der Regel operative Therapie (Appendektomie), antibiotische Abdeckung, stationäre Überwachung" },
+    { "de": "die Lungenembolie", "en": "pulmonary embolism", "article": "die", "symptoms": ["Atemnot", "Brustschmerzen", "Herzrasen", "Ohnmacht"], "treatment": "Antikoagulation mit Heparin, ggf. systemische Thrombolyse bei hämodynamischer Instabilität, Sauerstoffgabe, intensivmedizinische Überwachung" },
+    { "de": "die COPD", "en": "chronic obstructive pulmonary disease", "article": "die", "symptoms": ["Atemnot", "Husten", "Müdigkeit"], "treatment": "Inhalative Therapie mit Bronchodilatatoren und ggf. Kortikosteroiden, Rauchstopp, pulmonale Rehabilitation, Sauerstofflangzeittherapie bei schwerer COPD" },
+    { "de": "die Leberzirrhose", "en": "liver cirrhosis", "article": "die", "symptoms": ["Müdigkeit", "Ikterus", "Schwellung", "Übelkeit", "Gewichtsverlust"], "treatment": "Behandlung der Grunderkrankung, Alkoholkarenz, natriumarme Ernährung, ggf. Aszitespunktion, Lebertransplantation bei Endstadium" },
+    { "de": "die Hypothyreose", "en": "hypothyroidism", "article": "die", "symptoms": ["Müdigkeit", "Gewichtsverlust", "Verstopfung", "Krämpfe", "Schlaflosigkeit"], "treatment": "Substitution mit L-Thyroxin, regelmäßige TSH-Kontrollen, Dosisanpassung nach Klinik und Laborwerten" },
+    { "de": "die Sepsis", "en": "sepsis", "article": "die", "symptoms": ["Fieber", "Herzrasen", "Atemnot", "Schüttelfrost", "Bewusstlosigkeit"], "treatment": "Sofortige Antibiotikagabe nach Abnahme von Blutkulturen, Volumentherapie, ggf. Katecholamine, intensivmedizinische Behandlung" },
+    { "de": "die Thrombose", "en": "thrombosis", "article": "die", "symptoms": ["Schwellung", "Schmerzen im Bein", "Wassereinlagerungen"], "treatment": "Antikoagulation mit Heparin und Umstellung auf orale Antikoagulanzien, Kompressionstherapie, Mobilisation unter Antikoagulation" },
+    { "de": "die Cholezystitis", "en": "cholecystitis", "article": "die", "symptoms": ["Bauchschmerzen", "Fieber", "Übelkeit", "Erbrechen"], "treatment": "Antibiotische Therapie, Analgesie, frühzeitige laparoskopische Cholezystektomie" },
+    { "de": "die Pankreatitis", "en": "pancreatitis", "article": "die", "symptoms": ["Bauchschmerzen", "Übelkeit", "Erbrechen", "Fieber"], "treatment": "Nahrungskarenz, Infusionstherapie, Analgesie, ggf. endoskopische Intervention bei biliärer Ursache" },
+    { "de": "die Pneumonie", "en": "pneumonia", "article": "die", "symptoms": ["Fieber", "Husten", "Atemnot", "Schüttelfrost", "Brustschmerzen"], "treatment": "Antibiotische Therapie je nach Erreger, Sauerstoffgabe, Antipyretika, ausreichende Flüssigkeitszufuhr" }
   ],
 
   "procedures": [
@@ -434,6 +469,181 @@
         { "q": "Welche Laboruntersuchung sollte zum Ausschluss organischer Ursachen durchgeführt werden?", "options": ["TSH (Schilddrüsenwerte)", "Troponin", "D-Dimere", "Lipase"], "answer": 0 },
         { "q": "Welche Therapie ist bei einer mittelgradigen Depression empfohlen?", "options": ["Psychotherapie und/oder Antidepressivum", "Nur Schlafmittel", "Sofortige stationäre Aufnahme", "Antibiotikum"], "answer": 0 }
       ]
+    },
+    {
+      "id": "scenario_011",
+      "title": "Akuter Herzinfarkt mit Komplikationen",
+      "patient": { "name": "Herr Krause", "age": 58, "gender": "männlich" },
+      "patientName": "Herr Krause",
+      "chiefComplaint": "seit einer Stunde bestehende vernichtende Brustschmerzen mit Ausstrahlung in den linken Arm und Kiefer",
+      "complaint": "vernichtende retrosternale Brustschmerzen mit Ausstrahlung in den linken Arm und Unterkiefer, begleitet von Kaltschweißigkeit",
+      "treatment": "sofortige Herzkatheteruntersuchung mit PCI und Stentimplantation, duale Thrombozytenaggregationshemmung, Betablocker, ACE-Hemmer und Statintherapie",
+      "history": "Der 58-jährige Patient wird vom Rettungsdienst in die Notaufnahme gebracht. Seit ca. einer Stunde bestehen vernichtende retrosternale Brustschmerzen mit Ausstrahlung in den linken Arm und Unterkiefer. Begleitend Kaltschweißigkeit, Übelkeit und ein ausgeprägtes Engegefühl in der Brust. Todesangst. Vorerkrankungen: arterielle Hypertonie seit 10 Jahren (Ramipril 5 mg), Hyperlipidämie (Atorvastatin 20 mg), Diabetes mellitus Typ 2 (Metformin 1000 mg 1-0-1). Nikotinabusus: 30 pack-years. Familienanamnese: Vater verstarb mit 52 Jahren an einem akuten Myokardinfarkt. Keine bekannten Allergien.",
+      "vitalSigns": { "temperatur": "36,4 °C", "blutdruck": "95/60 mmHg", "puls": "115/min", "atemfrequenz": "24/min", "SpO2": "93 %" },
+      "diagnosis": "Akuter ST-Hebungsinfarkt (STEMI) der Vorderwand",
+      "questions": [
+        { "q": "Welche Diagnose ist am wahrscheinlichsten?", "options": ["Akuter ST-Hebungsinfarkt (STEMI)", "Instabile Angina pectoris", "Aortendissektion", "Perikarditis"], "answer": 0 },
+        { "q": "Welche Untersuchung hat die höchste Priorität?", "options": ["12-Kanal-EKG innerhalb von 10 Minuten", "Röntgen-Thorax", "CT-Angiographie", "Echokardiographie"], "answer": 0 },
+        { "q": "Welche Sofortmaßnahme ist entscheidend?", "options": ["Herzkatheter mit PCI innerhalb von 90 Minuten", "Orale Antibiose", "MRT des Herzens", "Stationäre Beobachtung ohne Intervention"], "answer": 0 },
+        { "q": "Welche Risikofaktoren liegen bei diesem Patienten vor?", "options": ["Hypertonie, Diabetes, Hyperlipidämie, Nikotinabusus, familiäre Belastung", "Nur Nikotinabusus", "Nur Diabetes mellitus", "Keine relevanten Risikofaktoren"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "scenario_012",
+      "title": "Akuter Schlaganfall",
+      "patient": { "name": "Frau Richter", "age": 72, "gender": "weiblich" },
+      "patientName": "Frau Richter",
+      "chiefComplaint": "plötzliche Halbseitenlähmung rechts und Sprachstörung seit 45 Minuten",
+      "complaint": "plötzlich aufgetretene rechtsseitige Hemiparese und motorische Aphasie",
+      "treatment": "systemische Thrombolyse mit rt-PA innerhalb des Zeitfensters, Aufnahme auf die Stroke Unit, Sekundärprophylaxe mit ASS und Statintherapie",
+      "history": "Die 72-jährige Patientin wird vom Ehemann in die Notaufnahme gebracht. Er berichtet, dass seine Frau vor ca. 45 Minuten beim Frühstück plötzlich den rechten Arm nicht mehr heben konnte und undeutlich zu sprechen begann. Sie wirkt verwirrt und kann auf Fragen nur eingeschränkt antworten. Vorerkrankungen: Vorhofflimmern (Apixaban 5 mg 1-0-1 — die Patientin gibt zu, das Medikament seit einer Woche nicht eingenommen zu haben), arterielle Hypertonie (Amlodipin 10 mg), Hyperlipidämie. Keine Allergien. Nichtraucherin. Gelegentlicher Alkoholkonsum.",
+      "vitalSigns": { "temperatur": "36,8 °C", "blutdruck": "185/105 mmHg", "puls": "88/min unregelmäßig", "atemfrequenz": "18/min", "SpO2": "96 %" },
+      "diagnosis": "Ischämischer Schlaganfall (Mediainfarkt links) bei Vorhofflimmern",
+      "questions": [
+        { "q": "Welche Diagnose ist am wahrscheinlichsten?", "options": ["Ischämischer Schlaganfall", "Transitorische ischämische Attacke", "Hirnblutung", "Epileptischer Anfall"], "answer": 0 },
+        { "q": "Welche Bildgebung muss sofort erfolgen?", "options": ["CT des Schädels (zum Ausschluss einer Blutung)", "MRT der Wirbelsäule", "Röntgen-Thorax", "Ultraschall des Abdomens"], "answer": 0 },
+        { "q": "Welche Therapie ist innerhalb des Zeitfensters indiziert?", "options": ["Systemische Thrombolyse mit rt-PA (innerhalb von 4,5 Stunden)", "Sofortige Antikoagulation mit Heparin", "Antibiotische Therapie", "Abwarten und Beobachten"], "answer": 0 },
+        { "q": "Was ist die wahrscheinlichste Ursache des Schlaganfalls?", "options": ["Kardioembolisch bei Vorhofflimmern ohne Antikoagulation", "Arteriosklerose der Karotis", "Vaskulitis", "Gerinnungsstörung"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "scenario_013",
+      "title": "Psychiatrischer Notfall — Akute Suizidalität",
+      "patient": { "name": "Herr Lehmann", "age": 38, "gender": "männlich" },
+      "patientName": "Herr Lehmann",
+      "chiefComplaint": "suizidale Gedanken und Hoffnungslosigkeit nach Verlust des Arbeitsplatzes",
+      "complaint": "ausgeprägte Hoffnungslosigkeit, Schlaflosigkeit, Suizidgedanken mit konkretem Plan",
+      "treatment": "stationäre psychiatrische Aufnahme, engmaschige Überwachung, Krisenintervention, medikamentöse Therapie mit SSRI und ggf. kurzfristig Benzodiazepin, psychotherapeutische Begleitung",
+      "history": "Der 38-jährige Patient wird von seiner Schwester in die Notaufnahme gebracht. Die Schwester berichtet, dass sie ihn heute apathisch auf dem Sofa sitzend vorgefunden habe. Er habe ihr gegenüber geäußert, dass er nicht mehr leben wolle und es keinen Sinn mehr habe. Der Patient hat vor 4 Wochen seinen Arbeitsplatz verloren und wurde vor 2 Monaten von seiner Partnerin verlassen. Seit 3 Wochen bestehen zunehmende Schlafstörungen (Durchschlafstörung, Früherwachen um 3 Uhr), Appetitlosigkeit mit 5 kg Gewichtsverlust, sozialer Rückzug und Antriebslosigkeit. Er gibt auf Nachfrage zu, konkrete Suizidgedanken mit einem Plan zu haben. Kein Alkohol- oder Drogenkonsum heute. Vorerkrankungen: eine depressive Episode vor 5 Jahren, damals ambulant mit Sertralin behandelt und nach 6 Monaten abgesetzt. Keine somatischen Vorerkrankungen.",
+      "vitalSigns": { "temperatur": "36,5 °C", "blutdruck": "130/82 mmHg", "puls": "74/min", "atemfrequenz": "15/min", "SpO2": "99 %" },
+      "diagnosis": "Schwere depressive Episode mit akuter Suizidalität",
+      "questions": [
+        { "q": "Welche Diagnose ist am wahrscheinlichsten?", "options": ["Schwere depressive Episode mit akuter Suizidalität", "Anpassungsstörung", "Burnout-Syndrom", "Bipolare Störung"], "answer": 0 },
+        { "q": "Was ist die wichtigste Sofortmaßnahme?", "options": ["Stationäre psychiatrische Aufnahme und Sicherung des Patienten", "Ambulante Psychotherapie vereinbaren", "Sofortige Medikamentengabe und Entlassung", "Blutentnahme und Abwarten"], "answer": 0 },
+        { "q": "Welche Frage ist bei der Suizidalitätsabklärung essenziell?", "options": ["Haben Sie konkrete Vorstellungen, wie Sie sich das Leben nehmen würden?", "Haben Sie Kopfschmerzen?", "Wie ist Ihr Appetit?", "Treiben Sie Sport?"], "answer": 0 },
+        { "q": "Welches Vorgehen ist bei akuter Suizidalität und fehlender Behandlungsbereitschaft geboten?", "options": ["Unterbringung nach dem Psychisch-Kranken-Hilfe-Gesetz (PsychKHG)", "Den Patienten nach Hause entlassen", "Nur ein Rezept ausstellen", "Nächsten Termin in einer Woche vereinbaren"], "answer": 0 }
+      ]
     }
-  ]
+  ],
+
+  "fachbegriffe": [
+    { "fach": "Hypertonie", "laien": "Bluthochdruck", "en": "hypertension" },
+    { "fach": "Hypotonie", "laien": "niedriger Blutdruck", "en": "hypotension" },
+    { "fach": "Tachykardie", "laien": "schneller Herzschlag", "en": "tachycardia" },
+    { "fach": "Bradykardie", "laien": "langsamer Herzschlag", "en": "bradycardia" },
+    { "fach": "Dyspnoe", "laien": "Atemnot", "en": "dyspnea" },
+    { "fach": "Zephalgie", "laien": "Kopfschmerzen", "en": "cephalalgia" },
+    { "fach": "Emesis", "laien": "Erbrechen", "en": "emesis" },
+    { "fach": "Nausea", "laien": "Übelkeit", "en": "nausea" },
+    { "fach": "Obstipation", "laien": "Verstopfung", "en": "constipation" },
+    { "fach": "Diarrhö", "laien": "Durchfall", "en": "diarrhea" },
+    { "fach": "Ikterus", "laien": "Gelbsucht", "en": "jaundice" },
+    { "fach": "Zyanose", "laien": "Blaufärbung der Haut", "en": "cyanosis" },
+    { "fach": "Hämaturie", "laien": "Blut im Urin", "en": "hematuria" },
+    { "fach": "Hämatemesis", "laien": "Bluterbrechen", "en": "hematemesis" },
+    { "fach": "Hämatom", "laien": "Bluterguss", "en": "hematoma" },
+    { "fach": "Dysphagie", "laien": "Schluckstörung", "en": "dysphagia" },
+    { "fach": "Aphasie", "laien": "Sprachstörung", "en": "aphasia" },
+    { "fach": "Pyrexie", "laien": "Fieber", "en": "pyrexia" },
+    { "fach": "Myalgie", "laien": "Muskelschmerzen", "en": "myalgia" },
+    { "fach": "Arthralgie", "laien": "Gelenkschmerzen", "en": "arthralgia" },
+    { "fach": "Ödem", "laien": "Wassereinlagerung / Schwellung", "en": "edema" },
+    { "fach": "Exanthem", "laien": "Hautausschlag", "en": "exanthem" },
+    { "fach": "Pruritus", "laien": "Juckreiz", "en": "pruritus" },
+    { "fach": "Synkope", "laien": "kurze Bewusstlosigkeit / Ohnmacht", "en": "syncope" },
+    { "fach": "Vertigo", "laien": "Schwindel", "en": "vertigo" },
+    { "fach": "Appendektomie", "laien": "Blinddarmentfernung", "en": "appendectomy" },
+    { "fach": "Cholezystektomie", "laien": "Gallenblasenentfernung", "en": "cholecystectomy" },
+    { "fach": "Koloskopie", "laien": "Darmspiegelung", "en": "colonoscopy" },
+    { "fach": "Gastroskopie", "laien": "Magenspiegelung", "en": "gastroscopy" },
+    { "fach": "Laparotomie", "laien": "Bauchschnitt", "en": "laparotomy" },
+    { "fach": "Laparoskopie", "laien": "Bauchspiegelung", "en": "laparoscopy" },
+    { "fach": "Intubation", "laien": "Einführung eines Beatmungsschlauchs", "en": "intubation" },
+    { "fach": "Resektion", "laien": "operative Entfernung", "en": "resection" },
+    { "fach": "Anamnese", "laien": "Krankengeschichte / Befragung", "en": "medical history" },
+    { "fach": "Auskultation", "laien": "Abhören mit dem Stethoskop", "en": "auscultation" },
+    { "fach": "Palpation", "laien": "Abtasten", "en": "palpation" },
+    { "fach": "Perkussion", "laien": "Abklopfen", "en": "percussion" },
+    { "fach": "Inzision", "laien": "Einschnitt", "en": "incision" },
+    { "fach": "Infusion", "laien": "Flüssigkeitsgabe über die Vene", "en": "infusion" },
+    { "fach": "Analgesie", "laien": "Schmerzausschaltung", "en": "analgesia" },
+    { "fach": "Anästhesie", "laien": "Betäubung / Narkose", "en": "anesthesia" },
+    { "fach": "Antikoagulation", "laien": "Blutverdünnung", "en": "anticoagulation" },
+    { "fach": "Fraktur", "laien": "Knochenbruch", "en": "fracture" },
+    { "fach": "Luxation", "laien": "Verrenkung / Ausrenkung", "en": "dislocation" },
+    { "fach": "Stenose", "laien": "Verengung", "en": "stenosis" },
+    { "fach": "Insuffizienz", "laien": "Schwäche / ungenügende Funktion", "en": "insufficiency" },
+    { "fach": "Ischämie", "laien": "Minderdurchblutung", "en": "ischemia" },
+    { "fach": "Nekrose", "laien": "Gewebetod", "en": "necrosis" }
+  ],
+
+  "redewendungen": {
+    "anamnese": [
+      "Seit wann bestehen die Beschwerden?",
+      "Können Sie mir genauer beschreiben, wie sich die Schmerzen anfühlen?",
+      "Sind die Schmerzen eher stechend, dumpf, brennend oder krampfartig?",
+      "Strahlen die Schmerzen in andere Körperregionen aus?",
+      "Gibt es Faktoren, die die Beschwerden verstärken oder lindern?",
+      "Haben Sie ähnliche Beschwerden schon einmal gehabt?",
+      "Nehmen Sie regelmäßig Medikamente ein? Wenn ja, welche?",
+      "Sind bei Ihnen Allergien oder Unverträglichkeiten bekannt?",
+      "Gibt es in Ihrer Familie bestimmte Vorerkrankungen?",
+      "Rauchen Sie oder trinken Sie regelmäßig Alkohol?",
+      "Wie ist Ihr Appetit in letzter Zeit?",
+      "Haben Sie in letzter Zeit ungewollt Gewicht verloren oder zugenommen?"
+    ],
+    "untersuchung": [
+      "Ich werde Sie jetzt körperlich untersuchen.",
+      "Bitte machen Sie den Oberkörper frei.",
+      "Ich werde Sie jetzt abtasten. Sagen Sie mir bitte, wenn es weh tut.",
+      "Atmen Sie bitte tief ein und aus.",
+      "Ich höre jetzt Ihre Lunge und Ihr Herz mit dem Stethoskop ab.",
+      "Ich werde Ihren Bauch jetzt vorsichtig abtasten.",
+      "Können Sie bitte den Mund öffnen und 'Aah' sagen?",
+      "Ich prüfe jetzt Ihre Reflexe.",
+      "Bitte folgen Sie meinem Finger mit den Augen.",
+      "Können Sie bitte beide Arme nach vorne strecken und die Augen schließen?",
+      "Ich messe jetzt Ihren Blutdruck und den Puls.",
+      "Ich werde eine Blutabnahme durchführen, um die Laborwerte zu bestimmen."
+    ],
+    "befund": [
+      "Die Untersuchung hat ergeben, dass...",
+      "Bei der körperlichen Untersuchung fällt auf, dass...",
+      "Die Blutwerte zeigen eine Erhöhung der Entzündungswerte.",
+      "Im Röntgenbild zeigt sich ein auffälliger Befund im Bereich...",
+      "Der Ultraschall zeigt keine pathologischen Veränderungen.",
+      "Das EKG zeigt Hinweise auf eine Herzrhythmusstörung.",
+      "Laborchemisch fällt eine Erhöhung des Kreatinins auf.",
+      "Zusammenfassend lässt sich sagen, dass der Befund vereinbar ist mit...",
+      "Die bildgebende Diagnostik bestätigt den Verdacht auf...",
+      "Es liegen keine Hinweise auf eine akut bedrohliche Erkrankung vor.",
+      "Auskultatorisch sind beidseits vesikuläre Atemgeräusche ohne Rasselgeräusche zu hören."
+    ],
+    "therapie": [
+      "Ich empfehle Ihnen folgende Behandlung...",
+      "Wir werden mit einer medikamentösen Therapie beginnen.",
+      "Ich verschreibe Ihnen ein Medikament gegen die Schmerzen.",
+      "Sie sollten das Medikament dreimal täglich nach dem Essen einnehmen.",
+      "Bitte achten Sie auf ausreichend Flüssigkeitszufuhr und Bettruhe.",
+      "Wir werden eine Infusion mit Flüssigkeit und Elektrolyten anlegen.",
+      "Falls die Beschwerden nicht besser werden, stellen Sie sich bitte erneut vor.",
+      "Ich überweise Sie an einen Facharzt für eine weiterführende Abklärung.",
+      "Wir sollten eine stationäre Aufnahme zur weiteren Überwachung in Betracht ziehen.",
+      "Nach der Entlassung sollten Sie regelmäßig zur Kontrolluntersuchung kommen.",
+      "Es ist wichtig, dass Sie die Medikamente regelmäßig und wie verordnet einnehmen.",
+      "Ich empfehle Ihnen außerdem eine Physiotherapie zur Unterstützung der Heilung."
+    ],
+    "aufklaerung": [
+      "Ich möchte Sie nun über den geplanten Eingriff aufklären.",
+      "Haben Sie den Aufklärungsbogen bereits gelesen?",
+      "Zu den möglichen Risiken gehören...",
+      "Haben Sie noch Fragen zur geplanten Untersuchung?",
+      "Bitte unterschreiben Sie die Einverständniserklärung, wenn Sie keine weiteren Fragen haben.",
+      "Sie dürfen ab Mitternacht nichts mehr essen und trinken.",
+      "Der Eingriff wird unter örtlicher Betäubung / Vollnarkose durchgeführt.",
+      "Nach dem Eingriff werden Sie auf der Station überwacht.",
+      "Falls Sie Bedenken haben, können wir gerne noch einmal alles besprechen.",
+      "Es gibt auch alternative Behandlungsmöglichkeiten, die ich Ihnen erklären kann."
+    ]
+  }
 }

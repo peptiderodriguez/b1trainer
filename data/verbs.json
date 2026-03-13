@@ -12704,5 +12704,1601 @@
       "reflexive": false,
       "withSein": false
     }
+  },
+  {
+    "word": "diagnostizieren",
+    "sentence": "Der Arzt hat eine Lungenentzündung diagnostiziert.",
+    "translation": "The doctor diagnosed pneumonia.",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Der Arzt hat eine Lungenentzündung diagnostiziert.",
+      "Die Krankheit wurde frühzeitig diagnostiziert."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "diagnostiziere",
+        "du": "diagnostizierst",
+        "es": "diagnostiziert",
+        "wir": "diagnostizieren",
+        "ihr": "diagnostiziert",
+        "Sie": "diagnostizieren"
+      },
+      "präteritum": {
+        "ich": "diagnostizierte",
+        "du": "diagnostiziertest",
+        "es": "diagnostizierte",
+        "wir": "diagnostizierten",
+        "ihr": "diagnostiziertet",
+        "Sie": "diagnostizierten"
+      },
+      "perfekt": "diagnostiziert",
+      "imperativ": {
+        "du": "diagnostiziere",
+        "ihr": "diagnostiziert"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "therapieren",
+    "sentence": "Der Patient wird mit Antibiotika therapiert.",
+    "translation": "The patient is being treated with antibiotics.",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Der Patient wird mit Antibiotika therapiert.",
+      "Diese Erkrankung lässt sich gut therapieren."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "therapiere",
+        "du": "therapierst",
+        "es": "therapiert",
+        "wir": "therapieren",
+        "ihr": "therapiert",
+        "Sie": "therapieren"
+      },
+      "präteritum": {
+        "ich": "therapierte",
+        "du": "therapiertest",
+        "es": "therapierte",
+        "wir": "therapierten",
+        "ihr": "therapiertet",
+        "Sie": "therapierten"
+      },
+      "perfekt": "therapiert",
+      "imperativ": {
+        "du": "therapiere",
+        "ihr": "therapiert"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "operieren",
+    "sentence": "Der Chirurg hat den Patienten am Knie operiert.",
+    "translation": "The surgeon operated on the patient's knee.",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Der Chirurg hat den Patienten am Knie operiert.",
+      "Er muss dringend operiert werden."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "operiere",
+        "du": "operierst",
+        "es": "operiert",
+        "wir": "operieren",
+        "ihr": "operiert",
+        "Sie": "operieren"
+      },
+      "präteritum": {
+        "ich": "operierte",
+        "du": "operiertest",
+        "es": "operierte",
+        "wir": "operierten",
+        "ihr": "operiertet",
+        "Sie": "operierten"
+      },
+      "perfekt": "operiert",
+      "imperativ": {
+        "du": "operiere",
+        "ihr": "operiert"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "amputieren",
+    "sentence": "Das Bein musste nach dem Unfall amputiert werden.",
+    "translation": "The leg had to be amputated after the accident.",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Das Bein musste nach dem Unfall amputiert werden.",
+      "Der Chirurg amputierte den Finger."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "amputiere",
+        "du": "amputierst",
+        "es": "amputiert",
+        "wir": "amputieren",
+        "ihr": "amputiert",
+        "Sie": "amputieren"
+      },
+      "präteritum": {
+        "ich": "amputierte",
+        "du": "amputiertest",
+        "es": "amputierte",
+        "wir": "amputierten",
+        "ihr": "amputiertet",
+        "Sie": "amputierten"
+      },
+      "perfekt": "amputiert",
+      "imperativ": {
+        "du": "amputiere",
+        "ihr": "amputiert"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "transplantieren",
+    "sentence": "Dem Patienten wurde eine neue Niere transplantiert.",
+    "translation": "The patient received a kidney transplant.",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Dem Patienten wurde eine neue Niere transplantiert.",
+      "Das Herz wurde erfolgreich transplantiert."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "transplantiere",
+        "du": "transplantierst",
+        "es": "transplantiert",
+        "wir": "transplantieren",
+        "ihr": "transplantiert",
+        "Sie": "transplantieren"
+      },
+      "präteritum": {
+        "ich": "transplantierte",
+        "du": "transplantiertest",
+        "es": "transplantierte",
+        "wir": "transplantierten",
+        "ihr": "transplantiertet",
+        "Sie": "transplantierten"
+      },
+      "perfekt": "transplantiert",
+      "imperativ": {
+        "du": "transplantiere",
+        "ihr": "transplantiert"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "sich verschlechtern",
+    "sentence": "Der Zustand des Patienten hat sich verschlechtert.",
+    "translation": "The patient's condition has deteriorated.",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Der Zustand des Patienten hat sich verschlechtert.",
+      "Die Blutwerte verschlechtern sich."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "verschlechtere mich",
+        "du": "verschlechterst dich",
+        "es": "verschlechtert sich",
+        "wir": "verschlechtern uns",
+        "ihr": "verschlechtert euch",
+        "Sie": "verschlechtern sich"
+      },
+      "präteritum": {
+        "ich": "verschlechterte mich",
+        "du": "verschlechtertest dich",
+        "es": "verschlechterte sich",
+        "wir": "verschlechterten uns",
+        "ihr": "verschlechtertet euch",
+        "Sie": "verschlechterten sich"
+      },
+      "perfekt": "sich verschlechtert",
+      "imperativ": {
+        "du": "verschlechtere dich",
+        "ihr": "verschlechtert euch"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": true,
+      "withSein": false
+    }
+  },
+  {
+    "word": "sich verschlimmern",
+    "sentence": "Die Schmerzen haben sich über Nacht verschlimmert.",
+    "translation": "The pain has worsened overnight.",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Die Schmerzen haben sich über Nacht verschlimmert.",
+      "Ohne Behandlung verschlimmert sich die Krankheit."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "verschlimmere mich",
+        "du": "verschlimmerst dich",
+        "es": "verschlimmert sich",
+        "wir": "verschlimmern uns",
+        "ihr": "verschlimmert euch",
+        "Sie": "verschlimmern sich"
+      },
+      "präteritum": {
+        "ich": "verschlimmerte mich",
+        "du": "verschlimmertest dich",
+        "es": "verschlimmerte sich",
+        "wir": "verschlimmerten uns",
+        "ihr": "verschlimmertet euch",
+        "Sie": "verschlimmerten sich"
+      },
+      "perfekt": "sich verschlimmert",
+      "imperativ": {
+        "du": "verschlimmere dich",
+        "ihr": "verschlimmert euch"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": true,
+      "withSein": false
+    }
+  },
+  {
+    "word": "verordnen",
+    "sentence": "Der Arzt hat Bettruhe verordnet.",
+    "translation": "The doctor prescribed bed rest.",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Der Arzt hat Bettruhe verordnet.",
+      "Ihr wurden Schmerzmittel verordnet."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "verordne",
+        "du": "verordnest",
+        "es": "verordnet",
+        "wir": "verordnen",
+        "ihr": "verordnet",
+        "Sie": "verordnen"
+      },
+      "präteritum": {
+        "ich": "verordnete",
+        "du": "verordnetest",
+        "es": "verordnete",
+        "wir": "verordneten",
+        "ihr": "verordnetet",
+        "Sie": "verordneten"
+      },
+      "perfekt": "verordnet",
+      "imperativ": {
+        "du": "verordne",
+        "ihr": "verordnet"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "verabreichen",
+    "sentence": "Die Krankenschwester verabreicht dem Patienten das Medikament.",
+    "translation": "The nurse administers the medication to the patient.",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Die Krankenschwester verabreicht dem Patienten das Medikament.",
+      "Das Schmerzmittel wurde intravenös verabreicht."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "verabreiche",
+        "du": "verabreichst",
+        "es": "verabreicht",
+        "wir": "verabreichen",
+        "ihr": "verabreicht",
+        "Sie": "verabreichen"
+      },
+      "präteritum": {
+        "ich": "verabreichte",
+        "du": "verabreichtest",
+        "es": "verabreichte",
+        "wir": "verabreichten",
+        "ihr": "verabreichtet",
+        "Sie": "verabreichten"
+      },
+      "perfekt": "verabreicht",
+      "imperativ": {
+        "du": "verabreiche",
+        "ihr": "verabreicht"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "injizieren",
+    "sentence": "Das Insulin wird subkutan injiziert.",
+    "translation": "The insulin is injected subcutaneously.",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Das Insulin wird subkutan injiziert.",
+      "Der Arzt injiziert das Kontrastmittel."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "injiziere",
+        "du": "injizierst",
+        "es": "injiziert",
+        "wir": "injizieren",
+        "ihr": "injiziert",
+        "Sie": "injizieren"
+      },
+      "präteritum": {
+        "ich": "injizierte",
+        "du": "injiziertest",
+        "es": "injizierte",
+        "wir": "injizierten",
+        "ihr": "injiziertet",
+        "Sie": "injizierten"
+      },
+      "perfekt": "injiziert",
+      "imperativ": {
+        "du": "injiziere",
+        "ihr": "injiziert"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "infundieren",
+    "sentence": "Dem Patienten wird eine Kochsalzlösung infundiert.",
+    "translation": "The patient is being infused with saline solution.",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Dem Patienten wird eine Kochsalzlösung infundiert.",
+      "Das Antibiotikum wird über eine Stunde infundiert."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "infundiere",
+        "du": "infundierst",
+        "es": "infundiert",
+        "wir": "infundieren",
+        "ihr": "infundiert",
+        "Sie": "infundieren"
+      },
+      "präteritum": {
+        "ich": "infundierte",
+        "du": "infundiertest",
+        "es": "infundierte",
+        "wir": "infundierten",
+        "ihr": "infundiertet",
+        "Sie": "infundierten"
+      },
+      "perfekt": "infundiert",
+      "imperativ": {
+        "du": "infundiere",
+        "ihr": "infundiert"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "abtasten",
+    "sentence": "Der Arzt tastet den Bauch des Patienten ab.",
+    "translation": "The doctor palpates the patient's abdomen.",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Der Arzt tastet den Bauch des Patienten ab.",
+      "Die Lymphknoten werden sorgfältig abgetastet."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "taste ab",
+        "du": "tastest ab",
+        "es": "tastet ab",
+        "wir": "tasten ab",
+        "ihr": "tastet ab",
+        "Sie": "tasten ab"
+      },
+      "präteritum": {
+        "ich": "tastete ab",
+        "du": "tastetest ab",
+        "es": "tastete ab",
+        "wir": "tasteten ab",
+        "ihr": "tastetet ab",
+        "Sie": "tasteten ab"
+      },
+      "perfekt": "abgetastet",
+      "imperativ": {
+        "du": "taste ab",
+        "ihr": "tastet ab"
+      },
+      "separable": true,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "abhören",
+    "sentence": "Die Ärztin hört die Lunge des Patienten ab.",
+    "translation": "The doctor auscultates the patient's lungs.",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Die Ärztin hört die Lunge des Patienten ab.",
+      "Das Herz wird mit dem Stethoskop abgehört."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "höre ab",
+        "du": "hörst ab",
+        "es": "hört ab",
+        "wir": "hören ab",
+        "ihr": "hört ab",
+        "Sie": "hören ab"
+      },
+      "präteritum": {
+        "ich": "hörte ab",
+        "du": "hörtest ab",
+        "es": "hörte ab",
+        "wir": "hörten ab",
+        "ihr": "hörtet ab",
+        "Sie": "hörten ab"
+      },
+      "perfekt": "abgehört",
+      "imperativ": {
+        "du": "höre ab",
+        "ihr": "hört ab"
+      },
+      "separable": true,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "röntgen",
+    "sentence": "Der Arzt hat den Brustkorb geröntgt.",
+    "translation": "The doctor X-rayed the chest.",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Der Arzt hat den Brustkorb geröntgt.",
+      "Das gebrochene Bein muss geröntgt werden."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "röntge",
+        "du": "röntgst",
+        "es": "röntgt",
+        "wir": "röntgen",
+        "ihr": "röntgt",
+        "Sie": "röntgen"
+      },
+      "präteritum": {
+        "ich": "röntgte",
+        "du": "röntgtest",
+        "es": "röntgte",
+        "wir": "röntgten",
+        "ihr": "röntgtet",
+        "Sie": "röntgten"
+      },
+      "perfekt": "geröntgt",
+      "imperativ": {
+        "du": "röntge",
+        "ihr": "röntgt"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "punktieren",
+    "sentence": "Der Arzt hat das Kniegelenk punktiert.",
+    "translation": "The doctor punctured the knee joint.",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Der Arzt hat das Kniegelenk punktiert.",
+      "Die Pleura wurde zur Diagnostik punktiert."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "punktiere",
+        "du": "punktierst",
+        "es": "punktiert",
+        "wir": "punktieren",
+        "ihr": "punktiert",
+        "Sie": "punktieren"
+      },
+      "präteritum": {
+        "ich": "punktierte",
+        "du": "punktiertest",
+        "es": "punktierte",
+        "wir": "punktierten",
+        "ihr": "punktiertet",
+        "Sie": "punktierten"
+      },
+      "perfekt": "punktiert",
+      "imperativ": {
+        "du": "punktiere",
+        "ihr": "punktiert"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "überweisen",
+    "sentence": "Der Hausarzt hat den Patienten an einen Spezialisten überwiesen.",
+    "translation": "The general practitioner referred the patient to a specialist.",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Der Hausarzt hat den Patienten an einen Spezialisten überwiesen.",
+      "Sie wurde an die Kardiologie überwiesen."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "überweise",
+        "du": "überweist",
+        "es": "überweist",
+        "wir": "überweisen",
+        "ihr": "überweist",
+        "Sie": "überweisen"
+      },
+      "präteritum": {
+        "ich": "überwies",
+        "du": "überwiest",
+        "es": "überwies",
+        "wir": "überwiesen",
+        "ihr": "überwiest",
+        "Sie": "überwiesen"
+      },
+      "perfekt": "überwiesen",
+      "imperativ": {
+        "du": "überweise",
+        "ihr": "überweist"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "einweisen",
+    "sentence": "Der Arzt hat den Patienten ins Krankenhaus eingewiesen.",
+    "translation": "The doctor admitted the patient to the hospital.",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Der Arzt hat den Patienten ins Krankenhaus eingewiesen.",
+      "Sie wurde notfallmäßig eingewiesen."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "weise ein",
+        "du": "weist ein",
+        "es": "weist ein",
+        "wir": "weisen ein",
+        "ihr": "weist ein",
+        "Sie": "weisen ein"
+      },
+      "präteritum": {
+        "ich": "wies ein",
+        "du": "wiest ein",
+        "es": "wies ein",
+        "wir": "wiesen ein",
+        "ihr": "wiest ein",
+        "Sie": "wiesen ein"
+      },
+      "perfekt": "eingewiesen",
+      "imperativ": {
+        "du": "weise ein",
+        "ihr": "weist ein"
+      },
+      "separable": true,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "verlegen",
+    "sentence": "Der Patient wurde auf die Intensivstation verlegt.",
+    "translation": "The patient was transferred to the intensive care unit.",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Der Patient wurde auf die Intensivstation verlegt.",
+      "Er wird in ein anderes Krankenhaus verlegt."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "verlege",
+        "du": "verlegst",
+        "es": "verlegt",
+        "wir": "verlegen",
+        "ihr": "verlegt",
+        "Sie": "verlegen"
+      },
+      "präteritum": {
+        "ich": "verlegte",
+        "du": "verlegtest",
+        "es": "verlegte",
+        "wir": "verlegten",
+        "ihr": "verlegtet",
+        "Sie": "verlegten"
+      },
+      "perfekt": "verlegt",
+      "imperativ": {
+        "du": "verlege",
+        "ihr": "verlegt"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "schwellen",
+    "sentence": "Das Knie ist nach dem Sturz angeschwollen.",
+    "translation": "The knee swelled up after the fall.",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Das Knie ist nach dem Sturz angeschwollen.",
+      "Die Lymphknoten schwellen bei einer Infektion an."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "schwelle",
+        "du": "schwillst",
+        "es": "schwillt",
+        "wir": "schwellen",
+        "ihr": "schwellt",
+        "Sie": "schwellen"
+      },
+      "präteritum": {
+        "ich": "schwoll",
+        "du": "schwollst",
+        "es": "schwoll",
+        "wir": "schwollen",
+        "ihr": "schwollt",
+        "Sie": "schwollen"
+      },
+      "perfekt": "geschwollen",
+      "imperativ": {
+        "du": "schwill",
+        "ihr": "schwellt"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": true
+    }
+  },
+  {
+    "word": "eitern",
+    "sentence": "Die Wunde hat angefangen zu eitern.",
+    "translation": "The wound has started to fester.",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Die Wunde hat angefangen zu eitern.",
+      "Der Abszess eitert seit Tagen."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "eitere",
+        "du": "eiterst",
+        "es": "eitert",
+        "wir": "eitern",
+        "ihr": "eitert",
+        "Sie": "eitern"
+      },
+      "präteritum": {
+        "ich": "eiterte",
+        "du": "eitertest",
+        "es": "eiterte",
+        "wir": "eiterten",
+        "ihr": "eitertet",
+        "Sie": "eiterten"
+      },
+      "perfekt": "geeitert",
+      "imperativ": {
+        "du": "eitere",
+        "ihr": "eitert"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "heilen",
+    "sentence": "Die Wunde heilt gut.",
+    "translation": "The wound is healing well.",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Die Wunde heilt gut.",
+      "Der Knochenbruch ist vollständig geheilt."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "heile",
+        "du": "heilst",
+        "es": "heilt",
+        "wir": "heilen",
+        "ihr": "heilt",
+        "Sie": "heilen"
+      },
+      "präteritum": {
+        "ich": "heilte",
+        "du": "heiltest",
+        "es": "heilte",
+        "wir": "heilten",
+        "ihr": "heiltet",
+        "Sie": "heilten"
+      },
+      "perfekt": "geheilt",
+      "imperativ": {
+        "du": "heile",
+        "ihr": "heilt"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "genesen",
+    "sentence": "Der Patient ist von seiner Krankheit genesen.",
+    "translation": "The patient has recovered from his illness.",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Der Patient ist von seiner Krankheit genesen.",
+      "Sie ist nach langer Behandlung vollständig genesen."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "genese",
+        "du": "genest",
+        "es": "genest",
+        "wir": "genesen",
+        "ihr": "genest",
+        "Sie": "genesen"
+      },
+      "präteritum": {
+        "ich": "genas",
+        "du": "genast",
+        "es": "genas",
+        "wir": "genasen",
+        "ihr": "genast",
+        "Sie": "genasen"
+      },
+      "perfekt": "genesen",
+      "imperativ": {
+        "du": "genese",
+        "ihr": "genest"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": true
+    }
+  },
+  {
+    "word": "beatmen",
+    "sentence": "Der Patient muss künstlich beatmet werden.",
+    "translation": "The patient must be ventilated artificially.",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Der Patient muss künstlich beatmet werden.",
+      "Der Notarzt beatmete den Bewusstlosen."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "beatme",
+        "du": "beatmest",
+        "es": "beatmet",
+        "wir": "beatmen",
+        "ihr": "beatmet",
+        "Sie": "beatmen"
+      },
+      "präteritum": {
+        "ich": "beatmete",
+        "du": "beatmetest",
+        "es": "beatmete",
+        "wir": "beatmeten",
+        "ihr": "beatmetet",
+        "Sie": "beatmeten"
+      },
+      "perfekt": "beatmet",
+      "imperativ": {
+        "du": "beatme",
+        "ihr": "beatmet"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "reanimieren",
+    "sentence": "Das Rettungsteam hat den Patienten erfolgreich reanimiert.",
+    "translation": "The rescue team successfully resuscitated the patient.",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Das Rettungsteam hat den Patienten erfolgreich reanimiert.",
+      "Er musste nach dem Herzstillstand reanimiert werden."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "reanimiere",
+        "du": "reanimierst",
+        "es": "reanimiert",
+        "wir": "reanimieren",
+        "ihr": "reanimiert",
+        "Sie": "reanimieren"
+      },
+      "präteritum": {
+        "ich": "reanimierte",
+        "du": "reanimiertest",
+        "es": "reanimierte",
+        "wir": "reanimierten",
+        "ihr": "reanimiertet",
+        "Sie": "reanimierten"
+      },
+      "perfekt": "reanimiert",
+      "imperativ": {
+        "du": "reanimiere",
+        "ihr": "reanimiert"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "intubieren",
+    "sentence": "Der Anästhesist hat den Patienten intubiert.",
+    "translation": "The anesthesiologist intubated the patient.",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Der Anästhesist hat den Patienten intubiert.",
+      "Vor der Narkose wird der Patient intubiert."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "intubiere",
+        "du": "intubierst",
+        "es": "intubiert",
+        "wir": "intubieren",
+        "ihr": "intubiert",
+        "Sie": "intubieren"
+      },
+      "präteritum": {
+        "ich": "intubierte",
+        "du": "intubiertest",
+        "es": "intubierte",
+        "wir": "intubierten",
+        "ihr": "intubiertet",
+        "Sie": "intubierten"
+      },
+      "perfekt": "intubiert",
+      "imperativ": {
+        "du": "intubiere",
+        "ihr": "intubiert"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "sedieren",
+    "sentence": "Der Patient wurde vor dem Eingriff sediert.",
+    "translation": "The patient was sedated before the procedure.",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Der Patient wurde vor dem Eingriff sediert.",
+      "Unruhige Patienten müssen manchmal sediert werden."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "sediere",
+        "du": "sedierst",
+        "es": "sediert",
+        "wir": "sedieren",
+        "ihr": "sediert",
+        "Sie": "sedieren"
+      },
+      "präteritum": {
+        "ich": "sedierte",
+        "du": "sediertest",
+        "es": "sedierte",
+        "wir": "sedierten",
+        "ihr": "sediertet",
+        "Sie": "sedierten"
+      },
+      "perfekt": "sediert",
+      "imperativ": {
+        "du": "sediere",
+        "ihr": "sediert"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "dokumentieren",
+    "sentence": "Alle Befunde müssen sorgfältig dokumentiert werden.",
+    "translation": "All findings must be carefully documented.",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Alle Befunde müssen sorgfältig dokumentiert werden.",
+      "Der Arzt dokumentiert den Verlauf der Behandlung."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "dokumentiere",
+        "du": "dokumentierst",
+        "es": "dokumentiert",
+        "wir": "dokumentieren",
+        "ihr": "dokumentiert",
+        "Sie": "dokumentieren"
+      },
+      "präteritum": {
+        "ich": "dokumentierte",
+        "du": "dokumentiertest",
+        "es": "dokumentierte",
+        "wir": "dokumentierten",
+        "ihr": "dokumentiertet",
+        "Sie": "dokumentierten"
+      },
+      "perfekt": "dokumentiert",
+      "imperativ": {
+        "du": "dokumentiere",
+        "ihr": "dokumentiert"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "befunden",
+    "sentence": "Das Röntgenbild wurde vom Radiologen befundet.",
+    "translation": "The X-ray was evaluated by the radiologist.",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Das Röntgenbild wurde vom Radiologen befundet.",
+      "Die MRT-Aufnahmen müssen noch befundet werden."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "befunde",
+        "du": "befundest",
+        "es": "befundet",
+        "wir": "befunden",
+        "ihr": "befundet",
+        "Sie": "befunden"
+      },
+      "präteritum": {
+        "ich": "befundete",
+        "du": "befundetest",
+        "es": "befundete",
+        "wir": "befundeten",
+        "ihr": "befundetet",
+        "Sie": "befundeten"
+      },
+      "perfekt": "befundet",
+      "imperativ": {
+        "du": "befunde",
+        "ihr": "befundet"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "untersuchen",
+    "sentence": "Der Arzt untersucht den Patienten gründlich.",
+    "translation": "The doctor examines the patient thoroughly.",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Der Arzt untersucht den Patienten gründlich.",
+      "Die Blutprobe wird im Labor untersucht."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "untersuche",
+        "du": "untersuchst",
+        "es": "untersucht",
+        "wir": "untersuchen",
+        "ihr": "untersucht",
+        "Sie": "untersuchen"
+      },
+      "präteritum": {
+        "ich": "untersuchte",
+        "du": "untersuchtest",
+        "es": "untersuchte",
+        "wir": "untersuchten",
+        "ihr": "untersuchtet",
+        "Sie": "untersuchten"
+      },
+      "perfekt": "untersucht",
+      "imperativ": {
+        "du": "untersuche",
+        "ihr": "untersucht"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "desinfizieren",
+    "sentence": "Die Wunde muss zuerst desinfiziert werden.",
+    "translation": "The wound must be disinfected first.",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Die Wunde muss zuerst desinfiziert werden.",
+      "Bitte desinfizieren Sie Ihre Hände."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "desinfiziere",
+        "du": "desinfizierst",
+        "es": "desinfiziert",
+        "wir": "desinfizieren",
+        "ihr": "desinfiziert",
+        "Sie": "desinfizieren"
+      },
+      "präteritum": {
+        "ich": "desinfizierte",
+        "du": "desinfiziertest",
+        "es": "desinfizierte",
+        "wir": "desinfizierten",
+        "ihr": "desinfiziertet",
+        "Sie": "desinfizierten"
+      },
+      "perfekt": "desinfiziert",
+      "imperativ": {
+        "du": "desinfiziere",
+        "ihr": "desinfiziert"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "nähen",
+    "sentence": "Der Chirurg näht die Wunde mit feinem Faden.",
+    "translation": "The surgeon sutures the wound with fine thread.",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Der Chirurg näht die Wunde mit feinem Faden.",
+      "Die Schnittwunde musste genäht werden."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "nähe",
+        "du": "nähst",
+        "es": "näht",
+        "wir": "nähen",
+        "ihr": "näht",
+        "Sie": "nähen"
+      },
+      "präteritum": {
+        "ich": "nähte",
+        "du": "nähtest",
+        "es": "nähte",
+        "wir": "nähten",
+        "ihr": "nähtet",
+        "Sie": "nähten"
+      },
+      "perfekt": "genäht",
+      "imperativ": {
+        "du": "nähe",
+        "ihr": "näht"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "verbinden",
+    "sentence": "Die Krankenschwester verbindet die Wunde.",
+    "translation": "The nurse bandages the wound.",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Die Krankenschwester verbindet die Wunde.",
+      "Der Arm wurde steril verbunden."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "verbinde",
+        "du": "verbindest",
+        "es": "verbindet",
+        "wir": "verbinden",
+        "ihr": "verbindet",
+        "Sie": "verbinden"
+      },
+      "präteritum": {
+        "ich": "verband",
+        "du": "verbandest",
+        "es": "verband",
+        "wir": "verbanden",
+        "ihr": "verbandet",
+        "Sie": "verbanden"
+      },
+      "perfekt": "verbunden",
+      "imperativ": {
+        "du": "verbinde",
+        "ihr": "verbindet"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "kündigen",
+    "sentence": "Sie hat ihren Arbeitsvertrag fristgerecht gekündigt.",
+    "translation": "to terminate, to give notice",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Sie hat ihren Arbeitsvertrag fristgerecht gekündigt.",
+      "Der Vermieter darf nicht ohne Grund kündigen."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "kündige",
+        "du": "kündigst",
+        "es": "kündigt",
+        "wir": "kündigen",
+        "ihr": "kündigt",
+        "Sie": "kündigen"
+      },
+      "präteritum": {
+        "ich": "kündigte",
+        "du": "kündigtest",
+        "es": "kündigte",
+        "wir": "kündigten",
+        "ihr": "kündigtet",
+        "Sie": "kündigten"
+      },
+      "perfekt": "gekündigt",
+      "imperativ": {
+        "du": "kündige",
+        "ihr": "kündigt"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "sich anmelden",
+    "sentence": "Ich muss mich beim Bürgeramt anmelden.",
+    "translation": "to register (oneself)",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Ich muss mich beim Bürgeramt anmelden.",
+      "Hast du dich für den Kurs angemeldet?"
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "melde mich an",
+        "du": "meldest dich an",
+        "es": "meldet sich an",
+        "wir": "melden uns an",
+        "ihr": "meldet euch an",
+        "Sie": "melden sich an"
+      },
+      "präteritum": {
+        "ich": "meldete mich an",
+        "du": "meldetest dich an",
+        "es": "meldete sich an",
+        "wir": "meldeten uns an",
+        "ihr": "meldetet euch an",
+        "Sie": "meldeten sich an"
+      },
+      "perfekt": "sich angemeldet",
+      "imperativ": {
+        "du": "melde dich an",
+        "ihr": "meldet euch an"
+      },
+      "separable": true,
+      "modal": false,
+      "reflexive": true,
+      "withSein": false
+    }
+  },
+  {
+    "word": "umziehen",
+    "sentence": "Wir sind letzten Monat nach Berlin umgezogen.",
+    "translation": "to move (relocate)",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Wir sind letzten Monat nach Berlin umgezogen.",
+      "Die Familie zieht nächste Woche um."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "ziehe um",
+        "du": "ziehst um",
+        "es": "zieht um",
+        "wir": "ziehen um",
+        "ihr": "zieht um",
+        "Sie": "ziehen um"
+      },
+      "präteritum": {
+        "ich": "zog um",
+        "du": "zogst um",
+        "es": "zog um",
+        "wir": "zogen um",
+        "ihr": "zogt um",
+        "Sie": "zogen um"
+      },
+      "perfekt": "umgezogen",
+      "imperativ": {
+        "du": "zieh um",
+        "ihr": "zieht um"
+      },
+      "separable": true,
+      "modal": false,
+      "reflexive": false,
+      "withSein": true
+    }
+  },
+  {
+    "word": "erziehen",
+    "sentence": "Sie erzieht ihre Kinder zweisprachig.",
+    "translation": "to raise, to educate (children)",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Sie erzieht ihre Kinder zweisprachig.",
+      "Die Eltern haben ihre Tochter zu Selbstständigkeit erzogen."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "erziehe",
+        "du": "erziehst",
+        "es": "erzieht",
+        "wir": "erziehen",
+        "ihr": "erzieht",
+        "Sie": "erziehen"
+      },
+      "präteritum": {
+        "ich": "erzog",
+        "du": "erzogst",
+        "es": "erzog",
+        "wir": "erzogen",
+        "ihr": "erzogt",
+        "Sie": "erzogen"
+      },
+      "perfekt": "erzogen",
+      "imperativ": {
+        "du": "erziehe",
+        "ihr": "erzieht"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "sich scheiden lassen",
+    "sentence": "Sie haben sich nach zwanzig Jahren scheiden lassen.",
+    "translation": "to get divorced",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Sie haben sich nach zwanzig Jahren scheiden lassen.",
+      "Er lässt sich von seiner Frau scheiden."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "lasse mich scheiden",
+        "du": "lässt dich scheiden",
+        "es": "lässt sich scheiden",
+        "wir": "lassen uns scheiden",
+        "ihr": "lasst euch scheiden",
+        "Sie": "lassen sich scheiden"
+      },
+      "präteritum": {
+        "ich": "ließ mich scheiden",
+        "du": "ließt dich scheiden",
+        "es": "ließ sich scheiden",
+        "wir": "ließen uns scheiden",
+        "ihr": "ließt euch scheiden",
+        "Sie": "ließen sich scheiden"
+      },
+      "perfekt": "sich scheiden lassen",
+      "imperativ": {
+        "du": "lass dich scheiden",
+        "ihr": "lasst euch scheiden"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": true,
+      "withSein": false
+    }
+  },
+  {
+    "word": "verhandeln",
+    "sentence": "Die Gewerkschaft verhandelt über höhere Löhne.",
+    "translation": "to negotiate",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Die Gewerkschaft verhandelt über höhere Löhne.",
+      "Wir haben den Preis erfolgreich verhandelt."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "verhandle",
+        "du": "verhandelst",
+        "es": "verhandelt",
+        "wir": "verhandeln",
+        "ihr": "verhandelt",
+        "Sie": "verhandeln"
+      },
+      "präteritum": {
+        "ich": "verhandelte",
+        "du": "verhandeltest",
+        "es": "verhandelte",
+        "wir": "verhandelten",
+        "ihr": "verhandeltet",
+        "Sie": "verhandelten"
+      },
+      "perfekt": "verhandelt",
+      "imperativ": {
+        "du": "verhandle",
+        "ihr": "verhandelt"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "sparen",
+    "sentence": "Wir sparen jeden Monat zweihundert Euro.",
+    "translation": "to save (money)",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Wir sparen jeden Monat zweihundert Euro.",
+      "Er hat auf ein neues Auto gespart."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "spare",
+        "du": "sparst",
+        "es": "spart",
+        "wir": "sparen",
+        "ihr": "spart",
+        "Sie": "sparen"
+      },
+      "präteritum": {
+        "ich": "sparte",
+        "du": "spartest",
+        "es": "sparte",
+        "wir": "sparten",
+        "ihr": "spartet",
+        "Sie": "sparten"
+      },
+      "perfekt": "gespart",
+      "imperativ": {
+        "du": "spare",
+        "ihr": "spart"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "versichern",
+    "sentence": "Sind Sie gegen Berufsunfähigkeit versichert?",
+    "translation": "to insure",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Sind Sie gegen Berufsunfähigkeit versichert?",
+      "Das Haus ist gegen Feuer versichert."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "versichere",
+        "du": "versicherst",
+        "es": "versichert",
+        "wir": "versichern",
+        "ihr": "versichert",
+        "Sie": "versichern"
+      },
+      "präteritum": {
+        "ich": "versicherte",
+        "du": "versichertest",
+        "es": "versicherte",
+        "wir": "versicherten",
+        "ihr": "versichertet",
+        "Sie": "versicherten"
+      },
+      "perfekt": "versichert",
+      "imperativ": {
+        "du": "versichere",
+        "ihr": "versichert"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "recyceln",
+    "sentence": "In Deutschland wird fast alles recycelt.",
+    "translation": "to recycle",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "In Deutschland wird fast alles recycelt.",
+      "Bitte recyceln Sie Ihren Plastikmüll."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "recycele",
+        "du": "recycelst",
+        "es": "recycelt",
+        "wir": "recyceln",
+        "ihr": "recycelt",
+        "Sie": "recyceln"
+      },
+      "präteritum": {
+        "ich": "recycelte",
+        "du": "recyceltest",
+        "es": "recycelte",
+        "wir": "recycelten",
+        "ihr": "recyceltet",
+        "Sie": "recycelten"
+      },
+      "perfekt": "recycelt",
+      "imperativ": {
+        "du": "recycele",
+        "ihr": "recycelt"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "renovieren",
+    "sentence": "Wir renovieren gerade das Badezimmer.",
+    "translation": "to renovate",
+    "type": "verb",
+    "level": "B2",
+    "examples": [
+      "Wir renovieren gerade das Badezimmer.",
+      "Die Wohnung wurde vor dem Einzug renoviert."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "renoviere",
+        "du": "renovierst",
+        "es": "renoviert",
+        "wir": "renovieren",
+        "ihr": "renoviert",
+        "Sie": "renovieren"
+      },
+      "präteritum": {
+        "ich": "renovierte",
+        "du": "renoviertest",
+        "es": "renovierte",
+        "wir": "renovierten",
+        "ihr": "renoviertet",
+        "Sie": "renovierten"
+      },
+      "perfekt": "renoviert",
+      "imperativ": {
+        "du": "renoviere",
+        "ihr": "renoviert"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
   }
 ]

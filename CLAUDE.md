@@ -1,4 +1,4 @@
-# B1 Goethe Trainer
+# B1/B2 Goethe Trainer
 
 ## Architecture
 - **Pure static site** — vanilla HTML/CSS/JS, no build step, no frameworks
@@ -13,7 +13,7 @@ js/utils.js         — Shared utilities (TTS, storage, modals, toasts)
 js/app.js           — Main controller (routing, data loading, dashboard)
 js/vocabulary.js    — Flashcards, fill-in-blank, article quiz
 js/grammar.js       — Cases, conjugation, tenses, sentence structure
-js/reading.js       — Leseverstehen (5 Goethe B1 exam parts)
+js/reading.js       — Leseverstehen (5 Goethe B1/B2 exam parts)
 js/listening.js     — Hörverstehen, Diktat, medical conversations
 js/writing.js       — Email, Meinungsäußerung, Arztbrief
 js/exam.js          — Full timed mock exam simulation
@@ -30,7 +30,7 @@ Each module registers via `App.registerModule(name, { init, render, destroy })`.
 
 ## Data
 - 6 JSON files loaded via `Promise.allSettled` (graceful fallback)
-- `nouns.json` — 1478 B1 nouns with declension tables
+- `nouns.json` — 1478 B1/B2 nouns with declension tables
 - `verbs.json` — 443 verbs with conjugation (6 pronouns incl. wir)
 - `other.json` — 884 other words (adverbs, adjectives, etc.)
 - `grammar.json` — 161 exercises across 8 topics

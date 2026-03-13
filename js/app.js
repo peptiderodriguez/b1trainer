@@ -1,5 +1,5 @@
 // =============================================================================
-// app.js — Main application controller for B1 Goethe Trainer
+// app.js — Main application controller for B1/B2 Goethe Trainer
 // =============================================================================
 
 'use strict';
@@ -61,7 +61,7 @@ const App = {
     this._ready = true;
     this._showLoading(false);
 
-    console.log('B1 Trainer initialized.');
+    console.log('B1/B2 Trainer initialized.');
   },
 
   // ---------------------------------------------------------------------------

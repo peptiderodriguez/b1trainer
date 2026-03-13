@@ -1,6 +1,6 @@
 {
   "exam": "Goethe-Zertifikat B1 Lesen",
-  "description": "Reading comprehension exercises for the Goethe B1 German exam. Covers all 5 parts: blog posts (Part 1), newspaper articles (Part 2), everyday texts (Part 3), reader opinions (Part 4), and formal/instructional texts (Part 5).",
+  "description": "Reading comprehension exercises for the Goethe B1/B2 German exam. Covers all 5 parts: blog posts (Part 1), newspaper articles (Part 2), everyday texts (Part 3), reader opinions (Part 4), and formal/instructional texts (Part 5). Includes B2-level passages on daily life, family, and society.",
   "passages": [
     {
       "id": "r1",
@@ -998,6 +998,774 @@
           ],
           "answer": "b",
           "explanation": "Im Text heißt es: 'Experten sehen den Trend zum nachhaltigen Reisen als eine der wichtigsten Entwicklungen der nächsten Jahre.'"
+        }
+      ]
+    },
+    {
+      "id": "r13",
+      "type": "article",
+      "examPart": 1,
+      "level": "B2",
+      "title": "Fallbericht: Akute Appendizitis bei einer 34-jährigen Patientin",
+      "source": "Klinische Fallberichte (adaptiert)",
+      "text": "Aufnahmegrund: Die 34-jährige Patientin Frau M. stellte sich in der Notaufnahme des Universitätsklinikums Freiburg mit seit zwölf Stunden zunehmenden Bauchschmerzen vor. Die Schmerzen hatten zunächst periumbilikal begonnen und waren im Verlauf in den rechten Unterbauch gewandert.\n\nAnamnese: Frau M. berichtete über Übelkeit und einmaliges Erbrechen am Morgen. Fieber sei seit dem Vorabend aufgetreten. Die Patientin verneinte Durchfall, Obstipation sowie urologische Beschwerden. An Vorerkrankungen bestanden eine Hypothyreose unter L-Thyroxin-Substitution sowie eine Penicillinallergie. Operationen in der Vorgeschichte wurden verneint. Die letzte Regelblutung lag zwei Wochen zurück.\n\nBefund: Bei der körperlichen Untersuchung zeigte sich ein druckschmerzhaftes Abdomen im rechten Unterbauch mit positivem McBurney-Zeichen und Loslassschmerz. Die Körpertemperatur betrug 38,4 °C. Das Labor ergab eine Leukozytose von 14.200/µl sowie ein erhöhtes CRP von 78 mg/l. Die Sonographie des Abdomens zeigte eine verdickte, nicht komprimierbare Appendix mit einem Durchmesser von 11 mm und freier Flüssigkeit periappendizeal.\n\nDiagnose: Akute Appendizitis.\n\nTherapie: Nach ausführlicher Aufklärung und schriftlicher Einwilligung der Patientin wurde noch am selben Abend eine laparoskopische Appendektomie durchgeführt. Der intraoperative Befund bestätigte eine phlegmonöse Appendizitis ohne Perforation. Der postoperative Verlauf gestaltete sich komplikationslos. Frau M. konnte am dritten postoperativen Tag in gutem Allgemeinzustand entlassen werden. Eine Wiedervorstellung zur Wundkontrolle wurde für den zehnten Tag nach der Operation vereinbart.",
+      "questions": [
+        {
+          "id": "r13q1",
+          "type": "multiple_choice",
+          "question": "Wo hat die Patientin zuerst Schmerzen gespürt?",
+          "options": [
+            "a) Im rechten Unterbauch",
+            "b) Im Bereich um den Bauchnabel herum",
+            "c) Im gesamten Bauchraum",
+            "d) Im linken Unterbauch"
+          ],
+          "answer": "b) Im Bereich um den Bauchnabel herum",
+          "explanation": "Im Text steht, dass die Schmerzen 'zunächst periumbilikal begonnen' hatten. 'Periumbilikal' bedeutet 'um den Bauchnabel herum'. Erst im Verlauf wanderten sie in den rechten Unterbauch."
+        },
+        {
+          "id": "r13q2",
+          "type": "true_false",
+          "question": "Die Patientin wurde bereits früher einmal operiert.",
+          "answer": "falsch",
+          "explanation": "Falsch. Im Text heißt es: 'Operationen in der Vorgeschichte wurden verneint.' Das bedeutet, sie hatte keine früheren Operationen."
+        },
+        {
+          "id": "r13q3",
+          "type": "multiple_choice",
+          "question": "Welcher Laborwert war bei der Patientin auffällig erhöht?",
+          "options": [
+            "a) Der Blutzuckerspiegel",
+            "b) Die Schilddrüsenwerte",
+            "c) Die Leukozytenzahl und das CRP",
+            "d) Der Hämoglobinwert"
+          ],
+          "answer": "c) Die Leukozytenzahl und das CRP",
+          "explanation": "Das Labor ergab eine 'Leukozytose von 14.200/µl' sowie ein 'erhöhtes CRP von 78 mg/l'. Beide Werte weisen auf eine Entzündung hin."
+        },
+        {
+          "id": "r13q4",
+          "type": "true_false",
+          "question": "Bei der Operation wurde eine Perforation des Blinddarms festgestellt.",
+          "answer": "falsch",
+          "explanation": "Falsch. Der Text sagt ausdrücklich: 'phlegmonöse Appendizitis ohne Perforation'. Es lag also keine Perforation vor."
+        },
+        {
+          "id": "r13q5",
+          "type": "multiple_choice",
+          "question": "Wann durfte Frau M. das Krankenhaus verlassen?",
+          "options": [
+            "a) Am nächsten Tag nach der Operation",
+            "b) Am dritten Tag nach der Operation",
+            "c) Nach zehn Tagen",
+            "d) Erst nach der Wundkontrolle"
+          ],
+          "answer": "b) Am dritten Tag nach der Operation",
+          "explanation": "Im Text steht: 'Frau M. konnte am dritten postoperativen Tag in gutem Allgemeinzustand entlassen werden.' Die Wundkontrolle fand erst nach zehn Tagen ambulant statt."
+        }
+      ]
+    },
+    {
+      "id": "r14",
+      "type": "article",
+      "examPart": 2,
+      "level": "B2",
+      "title": "Das deutsche Krankenversicherungssystem: GKV und PKV im Vergleich",
+      "source": "Bundesministerium für Gesundheit (adaptiert)",
+      "text": "In Deutschland besteht eine allgemeine Krankenversicherungspflicht. Das bedeutet, dass jeder Einwohner entweder gesetzlich oder privat krankenversichert sein muss. Etwa 88 Prozent der Bevölkerung sind in der gesetzlichen Krankenversicherung (GKV) versichert, während rund 12 Prozent eine private Krankenversicherung (PKV) haben.\n\nDie gesetzliche Krankenversicherung funktioniert nach dem Solidaritätsprinzip: Alle Versicherten zahlen einen einkommensabhängigen Beitrag, und jeder erhält unabhängig von der Beitragshöhe die gleichen medizinischen Leistungen. Arbeitnehmer mit einem Bruttoeinkommen unter der Versicherungspflichtgrenze von derzeit 69.300 Euro jährlich müssen in der GKV versichert sein. Familienmitglieder ohne eigenes Einkommen können beitragsfrei über die Familienversicherung mitversichert werden.\n\nWer in der GKV versichert ist, muss bei bestimmten Leistungen Zuzahlungen leisten. Für verschreibungspflichtige Medikamente beträgt die Zuzahlung zwischen fünf und zehn Euro pro Packung. Bei einem Krankenhausaufenthalt werden zehn Euro pro Tag für maximal 28 Tage im Jahr berechnet. Damit niemand finanziell überfordert wird, gibt es eine Belastungsgrenze: Sobald die jährlichen Zuzahlungen zwei Prozent des Bruttoeinkommens übersteigen, kann man sich von weiteren Zuzahlungen befreien lassen. Für chronisch Kranke liegt die Grenze bei einem Prozent.\n\nEin wichtiger Aspekt des deutschen Gesundheitssystems ist das Überweisungssystem. Patienten suchen in der Regel zuerst ihren Hausarzt auf, der bei Bedarf eine Überweisung an einen Facharzt ausstellt. Obwohl in Deutschland keine formale Überweisungspflicht besteht, empfehlen die meisten Krankenkassen, den Hausarzt als erste Anlaufstelle zu nutzen. Einige Krankenkassen bieten sogenannte Hausarztmodelle an, bei denen Versicherte einen Bonus erhalten, wenn sie sich verpflichten, immer zuerst den Hausarzt aufzusuchen.\n\nDie private Krankenversicherung steht Selbstständigen, Beamten und Angestellten mit einem Einkommen über der Versicherungspflichtgrenze offen. Anders als in der GKV richtet sich der Beitrag nicht nach dem Einkommen, sondern nach dem individuellen Gesundheitszustand und dem gewählten Tarif. Private Versicherte erhalten häufig schneller Termine bei Fachärzten und können Einzelzimmer im Krankenhaus sowie Chefarztbehandlung wählen.",
+      "questions": [
+        {
+          "id": "r14q1",
+          "type": "multiple_choice",
+          "question": "Was bedeutet das Solidaritätsprinzip in der GKV?",
+          "options": [
+            "a) Wer mehr verdient, bekommt bessere medizinische Leistungen.",
+            "b) Alle zahlen je nach Einkommen, erhalten aber die gleichen Leistungen.",
+            "c) Jeder Versicherte zahlt denselben festen Beitrag.",
+            "d) Nur Arbeitgeber finanzieren die Krankenversicherung."
+          ],
+          "answer": "b) Alle zahlen je nach Einkommen, erhalten aber die gleichen Leistungen.",
+          "explanation": "Das Solidaritätsprinzip bedeutet laut Text: 'Alle Versicherten zahlen einen einkommensabhängigen Beitrag, und jeder erhält unabhängig von der Beitragshöhe die gleichen medizinischen Leistungen.'"
+        },
+        {
+          "id": "r14q2",
+          "type": "true_false",
+          "question": "Familienmitglieder ohne Einkommen müssen in der GKV einen eigenen Beitrag zahlen.",
+          "answer": "falsch",
+          "explanation": "Falsch. Im Text steht: 'Familienmitglieder ohne eigenes Einkommen können beitragsfrei über die Familienversicherung mitversichert werden.'"
+        },
+        {
+          "id": "r14q3",
+          "type": "multiple_choice",
+          "question": "Ab welchem Betrag kann man sich von Zuzahlungen befreien lassen?",
+          "options": [
+            "a) Ab 100 Euro pro Jahr",
+            "b) Ab fünf Prozent des Bruttoeinkommens",
+            "c) Ab zwei Prozent des Bruttoeinkommens",
+            "d) Ab 500 Euro pro Jahr"
+          ],
+          "answer": "c) Ab zwei Prozent des Bruttoeinkommens",
+          "explanation": "Der Text erklärt: 'Sobald die jährlichen Zuzahlungen zwei Prozent des Bruttoeinkommens übersteigen, kann man sich von weiteren Zuzahlungen befreien lassen.' Für chronisch Kranke gilt sogar nur ein Prozent."
+        },
+        {
+          "id": "r14q4",
+          "type": "true_false",
+          "question": "In Deutschland ist man gesetzlich verpflichtet, vor einem Facharztbesuch eine Überweisung vom Hausarzt zu holen.",
+          "answer": "falsch",
+          "explanation": "Falsch. Im Text heißt es ausdrücklich: 'Obwohl in Deutschland keine formale Überweisungspflicht besteht', empfehlen die Krankenkassen lediglich den Hausarztbesuch als erste Anlaufstelle."
+        },
+        {
+          "id": "r14q5",
+          "type": "multiple_choice",
+          "question": "Wonach richtet sich der Beitrag in der privaten Krankenversicherung?",
+          "options": [
+            "a) Ausschließlich nach dem Einkommen",
+            "b) Nach dem Gesundheitszustand und dem gewählten Tarif",
+            "c) Nach der Anzahl der Familienmitglieder",
+            "d) Nach dem Wohnort des Versicherten"
+          ],
+          "answer": "b) Nach dem Gesundheitszustand und dem gewählten Tarif",
+          "explanation": "Im Text steht: 'Anders als in der GKV richtet sich der Beitrag nicht nach dem Einkommen, sondern nach dem individuellen Gesundheitszustand und dem gewählten Tarif.'"
+        }
+      ]
+    },
+    {
+      "id": "r15",
+      "type": "article",
+      "examPart": 1,
+      "level": "B2",
+      "title": "Antibiotikaresistenz: Eine wachsende Bedrohung für die moderne Medizin",
+      "source": "Deutsches Ärzteblatt (adaptiert)",
+      "text": "Die zunehmende Resistenz von Bakterien gegen Antibiotika gehört laut der Weltgesundheitsorganisation (WHO) zu den größten Bedrohungen für die globale Gesundheit. Eine im Fachjournal The Lancet veröffentlichte Studie schätzt, dass im Jahr 2019 weltweit etwa 1,27 Millionen Todesfälle direkt auf antibiotikaresistente Infektionen zurückzuführen waren. In Europa sterben jährlich rund 35.000 Menschen an Infektionen mit resistenten Erregern.\n\nDie Ursachen für die Entstehung von Resistenzen sind vielfältig. Ein wesentlicher Faktor ist der unsachgemäße Einsatz von Antibiotika in der Humanmedizin. Studien zeigen, dass in Deutschland bis zu 30 Prozent aller Antibiotikaverordnungen medizinisch nicht notwendig sind, etwa bei viralen Infekten der oberen Atemwege, gegen die Antibiotika wirkungslos sind. Darüber hinaus trägt der massive Einsatz von Antibiotika in der Tierhaltung erheblich zur Resistenzentwicklung bei. In der konventionellen Landwirtschaft werden Antibiotika nicht nur zur Behandlung kranker Tiere, sondern teilweise auch prophylaktisch eingesetzt.\n\nBesonders besorgniserregend ist die Ausbreitung multiresistenter Keime in Krankenhäusern. Der methicillinresistente Staphylococcus aureus (MRSA) und vancomycinresistente Enterokokken (VRE) stellen eine erhebliche Herausforderung für die Krankenhaushygiene dar. Patienten mit geschwächtem Immunsystem, ältere Menschen und Neugeborene sind besonders gefährdet. Strenge Hygieneprotokolle, regelmäßige Screenings bei der Aufnahme und die konsequente Isolierung betroffener Patienten sind entscheidende Maßnahmen zur Eindämmung.\n\nDie Forschung arbeitet intensiv an neuen Strategien. Neben der Entwicklung neuartiger Antibiotika werden alternative Ansätze wie die Phagentherapie, bei der Bakteriophagen gezielt gegen bestimmte Bakterien eingesetzt werden, sowie antimikrobielle Peptide erforscht. Gleichzeitig setzen Gesundheitsbehörden auf Aufklärungskampagnen, um das Bewusstsein in der Bevölkerung zu schärfen. Die wichtigste Botschaft lautet: Antibiotika sollten nur nach ärztlicher Verordnung eingenommen und die verschriebene Therapiedauer stets eingehalten werden.",
+      "questions": [
+        {
+          "id": "r15q1",
+          "type": "multiple_choice",
+          "question": "Wie viele Todesfälle wurden 2019 weltweit direkt durch antibiotikaresistente Infektionen verursacht?",
+          "options": [
+            "a) Etwa 35.000",
+            "b) Etwa 1,27 Millionen",
+            "c) Etwa 30 Prozent aller Infektionstodesfälle",
+            "d) Mehrere Hundert Millionen"
+          ],
+          "answer": "b) Etwa 1,27 Millionen",
+          "explanation": "Die Lancet-Studie schätzt laut Text, dass 'etwa 1,27 Millionen Todesfälle direkt auf antibiotikaresistente Infektionen zurückzuführen waren'. Die 35.000 beziehen sich nur auf Europa."
+        },
+        {
+          "id": "r15q2",
+          "type": "true_false",
+          "question": "Antibiotika werden in der Tierhaltung ausschließlich zur Behandlung kranker Tiere verwendet.",
+          "answer": "falsch",
+          "explanation": "Falsch. Der Text stellt klar, dass Antibiotika in der Tierhaltung 'nicht nur zur Behandlung kranker Tiere, sondern teilweise auch prophylaktisch eingesetzt' werden."
+        },
+        {
+          "id": "r15q3",
+          "type": "multiple_choice",
+          "question": "Warum sind viele Antibiotikaverordnungen in Deutschland unnötig?",
+          "options": [
+            "a) Weil die Patienten die Medikamente nicht richtig einnehmen",
+            "b) Weil Antibiotika oft bei viralen Infekten verschrieben werden, obwohl sie dagegen wirkungslos sind",
+            "c) Weil deutsche Antibiotika eine schlechte Qualität haben",
+            "d) Weil die Bakterien in Deutschland bereits alle resistent sind"
+          ],
+          "answer": "b) Weil Antibiotika oft bei viralen Infekten verschrieben werden, obwohl sie dagegen wirkungslos sind",
+          "explanation": "Der Text erklärt, dass 'bis zu 30 Prozent aller Antibiotikaverordnungen medizinisch nicht notwendig sind, etwa bei viralen Infekten der oberen Atemwege, gegen die Antibiotika wirkungslos sind'."
+        },
+        {
+          "id": "r15q4",
+          "type": "true_false",
+          "question": "MRSA und VRE sind Beispiele für multiresistente Krankenhauskeime.",
+          "answer": "richtig",
+          "explanation": "Richtig. Im Text werden 'der methicillinresistente Staphylococcus aureus (MRSA) und vancomycinresistente Enterokokken (VRE)' als Beispiele für multiresistente Keime in Krankenhäusern genannt."
+        },
+        {
+          "id": "r15q5",
+          "type": "multiple_choice",
+          "question": "Was ist die Phagentherapie?",
+          "options": [
+            "a) Eine Therapie mit besonders starken Antibiotika",
+            "b) Ein Verfahren, bei dem Bakteriophagen gezielt gegen Bakterien eingesetzt werden",
+            "c) Eine neue Form der Chemotherapie gegen Krebs",
+            "d) Eine Behandlung mit antimikrobiellen Cremes"
+          ],
+          "answer": "b) Ein Verfahren, bei dem Bakteriophagen gezielt gegen Bakterien eingesetzt werden",
+          "explanation": "Der Text beschreibt die Phagentherapie als einen Ansatz, 'bei der Bakteriophagen gezielt gegen bestimmte Bakterien eingesetzt werden'. Bakteriophagen sind Viren, die Bakterien befallen."
+        }
+      ]
+    },
+    {
+      "id": "r16",
+      "type": "formal",
+      "examPart": 3,
+      "level": "B2",
+      "title": "Entlassungsbericht: Knie-Totalendoprothese rechts",
+      "source": "Orthopädische Klinik Heidelberg (adaptiert)",
+      "text": "Sehr geehrte Frau Kollegin Dr. Hartmann,\n\nwir berichten Ihnen über den stationären Aufenthalt Ihres oben genannten Patienten, Herrn Walter Breitner, geb. 12.03.1958, der sich vom 15.01. bis zum 25.01.2026 in unserer orthopädischen Abteilung befand.\n\nDiagnosen:\n1. Fortgeschrittene Gonarthrose rechts (Kellgren-Lawrence Grad IV)\n2. Adipositas Grad I (BMI 32,4 kg/m²)\n3. Arterielle Hypertonie\n4. Diabetes mellitus Typ 2, diätetisch eingestellt\n\nAnamnese und Indikation: Herr Breitner litt seit mehreren Jahren unter zunehmenden belastungsabhängigen Schmerzen im rechten Kniegelenk mit eingeschränkter Gehstrecke auf unter 500 Meter. Konservative Maßnahmen einschließlich Physiotherapie, intraartikulärer Injektionen und analgetischer Therapie mit nichtsteroidalen Antirheumatika waren ausgeschöpft. Nach eingehender Beratung über Nutzen und Risiken des Eingriffs entschied sich der Patient für die operative Versorgung.\n\nTherapie und Verlauf: Am 16.01.2026 erfolgte die Implantation einer zementierten Knie-Totalendoprothese rechts in Spinalanästhesie. Der intraoperative Verlauf war komplikationslos. Die perioperative Antibiotikaprophylaxe erfolgte mit Cefazolin. Am ersten postoperativen Tag konnte der Patient unter krankengymnastischer Anleitung mobilisiert werden. Die Wundheilung verlief primär und reizlos. Die Thromboseprophylaxe wurde mit niedermolekularem Heparin durchgeführt.\n\nBei Entlassung betrug die aktive Flexion des rechten Kniegelenks 90 Grad bei voller Streckfähigkeit. Der Patient konnte mit Unterarmgehstützen sicher mobilisiert werden. Die Wundverhältnisse waren bland, die Fäden werden am zwölften postoperativen Tag entfernt. Der Patient wird zur Anschlussheilbehandlung in die Rehabilitationsklinik Bad Wildbad verlegt.\n\nMedikation bei Entlassung:\n- Ramipril 5 mg 1-0-0\n- Metformin 1000 mg 1-0-1\n- Enoxaparin 40 mg s.c. 0-0-1 (für 35 Tage postoperativ)\n- Ibuprofen 600 mg 1-0-1 bei Bedarf\n- Pantoprazol 20 mg 1-0-0\n\nMit freundlichen kollegialen Grüßen\nProf. Dr. med. K. Schreiber\nChefarzt der Orthopädischen Klinik",
+      "questions": [
+        {
+          "id": "r16q1",
+          "type": "true_false",
+          "question": "Herr Breitner wurde am linken Knie operiert.",
+          "answer": "falsch",
+          "explanation": "Falsch. Sowohl die Diagnose ('Gonarthrose rechts') als auch der Therapiebericht ('Knie-Totalendoprothese rechts') beziehen sich eindeutig auf das rechte Knie."
+        },
+        {
+          "id": "r16q2",
+          "type": "multiple_choice",
+          "question": "Warum wurde Herr Breitner operiert?",
+          "options": [
+            "a) Weil er einen Sportunfall hatte",
+            "b) Weil konservative Behandlungen nicht mehr ausreichten und die Schmerzen zu stark waren",
+            "c) Weil sein Hausarzt die Operation dringend empfohlen hat",
+            "d) Weil seine Krankenkasse die konservativen Therapien nicht mehr bezahlen wollte"
+          ],
+          "answer": "b) Weil konservative Behandlungen nicht mehr ausreichten und die Schmerzen zu stark waren",
+          "explanation": "Der Text erklärt: 'Konservative Maßnahmen einschließlich Physiotherapie, intraartikulärer Injektionen und analgetischer Therapie waren ausgeschöpft.' Die Gehstrecke war auf unter 500 Meter eingeschränkt."
+        },
+        {
+          "id": "r16q3",
+          "type": "true_false",
+          "question": "Der Patient wurde unter Vollnarkose operiert.",
+          "answer": "falsch",
+          "explanation": "Falsch. Im Text steht: 'in Spinalanästhesie'. Eine Spinalanästhesie ist eine Regionalanästhesie, bei der nur die untere Körperhälfte betäubt wird — keine Vollnarkose."
+        },
+        {
+          "id": "r16q4",
+          "type": "multiple_choice",
+          "question": "Wie weit konnte der Patient sein Knie bei der Entlassung beugen?",
+          "options": [
+            "a) 45 Grad",
+            "b) 90 Grad",
+            "c) 120 Grad",
+            "d) Das Knie konnte noch nicht gebeugt werden."
+          ],
+          "answer": "b) 90 Grad",
+          "explanation": "Der Entlassungsbericht hält fest: 'Bei Entlassung betrug die aktive Flexion des rechten Kniegelenks 90 Grad bei voller Streckfähigkeit.'"
+        },
+        {
+          "id": "r16q5",
+          "type": "multiple_choice",
+          "question": "Was geschieht nach der Entlassung aus dem Krankenhaus?",
+          "options": [
+            "a) Der Patient erholt sich zu Hause ohne weitere Behandlung.",
+            "b) Der Patient wird in eine Rehabilitationsklinik verlegt.",
+            "c) Der Patient bleibt noch vier Wochen im Krankenhaus.",
+            "d) Der Patient wird sofort von der Hausärztin weiterbehandelt."
+          ],
+          "answer": "b) Der Patient wird in eine Rehabilitationsklinik verlegt.",
+          "explanation": "Im Text steht: 'Der Patient wird zur Anschlussheilbehandlung in die Rehabilitationsklinik Bad Wildbad verlegt.' Die Anschlussheilbehandlung (AHB) folgt direkt auf den Krankenhausaufenthalt."
+        }
+      ]
+    },
+    {
+      "id": "r17",
+      "type": "article",
+      "examPart": 2,
+      "level": "B2",
+      "title": "Diabetes Typ 2: Praktische Tipps für den Alltag",
+      "source": "Deutsche Diabetes-Hilfe (adaptiert)",
+      "text": "Die Diagnose Diabetes mellitus Typ 2 verändert den Alltag vieler Betroffener grundlegend. Doch mit dem richtigen Wissen und konsequentem Selbstmanagement lässt sich die Erkrankung gut kontrollieren und die Lebensqualität erhalten. Dieser Ratgeber fasst die wichtigsten Empfehlungen zusammen.\n\nBlutzuckermessung: Die regelmäßige Selbstmessung des Blutzuckers ist ein zentraler Bestandteil der Diabetestherapie. Ihr behandelnder Arzt legt fest, wie oft Sie messen sollten — in der Regel nüchtern am Morgen und zwei Stunden nach den Hauptmahlzeiten. Der Nüchternblutzucker sollte zwischen 80 und 130 mg/dl liegen, der Wert nach dem Essen unter 180 mg/dl. Tragen Sie alle Werte in Ihr Blutzuckertagebuch ein und bringen Sie es zu jedem Arztbesuch mit.\n\nErnährung: Eine ausgewogene, ballaststoffreiche Ernährung hilft, den Blutzucker stabil zu halten. Bevorzugen Sie Vollkornprodukte, Gemüse, Hülsenfrüchte und magere Eiweißquellen. Vermeiden Sie zuckerhaltige Getränke und stark verarbeitete Lebensmittel. Essen Sie regelmäßig und lassen Sie keine Mahlzeiten aus, da dies zu starken Blutzuckerschwankungen führen kann. Alkohol sollte nur in Maßen konsumiert werden, da er das Risiko einer Unterzuckerung erhöhen kann.\n\nBewegung: Körperliche Aktivität verbessert die Insulinempfindlichkeit und senkt den Blutzucker auf natürliche Weise. Empfohlen werden mindestens 150 Minuten moderate Bewegung pro Woche, zum Beispiel zügiges Gehen, Schwimmen oder Radfahren. Beginnen Sie langsam und steigern Sie die Intensität schrittweise. Messen Sie Ihren Blutzucker vor und nach dem Sport, um Unterzuckerungen zu vermeiden. Besprechen Sie Ihr Sportprogramm mit Ihrem Arzt, besonders wenn Sie insulinpflichtig sind.\n\nFußpflege: Diabetes kann die Durchblutung und das Schmerzempfinden in den Füßen beeinträchtigen. Kontrollieren Sie Ihre Füße täglich auf Rötungen, Druckstellen, Blasen oder kleine Verletzungen. Waschen Sie Ihre Füße mit lauwarmem Wasser und trocknen Sie sie sorgfältig ab, besonders zwischen den Zehen. Tragen Sie bequeme, gut sitzende Schuhe und gehen Sie nicht barfuß. Lassen Sie Ihre Füße mindestens einmal jährlich ärztlich untersuchen.\n\nVorsorgeuntersuchungen: Neben der Blutzuckerkontrolle sind regelmäßige Vorsorgeuntersuchungen unverzichtbar. Dazu gehören vierteljährliche HbA1c-Bestimmungen, jährliche Augenuntersuchungen beim Ophthalmologen zur Früherkennung einer diabetischen Retinopathie sowie regelmäßige Kontrollen der Nierenwerte und des Blutdrucks.",
+      "questions": [
+        {
+          "id": "r17q1",
+          "type": "multiple_choice",
+          "question": "Welcher Nüchternblutzuckerwert wird im Ratgeber als Zielbereich empfohlen?",
+          "options": [
+            "a) Unter 80 mg/dl",
+            "b) Zwischen 80 und 130 mg/dl",
+            "c) Zwischen 130 und 180 mg/dl",
+            "d) Über 180 mg/dl"
+          ],
+          "answer": "b) Zwischen 80 und 130 mg/dl",
+          "explanation": "Im Text steht: 'Der Nüchternblutzucker sollte zwischen 80 und 130 mg/dl liegen.' Der Wert nach dem Essen sollte unter 180 mg/dl bleiben."
+        },
+        {
+          "id": "r17q2",
+          "type": "true_false",
+          "question": "Diabetiker sollten Mahlzeiten auslassen, um den Blutzucker niedrig zu halten.",
+          "answer": "falsch",
+          "explanation": "Falsch. Der Text warnt ausdrücklich: 'Lassen Sie keine Mahlzeiten aus, da dies zu starken Blutzuckerschwankungen führen kann.' Regelmäßiges Essen ist wichtig."
+        },
+        {
+          "id": "r17q3",
+          "type": "multiple_choice",
+          "question": "Wie viel Bewegung pro Woche wird empfohlen?",
+          "options": [
+            "a) Mindestens 60 Minuten",
+            "b) Mindestens 90 Minuten",
+            "c) Mindestens 150 Minuten",
+            "d) Mindestens 300 Minuten"
+          ],
+          "answer": "c) Mindestens 150 Minuten",
+          "explanation": "Der Ratgeber empfiehlt 'mindestens 150 Minuten moderate Bewegung pro Woche', zum Beispiel zügiges Gehen, Schwimmen oder Radfahren."
+        },
+        {
+          "id": "r17q4",
+          "type": "true_false",
+          "question": "Diabetiker sollen ihre Füße einmal pro Woche kontrollieren.",
+          "answer": "falsch",
+          "explanation": "Falsch. Der Text empfiehlt: 'Kontrollieren Sie Ihre Füße täglich auf Rötungen, Druckstellen, Blasen oder kleine Verletzungen.' Täglich, nicht wöchentlich."
+        },
+        {
+          "id": "r17q5",
+          "type": "multiple_choice",
+          "question": "Warum sollten Diabetiker regelmäßig zum Augenarzt gehen?",
+          "options": [
+            "a) Weil Diabetes die Sehschärfe sofort verschlechtert",
+            "b) Zur Früherkennung einer diabetischen Retinopathie",
+            "c) Weil die Krankenkasse es verlangt",
+            "d) Weil Blutzuckermessgeräte die Augen schädigen"
+          ],
+          "answer": "b) Zur Früherkennung einer diabetischen Retinopathie",
+          "explanation": "Im Text steht: 'jährliche Augenuntersuchungen beim Ophthalmologen zur Früherkennung einer diabetischen Retinopathie'. Die Retinopathie ist eine Schädigung der Netzhaut durch Diabetes."
+        }
+      ]
+    },
+    {
+      "id": "r18",
+      "type": "article",
+      "examPart": 1,
+      "level": "B2",
+      "title": "Medizinethik im Krankenhausalltag: Patientenrechte und ärztliche Pflichten",
+      "source": "Bundesärztekammer (adaptiert)",
+      "text": "Die medizinische Ethik bildet das Fundament einer verantwortungsvollen Patientenversorgung. Im deutschen Gesundheitswesen sind ethische Grundsätze nicht nur moralische Richtlinien, sondern weitgehend auch gesetzlich verankert. Drei zentrale Konzepte prägen den Krankenhausalltag besonders: die informierte Einwilligung, die ärztliche Schweigepflicht und die Patientenverfügung.\n\nDie informierte Einwilligung — im Fachausdruck Informed Consent — ist eine rechtliche Voraussetzung für jede medizinische Behandlung. Bevor ein Arzt eine Untersuchung, eine Operation oder eine medikamentöse Therapie durchführt, muss er den Patienten umfassend aufklären. Diese Aufklärung umfasst die Diagnose, die vorgeschlagene Behandlung, deren Risiken und Nebenwirkungen sowie mögliche Alternativen. Der Patient muss die Informationen verstehen und freiwillig zustimmen können. Bei Sprachbarrieren muss ein qualifizierter Dolmetscher hinzugezogen werden. Die Aufklärung darf nicht erst unmittelbar vor dem Eingriff erfolgen, sondern muss so rechtzeitig stattfinden, dass der Patient ausreichend Bedenkzeit hat.\n\nDie ärztliche Schweigepflicht gehört zu den ältesten ethischen Prinzipien der Medizin und ist in § 203 des Strafgesetzbuches verankert. Ärzte dürfen keine Informationen über ihre Patienten an Dritte weitergeben — weder an Familienangehörige noch an Arbeitgeber oder Behörden —, es sei denn, der Patient hat ausdrücklich eingewilligt oder es besteht eine gesetzliche Meldepflicht, etwa bei bestimmten Infektionskrankheiten. Auch gegenüber anderen Ärzten besteht die Schweigepflicht, sofern diese nicht unmittelbar an der Behandlung beteiligt sind. Verstöße gegen die Schweigepflicht können strafrechtlich verfolgt werden.\n\nDie Patientenverfügung gewinnt in der alternden Gesellschaft zunehmend an Bedeutung. In diesem Dokument kann jeder volljährige Mensch im Voraus festlegen, welche medizinischen Maßnahmen er im Falle einer Entscheidungsunfähigkeit wünscht oder ablehnt. Typische Festlegungen betreffen die künstliche Beatmung, die Dialyse, die Wiederbelebung und die künstliche Ernährung. Seit 2009 ist die Patientenverfügung in Deutschland gesetzlich geregelt und für Ärzte bindend, sofern sie auf die aktuelle Situation zutrifft. Ärzte sind verpflichtet, den in der Verfügung dokumentierten Patientenwillen zu respektieren, auch wenn sie persönlich eine andere medizinische Entscheidung treffen würden.\n\nIn der Praxis entstehen dennoch regelmäßig ethische Konflikte. Was geschieht, wenn Angehörige eine andere Behandlung wünschen als die Patientenverfügung vorsieht? Wie geht man vor, wenn die Verfügung unklar formuliert ist? Für solche Fälle gibt es in vielen Krankenhäusern ein Klinisches Ethikkomitee, das beratend zur Seite steht und zwischen den Beteiligten vermittelt. Das Ethikkomitee trifft keine verbindlichen Entscheidungen, sondern erarbeitet Empfehlungen, die den behandelnden Ärzten als Orientierung dienen.",
+      "questions": [
+        {
+          "id": "r18q1",
+          "type": "multiple_choice",
+          "question": "Was muss bei der informierten Einwilligung beachtet werden?",
+          "options": [
+            "a) Die Aufklärung kann auch mündlich durch eine Krankenschwester erfolgen.",
+            "b) Der Patient muss umfassend über Diagnose, Behandlung, Risiken und Alternativen informiert werden.",
+            "c) Die Einwilligung ist nur bei Operationen erforderlich, nicht bei Medikamenten.",
+            "d) Die Aufklärung muss spätestens fünf Minuten vor dem Eingriff erfolgen."
+          ],
+          "answer": "b) Der Patient muss umfassend über Diagnose, Behandlung, Risiken und Alternativen informiert werden.",
+          "explanation": "Der Text erklärt: 'Diese Aufklärung umfasst die Diagnose, die vorgeschlagene Behandlung, deren Risiken und Nebenwirkungen sowie mögliche Alternativen.' Die Aufklärung muss rechtzeitig und durch den Arzt erfolgen."
+        },
+        {
+          "id": "r18q2",
+          "type": "true_false",
+          "question": "Ärzte dürfen Informationen über einen Patienten an dessen Familienangehörige weitergeben.",
+          "answer": "falsch",
+          "explanation": "Falsch. Der Text stellt klar: 'Ärzte dürfen keine Informationen über ihre Patienten an Dritte weitergeben — weder an Familienangehörige noch an Arbeitgeber oder Behörden —, es sei denn, der Patient hat ausdrücklich eingewilligt.'"
+        },
+        {
+          "id": "r18q3",
+          "type": "multiple_choice",
+          "question": "Seit wann ist die Patientenverfügung in Deutschland gesetzlich geregelt?",
+          "options": [
+            "a) Seit 1990",
+            "b) Seit 2005",
+            "c) Seit 2009",
+            "d) Seit 2015"
+          ],
+          "answer": "c) Seit 2009",
+          "explanation": "Im Text steht: 'Seit 2009 ist die Patientenverfügung in Deutschland gesetzlich geregelt und für Ärzte bindend.'"
+        },
+        {
+          "id": "r18q4",
+          "type": "true_false",
+          "question": "Das Klinische Ethikkomitee trifft verbindliche Entscheidungen über die Behandlung von Patienten.",
+          "answer": "falsch",
+          "explanation": "Falsch. Der Text stellt klar: 'Das Ethikkomitee trifft keine verbindlichen Entscheidungen, sondern erarbeitet Empfehlungen, die den behandelnden Ärzten als Orientierung dienen.'"
+        },
+        {
+          "id": "r18q5",
+          "type": "multiple_choice",
+          "question": "In welchem Gesetz ist die ärztliche Schweigepflicht verankert?",
+          "options": [
+            "a) Im Grundgesetz",
+            "b) Im Bürgerlichen Gesetzbuch",
+            "c) Im Strafgesetzbuch (§ 203)",
+            "d) Im Sozialgesetzbuch"
+          ],
+          "answer": "c) Im Strafgesetzbuch (§ 203)",
+          "explanation": "Der Text sagt: 'Die ärztliche Schweigepflicht ist in § 203 des Strafgesetzbuches verankert.' Verstöße können strafrechtlich verfolgt werden."
+        }
+      ]
+    },
+    {
+      "id": "r19",
+      "type": "article",
+      "examPart": 1,
+      "level": "B2",
+      "title": "Familienleben im Wandel",
+      "source": "Bundeszentrale für politische Bildung (adaptiert)",
+      "text": "Das Bild der deutschen Familie hat sich in den vergangenen Jahrzehnten grundlegend verändert. Noch in den 1960er-Jahren galt das Modell der Alleinverdiener-Ehe als selbstverständlich: Der Vater ging arbeiten, die Mutter kümmerte sich um Haushalt und Kinder. Heute sieht die Realität völlig anders aus. Patchworkfamilien, in denen Kinder aus verschiedenen Beziehungen unter einem Dach leben, sind längst keine Seltenheit mehr. Nach Angaben des Statistischen Bundesamtes wächst mittlerweile etwa jedes zehnte Kind in einer solchen Familienform auf.\n\nBesonders auffällig ist der Wandel bei der Vaterrolle. Seit der Einführung des Elterngeldes im Jahr 2007 nehmen immer mehr Väter eine berufliche Auszeit, um sich um ihre Neugeborenen zu kümmern. Inzwischen beantragen rund 25 Prozent aller Väter Elternzeit, auch wenn die meisten davon nur die zwei sogenannten Partnermonate in Anspruch nehmen. Gesellschaftlich wird es zunehmend akzeptiert, dass Männer windeln, füttern und den Kinderwagen schieben — eine Entwicklung, die vor einer Generation noch undenkbar gewesen wäre.\n\nEin zentrales Thema für junge Familien bleibt die Kinderbetreuung. Seit 2013 haben Kinder ab dem ersten Lebensjahr einen Rechtsanspruch auf einen Kita-Platz. In der Praxis mangelt es jedoch vielerorts an ausreichend Betreuungsplätzen. Besonders in Großstädten stehen Eltern oft monatelang auf Wartelisten. Die Qualität der Betreuung variiert ebenfalls stark: Während einige Einrichtungen einen Betreuungsschlüssel von einer Erzieherin für vier Kinder haben, sind es anderswo doppelt so viele.\n\nAuch die Großeltern spielen eine veränderte Rolle. Viele Großmütter und Großväter sind heute selbst noch berufstätig oder leben weit entfernt von ihren Enkeln. Das traditionelle Drei-Generationen-Haus, in dem Großeltern selbstverständlich bei der Betreuung halfen, ist zur Ausnahme geworden. Stattdessen organisieren sich viele Familien über Nachbarschaftsnetzwerke oder Elterninitiativen, um die Herausforderungen des Alltags gemeinsam zu bewältigen.",
+      "questions": [
+        {
+          "id": "r19q1",
+          "type": "multiple_choice",
+          "question": "Welches Familienmodell galt in den 1960er-Jahren als selbstverständlich?",
+          "options": [
+            "a) Die Patchworkfamilie mit Kindern aus verschiedenen Beziehungen",
+            "b) Die Alleinverdiener-Ehe, in der der Vater arbeitete und die Mutter zu Hause blieb",
+            "c) Das Drei-Generationen-Haus mit Großeltern im selben Haushalt",
+            "d) Die gleichberechtigte Doppelverdiener-Ehe"
+          ],
+          "answer": "b) Die Alleinverdiener-Ehe, in der der Vater arbeitete und die Mutter zu Hause blieb",
+          "explanation": "Im Text steht: 'Noch in den 1960er-Jahren galt das Modell der Alleinverdiener-Ehe als selbstverständlich: Der Vater ging arbeiten, die Mutter kümmerte sich um Haushalt und Kinder.'"
+        },
+        {
+          "id": "r19q2",
+          "type": "true_false",
+          "question": "Etwa jedes dritte Kind in Deutschland wächst in einer Patchworkfamilie auf.",
+          "answer": "falsch",
+          "explanation": "Falsch. Der Text sagt: 'Nach Angaben des Statistischen Bundesamtes wächst mittlerweile etwa jedes zehnte Kind in einer solchen Familienform auf.' Jedes zehnte, nicht jedes dritte."
+        },
+        {
+          "id": "r19q3",
+          "type": "multiple_choice",
+          "question": "Seit wann haben Kinder ab dem ersten Lebensjahr einen Rechtsanspruch auf einen Kita-Platz?",
+          "options": [
+            "a) Seit 2007",
+            "b) Seit 2010",
+            "c) Seit 2013",
+            "d) Seit 2015"
+          ],
+          "answer": "c) Seit 2013",
+          "explanation": "Der Text nennt das Jahr ausdrücklich: 'Seit 2013 haben Kinder ab dem ersten Lebensjahr einen Rechtsanspruch auf einen Kita-Platz.'"
+        },
+        {
+          "id": "r19q4",
+          "type": "multiple_choice",
+          "question": "Wie viel Prozent der Väter beantragen inzwischen Elternzeit?",
+          "options": [
+            "a) Etwa 10 Prozent",
+            "b) Etwa 25 Prozent",
+            "c) Etwa 40 Prozent",
+            "d) Etwa 50 Prozent"
+          ],
+          "answer": "b) Etwa 25 Prozent",
+          "explanation": "Im Text heißt es: 'Inzwischen beantragen rund 25 Prozent aller Väter Elternzeit, auch wenn die meisten davon nur die zwei sogenannten Partnermonate in Anspruch nehmen.'"
+        },
+        {
+          "id": "r19q5",
+          "type": "true_false",
+          "question": "Das Drei-Generationen-Haus ist heute die häufigste Wohnform deutscher Familien.",
+          "answer": "falsch",
+          "explanation": "Falsch. Laut Text ist 'das traditionelle Drei-Generationen-Haus zur Ausnahme geworden'. Stattdessen organisieren sich Familien über Nachbarschaftsnetzwerke oder Elterninitiativen."
+        }
+      ]
+    },
+    {
+      "id": "r20",
+      "type": "article",
+      "examPart": 2,
+      "level": "B2",
+      "title": "Wohnungssuche in der Großstadt",
+      "source": "Der Tagesspiegel (adaptiert)",
+      "text": "Wer in einer deutschen Großstadt eine bezahlbare Wohnung sucht, braucht vor allem eines: Geduld. In Städten wie München, Frankfurt und Berlin übersteigt die Nachfrage das Angebot bei Weitem. Besichtigungstermine gleichen Massenveranstaltungen, bei denen sich fünfzig oder mehr Interessenten eine Zweizimmerwohnung ansehen. Für viele Menschen wird die Wohnungssuche zu einer monatelangen Belastungsprobe.\n\nUm den rasanten Anstieg der Mietpreise einzudämmen, hat die Bundesregierung 2015 die sogenannte Mietpreisbremse eingeführt. Dieses Gesetz besagt, dass die Miete bei einer Neuvermietung höchstens zehn Prozent über der ortsüblichen Vergleichsmiete liegen darf. In der Praxis zeigt sich jedoch, dass die Regelung zahlreiche Ausnahmen kennt — etwa für Neubauten oder umfassend modernisierte Wohnungen — und dass viele Vermieter die Vorgaben schlicht ignorieren. Mietervereine raten deshalb, die Vormiete zu erfragen und im Zweifelsfall rechtliche Beratung zu suchen.\n\nWer eine Wohnung gefunden hat, steht vor weiteren Hürden. Vermieter verlangen in der Regel eine Schufa-Auskunft, die Aufschluss über die Kreditwürdigkeit des Mieters gibt. Dazu kommen Gehaltsnachweise, eine Mietschuldfreiheitsbescheinigung des vorherigen Vermieters und nicht selten eine Selbstauskunft mit persönlichen Angaben. Die Kaution beträgt üblicherweise drei Nettokaltmieten und muss entweder als Barkaution auf ein separates Konto eingezahlt oder als Bankbürgschaft hinterlegt werden.\n\nEine Alternative, die besonders unter jungen Menschen und Studierenden beliebt ist, stellt die Wohngemeinschaft dar. In einer WG teilen sich mehrere Personen eine größere Wohnung und damit auch die Kosten. Das spart nicht nur Geld, sondern bietet auch Gesellschaft — gerade für Menschen, die neu in eine Stadt gezogen sind. Allerdings erfordert das WG-Leben Kompromissbereitschaft: Putzpläne, Einkaufslisten und unterschiedliche Schlafgewohnheiten sorgen regelmäßig für Diskussionen. Manche WGs führen deshalb wöchentliche Mitbewohnertreffen ein, bei denen Konflikte offen besprochen werden.",
+      "questions": [
+        {
+          "id": "r20q1",
+          "type": "multiple_choice",
+          "question": "Was besagt die Mietpreisbremse?",
+          "options": [
+            "a) Die Miete darf bei Neuvermietung nicht erhöht werden.",
+            "b) Die Miete darf höchstens zehn Prozent über der ortsüblichen Vergleichsmiete liegen.",
+            "c) Neubauten dürfen nicht teurer als Altbauten vermietet werden.",
+            "d) Die Miete darf nur alle fünf Jahre angepasst werden."
+          ],
+          "answer": "b) Die Miete darf höchstens zehn Prozent über der ortsüblichen Vergleichsmiete liegen.",
+          "explanation": "Der Text erklärt: 'Dieses Gesetz besagt, dass die Miete bei einer Neuvermietung höchstens zehn Prozent über der ortsüblichen Vergleichsmiete liegen darf.'"
+        },
+        {
+          "id": "r20q2",
+          "type": "true_false",
+          "question": "Die Mietpreisbremse gilt ausnahmslos für alle Wohnungen.",
+          "answer": "falsch",
+          "explanation": "Falsch. Im Text steht, dass 'die Regelung zahlreiche Ausnahmen kennt — etwa für Neubauten oder umfassend modernisierte Wohnungen'."
+        },
+        {
+          "id": "r20q3",
+          "type": "multiple_choice",
+          "question": "Welche Unterlagen verlangen Vermieter in der Regel?",
+          "options": [
+            "a) Nur den Personalausweis",
+            "b) Schufa-Auskunft, Gehaltsnachweise und Mietschuldfreiheitsbescheinigung",
+            "c) Ein polizeiliches Führungszeugnis und den Arbeitsvertrag",
+            "d) Die Steuererklärung der letzten drei Jahre"
+          ],
+          "answer": "b) Schufa-Auskunft, Gehaltsnachweise und Mietschuldfreiheitsbescheinigung",
+          "explanation": "Der Text zählt auf: 'Vermieter verlangen in der Regel eine Schufa-Auskunft, Gehaltsnachweise, eine Mietschuldfreiheitsbescheinigung des vorherigen Vermieters und nicht selten eine Selbstauskunft.'"
+        },
+        {
+          "id": "r20q4",
+          "type": "multiple_choice",
+          "question": "Wie hoch ist die übliche Kaution?",
+          "options": [
+            "a) Eine Nettokaltmiete",
+            "b) Zwei Nettokaltmieten",
+            "c) Drei Nettokaltmieten",
+            "d) Sechs Nettokaltmieten"
+          ],
+          "answer": "c) Drei Nettokaltmieten",
+          "explanation": "Im Text steht: 'Die Kaution beträgt üblicherweise drei Nettokaltmieten.'"
+        },
+        {
+          "id": "r20q5",
+          "type": "true_false",
+          "question": "In einer WG werden Konflikte am besten vermieden, indem man nicht darüber spricht.",
+          "answer": "falsch",
+          "explanation": "Falsch. Der Text beschreibt das Gegenteil: 'Manche WGs führen deshalb wöchentliche Mitbewohnertreffen ein, bei denen Konflikte offen besprochen werden.' Offene Kommunikation ist der Schlüssel."
+        }
+      ]
+    },
+    {
+      "id": "r21",
+      "type": "article",
+      "examPart": 1,
+      "level": "B2",
+      "title": "Ernährung und Nachhaltigkeit",
+      "source": "Verbraucherzentrale (adaptiert)",
+      "text": "Was wir essen, hat nicht nur Auswirkungen auf unsere Gesundheit, sondern auch auf die Umwelt. In Deutschland wächst das Bewusstsein für nachhaltige Ernährung stetig. Bio-Lebensmittel, die ohne synthetische Pestizide und Kunstdünger hergestellt werden, haben ihren Marktanteil in den letzten zehn Jahren verdoppelt. Rund 14 Milliarden Euro geben die Deutschen jährlich für Bio-Produkte aus — Tendenz steigend. Doch Bio allein reicht vielen nicht mehr aus.\n\nDer Trend zur veganen Ernährung hat in den vergangenen Jahren stark zugenommen. Schätzungen zufolge leben in Deutschland mittlerweile rund 1,5 Millionen Menschen vegan, also ohne jegliche tierische Produkte. Die Gründe sind vielfältig: Tierwohl, Klimaschutz und gesundheitliche Überlegungen spielen gleichermaßen eine Rolle. Supermärkte haben ihr veganes Sortiment massiv erweitert, und in den Innenstädten eröffnen immer mehr rein pflanzliche Restaurants. Kritiker weisen allerdings darauf hin, dass auch vegane Produkte nicht automatisch umweltfreundlich sind — etwa wenn Avocados oder Cashewnüsse aus Übersee eingeflogen werden.\n\nEin weiteres drängendes Problem ist die Lebensmittelverschwendung. Pro Jahr landen in Deutschland rund elf Millionen Tonnen Lebensmittel im Müll. Mehr als die Hälfte davon entfällt auf Privathaushalte, die zu viel einkaufen oder Reste nicht verwerten. Initiativen wie die Tafel, die überschüssige Lebensmittel an Bedürftige verteilt, oder Apps, über die Restaurants und Bäckereien ihre übrig gebliebenen Waren vergünstigt anbieten, gewinnen an Bedeutung. Auch der Gesetzgeber reagiert: Seit 2023 müssen große Supermärkte in einigen Bundesländern unverkaufte Lebensmittel spenden statt wegwerfen.\n\nEinen besonders konsequenten Ansatz verfolgen die sogenannten Unverpackt-Läden. In diesen Geschäften bringen die Kunden eigene Behälter mit und füllen Reis, Nudeln, Müsli, Gewürze oder Waschmittel in der gewünschten Menge ab. So fällt kein Verpackungsmüll an. Der erste Unverpackt-Laden in Deutschland öffnete 2014 in Kiel. Mittlerweile gibt es über 300 solcher Geschäfte im ganzen Land. Trotz des Wachstums kämpfen viele Betreiber mit hohen Kosten und der Konkurrenz durch Discounter. Die nachhaltigste Ernährung, so sind sich Experten einig, ist letztlich regional, saisonal und möglichst pflanzlich.",
+      "questions": [
+        {
+          "id": "r21q1",
+          "type": "multiple_choice",
+          "question": "Wie viel geben die Deutschen jährlich für Bio-Produkte aus?",
+          "options": [
+            "a) Rund 7 Milliarden Euro",
+            "b) Rund 10 Milliarden Euro",
+            "c) Rund 14 Milliarden Euro",
+            "d) Rund 20 Milliarden Euro"
+          ],
+          "answer": "c) Rund 14 Milliarden Euro",
+          "explanation": "Der Text nennt die Zahl: 'Rund 14 Milliarden Euro geben die Deutschen jährlich für Bio-Produkte aus.'"
+        },
+        {
+          "id": "r21q2",
+          "type": "true_false",
+          "question": "Vegane Produkte sind immer umweltfreundlicher als tierische Produkte.",
+          "answer": "falsch",
+          "explanation": "Falsch. Der Text weist darauf hin, dass 'auch vegane Produkte nicht automatisch umweltfreundlich sind — etwa wenn Avocados oder Cashewnüsse aus Übersee eingeflogen werden'."
+        },
+        {
+          "id": "r21q3",
+          "type": "multiple_choice",
+          "question": "Wie viele Tonnen Lebensmittel landen in Deutschland pro Jahr im Müll?",
+          "options": [
+            "a) Rund 3 Millionen Tonnen",
+            "b) Rund 7 Millionen Tonnen",
+            "c) Rund 11 Millionen Tonnen",
+            "d) Rund 18 Millionen Tonnen"
+          ],
+          "answer": "c) Rund 11 Millionen Tonnen",
+          "explanation": "Im Text steht: 'Pro Jahr landen in Deutschland rund elf Millionen Tonnen Lebensmittel im Müll.'"
+        },
+        {
+          "id": "r21q4",
+          "type": "multiple_choice",
+          "question": "Was ist das Konzept der Unverpackt-Läden?",
+          "options": [
+            "a) Lebensmittel werden nur online bestellt und nach Hause geliefert.",
+            "b) Kunden bringen eigene Behälter mit und füllen Produkte in der gewünschten Menge ab.",
+            "c) Alle Produkte werden in kompostierbaren Verpackungen verkauft.",
+            "d) Es werden nur regionale Produkte ohne Preisschilder angeboten."
+          ],
+          "answer": "b) Kunden bringen eigene Behälter mit und füllen Produkte in der gewünschten Menge ab.",
+          "explanation": "Der Text erklärt: 'In diesen Geschäften bringen die Kunden eigene Behälter mit und füllen Reis, Nudeln, Müsli, Gewürze oder Waschmittel in der gewünschten Menge ab. So fällt kein Verpackungsmüll an.'"
+        },
+        {
+          "id": "r21q5",
+          "type": "true_false",
+          "question": "Der erste Unverpackt-Laden in Deutschland wurde in Berlin eröffnet.",
+          "answer": "falsch",
+          "explanation": "Falsch. Laut Text 'öffnete der erste Unverpackt-Laden in Deutschland 2014 in Kiel', nicht in Berlin."
+        }
+      ]
+    },
+    {
+      "id": "r22",
+      "type": "article",
+      "examPart": 2,
+      "level": "B2",
+      "title": "Vereinbarkeit von Familie und Beruf",
+      "source": "Bundesministerium für Familie (adaptiert)",
+      "text": "Die Vereinbarkeit von Familie und Beruf gehört zu den drängendsten gesellschaftlichen Themen in Deutschland. Obwohl sich in den letzten Jahrzehnten vieles verbessert hat, stehen insbesondere Mütter vor der Herausforderung, Kindererziehung und berufliche Karriere miteinander zu verbinden. Studien zeigen, dass 72 Prozent der Mütter mit Kindern unter sechs Jahren erwerbstätig sind — allerdings arbeiten die meisten von ihnen in Teilzeit, während die Väter überwiegend vollzeitbeschäftigt bleiben.\n\nDas Elterngeld, das seit 2007 gezahlt wird, gilt als Meilenstein der Familienpolitik. Für maximal 14 Monate erhalten Eltern 65 bis 67 Prozent ihres letzten Nettoeinkommens, höchstens jedoch 1.800 Euro monatlich. Voraussetzung ist, dass beide Elternteile mindestens zwei Monate Elternzeit nehmen — die sogenannten Partnermonate. Seit 2015 gibt es zusätzlich das ElterngeldPlus, das eine Kombination aus Teilzeitarbeit und Elterngeldbezug über einen längeren Zeitraum ermöglicht. So können Eltern schrittweise in den Beruf zurückkehren, ohne auf finanzielle Unterstützung verzichten zu müssen.\n\nDie Corona-Pandemie hat die Arbeitswelt nachhaltig verändert und dem Homeoffice zum Durchbruch verholfen. Viele Unternehmen bieten inzwischen hybride Arbeitsmodelle an, bei denen Beschäftigte zwei oder drei Tage pro Woche von zu Hause arbeiten können. Für Eltern bedeutet das mehr Flexibilität bei der Kinderbetreuung — etwa wenn das Kind krank ist oder die Kita schließt. Gleichzeitig warnen Arbeitspsychologen vor der Vermischung von Beruf und Privatleben: Wer abends am Laptop sitzt, während die Kinder ins Bett gebracht werden, erlebt weder echte Arbeitszeit noch echte Familienzeit.\n\nEin weiterer wichtiger Faktor ist die betriebliche Kinderbetreuung. Große Unternehmen wie Siemens, BMW oder die Deutsche Bahn unterhalten eigene Betriebskindergärten. Für kleinere Betriebe gibt es staatliche Zuschüsse, wenn sie sich an überbetrieblichen Kinderbetreuungseinrichtungen beteiligen. Fachleute fordern zudem einen weiteren Ausbau der Ganztagsschulen, damit Eltern nicht schon mittags ihre Kinder abholen müssen. Seit 2026 gilt ein Rechtsanspruch auf Ganztagsbetreuung für Grundschulkinder — ein wichtiger Schritt, der allerdings nur wirkt, wenn genügend Personal vorhanden ist.",
+      "questions": [
+        {
+          "id": "r22q1",
+          "type": "multiple_choice",
+          "question": "Wie hoch ist der maximale monatliche Elterngeldbetrag?",
+          "options": [
+            "a) 1.200 Euro",
+            "b) 1.500 Euro",
+            "c) 1.800 Euro",
+            "d) 2.100 Euro"
+          ],
+          "answer": "c) 1.800 Euro",
+          "explanation": "Im Text steht: 'Für maximal 14 Monate erhalten Eltern 65 bis 67 Prozent ihres letzten Nettoeinkommens, höchstens jedoch 1.800 Euro monatlich.'"
+        },
+        {
+          "id": "r22q2",
+          "type": "true_false",
+          "question": "Die Mehrheit der Mütter mit Kindern unter sechs Jahren arbeitet in Vollzeit.",
+          "answer": "falsch",
+          "explanation": "Falsch. Der Text sagt: '72 Prozent der Mütter mit Kindern unter sechs Jahren sind erwerbstätig — allerdings arbeiten die meisten von ihnen in Teilzeit.'"
+        },
+        {
+          "id": "r22q3",
+          "type": "multiple_choice",
+          "question": "Was ermöglicht das ElterngeldPlus?",
+          "options": [
+            "a) Einen höheren monatlichen Elterngeldbetrag als das reguläre Elterngeld",
+            "b) Eine Kombination aus Teilzeitarbeit und Elterngeldbezug über einen längeren Zeitraum",
+            "c) Die vollständige Freistellung beider Elternteile für zwei Jahre",
+            "d) Einen Zuschuss für die private Kinderbetreuung zu Hause"
+          ],
+          "answer": "b) Eine Kombination aus Teilzeitarbeit und Elterngeldbezug über einen längeren Zeitraum",
+          "explanation": "Der Text erklärt: 'Das ElterngeldPlus ermöglicht eine Kombination aus Teilzeitarbeit und Elterngeldbezug über einen längeren Zeitraum. So können Eltern schrittweise in den Beruf zurückkehren.'"
+        },
+        {
+          "id": "r22q4",
+          "type": "true_false",
+          "question": "Arbeitspsychologen sehen das Homeoffice für Eltern ausschließlich positiv.",
+          "answer": "falsch",
+          "explanation": "Falsch. Laut Text 'warnen Arbeitspsychologen vor der Vermischung von Beruf und Privatleben'. Sie sehen also durchaus auch Risiken."
+        },
+        {
+          "id": "r22q5",
+          "type": "multiple_choice",
+          "question": "Seit wann gilt der Rechtsanspruch auf Ganztagsbetreuung für Grundschulkinder?",
+          "options": [
+            "a) Seit 2022",
+            "b) Seit 2024",
+            "c) Seit 2026",
+            "d) Ab 2030"
+          ],
+          "answer": "c) Seit 2026",
+          "explanation": "Im Text steht: 'Seit 2026 gilt ein Rechtsanspruch auf Ganztagsbetreuung für Grundschulkinder.'"
+        }
+      ]
+    },
+    {
+      "id": "r23",
+      "type": "article",
+      "examPart": 1,
+      "level": "B2",
+      "title": "Digitalisierung im Alltag",
+      "source": "Frankfurter Allgemeine Zeitung (adaptiert)",
+      "text": "Die Digitalisierung hat den Alltag der Menschen in Deutschland in den letzten Jahren tiefgreifend verändert. Bankgeschäfte, Behördengänge, Einkäufe und soziale Kontakte — vieles findet heute online statt. Laut einer Studie des Digitalverbands Bitkom nutzen über 80 Prozent der Deutschen Online-Banking, um Überweisungen zu tätigen, Kontostände zu prüfen oder Daueraufträge einzurichten. Filialen werden immer seltener aufgesucht, und viele Banken haben in ländlichen Gebieten ihre Zweigstellen geschlossen.\n\nAuch die öffentliche Verwaltung setzt zunehmend auf digitale Lösungen. Unter dem Stichwort E-Government können Bürger inzwischen zahlreiche Behördenleistungen online erledigen: die Kfz-Zulassung, die Steuererklärung über das Portal ELSTER oder die Beantragung von Wohngeld. Dennoch hinkt Deutschland im europäischen Vergleich hinterher. Während in Estland nahezu alle Verwaltungsvorgänge digital abgewickelt werden können, erfordern hierzulande viele Anträge noch den persönlichen Besuch beim Amt — oft mit langen Wartezeiten und umständlicher Terminvergabe.\n\nEin Thema, das viele Bürger umtreibt, ist der Datenschutz. Die europäische Datenschutz-Grundverordnung, kurz DSGVO, regelt seit 2018, wie Unternehmen und Behörden mit personenbezogenen Daten umgehen dürfen. Jeder Bürger hat das Recht zu erfahren, welche Daten über ihn gespeichert sind, und kann deren Löschung verlangen. In der Praxis fühlen sich jedoch viele Menschen überfordert von der Flut an Cookie-Bannern und Einwilligungserklärungen. Verbraucherschützer kritisieren, dass die Zustimmung zur Datenverarbeitung oft so kompliziert gestaltet ist, dass Nutzer aus Bequemlichkeit einfach allem zustimmen.\n\nIm privaten Bereich gewinnt das Konzept des Smart Home an Bedeutung. Intelligente Thermostate regeln die Heizung automatisch, Sprachassistenten steuern Licht und Musik, und vernetzte Türklingeln zeigen auf dem Smartphone, wer vor der Tür steht. Rund 15 Prozent der deutschen Haushalte nutzen bereits mindestens ein Smart-Home-Gerät. Experten prognostizieren, dass sich diese Zahl in den nächsten fünf Jahren verdoppeln wird. Skeptiker warnen allerdings vor Sicherheitslücken: Jedes vernetzte Gerät ist ein potenzielles Einfallstor für Hackerangriffe. Wer sein Zuhause digitalisiert, sollte daher auf starke Passwörter und regelmäßige Software-Updates achten.",
+      "questions": [
+        {
+          "id": "r23q1",
+          "type": "multiple_choice",
+          "question": "Wie viel Prozent der Deutschen nutzen Online-Banking?",
+          "options": [
+            "a) Über 60 Prozent",
+            "b) Über 70 Prozent",
+            "c) Über 80 Prozent",
+            "d) Über 90 Prozent"
+          ],
+          "answer": "c) Über 80 Prozent",
+          "explanation": "Im Text steht: 'Laut einer Studie des Digitalverbands Bitkom nutzen über 80 Prozent der Deutschen Online-Banking.'"
+        },
+        {
+          "id": "r23q2",
+          "type": "true_false",
+          "question": "Deutschland ist bei der Digitalisierung der Verwaltung europaweit führend.",
+          "answer": "falsch",
+          "explanation": "Falsch. Der Text sagt das Gegenteil: 'Deutschland hinkt im europäischen Vergleich hinterher.' Als Vorreiter wird Estland genannt."
+        },
+        {
+          "id": "r23q3",
+          "type": "multiple_choice",
+          "question": "Was kritisieren Verbraucherschützer an der Umsetzung der DSGVO?",
+          "options": [
+            "a) Dass die DSGVO den Datenschutz nicht ausreichend schützt",
+            "b) Dass die Zustimmung zur Datenverarbeitung so kompliziert gestaltet ist, dass Nutzer aus Bequemlichkeit allem zustimmen",
+            "c) Dass die DSGVO nur für deutsche Unternehmen gilt",
+            "d) Dass persönliche Daten nicht mehr gespeichert werden dürfen"
+          ],
+          "answer": "b) Dass die Zustimmung zur Datenverarbeitung so kompliziert gestaltet ist, dass Nutzer aus Bequemlichkeit allem zustimmen",
+          "explanation": "Der Text erklärt: 'Verbraucherschützer kritisieren, dass die Zustimmung zur Datenverarbeitung oft so kompliziert gestaltet ist, dass Nutzer aus Bequemlichkeit einfach allem zustimmen.'"
+        },
+        {
+          "id": "r23q4",
+          "type": "multiple_choice",
+          "question": "Wie viel Prozent der deutschen Haushalte nutzen bereits Smart-Home-Geräte?",
+          "options": [
+            "a) Rund 5 Prozent",
+            "b) Rund 15 Prozent",
+            "c) Rund 30 Prozent",
+            "d) Rund 50 Prozent"
+          ],
+          "answer": "b) Rund 15 Prozent",
+          "explanation": "Im Text heißt es: 'Rund 15 Prozent der deutschen Haushalte nutzen bereits mindestens ein Smart-Home-Gerät.'"
+        },
+        {
+          "id": "r23q5",
+          "type": "true_false",
+          "question": "Vernetzte Smart-Home-Geräte stellen laut Experten keinerlei Sicherheitsrisiko dar.",
+          "answer": "falsch",
+          "explanation": "Falsch. Der Text warnt: 'Skeptiker warnen vor Sicherheitslücken: Jedes vernetzte Gerät ist ein potenzielles Einfallstor für Hackerangriffe.'"
+        }
+      ]
+    },
+    {
+      "id": "r24",
+      "type": "article",
+      "examPart": 2,
+      "level": "B2",
+      "title": "Nachbarschaft und Zusammenleben",
+      "source": "Deutschlandfunk Kultur (adaptiert)",
+      "text": "In einem Mehrfamilienhaus in Deutschland zu leben bedeutet, mit unterschiedlichsten Menschen Tür an Tür zu wohnen. Ob es dabei harmonisch zugeht, hängt oft von den kleinen Dingen ab: Wird die Hausordnung eingehalten? Ist es nach 22 Uhr ruhig? Wer reinigt das Treppenhaus? Die Hausordnung, die in vielen Mietshäusern im Flur aushängt, regelt genau solche Fragen. Sie legt Ruhezeiten fest — üblicherweise zwischen 22 Uhr und 6 Uhr sowie an Sonn- und Feiertagen — und bestimmt, wann Wäsche im Keller gewaschen werden darf oder wie der Müll getrennt wird.\n\nTrotzdem sind Nachbarschaftskonflikte einer der häufigsten Streitgründe in Deutschland. Laut einer Umfrage des Deutschen Mieterbundes hat jeder dritte Mieter schon einmal ernsthafte Auseinandersetzungen mit Nachbarn gehabt. Die häufigsten Ursachen sind Lärmbelästigung, Geruchsbelästigung — etwa durch Grillen auf dem Balkon — und Meinungsverschiedenheiten über die Nutzung von Gemeinschaftsflächen. Manche Konflikte eskalieren so sehr, dass Anwälte oder Mediatoren eingeschaltet werden müssen. Experten raten deshalb, Probleme frühzeitig und direkt anzusprechen, bevor sie sich verhärten.\n\nBesonders bereichernd, aber auch herausfordernd, kann das Zusammenleben in einem interkulturellen Umfeld sein. In vielen deutschen Großstädten haben über 30 Prozent der Bewohner einen Migrationshintergrund. Unterschiedliche Vorstellungen von Lautstärke, Gastfreundschaft oder Essgewohnheiten führen manchmal zu Missverständnissen. Interkulturelle Nachbarschaftsprojekte, bei denen Bewohner gemeinsam kochen, Feste feiern oder Sprachkurse besuchen, haben sich als wirksames Mittel gegen Vorurteile erwiesen. In Hamburg etwa organisiert das Projekt 'Nachbarn im Quartier' regelmäßige Begegnungscafes, in denen Menschen verschiedener Herkunft ins Gespräch kommen.\n\nWenn es um größere Probleme in der Nachbarschaft geht — etwa den geplanten Abriss eines Spielplatzes, fehlende Radwege oder zunehmenden Verkehrslärm —, schließen sich Bürger häufig zu einer Bürgerinitiative zusammen. Diese Initiativen sammeln Unterschriften, organisieren Informationsveranstaltungen und treten in den Dialog mit der Kommunalpolitik. In vielen Fällen haben Bürgerinitiativen tatsächlich Einfluss auf politische Entscheidungen genommen, etwa indem sie den Bau eines neuen Einkaufszentrums verhindert oder die Einrichtung einer Tempo-30-Zone durchgesetzt haben. Engagement in der Nachbarschaft, so zeigt sich, ist gelebte Demokratie.",
+      "questions": [
+        {
+          "id": "r24q1",
+          "type": "multiple_choice",
+          "question": "Was regelt die Hausordnung in deutschen Mietshäusern?",
+          "options": [
+            "a) Ausschließlich die Höhe der monatlichen Miete",
+            "b) Ruhezeiten, Treppenhausreinigung und Mülltrennungsregeln",
+            "c) Die politische Gesinnung der Bewohner",
+            "d) Die maximale Anzahl der Personen pro Wohnung"
+          ],
+          "answer": "b) Ruhezeiten, Treppenhausreinigung und Mülltrennungsregeln",
+          "explanation": "Der Text erklärt, dass die Hausordnung 'Ruhezeiten festlegt' und bestimmt, 'wann Wäsche gewaschen werden darf oder wie der Müll getrennt wird'. Auch die Treppenhausreinigung wird genannt."
+        },
+        {
+          "id": "r24q2",
+          "type": "true_false",
+          "question": "Nur wenige Mieter in Deutschland hatten jemals Konflikte mit ihren Nachbarn.",
+          "answer": "falsch",
+          "explanation": "Falsch. Der Text berichtet: 'Laut einer Umfrage des Deutschen Mieterbundes hat jeder dritte Mieter schon einmal ernsthafte Auseinandersetzungen mit Nachbarn gehabt.' Das ist ein beträchtlicher Anteil."
+        },
+        {
+          "id": "r24q3",
+          "type": "multiple_choice",
+          "question": "Was haben sich interkulturelle Nachbarschaftsprojekte als wirksames Mittel erwiesen?",
+          "options": [
+            "a) Als Mittel zur Senkung der Mietpreise",
+            "b) Als Mittel gegen Vorurteile",
+            "c) Als Mittel zur Verbesserung der Deutschkenntnisse",
+            "d) Als Mittel zur Steigerung des Immobilienwerts"
+          ],
+          "answer": "b) Als Mittel gegen Vorurteile",
+          "explanation": "Im Text steht: 'Interkulturelle Nachbarschaftsprojekte haben sich als wirksames Mittel gegen Vorurteile erwiesen.'"
+        },
+        {
+          "id": "r24q4",
+          "type": "multiple_choice",
+          "question": "Was tun Bürgerinitiativen, um Probleme in der Nachbarschaft zu lösen?",
+          "options": [
+            "a) Sie rufen die Polizei und erstatten Anzeige.",
+            "b) Sie sammeln Unterschriften, organisieren Veranstaltungen und treten in den Dialog mit der Kommunalpolitik.",
+            "c) Sie blockieren die Straßen und verhindern den Verkehr.",
+            "d) Sie gründen eigene politische Parteien."
+          ],
+          "answer": "b) Sie sammeln Unterschriften, organisieren Veranstaltungen und treten in den Dialog mit der Kommunalpolitik.",
+          "explanation": "Der Text beschreibt: 'Diese Initiativen sammeln Unterschriften, organisieren Informationsveranstaltungen und treten in den Dialog mit der Kommunalpolitik.'"
+        },
+        {
+          "id": "r24q5",
+          "type": "true_false",
+          "question": "Bürgerinitiativen haben in Deutschland noch nie politische Entscheidungen beeinflusst.",
+          "answer": "falsch",
+          "explanation": "Falsch. Der Text nennt konkrete Erfolge: 'In vielen Fällen haben Bürgerinitiativen tatsächlich Einfluss auf politische Entscheidungen genommen, etwa indem sie den Bau eines neuen Einkaufszentrums verhindert oder die Einrichtung einer Tempo-30-Zone durchgesetzt haben.'"
         }
       ]
     }

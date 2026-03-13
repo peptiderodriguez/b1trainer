@@ -37511,5 +37511,1263 @@
         "plural": "Hälse"
       }
     }
+  },
+  {
+    "word": "der Befund",
+    "noun": "Befund",
+    "article": "der",
+    "plural": "Befunde",
+    "translation": "finding, result",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Der Befund der Blutuntersuchung war unauffällig.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Befund", "plural": "Befunde"},
+      "genitiv": {"singular": "Befundes", "plural": "Befunde"},
+      "dativ": {"singular": "Befund", "plural": "Befunden"},
+      "akkusativ": {"singular": "Befund", "plural": "Befunde"}
+    }
+  },
+  {
+    "word": "die Diagnose",
+    "noun": "Diagnose",
+    "article": "die",
+    "plural": "Diagnosen",
+    "translation": "diagnosis",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Diagnose wurde nach der Untersuchung gestellt.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Diagnose", "plural": "Diagnosen"},
+      "genitiv": {"singular": "Diagnose", "plural": "Diagnosen"},
+      "dativ": {"singular": "Diagnose", "plural": "Diagnosen"},
+      "akkusativ": {"singular": "Diagnose", "plural": "Diagnosen"}
+    }
+  },
+  {
+    "word": "die Prognose",
+    "noun": "Prognose",
+    "article": "die",
+    "plural": "Prognosen",
+    "translation": "prognosis",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Prognose für den Patienten ist günstig.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Prognose", "plural": "Prognosen"},
+      "genitiv": {"singular": "Prognose", "plural": "Prognosen"},
+      "dativ": {"singular": "Prognose", "plural": "Prognosen"},
+      "akkusativ": {"singular": "Prognose", "plural": "Prognosen"}
+    }
+  },
+  {
+    "word": "die Therapie",
+    "noun": "Therapie",
+    "article": "die",
+    "plural": "Therapien",
+    "translation": "therapy, treatment",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Therapie dauert voraussichtlich sechs Wochen.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Therapie", "plural": "Therapien"},
+      "genitiv": {"singular": "Therapie", "plural": "Therapien"},
+      "dativ": {"singular": "Therapie", "plural": "Therapien"},
+      "akkusativ": {"singular": "Therapie", "plural": "Therapien"}
+    }
+  },
+  {
+    "word": "die Anamnese",
+    "noun": "Anamnese",
+    "article": "die",
+    "plural": "Anamnesen",
+    "translation": "medical history",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Anamnese ergab keine relevanten Vorerkrankungen.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Anamnese", "plural": "Anamnesen"},
+      "genitiv": {"singular": "Anamnese", "plural": "Anamnesen"},
+      "dativ": {"singular": "Anamnese", "plural": "Anamnesen"},
+      "akkusativ": {"singular": "Anamnese", "plural": "Anamnesen"}
+    }
+  },
+  {
+    "word": "die Epikrise",
+    "noun": "Epikrise",
+    "article": "die",
+    "plural": "Epikrisen",
+    "translation": "epicrisis, discharge summary",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Epikrise fasst den gesamten Krankheitsverlauf zusammen.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Epikrise", "plural": "Epikrisen"},
+      "genitiv": {"singular": "Epikrise", "plural": "Epikrisen"},
+      "dativ": {"singular": "Epikrise", "plural": "Epikrisen"},
+      "akkusativ": {"singular": "Epikrise", "plural": "Epikrisen"}
+    }
+  },
+  {
+    "word": "die Überweisung",
+    "noun": "Überweisung",
+    "article": "die",
+    "plural": "Überweisungen",
+    "translation": "referral (medical)",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Der Hausarzt hat eine Überweisung zum Facharzt ausgestellt.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Überweisung", "plural": "Überweisungen"},
+      "genitiv": {"singular": "Überweisung", "plural": "Überweisungen"},
+      "dativ": {"singular": "Überweisung", "plural": "Überweisungen"},
+      "akkusativ": {"singular": "Überweisung", "plural": "Überweisungen"}
+    }
+  },
+  {
+    "word": "die Einweisung",
+    "noun": "Einweisung",
+    "article": "die",
+    "plural": "Einweisungen",
+    "translation": "hospital admission",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Einweisung ins Krankenhaus erfolgte als Notfall.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Einweisung", "plural": "Einweisungen"},
+      "genitiv": {"singular": "Einweisung", "plural": "Einweisungen"},
+      "dativ": {"singular": "Einweisung", "plural": "Einweisungen"},
+      "akkusativ": {"singular": "Einweisung", "plural": "Einweisungen"}
+    }
+  },
+  {
+    "word": "die Entzündung",
+    "noun": "Entzündung",
+    "article": "die",
+    "plural": "Entzündungen",
+    "translation": "inflammation",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Entzündung im Kniegelenk ist zurückgegangen.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Entzündung", "plural": "Entzündungen"},
+      "genitiv": {"singular": "Entzündung", "plural": "Entzündungen"},
+      "dativ": {"singular": "Entzündung", "plural": "Entzündungen"},
+      "akkusativ": {"singular": "Entzündung", "plural": "Entzündungen"}
+    }
+  },
+  {
+    "word": "die Fraktur",
+    "noun": "Fraktur",
+    "article": "die",
+    "plural": "Frakturen",
+    "translation": "fracture",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Fraktur des Unterarms wurde geröntgt.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Fraktur", "plural": "Frakturen"},
+      "genitiv": {"singular": "Fraktur", "plural": "Frakturen"},
+      "dativ": {"singular": "Fraktur", "plural": "Frakturen"},
+      "akkusativ": {"singular": "Fraktur", "plural": "Frakturen"}
+    }
+  },
+  {
+    "word": "die Thrombose",
+    "noun": "Thrombose",
+    "article": "die",
+    "plural": "Thrombosen",
+    "translation": "thrombosis",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Zur Vorbeugung einer Thrombose erhält der Patient Heparin.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Thrombose", "plural": "Thrombosen"},
+      "genitiv": {"singular": "Thrombose", "plural": "Thrombosen"},
+      "dativ": {"singular": "Thrombose", "plural": "Thrombosen"},
+      "akkusativ": {"singular": "Thrombose", "plural": "Thrombosen"}
+    }
+  },
+  {
+    "word": "die Embolie",
+    "noun": "Embolie",
+    "article": "die",
+    "plural": "Embolien",
+    "translation": "embolism",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Eine Lungenembolie ist ein lebensbedrohlicher Notfall.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Embolie", "plural": "Embolien"},
+      "genitiv": {"singular": "Embolie", "plural": "Embolien"},
+      "dativ": {"singular": "Embolie", "plural": "Embolien"},
+      "akkusativ": {"singular": "Embolie", "plural": "Embolien"}
+    }
+  },
+  {
+    "word": "der Tumor",
+    "noun": "Tumor",
+    "article": "der",
+    "plural": "Tumoren",
+    "translation": "tumor",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Der Tumor wurde bei der Untersuchung entdeckt.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Tumor", "plural": "Tumoren"},
+      "genitiv": {"singular": "Tumors", "plural": "Tumoren"},
+      "dativ": {"singular": "Tumor", "plural": "Tumoren"},
+      "akkusativ": {"singular": "Tumor", "plural": "Tumoren"}
+    }
+  },
+  {
+    "word": "die Metastase",
+    "noun": "Metastase",
+    "article": "die",
+    "plural": "Metastasen",
+    "translation": "metastasis",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Metastasen haben sich in die Leber ausgebreitet.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Metastase", "plural": "Metastasen"},
+      "genitiv": {"singular": "Metastase", "plural": "Metastasen"},
+      "dativ": {"singular": "Metastase", "plural": "Metastasen"},
+      "akkusativ": {"singular": "Metastase", "plural": "Metastasen"}
+    }
+  },
+  {
+    "word": "die Blutentnahme",
+    "noun": "Blutentnahme",
+    "article": "die",
+    "plural": "Blutentnahmen",
+    "translation": "blood draw",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Blutentnahme findet morgens nüchtern statt.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Blutentnahme", "plural": "Blutentnahmen"},
+      "genitiv": {"singular": "Blutentnahme", "plural": "Blutentnahmen"},
+      "dativ": {"singular": "Blutentnahme", "plural": "Blutentnahmen"},
+      "akkusativ": {"singular": "Blutentnahme", "plural": "Blutentnahmen"}
+    }
+  },
+  {
+    "word": "die Infusion",
+    "noun": "Infusion",
+    "article": "die",
+    "plural": "Infusionen",
+    "translation": "infusion, IV drip",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Der Patient erhält eine Infusion mit Kochsalzlösung.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Infusion", "plural": "Infusionen"},
+      "genitiv": {"singular": "Infusion", "plural": "Infusionen"},
+      "dativ": {"singular": "Infusion", "plural": "Infusionen"},
+      "akkusativ": {"singular": "Infusion", "plural": "Infusionen"}
+    }
+  },
+  {
+    "word": "die Biopsie",
+    "noun": "Biopsie",
+    "article": "die",
+    "plural": "Biopsien",
+    "translation": "biopsy",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Biopsie ergab keinen Hinweis auf Malignität.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Biopsie", "plural": "Biopsien"},
+      "genitiv": {"singular": "Biopsie", "plural": "Biopsien"},
+      "dativ": {"singular": "Biopsie", "plural": "Biopsien"},
+      "akkusativ": {"singular": "Biopsie", "plural": "Biopsien"}
+    }
+  },
+  {
+    "word": "die Endoskopie",
+    "noun": "Endoskopie",
+    "article": "die",
+    "plural": "Endoskopien",
+    "translation": "endoscopy",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Endoskopie des Magens verlief ohne Befund.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Endoskopie", "plural": "Endoskopien"},
+      "genitiv": {"singular": "Endoskopie", "plural": "Endoskopien"},
+      "dativ": {"singular": "Endoskopie", "plural": "Endoskopien"},
+      "akkusativ": {"singular": "Endoskopie", "plural": "Endoskopien"}
+    }
+  },
+  {
+    "word": "die Sonografie",
+    "noun": "Sonografie",
+    "article": "die",
+    "plural": "Sonografien",
+    "translation": "ultrasound, sonography",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Sonografie zeigte keine Auffälligkeiten im Bauchraum.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Sonografie", "plural": "Sonografien"},
+      "genitiv": {"singular": "Sonografie", "plural": "Sonografien"},
+      "dativ": {"singular": "Sonografie", "plural": "Sonografien"},
+      "akkusativ": {"singular": "Sonografie", "plural": "Sonografien"}
+    }
+  },
+  {
+    "word": "das Stethoskop",
+    "noun": "Stethoskop",
+    "article": "das",
+    "plural": "Stethoskope",
+    "translation": "stethoscope",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Der Arzt hörte mit dem Stethoskop die Lunge ab.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Stethoskop", "plural": "Stethoskope"},
+      "genitiv": {"singular": "Stethoskops", "plural": "Stethoskope"},
+      "dativ": {"singular": "Stethoskop", "plural": "Stethoskopen"},
+      "akkusativ": {"singular": "Stethoskop", "plural": "Stethoskope"}
+    }
+  },
+  {
+    "word": "das Skalpell",
+    "noun": "Skalpell",
+    "article": "das",
+    "plural": "Skalpelle",
+    "translation": "scalpel",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Der Chirurg griff zum Skalpell für den ersten Schnitt.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Skalpell", "plural": "Skalpelle"},
+      "genitiv": {"singular": "Skalpells", "plural": "Skalpelle"},
+      "dativ": {"singular": "Skalpell", "plural": "Skalpellen"},
+      "akkusativ": {"singular": "Skalpell", "plural": "Skalpelle"}
+    }
+  },
+  {
+    "word": "die Kanüle",
+    "noun": "Kanüle",
+    "article": "die",
+    "plural": "Kanülen",
+    "translation": "cannula, needle",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Kanüle wurde in die Armvene eingeführt.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Kanüle", "plural": "Kanülen"},
+      "genitiv": {"singular": "Kanüle", "plural": "Kanülen"},
+      "dativ": {"singular": "Kanüle", "plural": "Kanülen"},
+      "akkusativ": {"singular": "Kanüle", "plural": "Kanülen"}
+    }
+  },
+  {
+    "word": "der Katheter",
+    "noun": "Katheter",
+    "article": "der",
+    "plural": "Katheter",
+    "translation": "catheter",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Der Katheter wurde unter sterilen Bedingungen gelegt.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Katheter", "plural": "Katheter"},
+      "genitiv": {"singular": "Katheters", "plural": "Katheter"},
+      "dativ": {"singular": "Katheter", "plural": "Kathetern"},
+      "akkusativ": {"singular": "Katheter", "plural": "Katheter"}
+    }
+  },
+  {
+    "word": "der Verband",
+    "noun": "Verband",
+    "article": "der",
+    "plural": "Verbände",
+    "translation": "bandage, dressing",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Der Verband muss täglich gewechselt werden.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Verband", "plural": "Verbände"},
+      "genitiv": {"singular": "Verbandes", "plural": "Verbände"},
+      "dativ": {"singular": "Verband", "plural": "Verbänden"},
+      "akkusativ": {"singular": "Verband", "plural": "Verbände"}
+    }
+  },
+  {
+    "word": "die Naht",
+    "noun": "Naht",
+    "article": "die",
+    "plural": "Nähte",
+    "translation": "suture, stitch",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Naht wurde nach zehn Tagen gezogen.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Naht", "plural": "Nähte"},
+      "genitiv": {"singular": "Naht", "plural": "Nähte"},
+      "dativ": {"singular": "Naht", "plural": "Nähten"},
+      "akkusativ": {"singular": "Naht", "plural": "Nähte"}
+    }
+  },
+  {
+    "word": "die Narkose",
+    "noun": "Narkose",
+    "article": "die",
+    "plural": "Narkosen",
+    "translation": "anesthesia (general)",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Operation wird unter Vollnarkose durchgeführt.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Narkose", "plural": "Narkosen"},
+      "genitiv": {"singular": "Narkose", "plural": "Narkosen"},
+      "dativ": {"singular": "Narkose", "plural": "Narkosen"},
+      "akkusativ": {"singular": "Narkose", "plural": "Narkosen"}
+    }
+  },
+  {
+    "word": "die Anästhesie",
+    "noun": "Anästhesie",
+    "article": "die",
+    "plural": "Anästhesien",
+    "translation": "anesthesia",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Anästhesie wurde von einem Facharzt eingeleitet.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Anästhesie", "plural": "Anästhesien"},
+      "genitiv": {"singular": "Anästhesie", "plural": "Anästhesien"},
+      "dativ": {"singular": "Anästhesie", "plural": "Anästhesien"},
+      "akkusativ": {"singular": "Anästhesie", "plural": "Anästhesien"}
+    }
+  },
+  {
+    "word": "die Reanimation",
+    "noun": "Reanimation",
+    "article": "die",
+    "plural": "Reanimationen",
+    "translation": "resuscitation",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Reanimation war erfolgreich und der Patient stabilisierte sich.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Reanimation", "plural": "Reanimationen"},
+      "genitiv": {"singular": "Reanimation", "plural": "Reanimationen"},
+      "dativ": {"singular": "Reanimation", "plural": "Reanimationen"},
+      "akkusativ": {"singular": "Reanimation", "plural": "Reanimationen"}
+    }
+  },
+  {
+    "word": "die Intensivstation",
+    "noun": "Intensivstation",
+    "article": "die",
+    "plural": "Intensivstationen",
+    "translation": "intensive care unit",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Der Patient wurde auf die Intensivstation verlegt.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Intensivstation", "plural": "Intensivstationen"},
+      "genitiv": {"singular": "Intensivstation", "plural": "Intensivstationen"},
+      "dativ": {"singular": "Intensivstation", "plural": "Intensivstationen"},
+      "akkusativ": {"singular": "Intensivstation", "plural": "Intensivstationen"}
+    }
+  },
+  {
+    "word": "die Notaufnahme",
+    "noun": "Notaufnahme",
+    "article": "die",
+    "plural": "Notaufnahmen",
+    "translation": "emergency room",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Notaufnahme ist rund um die Uhr besetzt.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Notaufnahme", "plural": "Notaufnahmen"},
+      "genitiv": {"singular": "Notaufnahme", "plural": "Notaufnahmen"},
+      "dativ": {"singular": "Notaufnahme", "plural": "Notaufnahmen"},
+      "akkusativ": {"singular": "Notaufnahme", "plural": "Notaufnahmen"}
+    }
+  },
+  {
+    "word": "die Ambulanz",
+    "noun": "Ambulanz",
+    "article": "die",
+    "plural": "Ambulanzen",
+    "translation": "outpatient clinic, ambulance",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Ambulanz behandelt Patienten ohne stationäre Aufnahme.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Ambulanz", "plural": "Ambulanzen"},
+      "genitiv": {"singular": "Ambulanz", "plural": "Ambulanzen"},
+      "dativ": {"singular": "Ambulanz", "plural": "Ambulanzen"},
+      "akkusativ": {"singular": "Ambulanz", "plural": "Ambulanzen"}
+    }
+  },
+  {
+    "word": "die Visite",
+    "noun": "Visite",
+    "article": "die",
+    "plural": "Visiten",
+    "translation": "ward round",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Visite findet jeden Morgen um acht Uhr statt.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Visite", "plural": "Visiten"},
+      "genitiv": {"singular": "Visite", "plural": "Visiten"},
+      "dativ": {"singular": "Visite", "plural": "Visiten"},
+      "akkusativ": {"singular": "Visite", "plural": "Visiten"}
+    }
+  },
+  {
+    "word": "der Chefarzt",
+    "noun": "Chefarzt",
+    "article": "der",
+    "plural": "Chefärzte",
+    "translation": "head physician",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Der Chefarzt leitet die chirurgische Abteilung.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Chefarzt", "plural": "Chefärzte"},
+      "genitiv": {"singular": "Chefarztes", "plural": "Chefärzte"},
+      "dativ": {"singular": "Chefarzt", "plural": "Chefärzten"},
+      "akkusativ": {"singular": "Chefarzt", "plural": "Chefärzte"}
+    }
+  },
+  {
+    "word": "der Oberarzt",
+    "noun": "Oberarzt",
+    "article": "der",
+    "plural": "Oberärzte",
+    "translation": "senior physician",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Der Oberarzt hat die Operation durchgeführt.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Oberarzt", "plural": "Oberärzte"},
+      "genitiv": {"singular": "Oberarztes", "plural": "Oberärzte"},
+      "dativ": {"singular": "Oberarzt", "plural": "Oberärzten"},
+      "akkusativ": {"singular": "Oberarzt", "plural": "Oberärzte"}
+    }
+  },
+  {
+    "word": "der Assistenzarzt",
+    "noun": "Assistenzarzt",
+    "article": "der",
+    "plural": "Assistenzärzte",
+    "translation": "resident physician",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Der Assistenzarzt dokumentiert den Befund in der Akte.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Assistenzarzt", "plural": "Assistenzärzte"},
+      "genitiv": {"singular": "Assistenzarztes", "plural": "Assistenzärzte"},
+      "dativ": {"singular": "Assistenzarzt", "plural": "Assistenzärzten"},
+      "akkusativ": {"singular": "Assistenzarzt", "plural": "Assistenzärzte"}
+    }
+  },
+  {
+    "word": "die Krankenschwester",
+    "noun": "Krankenschwester",
+    "article": "die",
+    "plural": "Krankenschwestern",
+    "translation": "nurse (female)",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Krankenschwester hat den Blutdruck gemessen.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Krankenschwester", "plural": "Krankenschwestern"},
+      "genitiv": {"singular": "Krankenschwester", "plural": "Krankenschwestern"},
+      "dativ": {"singular": "Krankenschwester", "plural": "Krankenschwestern"},
+      "akkusativ": {"singular": "Krankenschwester", "plural": "Krankenschwestern"}
+    }
+  },
+  {
+    "word": "der Pfleger",
+    "noun": "Pfleger",
+    "article": "der",
+    "plural": "Pfleger",
+    "translation": "nurse (male), caregiver",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Der Pfleger hilft dem Patienten beim Aufstehen.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Pfleger", "plural": "Pfleger"},
+      "genitiv": {"singular": "Pflegers", "plural": "Pfleger"},
+      "dativ": {"singular": "Pfleger", "plural": "Pflegern"},
+      "akkusativ": {"singular": "Pfleger", "plural": "Pfleger"}
+    }
+  },
+  {
+    "word": "die Heilung",
+    "noun": "Heilung",
+    "article": "die",
+    "plural": "Heilungen",
+    "translation": "healing, recovery",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Heilung der Wunde verläuft komplikationslos.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Heilung", "plural": "Heilungen"},
+      "genitiv": {"singular": "Heilung", "plural": "Heilungen"},
+      "dativ": {"singular": "Heilung", "plural": "Heilungen"},
+      "akkusativ": {"singular": "Heilung", "plural": "Heilungen"}
+    }
+  },
+  {
+    "word": "der Mietvertrag",
+    "noun": "Mietvertrag",
+    "article": "der",
+    "plural": "Mietverträge",
+    "translation": "rental agreement",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Der Mietvertrag wurde für drei Jahre abgeschlossen.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Mietvertrag", "plural": "Mietverträge"},
+      "genitiv": {"singular": "Mietvertrags", "plural": "Mietverträge"},
+      "dativ": {"singular": "Mietvertrag", "plural": "Mietverträgen"},
+      "akkusativ": {"singular": "Mietvertrag", "plural": "Mietverträge"}
+    }
+  },
+  {
+    "word": "die Kaution",
+    "noun": "Kaution",
+    "article": "die",
+    "plural": "Kautionen",
+    "translation": "security deposit",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Kaution beträgt drei Monatsmieten.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Kaution", "plural": "Kautionen"},
+      "genitiv": {"singular": "Kaution", "plural": "Kautionen"},
+      "dativ": {"singular": "Kaution", "plural": "Kautionen"},
+      "akkusativ": {"singular": "Kaution", "plural": "Kautionen"}
+    }
+  },
+  {
+    "word": "die Nebenkosten",
+    "noun": "Nebenkosten",
+    "article": "die",
+    "plural": "Nebenkosten",
+    "translation": "utilities, additional costs",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Nebenkosten werden einmal jährlich abgerechnet.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Nebenkosten", "plural": "Nebenkosten"},
+      "genitiv": {"singular": "Nebenkosten", "plural": "Nebenkosten"},
+      "dativ": {"singular": "Nebenkosten", "plural": "Nebenkosten"},
+      "akkusativ": {"singular": "Nebenkosten", "plural": "Nebenkosten"}
+    }
+  },
+  {
+    "word": "die Kündigung",
+    "noun": "Kündigung",
+    "article": "die",
+    "plural": "Kündigungen",
+    "translation": "termination, notice",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Kündigung muss schriftlich erfolgen.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Kündigung", "plural": "Kündigungen"},
+      "genitiv": {"singular": "Kündigung", "plural": "Kündigungen"},
+      "dativ": {"singular": "Kündigung", "plural": "Kündigungen"},
+      "akkusativ": {"singular": "Kündigung", "plural": "Kündigungen"}
+    }
+  },
+  {
+    "word": "der Vermieter",
+    "noun": "Vermieter",
+    "article": "der",
+    "plural": "Vermieter",
+    "translation": "landlord",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Der Vermieter hat die Wohnung renovieren lassen.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Vermieter", "plural": "Vermieter"},
+      "genitiv": {"singular": "Vermieters", "plural": "Vermieter"},
+      "dativ": {"singular": "Vermieter", "plural": "Vermietern"},
+      "akkusativ": {"singular": "Vermieter", "plural": "Vermieter"}
+    }
+  },
+  {
+    "word": "die Eigentumswohnung",
+    "noun": "Eigentumswohnung",
+    "article": "die",
+    "plural": "Eigentumswohnungen",
+    "translation": "condominium",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Sie haben eine Eigentumswohnung in der Innenstadt gekauft.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Eigentumswohnung", "plural": "Eigentumswohnungen"},
+      "genitiv": {"singular": "Eigentumswohnung", "plural": "Eigentumswohnungen"},
+      "dativ": {"singular": "Eigentumswohnung", "plural": "Eigentumswohnungen"},
+      "akkusativ": {"singular": "Eigentumswohnung", "plural": "Eigentumswohnungen"}
+    }
+  },
+  {
+    "word": "der Makler",
+    "noun": "Makler",
+    "article": "der",
+    "plural": "Makler",
+    "translation": "real estate agent",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Der Makler hat uns mehrere Wohnungen gezeigt.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Makler", "plural": "Makler"},
+      "genitiv": {"singular": "Maklers", "plural": "Makler"},
+      "dativ": {"singular": "Makler", "plural": "Maklern"},
+      "akkusativ": {"singular": "Makler", "plural": "Makler"}
+    }
+  },
+  {
+    "word": "der Grundriss",
+    "noun": "Grundriss",
+    "article": "der",
+    "plural": "Grundrisse",
+    "translation": "floor plan",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Der Grundriss zeigt eine Drei-Zimmer-Wohnung mit Balkon.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Grundriss", "plural": "Grundrisse"},
+      "genitiv": {"singular": "Grundrisses", "plural": "Grundrisse"},
+      "dativ": {"singular": "Grundriss", "plural": "Grundrissen"},
+      "akkusativ": {"singular": "Grundriss", "plural": "Grundrisse"}
+    }
+  },
+  {
+    "word": "die Elternzeit",
+    "noun": "Elternzeit",
+    "article": "die",
+    "plural": "Elternzeiten",
+    "translation": "parental leave",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Er nimmt sechs Monate Elternzeit nach der Geburt.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Elternzeit", "plural": "Elternzeiten"},
+      "genitiv": {"singular": "Elternzeit", "plural": "Elternzeiten"},
+      "dativ": {"singular": "Elternzeit", "plural": "Elternzeiten"},
+      "akkusativ": {"singular": "Elternzeit", "plural": "Elternzeiten"}
+    }
+  },
+  {
+    "word": "das Elterngeld",
+    "noun": "Elterngeld",
+    "article": "das",
+    "plural": "Elterngelder",
+    "translation": "parental allowance",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Das Elterngeld wird zwölf Monate lang gezahlt.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Elterngeld", "plural": "Elterngelder"},
+      "genitiv": {"singular": "Elterngeldes", "plural": "Elterngelder"},
+      "dativ": {"singular": "Elterngeld", "plural": "Elterngeldern"},
+      "akkusativ": {"singular": "Elterngeld", "plural": "Elterngelder"}
+    }
+  },
+  {
+    "word": "das Kindergeld",
+    "noun": "Kindergeld",
+    "article": "das",
+    "plural": "Kindergelder",
+    "translation": "child benefit",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Das Kindergeld wird monatlich auf das Konto überwiesen.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Kindergeld", "plural": "Kindergelder"},
+      "genitiv": {"singular": "Kindergeldes", "plural": "Kindergelder"},
+      "dativ": {"singular": "Kindergeld", "plural": "Kindergeldern"},
+      "akkusativ": {"singular": "Kindergeld", "plural": "Kindergelder"}
+    }
+  },
+  {
+    "word": "die Erziehung",
+    "noun": "Erziehung",
+    "article": "die",
+    "plural": "Erziehungen",
+    "translation": "upbringing, education",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Erziehung der Kinder ist eine gemeinsame Aufgabe.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Erziehung", "plural": "Erziehungen"},
+      "genitiv": {"singular": "Erziehung", "plural": "Erziehungen"},
+      "dativ": {"singular": "Erziehung", "plural": "Erziehungen"},
+      "akkusativ": {"singular": "Erziehung", "plural": "Erziehungen"}
+    }
+  },
+  {
+    "word": "die Schwangerschaft",
+    "noun": "Schwangerschaft",
+    "article": "die",
+    "plural": "Schwangerschaften",
+    "translation": "pregnancy",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Schwangerschaft verläuft ohne Komplikationen.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Schwangerschaft", "plural": "Schwangerschaften"},
+      "genitiv": {"singular": "Schwangerschaft", "plural": "Schwangerschaften"},
+      "dativ": {"singular": "Schwangerschaft", "plural": "Schwangerschaften"},
+      "akkusativ": {"singular": "Schwangerschaft", "plural": "Schwangerschaften"}
+    }
+  },
+  {
+    "word": "die Scheidung",
+    "noun": "Scheidung",
+    "article": "die",
+    "plural": "Scheidungen",
+    "translation": "divorce",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Scheidung wurde einvernehmlich beschlossen.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Scheidung", "plural": "Scheidungen"},
+      "genitiv": {"singular": "Scheidung", "plural": "Scheidungen"},
+      "dativ": {"singular": "Scheidung", "plural": "Scheidungen"},
+      "akkusativ": {"singular": "Scheidung", "plural": "Scheidungen"}
+    }
+  },
+  {
+    "word": "das Sorgerecht",
+    "noun": "Sorgerecht",
+    "article": "das",
+    "plural": "Sorgerechte",
+    "translation": "custody",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Das Sorgerecht wurde beiden Elternteilen zugesprochen.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Sorgerecht", "plural": "Sorgerechte"},
+      "genitiv": {"singular": "Sorgerechts", "plural": "Sorgerechte"},
+      "dativ": {"singular": "Sorgerecht", "plural": "Sorgerechten"},
+      "akkusativ": {"singular": "Sorgerecht", "plural": "Sorgerechte"}
+    }
+  },
+  {
+    "word": "die Steuererklärung",
+    "noun": "Steuererklärung",
+    "article": "die",
+    "plural": "Steuererklärungen",
+    "translation": "tax return",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Steuererklärung muss bis Juli eingereicht werden.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Steuererklärung", "plural": "Steuererklärungen"},
+      "genitiv": {"singular": "Steuererklärung", "plural": "Steuererklärungen"},
+      "dativ": {"singular": "Steuererklärung", "plural": "Steuererklärungen"},
+      "akkusativ": {"singular": "Steuererklärung", "plural": "Steuererklärungen"}
+    }
+  },
+  {
+    "word": "die Rentenversicherung",
+    "noun": "Rentenversicherung",
+    "article": "die",
+    "plural": "Rentenversicherungen",
+    "translation": "pension insurance",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Rentenversicherung ist für Arbeitnehmer verpflichtend.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Rentenversicherung", "plural": "Rentenversicherungen"},
+      "genitiv": {"singular": "Rentenversicherung", "plural": "Rentenversicherungen"},
+      "dativ": {"singular": "Rentenversicherung", "plural": "Rentenversicherungen"},
+      "akkusativ": {"singular": "Rentenversicherung", "plural": "Rentenversicherungen"}
+    }
+  },
+  {
+    "word": "das Arbeitslosengeld",
+    "noun": "Arbeitslosengeld",
+    "article": "das",
+    "plural": "Arbeitslosengelder",
+    "translation": "unemployment benefit",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Das Arbeitslosengeld wird für maximal zwölf Monate gezahlt.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Arbeitslosengeld", "plural": "Arbeitslosengelder"},
+      "genitiv": {"singular": "Arbeitslosengeldes", "plural": "Arbeitslosengelder"},
+      "dativ": {"singular": "Arbeitslosengeld", "plural": "Arbeitslosengeldern"},
+      "akkusativ": {"singular": "Arbeitslosengeld", "plural": "Arbeitslosengelder"}
+    }
+  },
+  {
+    "word": "das Bürgeramt",
+    "noun": "Bürgeramt",
+    "article": "das",
+    "plural": "Bürgerämter",
+    "translation": "citizens' office",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Im Bürgeramt kann man seinen Wohnsitz anmelden.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Bürgeramt", "plural": "Bürgerämter"},
+      "genitiv": {"singular": "Bürgeramtes", "plural": "Bürgerämter"},
+      "dativ": {"singular": "Bürgeramt", "plural": "Bürgerämtern"},
+      "akkusativ": {"singular": "Bürgeramt", "plural": "Bürgerämter"}
+    }
+  },
+  {
+    "word": "das Vorstellungsgespräch",
+    "noun": "Vorstellungsgespräch",
+    "article": "das",
+    "plural": "Vorstellungsgespräche",
+    "translation": "job interview",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Das Vorstellungsgespräch findet nächsten Montag statt.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Vorstellungsgespräch", "plural": "Vorstellungsgespräche"},
+      "genitiv": {"singular": "Vorstellungsgespräches", "plural": "Vorstellungsgespräche"},
+      "dativ": {"singular": "Vorstellungsgespräch", "plural": "Vorstellungsgesprächen"},
+      "akkusativ": {"singular": "Vorstellungsgespräch", "plural": "Vorstellungsgespräche"}
+    }
+  },
+  {
+    "word": "der Arbeitsvertrag",
+    "noun": "Arbeitsvertrag",
+    "article": "der",
+    "plural": "Arbeitsverträge",
+    "translation": "employment contract",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Der Arbeitsvertrag wurde unbefristet abgeschlossen.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Arbeitsvertrag", "plural": "Arbeitsverträge"},
+      "genitiv": {"singular": "Arbeitsvertrags", "plural": "Arbeitsverträge"},
+      "dativ": {"singular": "Arbeitsvertrag", "plural": "Arbeitsverträgen"},
+      "akkusativ": {"singular": "Arbeitsvertrag", "plural": "Arbeitsverträge"}
+    }
+  },
+  {
+    "word": "die Probezeit",
+    "noun": "Probezeit",
+    "article": "die",
+    "plural": "Probezeiten",
+    "translation": "probation period",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Probezeit beträgt in der Regel sechs Monate.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Probezeit", "plural": "Probezeiten"},
+      "genitiv": {"singular": "Probezeit", "plural": "Probezeiten"},
+      "dativ": {"singular": "Probezeit", "plural": "Probezeiten"},
+      "akkusativ": {"singular": "Probezeit", "plural": "Probezeiten"}
+    }
+  },
+  {
+    "word": "die Überstunden",
+    "noun": "Überstunden",
+    "article": "die",
+    "plural": "Überstunden",
+    "translation": "overtime",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Überstunden werden am Ende des Monats ausgezahlt.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Überstunden", "plural": "Überstunden"},
+      "genitiv": {"singular": "Überstunden", "plural": "Überstunden"},
+      "dativ": {"singular": "Überstunden", "plural": "Überstunden"},
+      "akkusativ": {"singular": "Überstunden", "plural": "Überstunden"}
+    }
+  },
+  {
+    "word": "die Beförderung",
+    "noun": "Beförderung",
+    "article": "die",
+    "plural": "Beförderungen",
+    "translation": "promotion",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Beförderung zur Abteilungsleiterin war verdient.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Beförderung", "plural": "Beförderungen"},
+      "genitiv": {"singular": "Beförderung", "plural": "Beförderungen"},
+      "dativ": {"singular": "Beförderung", "plural": "Beförderungen"},
+      "akkusativ": {"singular": "Beförderung", "plural": "Beförderungen"}
+    }
+  },
+  {
+    "word": "das Arbeitszeugnis",
+    "noun": "Arbeitszeugnis",
+    "article": "das",
+    "plural": "Arbeitszeugnisse",
+    "translation": "employment reference",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Das Arbeitszeugnis muss bei der Bewerbung beigefügt werden.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Arbeitszeugnis", "plural": "Arbeitszeugnisse"},
+      "genitiv": {"singular": "Arbeitszeugnisses", "plural": "Arbeitszeugnisse"},
+      "dativ": {"singular": "Arbeitszeugnis", "plural": "Arbeitszeugnissen"},
+      "akkusativ": {"singular": "Arbeitszeugnis", "plural": "Arbeitszeugnisse"}
+    }
+  },
+  {
+    "word": "das Lebensmittel",
+    "noun": "Lebensmittel",
+    "article": "das",
+    "plural": "Lebensmittel",
+    "translation": "food, groceries",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Lebensmittel sollten kühl gelagert werden.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Lebensmittel", "plural": "Lebensmittel"},
+      "genitiv": {"singular": "Lebensmittels", "plural": "Lebensmittel"},
+      "dativ": {"singular": "Lebensmittel", "plural": "Lebensmitteln"},
+      "akkusativ": {"singular": "Lebensmittel", "plural": "Lebensmittel"}
+    }
+  },
+  {
+    "word": "die Unverträglichkeit",
+    "noun": "Unverträglichkeit",
+    "article": "die",
+    "plural": "Unverträglichkeiten",
+    "translation": "intolerance",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Unverträglichkeit gegen Laktose wurde festgestellt.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Unverträglichkeit", "plural": "Unverträglichkeiten"},
+      "genitiv": {"singular": "Unverträglichkeit", "plural": "Unverträglichkeiten"},
+      "dativ": {"singular": "Unverträglichkeit", "plural": "Unverträglichkeiten"},
+      "akkusativ": {"singular": "Unverträglichkeit", "plural": "Unverträglichkeiten"}
+    }
+  },
+  {
+    "word": "das Haltbarkeitsdatum",
+    "noun": "Haltbarkeitsdatum",
+    "article": "das",
+    "plural": "Haltbarkeitsdaten",
+    "translation": "expiration date",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Das Haltbarkeitsdatum auf der Verpackung ist überschritten.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Haltbarkeitsdatum", "plural": "Haltbarkeitsdaten"},
+      "genitiv": {"singular": "Haltbarkeitsdatums", "plural": "Haltbarkeitsdaten"},
+      "dativ": {"singular": "Haltbarkeitsdatum", "plural": "Haltbarkeitsdaten"},
+      "akkusativ": {"singular": "Haltbarkeitsdatum", "plural": "Haltbarkeitsdaten"}
+    }
+  },
+  {
+    "word": "der Umzug",
+    "noun": "Umzug",
+    "article": "der",
+    "plural": "Umzüge",
+    "translation": "move (relocation)",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Der Umzug in die neue Wohnung ist für Samstag geplant.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Umzug", "plural": "Umzüge"},
+      "genitiv": {"singular": "Umzuges", "plural": "Umzüge"},
+      "dativ": {"singular": "Umzug", "plural": "Umzügen"},
+      "akkusativ": {"singular": "Umzug", "plural": "Umzüge"}
+    }
+  },
+  {
+    "word": "die Nachbarschaft",
+    "noun": "Nachbarschaft",
+    "article": "die",
+    "plural": "Nachbarschaften",
+    "translation": "neighborhood",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Nachbarschaft ist ruhig und familienfreundlich.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Nachbarschaft", "plural": "Nachbarschaften"},
+      "genitiv": {"singular": "Nachbarschaft", "plural": "Nachbarschaften"},
+      "dativ": {"singular": "Nachbarschaft", "plural": "Nachbarschaften"},
+      "akkusativ": {"singular": "Nachbarschaft", "plural": "Nachbarschaften"}
+    }
+  },
+  {
+    "word": "die Mülltrennung",
+    "noun": "Mülltrennung",
+    "article": "die",
+    "plural": "Mülltrennungen",
+    "translation": "waste separation",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Mülltrennung ist in Deutschland gesetzlich vorgeschrieben.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Mülltrennung", "plural": "Mülltrennungen"},
+      "genitiv": {"singular": "Mülltrennung", "plural": "Mülltrennungen"},
+      "dativ": {"singular": "Mülltrennung", "plural": "Mülltrennungen"},
+      "akkusativ": {"singular": "Mülltrennung", "plural": "Mülltrennungen"}
+    }
+  },
+  {
+    "word": "das Pfand",
+    "noun": "Pfand",
+    "article": "das",
+    "plural": "Pfänder",
+    "translation": "deposit (bottle)",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Für die Flasche gibt es 25 Cent Pfand.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Pfand", "plural": "Pfänder"},
+      "genitiv": {"singular": "Pfandes", "plural": "Pfänder"},
+      "dativ": {"singular": "Pfand", "plural": "Pfändern"},
+      "akkusativ": {"singular": "Pfand", "plural": "Pfänder"}
+    }
+  },
+  {
+    "word": "das Girokonto",
+    "noun": "Girokonto",
+    "article": "das",
+    "plural": "Girokonten",
+    "translation": "checking account",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Ein Girokonto ist für den Alltag in Deutschland unentbehrlich.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Girokonto", "plural": "Girokonten"},
+      "genitiv": {"singular": "Girokontos", "plural": "Girokonten"},
+      "dativ": {"singular": "Girokonto", "plural": "Girokonten"},
+      "akkusativ": {"singular": "Girokonto", "plural": "Girokonten"}
+    }
+  },
+  {
+    "word": "die Banküberweisung",
+    "noun": "Banküberweisung",
+    "article": "die",
+    "plural": "Banküberweisungen",
+    "translation": "bank transfer",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Banküberweisung wurde innerhalb eines Werktags gutgeschrieben.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Banküberweisung", "plural": "Banküberweisungen"},
+      "genitiv": {"singular": "Banküberweisung", "plural": "Banküberweisungen"},
+      "dativ": {"singular": "Banküberweisung", "plural": "Banküberweisungen"},
+      "akkusativ": {"singular": "Banküberweisung", "plural": "Banküberweisungen"}
+    }
+  },
+  {
+    "word": "die Versicherung",
+    "noun": "Versicherung",
+    "article": "die",
+    "plural": "Versicherungen",
+    "translation": "insurance",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Die Versicherung übernimmt die Kosten der Behandlung.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Versicherung", "plural": "Versicherungen"},
+      "genitiv": {"singular": "Versicherung", "plural": "Versicherungen"},
+      "dativ": {"singular": "Versicherung", "plural": "Versicherungen"},
+      "akkusativ": {"singular": "Versicherung", "plural": "Versicherungen"}
+    }
+  },
+  {
+    "word": "das Bußgeld",
+    "noun": "Bußgeld",
+    "article": "das",
+    "plural": "Bußgelder",
+    "translation": "fine, penalty",
+    "type": "noun",
+    "level": "B2",
+    "sentence": "Das Bußgeld für Falschparken beträgt fünfzig Euro.",
+    "examples": [],
+    "declension": {
+      "nominativ": {"singular": "Bußgeld", "plural": "Bußgelder"},
+      "genitiv": {"singular": "Bußgeldes", "plural": "Bußgelder"},
+      "dativ": {"singular": "Bußgeld", "plural": "Bußgeldern"},
+      "akkusativ": {"singular": "Bußgeld", "plural": "Bußgelder"}
+    }
   }
 ]
