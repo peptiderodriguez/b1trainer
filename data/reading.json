@@ -217,7 +217,7 @@
             "b) Etwa 40 Prozent",
             "c) Etwa 72 Prozent"
           ],
-          "answer": "b",
+          "answer": "b) Etwa 40 Prozent",
           "explanation": "Im Text steht: 'Heute sind es fast 40 Prozent.' Die 12 Prozent beziehen sich auf die Zeit vor 2020, und 72 Prozent betrifft die Produktivitätsbewertung."
         },
         {
@@ -229,7 +229,7 @@
             "b) Man hat weniger Stress mit den Kollegen.",
             "c) Man spart die Zeit für den Weg zur Arbeit."
           ],
-          "answer": "c",
+          "answer": "c) Man spart die Zeit für den Weg zur Arbeit.",
           "explanation": "Der Text sagt: 'Als größten Vorteil nannten die meisten Teilnehmer die eingesparte Pendelzeit.' Pendelzeit ist die Zeit, die man für den Weg zur Arbeit braucht."
         },
         {
@@ -241,7 +241,7 @@
             "b) Vor einem erhöhten Burnout-Risiko",
             "c) Vor Problemen mit der Technik"
           ],
-          "answer": "b",
+          "answer": "b) Vor einem erhöhten Burnout-Risiko",
           "explanation": "Im Text heißt es: 'Arbeitspsychologen warnen vor einem erhöhten Burnout-Risiko, wenn Arbeitnehmer nicht lernen, klare Grenzen zu setzen.'"
         },
         {
@@ -253,7 +253,7 @@
             "b) Wieder jeden Tag ins Büro gehen",
             "c) Ein Modell mit Büro- und Homeoffice-Tagen"
           ],
-          "answer": "c",
+          "answer": "c) Ein Modell mit Büro- und Homeoffice-Tagen",
           "explanation": "Der Text empfiehlt 'ein hybrides Modell: Zwei bis drei Tage im Büro und den Rest zu Hause'. Das ist ein gemischtes Modell."
         },
         {
@@ -265,7 +265,7 @@
             "b) Sie können sich schwer ins Team integrieren.",
             "c) Sie müssen mehr arbeiten als die anderen."
           ],
-          "answer": "b",
+          "answer": "b) Sie können sich schwer ins Team integrieren.",
           "explanation": "Im Text steht: 'Besonders für neue Mitarbeiter ist es schwierig, sich in ein Team zu integrieren, wenn man die Kollegen nur auf dem Bildschirm sieht.'"
         }
       ]
@@ -287,7 +287,7 @@
             "b) Weil sie nicht mit Bus und Bahn fahren wollten.",
             "c) Weil die Benzinpreise gestiegen sind."
           ],
-          "answer": "b",
+          "answer": "b) Weil sie nicht mit Bus und Bahn fahren wollten.",
           "explanation": "Der Text erklärt: 'Viele Pendler wollten den öffentlichen Nahverkehr meiden.' Das heißt, sie wollten Bus und Bahn vermeiden."
         },
         {
@@ -299,7 +299,7 @@
             "b) Ehemalige Autospuren, die zu Radwegen wurden",
             "c) Temporäre Radwege, die nur im Sommer existieren"
           ],
-          "answer": "b",
+          "answer": "b) Ehemalige Autospuren, die zu Radwegen wurden",
           "explanation": "Im Text steht: 'Pop-up-Radwege, bei denen eine Fahrspur für Autos in einen Radweg umgewandelt wurde.'"
         },
         {
@@ -311,7 +311,7 @@
             "b) Ältere Menschen und Pendler mit langem Arbeitsweg",
             "c) Sportler und Profiradsportler"
           ],
-          "answer": "b",
+          "answer": "b) Ältere Menschen und Pendler mit langem Arbeitsweg",
           "explanation": "Der Text nennt: 'Besonders ältere Menschen und Berufspendler mit weitem Arbeitsweg profitieren von den elektrischen Rädern.'"
         },
         {
@@ -323,7 +323,7 @@
             "b) Etwa 200.000",
             "c) Etwa 300.000"
           ],
-          "answer": "c",
+          "answer": "c) Etwa 300.000",
           "explanation": "Im Text heißt es: 'Die Polizei registriert jedes Jahr etwa 300.000 gestohlene Fahrräder in Deutschland.'"
         },
         {
@@ -335,7 +335,7 @@
             "b) Zwei Milliarden Euro",
             "c) Drei Milliarden Euro"
           ],
-          "answer": "c",
+          "answer": "c) Drei Milliarden Euro",
           "explanation": "Der Text sagt: 'Die Bundesregierung hat angekündigt, bis 2030 insgesamt drei Milliarden Euro in den Radverkehr zu investieren.'"
         }
       ]
@@ -709,7 +709,7 @@
             "b) Werktags zwischen 8:00 und 12:00 Uhr und zwischen 14:00 und 20:00 Uhr",
             "c) Nur am Wochenende"
           ],
-          "answer": "b",
+          "answer": "b) Werktags zwischen 8:00 und 12:00 Uhr und zwischen 14:00 und 20:00 Uhr",
           "explanation": "In der Hausordnung steht: 'Musizieren ist werktags von 8:00 bis 12:00 Uhr und von 14:00 bis 20:00 Uhr erlaubt, jedoch nicht an Sonn- und Feiertagen.' Also nur werktags und mit einer Mittagspause."
         },
         {
@@ -721,7 +721,7 @@
             "b) Man braucht eine schriftliche Erlaubnis von der Hausverwaltung.",
             "c) Katzen sind in dem Haus grundsätzlich verboten."
           ],
-          "answer": "b",
+          "answer": "b) Man braucht eine schriftliche Erlaubnis von der Hausverwaltung.",
           "explanation": "Der Text sagt: 'Für die Haltung von Hunden und Katzen ist die schriftliche Zustimmung der Hausverwaltung erforderlich.' Man braucht also eine Genehmigung."
         },
         {
@@ -733,7 +733,7 @@
             "b) Im Fahrradkeller",
             "c) Auf dem Balkon"
           ],
-          "answer": "b",
+          "answer": "b) Im Fahrradkeller",
           "explanation": "Im Text steht: 'Fahrräder dürfen nicht im Treppenhaus abgestellt werden. Bitte benutzen Sie den Kellerraum oder den Fahrradkeller.'"
         },
         {
@@ -745,7 +745,7 @@
             "b) Grillen",
             "c) Wäsche trocknen"
           ],
-          "answer": "b",
+          "answer": "b) Grillen",
           "explanation": "Die Hausordnung sagt: 'Das Grillen auf dem Balkon ist aus Brandschutzgründen nicht gestattet.' Blumenkästen sind erlaubt (müssen aber sicher befestigt sein)."
         },
         {
@@ -757,7 +757,7 @@
             "b) Die Hausverwaltung sofort informieren",
             "c) Die Nachbarn um Hilfe bitten"
           ],
-          "answer": "b",
+          "answer": "b) Die Hausverwaltung sofort informieren",
           "explanation": "Im Text heißt es: 'Schäden sind der Hausverwaltung unverzüglich mitzuteilen. Eigenmächtige Reparaturen sind ohne Genehmigung nicht erlaubt.' Man muss also die Hausverwaltung informieren."
         }
       ]
@@ -779,7 +779,7 @@
             "b) Man muss 50 Prozent der Kursgebühr bezahlen.",
             "c) Man muss die komplette Kursgebühr bezahlen."
           ],
-          "answer": "b",
+          "answer": "b) Man muss 50 Prozent der Kursgebühr bezahlen.",
           "explanation": "Eine Woche vor Kursbeginn ist weniger als 14 Tage. Der Text sagt: 'Bei späterem Rücktritt werden 50 Prozent der Kursgebühr als Stornierungskosten berechnet.'"
         },
         {
@@ -791,7 +791,7 @@
             "b) Die Stunde wird nachgeholt oder ein anderer Lehrer unterrichtet.",
             "c) Die Teilnehmer müssen selbstständig lernen."
           ],
-          "answer": "b",
+          "answer": "b) Die Stunde wird nachgeholt oder ein anderer Lehrer unterrichtet.",
           "explanation": "Im Text steht: 'Bei Krankheit oder Verhinderung der Lehrkraft wird der Unterricht nachgeholt oder ein Ersatzlehrer eingesetzt.'"
         },
         {
@@ -803,7 +803,7 @@
             "b) Einen Computer mit Kamera und Mikrofon sowie schnelles Internet",
             "c) Ein spezielles Programm, das man kaufen muss"
           ],
-          "answer": "b",
+          "answer": "b) Einen Computer mit Kamera und Mikrofon sowie schnelles Internet",
           "explanation": "Der Text nennt: 'Eine stabile Internetverbindung (mindestens 5 Mbit/s), ein Endgerät mit Kamera und Mikrofon sowie die aktuelle Version der Software Zoom.' Zoom ist kostenlos."
         },
         {
@@ -815,7 +815,7 @@
             "b) Wenn man bei mindestens 80 Prozent des Unterrichts dabei war.",
             "c) Wenn man eine Abschlussprüfung bestanden hat."
           ],
-          "answer": "b",
+          "answer": "b) Wenn man bei mindestens 80 Prozent des Unterrichts dabei war.",
           "explanation": "Im Text heißt es: 'Teilnehmer, die an mindestens 80 Prozent der Unterrichtsstunden teilgenommen haben, erhalten ein Teilnahmezertifikat.'"
         },
         {
@@ -827,7 +827,7 @@
             "b) Drei Monate",
             "c) Unbegrenzt"
           ],
-          "answer": "b",
+          "answer": "b) Drei Monate",
           "explanation": "Der Text sagt: 'Digitale Kursmaterialien sind nach Kursende noch 3 Monate lang zugänglich.'"
         }
       ]
@@ -948,7 +948,7 @@
             "b) In den 1950er und 1960er Jahren",
             "c) Erst nach der Wiedervereinigung"
           ],
-          "answer": "b",
+          "answer": "b) In den 1950er und 1960er Jahren",
           "explanation": "Der Text sagt: 'Die Reiselust der Deutschen hat mit dem Wirtschaftswunder in den 1950er und 1960er Jahren begonnen.'"
         },
         {
@@ -960,7 +960,7 @@
             "b) Griechenland",
             "c) Italien"
           ],
-          "answer": "c",
+          "answer": "c) Italien",
           "explanation": "Im Text steht: 'Italien war das erste beliebte Reiseziel.'"
         },
         {
@@ -972,7 +972,7 @@
             "b) Weil sie umweltbewusster geworden sind.",
             "c) Weil die deutschen Hotels besser sind."
           ],
-          "answer": "b",
+          "answer": "b) Weil sie umweltbewusster geworden sind.",
           "explanation": "Der Text erklärt: 'Ein Grund dafür ist das wachsende Umweltbewusstsein: Viele Menschen verzichten bewusst auf Flugreisen.'"
         },
         {
@@ -984,7 +984,7 @@
             "b) Wanderurlaub, Städtereisen und Wellness",
             "c) Abenteuerreisen in ferne Länder"
           ],
-          "answer": "b",
+          "answer": "b) Wanderurlaub, Städtereisen und Wellness",
           "explanation": "Der Text sagt: 'Heute sind Aktivurlaub, Städtereisen und Kulturreisen im Trend. Besonders beliebt sind Wanderurlaube, Fahrradtouren und Wellness-Wochenenden.'"
         },
         {
@@ -996,7 +996,7 @@
             "b) Nachhaltiges und umweltfreundliches Reisen.",
             "c) Immer mehr Deutsche fliegen in die USA."
           ],
-          "answer": "b",
+          "answer": "b) Nachhaltiges und umweltfreundliches Reisen.",
           "explanation": "Im Text heißt es: 'Experten sehen den Trend zum nachhaltigen Reisen als eine der wichtigsten Entwicklungen der nächsten Jahre.'"
         }
       ]
@@ -1737,7 +1737,7 @@
         {
           "id": "r24q3",
           "type": "multiple_choice",
-          "question": "Was haben sich interkulturelle Nachbarschaftsprojekte als wirksames Mittel erwiesen?",
+          "question": "Wogegen haben sich interkulturelle Nachbarschaftsprojekte als wirksames Mittel erwiesen?",
           "options": [
             "a) Als Mittel zur Senkung der Mietpreise",
             "b) Als Mittel gegen Vorurteile",

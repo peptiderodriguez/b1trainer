@@ -14300,5 +14300,152 @@
       "reflexive": false,
       "withSein": false
     }
+  },
+  {
+    "word": "schlafen",
+    "translation": "to sleep",
+    "type": "verb",
+    "level": "A1",
+    "examples": [
+      "Ich schlafe acht Stunden.",
+      "Das Kind schläft schon."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "schlafe",
+        "du": "schläfst",
+        "es": "schläft",
+        "wir": "schlafen",
+        "ihr": "schlaft",
+        "Sie": "schlafen"
+      },
+      "präteritum": {
+        "ich": "schlief",
+        "du": "schliefst",
+        "es": "schlief",
+        "wir": "schliefen",
+        "ihr": "schlieft",
+        "Sie": "schliefen"
+      },
+      "perfekt": "geschlafen",
+      "imperativ": {
+        "du": "schlaf(e)",
+        "ihr": "schlaft"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "trinken",
+    "translation": "to drink",
+    "type": "verb",
+    "level": "A1",
+    "examples": [
+      "Trinken Sie genug Wasser?",
+      "Er trinkt keinen Alkohol."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "trinke",
+        "du": "trinkst",
+        "es": "trinkt",
+        "wir": "trinken",
+        "ihr": "trinkt",
+        "Sie": "trinken"
+      },
+      "präteritum": {
+        "ich": "trank",
+        "du": "trankst",
+        "es": "trank",
+        "wir": "tranken",
+        "ihr": "trankt",
+        "Sie": "tranken"
+      },
+      "perfekt": "getrunken",
+      "imperativ": {
+        "du": "trink(e)",
+        "ihr": "trinkt"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "liegen",
+    "translation": "to lie, to be situated",
+    "type": "verb",
+    "level": "A1",
+    "examples": [
+      "Der Patient liegt im Bett.",
+      "Die Stadt liegt am Fluss."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "liege",
+        "du": "liegst",
+        "es": "liegt",
+        "wir": "liegen",
+        "ihr": "liegt",
+        "Sie": "liegen"
+      },
+      "präteritum": {
+        "ich": "lag",
+        "du": "lagst",
+        "es": "lag",
+        "wir": "lagen",
+        "ihr": "lagt",
+        "Sie": "lagen"
+      },
+      "perfekt": "gelegen",
+      "imperativ": {
+        "du": "lieg(e)",
+        "ihr": "liegt"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "sitzen",
+    "translation": "to sit",
+    "type": "verb",
+    "level": "A1",
+    "examples": [
+      "Bitte setzen Sie sich. Der Patient sitzt im Wartezimmer."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "sitze",
+        "du": "sitzt",
+        "es": "sitzt",
+        "wir": "sitzen",
+        "ihr": "sitzt",
+        "Sie": "sitzen"
+      },
+      "präteritum": {
+        "ich": "saß",
+        "du": "saßt",
+        "es": "saß",
+        "wir": "saßen",
+        "ihr": "saßt",
+        "Sie": "saßen"
+      },
+      "perfekt": "gesessen",
+      "imperativ": {
+        "du": "sitz(e)",
+        "ihr": "sitzt"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
   }
 ]
