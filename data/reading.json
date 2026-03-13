@@ -1,0 +1,1005 @@
+{
+  "exam": "Goethe-Zertifikat B1 Lesen",
+  "description": "Reading comprehension exercises for the Goethe B1 German exam. Covers all 5 parts: blog posts (Part 1), newspaper articles (Part 2), everyday texts (Part 3), reader opinions (Part 4), and formal/instructional texts (Part 5).",
+  "passages": [
+    {
+      "id": "r1",
+      "type": "blog",
+      "examPart": 1,
+      "title": "Mein neues Leben in Berlin",
+      "author": "Katrin, 28, aus Stuttgart",
+      "text": "Vor sechs Monaten bin ich von Stuttgart nach Berlin gezogen. Es war eine schwierige Entscheidung, weil ich meine Familie und meine Freunde in Stuttgart sehr vermisse. Aber ich habe in Berlin eine tolle Stelle als Grafikdesignerin gefunden, und die Chance wollte ich nicht verpassen.\n\nAm Anfang war alles neu und ein bisschen chaotisch. Eine Wohnung zu finden war besonders schwer. Ich habe drei Monate lang gesucht, bis ich endlich eine kleine Zweizimmerwohnung in Kreuzberg gefunden habe. Die Miete ist zwar hoch, aber die Lage ist perfekt: Ich kann mit dem Fahrrad zur Arbeit fahren und brauche nur 15 Minuten.\n\nWas mir an Berlin am besten gefällt, ist die kulturelle Vielfalt. In meinem Viertel gibt es Restaurants aus aller Welt, und man hört auf der Straße viele verschiedene Sprachen. Am Wochenende gehe ich oft auf Flohmärkte oder besuche eine der vielen Galerien. Das kulturelle Angebot ist einfach unglaublich.\n\nNatürlich gibt es auch Dinge, die mir nicht so gut gefallen. Die Stadt ist manchmal sehr laut und hektisch, und im Winter ist es hier grauer als in Süddeutschland. Außerdem vermisse ich die Natur. In Stuttgart konnte ich schnell im Wald spazieren gehen, aber in Berlin muss ich länger fahren, um ins Grüne zu kommen.\n\nTrotzdem bin ich froh, dass ich den Schritt gewagt habe. Ich habe schon neue Freunde gefunden, vor allem durch einen Sportverein, in dem ich Volleyball spiele. Mein Tipp für alle, die über einen Umzug nachdenken: Traut euch! Es ist nie zu spät, etwas Neues auszuprobieren.",
+      "headings": [
+        "A) Sport hilft beim Kennenlernen",
+        "B) Die Suche nach vier Wänden",
+        "C) Warum ich meine Heimat verlassen habe",
+        "D) Was mir in der neuen Stadt fehlt",
+        "E) Berlin ist bunt und interessant",
+        "F) Ein Neuanfang lohnt sich",
+        "G) Probleme mit den Nachbarn"
+      ],
+      "questions": [
+        {
+          "id": "r1q1",
+          "type": "matching",
+          "question": "Welche Überschrift passt zum ersten Absatz?",
+          "options": [
+            "A) Sport hilft beim Kennenlernen",
+            "B) Die Suche nach vier Wänden",
+            "C) Warum ich meine Heimat verlassen habe",
+            "D) Was mir in der neuen Stadt fehlt",
+            "E) Berlin ist bunt und interessant",
+            "F) Ein Neuanfang lohnt sich",
+            "G) Probleme mit den Nachbarn"
+          ],
+          "answer": "C) Warum ich meine Heimat verlassen habe",
+          "explanation": "Der erste Absatz erklärt, warum Katrin von Stuttgart nach Berlin gezogen ist: Sie hat eine tolle Stelle gefunden. 'Warum ich meine Heimat verlassen habe' passt am besten."
+        },
+        {
+          "id": "r1q2",
+          "type": "matching",
+          "question": "Welche Überschrift passt zum zweiten Absatz?",
+          "options": [
+            "A) Sport hilft beim Kennenlernen",
+            "B) Die Suche nach vier Wänden",
+            "C) Warum ich meine Heimat verlassen habe",
+            "D) Was mir in der neuen Stadt fehlt",
+            "E) Berlin ist bunt und interessant",
+            "F) Ein Neuanfang lohnt sich",
+            "G) Probleme mit den Nachbarn"
+          ],
+          "answer": "B) Die Suche nach vier Wänden",
+          "explanation": "Im zweiten Absatz geht es um die Wohnungssuche. 'Vier Wände' ist eine Redewendung für 'Wohnung'. Katrin hat drei Monate lang gesucht."
+        },
+        {
+          "id": "r1q3",
+          "type": "matching",
+          "question": "Welche Überschrift passt zum dritten Absatz?",
+          "options": [
+            "A) Sport hilft beim Kennenlernen",
+            "B) Die Suche nach vier Wänden",
+            "C) Warum ich meine Heimat verlassen habe",
+            "D) Was mir in der neuen Stadt fehlt",
+            "E) Berlin ist bunt und interessant",
+            "F) Ein Neuanfang lohnt sich",
+            "G) Probleme mit den Nachbarn"
+          ],
+          "answer": "E) Berlin ist bunt und interessant",
+          "explanation": "Der dritte Absatz beschreibt die kulturelle Vielfalt Berlins: Restaurants, Sprachen, Flohmärkte, Galerien. 'Berlin ist bunt und interessant' passt hier."
+        },
+        {
+          "id": "r1q4",
+          "type": "matching",
+          "question": "Welche Überschrift passt zum vierten Absatz?",
+          "options": [
+            "A) Sport hilft beim Kennenlernen",
+            "B) Die Suche nach vier Wänden",
+            "C) Warum ich meine Heimat verlassen habe",
+            "D) Was mir in der neuen Stadt fehlt",
+            "E) Berlin ist bunt und interessant",
+            "F) Ein Neuanfang lohnt sich",
+            "G) Probleme mit den Nachbarn"
+          ],
+          "answer": "D) Was mir in der neuen Stadt fehlt",
+          "explanation": "Im vierten Absatz spricht Katrin über negative Seiten: Lärm, graues Wetter und fehlende Natur. 'Was mir in der neuen Stadt fehlt' ist die richtige Überschrift."
+        },
+        {
+          "id": "r1q5",
+          "type": "matching",
+          "question": "Welche Überschrift passt zum fünften Absatz?",
+          "options": [
+            "A) Sport hilft beim Kennenlernen",
+            "B) Die Suche nach vier Wänden",
+            "C) Warum ich meine Heimat verlassen habe",
+            "D) Was mir in der neuen Stadt fehlt",
+            "E) Berlin ist bunt und interessant",
+            "F) Ein Neuanfang lohnt sich",
+            "G) Probleme mit den Nachbarn"
+          ],
+          "answer": "F) Ein Neuanfang lohnt sich",
+          "explanation": "Im letzten Absatz zieht Katrin ein positives Fazit und empfiehlt anderen, mutig zu sein. 'Ein Neuanfang lohnt sich' fasst das zusammen."
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "type": "blog",
+      "examPart": 1,
+      "title": "Gesund essen im Alltag",
+      "author": "Marco, 35, Ernährungsberater",
+      "text": "Viele Menschen möchten sich gesünder ernähren, wissen aber nicht, wie sie anfangen sollen. Als Ernährungsberater höre ich jeden Tag die gleiche Frage: Was soll ich essen? Die Antwort ist eigentlich ganz einfach, aber in einer Welt voller Diäten und Ernährungstrends verliert man schnell den Überblick.\n\nDer wichtigste Grundsatz ist: Kochen Sie selbst! Fertiggerichte enthalten oft zu viel Salz, Zucker und Fett. Wenn Sie selbst kochen, wissen Sie genau, was in Ihrem Essen ist. Und es muss nicht kompliziert sein. Ein einfaches Gericht mit Gemüse, Reis und etwas Fisch oder Huhn ist in 20 Minuten fertig und viel gesünder als eine Tiefkühlpizza.\n\nEin weiterer Tipp: Planen Sie Ihre Mahlzeiten für die Woche im Voraus. Am Sonntag mache ich mir immer eine Liste, was ich in der kommenden Woche kochen möchte. Dann kaufe ich gezielt ein und werfe weniger Lebensmittel weg. Das spart nicht nur Geld, sondern ist auch gut für die Umwelt.\n\nBeim Einkaufen sollte man vor allem am Rand des Supermarktes einkaufen. Dort findet man frische Produkte wie Obst, Gemüse, Fleisch und Milchprodukte. In der Mitte stehen meistens die verarbeiteten Lebensmittel mit vielen Zusatzstoffen. Eine gute Regel ist: Wenn auf der Verpackung mehr als fünf Zutaten stehen, lassen Sie das Produkt besser im Regal.\n\nZum Schluss möchte ich noch sagen: Seien Sie nicht zu streng mit sich selbst. Es ist völlig in Ordnung, ab und zu ein Stück Kuchen oder eine Portion Pommes zu essen. Gesunde Ernährung bedeutet nicht Verzicht, sondern Balance. Wenn Sie sich 80 Prozent der Zeit gesund ernähren, dürfen die restlichen 20 Prozent ruhig etwas lockerer sein.",
+      "headings": [
+        "A) Selbstgemacht schmeckt besser und ist gesünder",
+        "B) Auch mal eine Ausnahme machen",
+        "C) Warum gesunde Ernährung so verwirrend ist",
+        "D) Vorausplanung hilft beim gesunden Essen",
+        "E) Im Supermarkt richtig einkaufen",
+        "F) Abnehmen mit der neuen Trend-Diät",
+        "G) Vitamine in Tablettenform"
+      ],
+      "questions": [
+        {
+          "id": "r2q1",
+          "type": "matching",
+          "question": "Welche Überschrift passt zum ersten Absatz?",
+          "options": [
+            "A) Selbstgemacht schmeckt besser und ist gesünder",
+            "B) Auch mal eine Ausnahme machen",
+            "C) Warum gesunde Ernährung so verwirrend ist",
+            "D) Vorausplanung hilft beim gesunden Essen",
+            "E) Im Supermarkt richtig einkaufen",
+            "F) Abnehmen mit der neuen Trend-Diät",
+            "G) Vitamine in Tablettenform"
+          ],
+          "answer": "C) Warum gesunde Ernährung so verwirrend ist",
+          "explanation": "Im ersten Absatz erklärt Marco, dass viele Menschen nicht wissen, was sie essen sollen, weil es so viele Diäten und Trends gibt. Das Thema ist Verwirrung bei der Ernährung."
+        },
+        {
+          "id": "r2q2",
+          "type": "matching",
+          "question": "Welche Überschrift passt zum zweiten Absatz?",
+          "options": [
+            "A) Selbstgemacht schmeckt besser und ist gesünder",
+            "B) Auch mal eine Ausnahme machen",
+            "C) Warum gesunde Ernährung so verwirrend ist",
+            "D) Vorausplanung hilft beim gesunden Essen",
+            "E) Im Supermarkt richtig einkaufen",
+            "F) Abnehmen mit der neuen Trend-Diät",
+            "G) Vitamine in Tablettenform"
+          ],
+          "answer": "A) Selbstgemacht schmeckt besser und ist gesünder",
+          "explanation": "Der zweite Absatz empfiehlt, selbst zu kochen statt Fertiggerichte zu essen. 'Selbstgemacht schmeckt besser und ist gesünder' passt perfekt."
+        },
+        {
+          "id": "r2q3",
+          "type": "matching",
+          "question": "Welche Überschrift passt zum dritten Absatz?",
+          "options": [
+            "A) Selbstgemacht schmeckt besser und ist gesünder",
+            "B) Auch mal eine Ausnahme machen",
+            "C) Warum gesunde Ernährung so verwirrend ist",
+            "D) Vorausplanung hilft beim gesunden Essen",
+            "E) Im Supermarkt richtig einkaufen",
+            "F) Abnehmen mit der neuen Trend-Diät",
+            "G) Vitamine in Tablettenform"
+          ],
+          "answer": "D) Vorausplanung hilft beim gesunden Essen",
+          "explanation": "Im dritten Absatz geht es um Mahlzeitenplanung und wochentliches Einkaufen. 'Vorausplanung hilft beim gesunden Essen' beschreibt das am besten."
+        },
+        {
+          "id": "r2q4",
+          "type": "matching",
+          "question": "Welche Überschrift passt zum vierten Absatz?",
+          "options": [
+            "A) Selbstgemacht schmeckt besser und ist gesünder",
+            "B) Auch mal eine Ausnahme machen",
+            "C) Warum gesunde Ernährung so verwirrend ist",
+            "D) Vorausplanung hilft beim gesunden Essen",
+            "E) Im Supermarkt richtig einkaufen",
+            "F) Abnehmen mit der neuen Trend-Diät",
+            "G) Vitamine in Tablettenform"
+          ],
+          "answer": "E) Im Supermarkt richtig einkaufen",
+          "explanation": "Der vierte Absatz gibt Tipps zum Einkaufen im Supermarkt: am Rand einkaufen, auf die Zutatenliste achten."
+        },
+        {
+          "id": "r2q5",
+          "type": "matching",
+          "question": "Welche Überschrift passt zum fünften Absatz?",
+          "options": [
+            "A) Selbstgemacht schmeckt besser und ist gesünder",
+            "B) Auch mal eine Ausnahme machen",
+            "C) Warum gesunde Ernährung so verwirrend ist",
+            "D) Vorausplanung hilft beim gesunden Essen",
+            "E) Im Supermarkt richtig einkaufen",
+            "F) Abnehmen mit der neuen Trend-Diät",
+            "G) Vitamine in Tablettenform"
+          ],
+          "answer": "B) Auch mal eine Ausnahme machen",
+          "explanation": "Im letzten Absatz sagt Marco, dass man nicht zu streng sein soll und auch Kuchen oder Pommes essen darf. 'Auch mal eine Ausnahme machen' trifft es genau."
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "type": "article",
+      "examPart": 2,
+      "title": "Homeoffice verändert die Arbeitswelt",
+      "source": "Süddeutsche Zeitung (adaptiert)",
+      "text": "Die Corona-Pandemie hat die Arbeitswelt in Deutschland grundlegend verändert. Vor 2020 arbeiteten nur etwa 12 Prozent der Beschäftigten regelmäßig von zu Hause. Heute sind es fast 40 Prozent. Viele Unternehmen haben erkannt, dass Homeoffice nicht nur möglich ist, sondern in vielen Fällen sogar produktiver sein kann als die Arbeit im Büro.\n\nEine neue Studie des Deutschen Instituts für Wirtschaftsforschung zeigt, dass die meisten Arbeitnehmer das Homeoffice sehr positiv bewerten. 72 Prozent der Befragten gaben an, dass sie im Homeoffice mindestens genauso produktiv sind wie im Büro. Als größten Vorteil nannten die meisten Teilnehmer die eingesparte Pendelzeit. Wer früher eine Stunde zur Arbeit fahren musste, gewinnt jetzt zwei Stunden am Tag für Familie, Hobbys oder einfach mehr Schlaf.\n\nAllerdings hat das Arbeiten von zu Hause auch Nachteile. Viele Beschäftigte berichten, dass die Grenzen zwischen Arbeit und Privatleben verschwimmen. Man sitzt abends noch am Laptop, beantwortet E-Mails oder bereitet eine Präsentation vor, weil der Arbeitsplatz ja nur ein paar Schritte entfernt ist. Arbeitspsychologen warnen vor einem erhöhten Burnout-Risiko, wenn Arbeitnehmer nicht lernen, klare Grenzen zu setzen.\n\nEin weiteres Problem ist die soziale Isolation. Der informelle Austausch mit Kollegen in der Kaffeeeküche fällt weg, und manche Mitarbeiter fühlen sich einsam. Besonders für neue Mitarbeiter ist es schwierig, sich in ein Team zu integrieren, wenn man die Kollegen nur auf dem Bildschirm sieht.\n\nExperten empfehlen deshalb ein hybrides Modell: Zwei bis drei Tage im Büro und den Rest zu Hause. So kann man die Vorteile beider Welten kombinieren. Viele große Unternehmen in Deutschland, darunter Siemens, SAP und die Deutsche Telekom, haben bereits solche Modelle eingeführt. Es scheint, als wäre das hybride Arbeiten die Zukunft der deutschen Arbeitswelt.",
+      "questions": [
+        {
+          "id": "r3q1",
+          "type": "multiple_choice",
+          "question": "Wie viel Prozent der Beschäftigten arbeiten heute von zu Hause?",
+          "options": [
+            "a) Etwa 12 Prozent",
+            "b) Etwa 40 Prozent",
+            "c) Etwa 72 Prozent"
+          ],
+          "answer": "b",
+          "explanation": "Im Text steht: 'Heute sind es fast 40 Prozent.' Die 12 Prozent beziehen sich auf die Zeit vor 2020, und 72 Prozent betrifft die Produktivitätsbewertung."
+        },
+        {
+          "id": "r3q2",
+          "type": "multiple_choice",
+          "question": "Was ist laut Studie der grösste Vorteil des Homeoffice?",
+          "options": [
+            "a) Man verdient mehr Geld.",
+            "b) Man hat weniger Stress mit den Kollegen.",
+            "c) Man spart die Zeit für den Weg zur Arbeit."
+          ],
+          "answer": "c",
+          "explanation": "Der Text sagt: 'Als größten Vorteil nannten die meisten Teilnehmer die eingesparte Pendelzeit.' Pendelzeit ist die Zeit, die man für den Weg zur Arbeit braucht."
+        },
+        {
+          "id": "r3q3",
+          "type": "multiple_choice",
+          "question": "Wovor warnen Arbeitspsychologen?",
+          "options": [
+            "a) Vor zu wenig Bewegung im Homeoffice",
+            "b) Vor einem erhöhten Burnout-Risiko",
+            "c) Vor Problemen mit der Technik"
+          ],
+          "answer": "b",
+          "explanation": "Im Text heißt es: 'Arbeitspsychologen warnen vor einem erhöhten Burnout-Risiko, wenn Arbeitnehmer nicht lernen, klare Grenzen zu setzen.'"
+        },
+        {
+          "id": "r3q4",
+          "type": "multiple_choice",
+          "question": "Was empfehlen Experten als beste Lösung?",
+          "options": [
+            "a) Nur noch von zu Hause arbeiten",
+            "b) Wieder jeden Tag ins Büro gehen",
+            "c) Ein Modell mit Büro- und Homeoffice-Tagen"
+          ],
+          "answer": "c",
+          "explanation": "Der Text empfiehlt 'ein hybrides Modell: Zwei bis drei Tage im Büro und den Rest zu Hause'. Das ist ein gemischtes Modell."
+        },
+        {
+          "id": "r3q5",
+          "type": "multiple_choice",
+          "question": "Warum ist Homeoffice besonders für neue Mitarbeiter schwierig?",
+          "options": [
+            "a) Sie haben oft keine gute Internetverbindung.",
+            "b) Sie können sich schwer ins Team integrieren.",
+            "c) Sie müssen mehr arbeiten als die anderen."
+          ],
+          "answer": "b",
+          "explanation": "Im Text steht: 'Besonders für neue Mitarbeiter ist es schwierig, sich in ein Team zu integrieren, wenn man die Kollegen nur auf dem Bildschirm sieht.'"
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "type": "article",
+      "examPart": 2,
+      "title": "Fahrradfahren wird immer beliebter",
+      "source": "Die Zeit (adaptiert)",
+      "text": "In vielen deutschen Städten erleben Fahrräder einen Boom. Immer mehr Menschen steigen vom Auto auf das Fahrrad um, und die Städte reagieren darauf mit neuen Radwegen und besserer Infrastruktur. Besonders seit der Pandemie hat das Fahrrad an Bedeutung gewonnen, weil viele Pendler den öffentlichen Nahverkehr meiden wollten.\n\nDie Stadt München hat zum Beispiel in den letzten drei Jahren über 80 Kilometer neue Radwege gebaut. In Berlin gibt es jetzt sogenannte Pop-up-Radwege, bei denen eine Fahrspur für Autos in einen Radweg umgewandelt wurde. Auch kleinere Städte wie Münster und Freiburg investieren stark in die Fahrradinfrastruktur.\n\nEin wichtiger Faktor für den Fahrrad-Boom sind auch E-Bikes. Elektrisch unterstützte Fahrräder machen es möglich, längere Strecken zurückzulegen und auch Berge ohne große Anstrengung zu überwinden. Im Jahr 2024 wurden in Deutschland über zwei Millionen E-Bikes verkauft. Besonders ältere Menschen und Berufspendler mit weitem Arbeitsweg profitieren von den elektrischen Rädern.\n\nDoch es gibt auch Probleme. In vielen Städten fehlt es an sicheren Abstellplätzen, und Fahrraddiebstahl ist ein großes Thema. Die Polizei registriert jedes Jahr etwa 300.000 gestohlene Fahrräder in Deutschland, und die Aufklärungsquote liegt bei nur zehn Prozent. Experten raten deshalb zu guten Schlössern und empfehlen, das Fahrrad immer an einem festen Gegenstand anzuschließen.\n\nTrotz dieser Herausforderungen sind sich Verkehrsexperten einig: Das Fahrrad ist ein wichtiger Teil der Verkehrswende. Es ist umweltfreundlich, gesund und in der Stadt oft schneller als das Auto. Die Bundesregierung hat angekündigt, bis 2030 insgesamt drei Milliarden Euro in den Radverkehr zu investieren. Das Ziel ist, Deutschland zu einem der fahrradfreundlichsten Länder Europas zu machen.",
+      "questions": [
+        {
+          "id": "r4q1",
+          "type": "multiple_choice",
+          "question": "Warum sind nach der Pandemie mehr Menschen Fahrrad gefahren?",
+          "options": [
+            "a) Weil die Fahrräder billiger geworden sind.",
+            "b) Weil sie nicht mit Bus und Bahn fahren wollten.",
+            "c) Weil die Benzinpreise gestiegen sind."
+          ],
+          "answer": "b",
+          "explanation": "Der Text erklärt: 'Viele Pendler wollten den öffentlichen Nahverkehr meiden.' Das heißt, sie wollten Bus und Bahn vermeiden."
+        },
+        {
+          "id": "r4q2",
+          "type": "multiple_choice",
+          "question": "Was sind Pop-up-Radwege in Berlin?",
+          "options": [
+            "a) Unterirdische Fahrradtunnel",
+            "b) Ehemalige Autospuren, die zu Radwegen wurden",
+            "c) Temporäre Radwege, die nur im Sommer existieren"
+          ],
+          "answer": "b",
+          "explanation": "Im Text steht: 'Pop-up-Radwege, bei denen eine Fahrspur für Autos in einen Radweg umgewandelt wurde.'"
+        },
+        {
+          "id": "r4q3",
+          "type": "multiple_choice",
+          "question": "Wer profitiert besonders von E-Bikes?",
+          "options": [
+            "a) Kinder und Jugendliche",
+            "b) Ältere Menschen und Pendler mit langem Arbeitsweg",
+            "c) Sportler und Profiradsportler"
+          ],
+          "answer": "b",
+          "explanation": "Der Text nennt: 'Besonders ältere Menschen und Berufspendler mit weitem Arbeitsweg profitieren von den elektrischen Rädern.'"
+        },
+        {
+          "id": "r4q4",
+          "type": "multiple_choice",
+          "question": "Wie viele Fahrräder werden jährlich in Deutschland gestohlen?",
+          "options": [
+            "a) Etwa 100.000",
+            "b) Etwa 200.000",
+            "c) Etwa 300.000"
+          ],
+          "answer": "c",
+          "explanation": "Im Text heißt es: 'Die Polizei registriert jedes Jahr etwa 300.000 gestohlene Fahrräder in Deutschland.'"
+        },
+        {
+          "id": "r4q5",
+          "type": "multiple_choice",
+          "question": "Wie viel Geld will die Bundesregierung bis 2030 in den Radverkehr investieren?",
+          "options": [
+            "a) Eine Milliarde Euro",
+            "b) Zwei Milliarden Euro",
+            "c) Drei Milliarden Euro"
+          ],
+          "answer": "c",
+          "explanation": "Der Text sagt: 'Die Bundesregierung hat angekündigt, bis 2030 insgesamt drei Milliarden Euro in den Radverkehr zu investieren.'"
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "type": "everyday",
+      "examPart": 3,
+      "title": "Alltagstexte: Anzeigen, Hinweise und Aushangsinformationen",
+      "texts": [
+        {
+          "label": "Text A",
+          "category": "Anzeige",
+          "text": "Wohnungsanzeige: Schöne 3-Zimmer-Wohnung in ruhiger Lage, 75 m2, Balkon, Einbauküche, Keller. Nähe S-Bahn (5 Min. zu Fuß). Haustiere erlaubt. Kaltmiete 850 EUR zzgl. 200 EUR Nebenkosten. Kaution: 3 Monatsmieten. Ab sofort frei. Besichtigungstermine nach Vereinbarung. Kontakt: Immobilien Schuster, Tel. 030-5551234."
+        },
+        {
+          "label": "Text B",
+          "category": "Aushang",
+          "text": "Liebe Hausbewohner, aufgrund von Bauarbeiten an der Heizungsanlage wird am Donnerstag, 15. November, zwischen 8:00 und 16:00 Uhr die Warmwasserversorgung unterbrochen. Bitte stellen Sie sich darauf ein. Die Heizung funktioniert weiterhin normal. Wir bitten um Verständnis. Ihre Hausverwaltung Becker & Partner."
+        },
+        {
+          "label": "Text C",
+          "category": "Hinweis",
+          "text": "Bibliothek der Stadt Freiburg - Neue Öffnungszeiten ab 1. Januar: Montag bis Freitag: 9:00 - 19:00 Uhr (bisher bis 18:00 Uhr). Samstag: 10:00 - 14:00 Uhr (unverändert). Sonntag und Feiertage: geschlossen. Bücher können auch außerhalb der Öffnungszeiten über unsere Rückgabebox zurückgegeben werden. Neue Mitgliedschaft: 15 EUR pro Jahr (ermäßigt 8 EUR für Schüler, Studenten und Rentner)."
+        },
+        {
+          "label": "Text D",
+          "category": "Veranstaltung",
+          "text": "Volkshochschule München - Neue Kurse im Frühjahr: Italienisch für Anfänger (A1), ab 5. März, 18 Abende, mittwochs 18:30 - 20:00 Uhr, 195 EUR. Yoga für Einsteiger, ab 7. März, 12 Abende, freitags 17:00 - 18:30 Uhr, 120 EUR. Computerkurs: Excel Grundlagen, 3 Samstage (10. + 17. + 24. März), 10:00 - 14:00 Uhr, 89 EUR. Anmeldung online unter www.vhs-münchen.de oder telefonisch unter 089-123456. Frühbucherrabatt: 10% bei Anmeldung bis 15. Februar."
+        },
+        {
+          "label": "Text E",
+          "category": "Gebrauchsanweisung",
+          "text": "Rückgabe und Umtausch: Sie können Artikel innerhalb von 14 Tagen nach dem Kauf zurückgeben oder umtauschen. Bitte bringen Sie den Kassenbon und die Originalverpackung mit. Reduzierte Ware ist vom Umtausch ausgeschlossen. Bei defekten Produkten haben Sie 24 Monate Garantie. Bitte wenden Sie sich in diesem Fall direkt an den Kundenservice: service@kaufhaus-modern.de."
+        }
+      ],
+      "questions": [
+        {
+          "id": "r5q1",
+          "type": "true_false",
+          "question": "Die Wohnung in Text A kostet insgesamt 850 Euro pro Monat.",
+          "answer": "falsch",
+          "relatedText": "Text A",
+          "explanation": "Falsch. Die Kaltmiete ist 850 EUR, aber dazu kommen noch 200 EUR Nebenkosten. Die Gesamtmiete beträgt also 1050 EUR."
+        },
+        {
+          "id": "r5q2",
+          "type": "true_false",
+          "question": "Am 15. November funktioniert die Heizung im Haus nicht.",
+          "answer": "falsch",
+          "relatedText": "Text B",
+          "explanation": "Falsch. Im Text steht: 'Die Heizung funktioniert weiterhin normal.' Nur das Warmwasser wird unterbrochen."
+        },
+        {
+          "id": "r5q3",
+          "type": "true_false",
+          "question": "Die Bibliothek in Freiburg hat jetzt freitags eine Stunde länger geöffnet als früher.",
+          "answer": "richtig",
+          "relatedText": "Text C",
+          "explanation": "Richtig. Die neuen Öffnungszeiten von Montag bis Freitag sind bis 19:00 Uhr, bisher war es bis 18:00 Uhr. Das ist eine Stunde länger."
+        },
+        {
+          "id": "r5q4",
+          "type": "true_false",
+          "question": "Für den Italienischkurs an der VHS muss man schon etwas Italienisch können.",
+          "answer": "falsch",
+          "relatedText": "Text D",
+          "explanation": "Falsch. Der Kurs heißt 'Italienisch für Anfänger (A1)'. A1 ist die niedrigste Stufe, also braucht man keine Vorkenntnisse."
+        },
+        {
+          "id": "r5q5",
+          "type": "true_false",
+          "question": "Man kann reduzierte Ware bei Kaufhaus Modern nicht umtauschen.",
+          "answer": "richtig",
+          "relatedText": "Text E",
+          "explanation": "Richtig. Im Text steht: 'Reduzierte Ware ist vom Umtausch ausgeschlossen.' Das bedeutet, man kann sie nicht umtauschen."
+        }
+      ]
+    },
+    {
+      "id": "r6",
+      "type": "everyday",
+      "examPart": 3,
+      "title": "Alltagstexte: Reise, Gesundheit und Freizeit",
+      "texts": [
+        {
+          "label": "Text A",
+          "category": "Reisehinweis",
+          "text": "Zugausfall und Ersatzverkehr: Wegen Gleisbauarbeiten zwischen Hamburg und Hannover fällt der ICE 785 am Samstag, 20. April, und Sonntag, 21. April, aus. Ein Ersatzbus fährt ab Hamburg Hbf um 8:15 Uhr und 14:15 Uhr. Die Fahrzeit verlängert sich um circa 45 Minuten. Bereits gekaufte Fahrkarten behalten ihre Gültigkeit. Weitere Informationen unter www.bahn.de/bauarbeiten."
+        },
+        {
+          "label": "Text B",
+          "category": "Arztpraxis",
+          "text": "Praxis Dr. med. Hoffmann - Allgemeinmedizin. Liebe Patientinnen und Patienten, bitte beachten Sie: Unsere Praxis ist vom 23. Dezember bis einschließlich 3. Januar geschlossen. Die Vertretung übernimmt Dr. Müller, Hauptstraße 12, Tel. 0711-9988776. Im Notfall rufen Sie bitte die 112 oder die ärztliche Bereitschaft unter 116117. Rezeptbestellungen können Sie auch während der Schließung per E-Mail an praxis@dr-hoffmann.de senden."
+        },
+        {
+          "label": "Text C",
+          "category": "Freizeitangebot",
+          "text": "Hallenbad Aqua Fun - Winterangebot: Montag bis Freitag, 6:00 - 21:30 Uhr. Samstag und Sonntag, 8:00 - 20:00 Uhr. Eintritt: Erwachsene 5,50 EUR, Kinder (6-16 Jahre) 3,00 EUR, Kinder unter 6 Jahren frei. Familienkarte (2 Erw. + bis zu 3 Kinder): 14,00 EUR. Zehnerkarte Erwachsene: 45,00 EUR (Ersparnis: 10 EUR). Sauna-Bereich nur für Personen ab 16 Jahren. Jeden Dienstag: Seniorenschwimmen 8:00 - 10:00 Uhr (ermäßigter Eintritt 3,50 EUR)."
+        },
+        {
+          "label": "Text D",
+          "category": "Anleitung",
+          "text": "Müll richtig trennen - Eine kurze Anleitung: Gelber Sack/Gelbe Tonne: Verpackungen aus Plastik, Metall und Verbundmaterial (z.B. Joghurtbecher, Konservendosen, Tetrapacks). Blaue Tonne: Papier und Pappe (z.B. Zeitungen, Kartons, Broschüren). Braune Tonne: Biomüll (z.B. Essensreste, Gartenabfälle, Kaffeefilter). Restmüll (schwarze Tonne): Alles, was nicht recycelt werden kann (z.B. Windeln, kaputtes Porzellan, Zigarettenkippen). Glas bitte zum Glascontainer bringen und nach Farben sortieren."
+        },
+        {
+          "label": "Text E",
+          "category": "Aushang",
+          "text": "Nachbarschaftshilfe gesucht! Ich bin Maria, 78 Jahre alt, und suche jemanden, der mir einmal pro Woche beim Einkaufen hilft. Ich kann wegen meiner Hüftprobleme nicht mehr schwer tragen. Am liebsten donnerstags vormittags. Ich bezahle 12 Euro pro Stunde plus Fahrtkosten. Wer Interesse hat, kann bei mir klingeln: Ahornweg 5, 3. OG links, oder anrufen: 0176-44556677. Ich freu mich über jede Hilfe!"
+        }
+      ],
+      "questions": [
+        {
+          "id": "r6q1",
+          "type": "true_false",
+          "question": "Wenn man schon eine Fahrkarte für den ICE 785 hat, muss man eine neue Fahrkarte für den Bus kaufen.",
+          "answer": "falsch",
+          "relatedText": "Text A",
+          "explanation": "Falsch. Im Text steht: 'Bereits gekaufte Fahrkarten behalten ihre Gültigkeit.' Man braucht also keine neue Fahrkarte."
+        },
+        {
+          "id": "r6q2",
+          "type": "true_false",
+          "question": "Man kann bei Dr. Hoffmann auch während der Weihnachtsferien Rezepte bestellen.",
+          "answer": "richtig",
+          "relatedText": "Text B",
+          "explanation": "Richtig. Im Text steht: 'Rezeptbestellungen können Sie auch während der Schließung per E-Mail senden.'"
+        },
+        {
+          "id": "r6q3",
+          "type": "true_false",
+          "question": "Ein 14-jähriges Kind darf im Hallenbad Aqua Fun die Sauna benutzen.",
+          "answer": "falsch",
+          "relatedText": "Text C",
+          "explanation": "Falsch. Der Text sagt: 'Sauna-Bereich nur für Personen ab 16 Jahren.' Ein 14-jähriges Kind darf also nicht in die Sauna."
+        },
+        {
+          "id": "r6q4",
+          "type": "true_false",
+          "question": "Leere Joghurtbecher gehören in die gelbe Tonne.",
+          "answer": "richtig",
+          "relatedText": "Text D",
+          "explanation": "Richtig. Im Text steht bei Gelber Sack/Gelbe Tonne: 'Verpackungen aus Plastik, Metall und Verbundmaterial (z.B. Joghurtbecher).'"
+        },
+        {
+          "id": "r6q5",
+          "type": "true_false",
+          "question": "Maria sucht jemanden, der ihr jeden Tag beim Einkaufen hilft.",
+          "answer": "falsch",
+          "relatedText": "Text E",
+          "explanation": "Falsch. Maria sucht jemanden, der ihr 'einmal pro Woche' hilft, nicht jeden Tag."
+        }
+      ]
+    },
+    {
+      "id": "r7",
+      "type": "opinion",
+      "examPart": 4,
+      "title": "Sollte man Kinder ohne Smartphone aufwachsen lassen?",
+      "context": "In einer Online-Diskussion schreiben fünf Personen ihre Meinung zum Thema Kinder und Smartphones.",
+      "opinions": [
+        {
+          "person": "Sandra, 42, Lehrerin aus Köln",
+          "text": "Als Lehrerin sehe ich jeden Tag, wie Smartphones den Unterricht stören. Kinder können sich nicht mehr konzentrieren, weil sie ständig an ihr Handy denken. Ich bin der Meinung, dass Kinder unter 12 Jahren kein eigenes Smartphone haben sollten. Sie sollen lieber draußen spielen, Bücher lesen und ihre Kreativität entwickeln. Die digitale Welt kann warten."
+        },
+        {
+          "person": "Thomas, 38, IT-Berater aus Hamburg",
+          "text": "Ich sehe das anders. Wir leben in einer digitalen Welt, und Kinder müssen früh lernen, mit Technik umzugehen. Mein Sohn hat mit 8 Jahren sein erstes Tablet bekommen, und jetzt mit 10 kann er schon einfache Programme schreiben. Natürlich muss man die Bildschirmzeit begrenzen, aber ein generelles Verbot halte ich für falsch. Man sollte Kinder begleiten, nicht verbieten."
+        },
+        {
+          "person": "Elif, 35, Psychologin aus Frankfurt",
+          "text": "Aus psychologischer Sicht mache ich mir große Sorgen über die Auswirkungen von sozialen Medien auf Kinder. Studien zeigen, dass frühe Smartphone-Nutzung zu Schlafproblemen, Angst und Depressionen führen kann. Ich empfehle Eltern, mindestens bis zur weiterführenden Schule zu warten. Und dann sollte man gemeinsam Regeln aufstellen, zum Beispiel kein Handy beim Essen und kein Handy im Schlafzimmer."
+        },
+        {
+          "person": "Martin, 45, Vater von drei Kindern aus München",
+          "text": "Ich habe drei Kinder zwischen 9 und 15 Jahren. Als unser ältestes Kind kein Smartphone hatte, wurde es in der Schule ausgeschlossen, weil alle anderen über WhatsApp kommuniziert haben. Das war sehr schmerzhaft für uns alle. Deshalb haben wir unseren jüngeren Kindern früher ein Handy gegeben. Manchmal muss man pragmatisch sein. Kein Smartphone zu haben kann auch zu sozialen Problemen führen."
+        },
+        {
+          "person": "Lena, 29, Kindergärtnerin aus Dresden",
+          "text": "Ich arbeite mit kleinen Kindern und sehe, dass manche schon mit 3 oder 4 Jahren stundenlang auf Tablets schauen. Das macht mir Angst. Diese Kinder haben oft Schwierigkeiten mit der Sprache und der Feinmotorik. Ich wünsche mir, dass Eltern mehr Zeit mit ihren Kindern verbringen, anstatt sie vor einen Bildschirm zu setzen. Für kleine Kinder ist die echte Welt viel wichtiger als die digitale."
+        }
+      ],
+      "questions": [
+        {
+          "id": "r7q1",
+          "type": "matching",
+          "question": "Wer meint, dass Kinder Technik früh lernen müssen?",
+          "options": [
+            "Sandra",
+            "Thomas",
+            "Elif",
+            "Martin",
+            "Lena"
+          ],
+          "answer": "Thomas",
+          "explanation": "Thomas sagt: 'Kinder müssen früh lernen, mit Technik umzugehen.' Er findet ein generelles Verbot falsch."
+        },
+        {
+          "id": "r7q2",
+          "type": "matching",
+          "question": "Wer hat erlebt, dass ein Kind ohne Smartphone soziale Probleme hatte?",
+          "options": [
+            "Sandra",
+            "Thomas",
+            "Elif",
+            "Martin",
+            "Lena"
+          ],
+          "answer": "Martin",
+          "explanation": "Martin berichtet, dass sein ältestes Kind 'in der Schule ausgeschlossen' wurde, weil es kein Smartphone hatte."
+        },
+        {
+          "id": "r7q3",
+          "type": "matching",
+          "question": "Wer warnt vor den psychischen Folgen von sozialen Medien für Kinder?",
+          "options": [
+            "Sandra",
+            "Thomas",
+            "Elif",
+            "Martin",
+            "Lena"
+          ],
+          "answer": "Elif",
+          "explanation": "Elif, die Psychologin, sagt: 'Studien zeigen, dass frühe Smartphone-Nutzung zu Schlafproblemen, Angst und Depressionen führen kann.'"
+        },
+        {
+          "id": "r7q4",
+          "type": "matching",
+          "question": "Wer beobachtet beruflich, dass kleine Kinder Entwicklungsprobleme durch Bildschirmzeit haben?",
+          "options": [
+            "Sandra",
+            "Thomas",
+            "Elif",
+            "Martin",
+            "Lena"
+          ],
+          "answer": "Lena",
+          "explanation": "Lena, die Kindergärtnerin, sagt: 'Diese Kinder haben oft Schwierigkeiten mit der Sprache und der Feinmotorik.'"
+        },
+        {
+          "id": "r7q5",
+          "type": "matching",
+          "question": "Wer findet, dass Smartphones den Schulunterricht negativ beeinflussen?",
+          "options": [
+            "Sandra",
+            "Thomas",
+            "Elif",
+            "Martin",
+            "Lena"
+          ],
+          "answer": "Sandra",
+          "explanation": "Sandra, die Lehrerin, sagt: 'Smartphones stören den Unterricht. Kinder können sich nicht mehr konzentrieren.'"
+        }
+      ]
+    },
+    {
+      "id": "r8",
+      "type": "opinion",
+      "examPart": 4,
+      "title": "Soll man in der Stadt oder auf dem Land leben?",
+      "context": "In einem Forum diskutieren fünf Personen über die Vor- und Nachteile vom Leben in der Stadt und auf dem Land.",
+      "opinions": [
+        {
+          "person": "Julia, 31, Architektin aus Berlin",
+          "text": "Ich könnte mir nicht vorstellen, auf dem Land zu leben. In der Stadt habe ich alles, was ich brauche: Kultur, Restaurants, gute öffentliche Verkehrsmittel und vor allem meinen Arbeitsplatz. Auf dem Land wäre ich vom Auto abhängig, und der nächste Supermarkt wäre wahrscheinlich Kilometer entfernt. Für mich als alleinstehende Frau bietet die Stadt einfach mehr Möglichkeiten."
+        },
+        {
+          "person": "Frank, 52, Landwirt aus dem Allgäu",
+          "text": "Ich bin auf dem Land aufgewachsen und möchte nirgendwo anders leben. Die Natur, die Ruhe, die frische Luft - das ist unbezahlbar. In der Stadt hört man Tag und Nacht Lärm, und die Luft ist schlecht. Natürlich muss man für manche Dinge weiter fahren, aber dafür hat man Platz, einen eigenen Garten und echte Nachbarschaft. In der Stadt kennt man ja oft nicht einmal seine Nachbarn."
+        },
+        {
+          "person": "Meike, 39, Mutter von zwei Kindern aus Lübeck",
+          "text": "Wir sind vor drei Jahren aus Hamburg aufs Land gezogen, und es war die beste Entscheidung für unsere Familie. Die Kinder können draußen spielen, wir haben einen großen Garten, und die Grundschule ist klein und persönlich. Allerdings vermisse ich manchmal das kulturelle Angebot der Stadt. Und die Fahrerei nervt: Zum Kinderarzt, zum Schwimmkurs, zum Einkaufen - man ist ständig im Auto."
+        },
+        {
+          "person": "Yusuf, 26, Student aus Stuttgart",
+          "text": "Als Student brauche ich die Stadt. Die Uni, Bibliotheken, Jobs, Partys - alles ist in der Nähe. Auf dem Land wäre ich total isoliert. Außerdem ist es für junge Leute auf dem Land oft langweilig: Es gibt keine Bars, keine Kinos, keine Konzerte. Ich verstehe, dass Familien aufs Land ziehen, aber für mich persönlich ist das Stadt-leben viel aufregender."
+        },
+        {
+          "person": "Gisela, 67, Rentnerin aus der Eifel",
+          "text": "Früher fand ich das Leben auf dem Land wunderbar. Aber jetzt, mit 67, merke ich die Nachteile: Mein Arzt ist 20 Kilometer entfernt, der Bus fährt nur zweimal am Tag, und wenn ich meinen Führerschein irgendwann abgeben muss, bin ich hier völlig aufgeschmissen. Für ältere Menschen ist die Infrastruktur auf dem Land ein echtes Problem. Ich überlege, ob ich in eine kleinere Stadt ziehen sollte."
+        }
+      ],
+      "questions": [
+        {
+          "id": "r8q1",
+          "type": "matching",
+          "question": "Wer hat gute Erfahrungen mit dem Umzug aufs Land gemacht, sieht aber auch Nachteile?",
+          "options": [
+            "Julia",
+            "Frank",
+            "Meike",
+            "Yusuf",
+            "Gisela"
+          ],
+          "answer": "Meike",
+          "explanation": "Meike sagt, der Umzug war 'die beste Entscheidung', aber sie vermisst das kulturelle Angebot und die Fahrerei nervt sie."
+        },
+        {
+          "id": "r8q2",
+          "type": "matching",
+          "question": "Wer macht sich Sorgen über die medizinische Versorgung auf dem Land?",
+          "options": [
+            "Julia",
+            "Frank",
+            "Meike",
+            "Yusuf",
+            "Gisela"
+          ],
+          "answer": "Gisela",
+          "explanation": "Gisela sagt: 'Mein Arzt ist 20 Kilometer entfernt' und beschreibt die Infrastrukturprobleme für ältere Menschen."
+        },
+        {
+          "id": "r8q3",
+          "type": "matching",
+          "question": "Wer findet die Gemeinschaft auf dem Land besser als in der Stadt?",
+          "options": [
+            "Julia",
+            "Frank",
+            "Meike",
+            "Yusuf",
+            "Gisela"
+          ],
+          "answer": "Frank",
+          "explanation": "Frank sagt: 'Man hat echte Nachbarschaft. In der Stadt kennt man ja oft nicht einmal seine Nachbarn.'"
+        },
+        {
+          "id": "r8q4",
+          "type": "matching",
+          "question": "Wer findet das Landleben langweilig für junge Menschen?",
+          "options": [
+            "Julia",
+            "Frank",
+            "Meike",
+            "Yusuf",
+            "Gisela"
+          ],
+          "answer": "Yusuf",
+          "explanation": "Yusuf sagt: 'Für junge Leute ist es auf dem Land oft langweilig: Es gibt keine Bars, keine Kinos, keine Konzerte.'"
+        },
+        {
+          "id": "r8q5",
+          "type": "matching",
+          "question": "Wer betont die praktischen Vorteile der Stadt für den Alltag?",
+          "options": [
+            "Julia",
+            "Frank",
+            "Meike",
+            "Yusuf",
+            "Gisela"
+          ],
+          "answer": "Julia",
+          "explanation": "Julia sagt, in der Stadt hat sie 'alles, was sie braucht: Kultur, Restaurants, gute öffentliche Verkehrsmittel.' Auf dem Land wäre sie vom Auto abhängig."
+        }
+      ]
+    },
+    {
+      "id": "r9",
+      "type": "formal",
+      "examPart": 5,
+      "title": "Hausordnung einer Mietwohnung",
+      "source": "Hausverwaltung Schneider GmbH",
+      "text": "Hausordnung\n\n1. Ruhezeiten: Die allgemeine Nachtruhe gilt von 22:00 bis 6:00 Uhr. An Sonn- und Feiertagen ist ganztägig auf besondere Ruhe zu achten. Musizieren ist werktags von 8:00 bis 12:00 Uhr und von 14:00 bis 20:00 Uhr erlaubt, jedoch nicht an Sonn- und Feiertagen.\n\n2. Treppenhaus und Gemeinschaftsflächen: Das Treppenhaus ist von allen Mietern sauber zu halten. Jeder Mieter ist im wöchentlichen Wechsel für die Reinigung zuständig. Der Reinigungsplan hängt im Erdgeschoss aus. Kinderwägen, Fahrräder und Schuhe dürfen nicht im Treppenhaus abgestellt werden. Bitte benutzen Sie den Kellerraum oder den Fahrradkeller.\n\n3. Müllentsorgung: Die Mülltonnen befinden sich im Hinterhof. Bitte trennen Sie Ihren Müll sorgfältig (siehe Aushang an den Mülltonnen). Sperrmüll darf nicht neben den Mülltonnen abgestellt werden. Für die Sperrmüllabholung kontaktieren Sie bitte die Stadtreinigung.\n\n4. Tierhaltung: Kleintiere (Hamster, Fische, Vögel) sind ohne Genehmigung erlaubt. Für die Haltung von Hunden und Katzen ist die schriftliche Zustimmung der Hausverwaltung erforderlich. Hunde müssen im Treppenhaus und auf den Gemeinschaftsflächen an der Leine geführt werden.\n\n5. Balkon und Garten: Das Grillen auf dem Balkon ist aus Brandschutzgründen nicht gestattet. Blumenkästen müssen sicher befestigt werden. Die Gartennutzung ist allen Mietern gestattet, jedoch ist jeder Mieter für die Pflege seines zugewiesenen Bereichs verantwortlich.\n\n6. Waschküche: Die Waschküche kann nach dem aushangenden Zeitplan benutzt werden. Bitte räumen Sie die Waschmaschine nach Beendigung des Waschgangs umgehend aus. Die Benutzung der Waschmaschine ist zwischen 22:00 und 6:00 Uhr nicht gestattet.\n\n7. Schäden und Reparaturen: Schäden an der Wohnung oder an Gemeinschaftseinrichtungen sind der Hausverwaltung unverzüglich mitzuteilen. Eigenmächtige Reparaturen oder bauliche Veränderungen sind ohne Genehmigung nicht erlaubt.\n\nStand: Januar 2025. Hausverwaltung Schneider GmbH, Gartenstraße 14, 80331 München.",
+      "questions": [
+        {
+          "id": "r9q1",
+          "type": "multiple_choice",
+          "question": "Wann darf man in der Wohnung Klavier spielen?",
+          "options": [
+            "a) Jeden Tag zwischen 8:00 und 20:00 Uhr",
+            "b) Werktags zwischen 8:00 und 12:00 Uhr und zwischen 14:00 und 20:00 Uhr",
+            "c) Nur am Wochenende"
+          ],
+          "answer": "b",
+          "explanation": "In der Hausordnung steht: 'Musizieren ist werktags von 8:00 bis 12:00 Uhr und von 14:00 bis 20:00 Uhr erlaubt, jedoch nicht an Sonn- und Feiertagen.' Also nur werktags und mit einer Mittagspause."
+        },
+        {
+          "id": "r9q2",
+          "type": "multiple_choice",
+          "question": "Was muss man tun, wenn man eine Katze halten möchte?",
+          "options": [
+            "a) Man muss nichts tun, Katzen sind immer erlaubt.",
+            "b) Man braucht eine schriftliche Erlaubnis von der Hausverwaltung.",
+            "c) Katzen sind in dem Haus grundsätzlich verboten."
+          ],
+          "answer": "b",
+          "explanation": "Der Text sagt: 'Für die Haltung von Hunden und Katzen ist die schriftliche Zustimmung der Hausverwaltung erforderlich.' Man braucht also eine Genehmigung."
+        },
+        {
+          "id": "r9q3",
+          "type": "multiple_choice",
+          "question": "Wo darf man sein Fahrrad abstellen?",
+          "options": [
+            "a) Im Treppenhaus",
+            "b) Im Fahrradkeller",
+            "c) Auf dem Balkon"
+          ],
+          "answer": "b",
+          "explanation": "Im Text steht: 'Fahrräder dürfen nicht im Treppenhaus abgestellt werden. Bitte benutzen Sie den Kellerraum oder den Fahrradkeller.'"
+        },
+        {
+          "id": "r9q4",
+          "type": "multiple_choice",
+          "question": "Was ist auf dem Balkon nicht erlaubt?",
+          "options": [
+            "a) Blumen haben",
+            "b) Grillen",
+            "c) Wäsche trocknen"
+          ],
+          "answer": "b",
+          "explanation": "Die Hausordnung sagt: 'Das Grillen auf dem Balkon ist aus Brandschutzgründen nicht gestattet.' Blumenkästen sind erlaubt (müssen aber sicher befestigt sein)."
+        },
+        {
+          "id": "r9q5",
+          "type": "multiple_choice",
+          "question": "Was soll man tun, wenn etwas in der Wohnung kaputt ist?",
+          "options": [
+            "a) Es selbst reparieren",
+            "b) Die Hausverwaltung sofort informieren",
+            "c) Die Nachbarn um Hilfe bitten"
+          ],
+          "answer": "b",
+          "explanation": "Im Text heißt es: 'Schäden sind der Hausverwaltung unverzüglich mitzuteilen. Eigenmächtige Reparaturen sind ohne Genehmigung nicht erlaubt.' Man muss also die Hausverwaltung informieren."
+        }
+      ]
+    },
+    {
+      "id": "r10",
+      "type": "formal",
+      "examPart": 5,
+      "title": "Allgemeine Geschäftsbedingungen - Online-Sprachkurs",
+      "source": "Sprachschule Lingua Online GmbH",
+      "text": "Allgemeine Geschäftsbedingungen (AGB) für Online-Sprachkurse\n\n1. Anmeldung und Vertragsabschluss: Die Anmeldung erfolgt online über unsere Website oder schriftlich per E-Mail. Mit der Anmeldung erkennen Sie diese AGB an. Der Vertrag kommt mit der schriftlichen Anmeldebestätigung durch Lingua Online zustande.\n\n2. Kursgebühren: Die Kursgebühr ist innerhalb von 14 Tagen nach Erhalt der Anmeldebestätigung zu bezahlen. Bei Zahlung per Überweisung geben Sie bitte Ihre Kursnummer als Verwendungszweck an. Eine Ratenzahlung ist bei Kursen ab 500 EUR auf Anfrage möglich.\n\n3. Rücktritt und Kündigung: Ein kostenloser Rücktritt ist bis 14 Tage vor Kursbeginn möglich. Bei späterem Rücktritt werden 50 Prozent der Kursgebühr als Stornierungskosten berechnet. Nach Kursbeginn ist eine Erstattung nicht mehr möglich. Das gesetzliche 14-tägige Widerrufsrecht für Fernabsatzverträge bleibt unberührt.\n\n4. Unterrichtsausfall: Bei Krankheit oder Verhinderung der Lehrkraft wird der Unterricht nachgeholt oder ein Ersatzlehrer eingesetzt. Fällt eine Unterrichtsstunde aus Gründen aus, die Lingua Online zu vertreten hat, wird die Stunde kostenlos nachgeholt. Bei technischen Problemen auf Seiten des Teilnehmers besteht kein Anspruch auf Nachholung.\n\n5. Technische Voraussetzungen: Für die Teilnahme an Online-Kursen benötigen Sie eine stabile Internetverbindung (mindestens 5 Mbit/s), ein Endgerät mit Kamera und Mikrofon sowie die aktuelle Version der Software Zoom. Für technische Probleme, die auf Seiten des Teilnehmers liegen, übernimmt Lingua Online keine Haftung.\n\n6. Kursmaterialien: Die im Kurs verwendeten Materialien sind urheberrechtlich geschützt. Eine Weitergabe an Dritte oder Veröffentlichung ist nicht gestattet. Digitale Kursmaterialien werden über unsere Lernplattform zur Verfügung gestellt und sind nach Kursende noch 3 Monate lang zugänglich.\n\n7. Zertifikat: Am Ende des Kurses erhalten Teilnehmer, die an mindestens 80 Prozent der Unterrichtsstunden teilgenommen haben, ein Teilnahmezertifikat. Ein Sprachzertifikat (z.B. Goethe-Zertifikat) kann nicht durch Lingua Online ausgestellt werden. Wir bereiten Sie jedoch gerne auf offizielle Prüfungen vor.\n\n8. Datenschutz: Ihre persönlichen Daten werden gemäß der Datenschutz-Grundverordnung (DSGVO) behandelt. Weitere Informationen finden Sie in unserer Datenschutzerklärung auf unserer Website.\n\nStand: Oktober 2025. Lingua Online GmbH, Friedrichstraße 89, 10117 Berlin.",
+      "questions": [
+        {
+          "id": "r10q1",
+          "type": "multiple_choice",
+          "question": "Was passiert, wenn man eine Woche vor Kursbeginn absagt?",
+          "options": [
+            "a) Man bekommt das ganze Geld zurück.",
+            "b) Man muss 50 Prozent der Kursgebühr bezahlen.",
+            "c) Man muss die komplette Kursgebühr bezahlen."
+          ],
+          "answer": "b",
+          "explanation": "Eine Woche vor Kursbeginn ist weniger als 14 Tage. Der Text sagt: 'Bei späterem Rücktritt werden 50 Prozent der Kursgebühr als Stornierungskosten berechnet.'"
+        },
+        {
+          "id": "r10q2",
+          "type": "multiple_choice",
+          "question": "Was passiert, wenn der Lehrer krank ist?",
+          "options": [
+            "a) Der Kurs fällt aus und man bekommt Geld zurück.",
+            "b) Die Stunde wird nachgeholt oder ein anderer Lehrer unterrichtet.",
+            "c) Die Teilnehmer müssen selbstständig lernen."
+          ],
+          "answer": "b",
+          "explanation": "Im Text steht: 'Bei Krankheit oder Verhinderung der Lehrkraft wird der Unterricht nachgeholt oder ein Ersatzlehrer eingesetzt.'"
+        },
+        {
+          "id": "r10q3",
+          "type": "multiple_choice",
+          "question": "Was braucht man für die Teilnahme am Online-Kurs?",
+          "options": [
+            "a) Nur einen Computer",
+            "b) Einen Computer mit Kamera und Mikrofon sowie schnelles Internet",
+            "c) Ein spezielles Programm, das man kaufen muss"
+          ],
+          "answer": "b",
+          "explanation": "Der Text nennt: 'Eine stabile Internetverbindung (mindestens 5 Mbit/s), ein Endgerät mit Kamera und Mikrofon sowie die aktuelle Version der Software Zoom.' Zoom ist kostenlos."
+        },
+        {
+          "id": "r10q4",
+          "type": "multiple_choice",
+          "question": "Wann bekommt man ein Teilnahmezertifikat?",
+          "options": [
+            "a) Wenn man den Kurs bezahlt hat.",
+            "b) Wenn man bei mindestens 80 Prozent des Unterrichts dabei war.",
+            "c) Wenn man eine Abschlussprüfung bestanden hat."
+          ],
+          "answer": "b",
+          "explanation": "Im Text heißt es: 'Teilnehmer, die an mindestens 80 Prozent der Unterrichtsstunden teilgenommen haben, erhalten ein Teilnahmezertifikat.'"
+        },
+        {
+          "id": "r10q5",
+          "type": "multiple_choice",
+          "question": "Wie lange kann man die digitalen Kursmaterialien nach dem Kursende noch benutzen?",
+          "options": [
+            "a) Einen Monat",
+            "b) Drei Monate",
+            "c) Unbegrenzt"
+          ],
+          "answer": "b",
+          "explanation": "Der Text sagt: 'Digitale Kursmaterialien sind nach Kursende noch 3 Monate lang zugänglich.'"
+        }
+      ]
+    },
+    {
+      "id": "r11",
+      "type": "blog",
+      "examPart": 1,
+      "title": "Mein Jahr als Freiwilliger in einem Naturschutzprojekt",
+      "author": "Jonas, 22, aus Freiburg",
+      "text": "Nach dem Abitur wusste ich nicht genau, was ich studieren wollte. Meine Eltern haben mir geraten, erst einmal ein Freiwilliges Ökologisches Jahr (FOEJ) zu machen. Zuerst war ich skeptisch, aber dann habe ich mich für ein Projekt in der Lüneburger Heide beworben - und es wurde das beste Jahr meines Lebens.\n\nMeine Hauptaufgabe war die Pflege der Heidelandschaft. Das klingt vielleicht langweilig, aber es war körperlich sehr anstrengend und gleichzeitig unglaublich befriedigend. Wir haben alte Bäume geschnitten, Wege freigelegt und invasive Pflanzenarten entfernt. Bei Wind und Wetter waren wir draußen, und am Ende des Tages konnte ich sofort einschlafen.\n\nNeben der praktischen Arbeit habe ich auch viel über Ökologie gelernt. Einmal pro Monat hatten wir Seminare zu Themen wie Klimawandel, Artenvielfalt und nachhaltige Landwirtschaft. Ein Biologe hat uns gezeigt, wie man Vögel an ihrem Gesang erkennt, und eine Försterin hat uns erklärt, wie ein gesunder Wald funktioniert. Dieses Wissen hat mein Verhältnis zur Natur völlig verändert.\n\nAm meisten hat mich aber die Arbeit mit Schulklassen begeistert. Zweimal im Monat kamen Kinder zu uns, und wir haben ihnen die Natur gezeigt: Insekten bestimmen, Spuren lesen, Feuer machen. Die Begeisterung der Kinder war ansteckend, und ich habe gemerkt, dass ich gut erklären kann.\n\nDurch das FOEJ weiß ich jetzt, was ich machen will: Ich studiere seit Oktober Biologie und möchte später im Bereich Umweltbildung arbeiten. Allen jungen Menschen, die sich nach der Schule orientieren müssen, kann ich ein Freiwilligenjahr nur empfehlen. Man lernt so viel - nicht nur über die Natur, sondern auch über sich selbst.",
+      "headings": [
+        "A) Berufswunsch gefunden",
+        "B) Wie ich zum Freiwilligendienst kam",
+        "C) Harte Arbeit in der Natur",
+        "D) Wissen, das mein Leben veränderte",
+        "E) Kindern die Natur zeigen",
+        "F) Probleme mit den anderen Freiwilligen",
+        "G) Geld verdienen nach der Schule"
+      ],
+      "questions": [
+        {
+          "id": "r11q1",
+          "type": "matching",
+          "question": "Welche Überschrift passt zum ersten Absatz?",
+          "options": [
+            "A) Berufswunsch gefunden",
+            "B) Wie ich zum Freiwilligendienst kam",
+            "C) Harte Arbeit in der Natur",
+            "D) Wissen, das mein Leben veränderte",
+            "E) Kindern die Natur zeigen",
+            "F) Probleme mit den anderen Freiwilligen",
+            "G) Geld verdienen nach der Schule"
+          ],
+          "answer": "B) Wie ich zum Freiwilligendienst kam",
+          "explanation": "Im ersten Absatz erklärt Jonas, wie er zum FOEJ gekommen ist: Er wusste nicht, was er studieren wollte, und seine Eltern haben es ihm empfohlen."
+        },
+        {
+          "id": "r11q2",
+          "type": "matching",
+          "question": "Welche Überschrift passt zum zweiten Absatz?",
+          "options": [
+            "A) Berufswunsch gefunden",
+            "B) Wie ich zum Freiwilligendienst kam",
+            "C) Harte Arbeit in der Natur",
+            "D) Wissen, das mein Leben veränderte",
+            "E) Kindern die Natur zeigen",
+            "F) Probleme mit den anderen Freiwilligen",
+            "G) Geld verdienen nach der Schule"
+          ],
+          "answer": "C) Harte Arbeit in der Natur",
+          "explanation": "Im zweiten Absatz beschreibt Jonas die körperlich anstrengende praktische Arbeit in der Heidelandschaft: Bäume schneiden, Wege freilegen, bei jedem Wetter draußen."
+        },
+        {
+          "id": "r11q3",
+          "type": "matching",
+          "question": "Welche Überschrift passt zum dritten Absatz?",
+          "options": [
+            "A) Berufswunsch gefunden",
+            "B) Wie ich zum Freiwilligendienst kam",
+            "C) Harte Arbeit in der Natur",
+            "D) Wissen, das mein Leben veränderte",
+            "E) Kindern die Natur zeigen",
+            "F) Probleme mit den anderen Freiwilligen",
+            "G) Geld verdienen nach der Schule"
+          ],
+          "answer": "D) Wissen, das mein Leben veränderte",
+          "explanation": "Im dritten Absatz geht es um Seminare und Wissen über Ökologie. Jonas sagt: 'Dieses Wissen hat mein Verhältnis zur Natur völlig verändert.'"
+        },
+        {
+          "id": "r11q4",
+          "type": "matching",
+          "question": "Welche Überschrift passt zum vierten Absatz?",
+          "options": [
+            "A) Berufswunsch gefunden",
+            "B) Wie ich zum Freiwilligendienst kam",
+            "C) Harte Arbeit in der Natur",
+            "D) Wissen, das mein Leben veränderte",
+            "E) Kindern die Natur zeigen",
+            "F) Probleme mit den anderen Freiwilligen",
+            "G) Geld verdienen nach der Schule"
+          ],
+          "answer": "E) Kindern die Natur zeigen",
+          "explanation": "Im vierten Absatz beschreibt Jonas die Arbeit mit Schulklassen: Kindern Insekten bestimmen und Spuren lesen beibringen."
+        },
+        {
+          "id": "r11q5",
+          "type": "matching",
+          "question": "Welche Überschrift passt zum fünften Absatz?",
+          "options": [
+            "A) Berufswunsch gefunden",
+            "B) Wie ich zum Freiwilligendienst kam",
+            "C) Harte Arbeit in der Natur",
+            "D) Wissen, das mein Leben veränderte",
+            "E) Kindern die Natur zeigen",
+            "F) Probleme mit den anderen Freiwilligen",
+            "G) Geld verdienen nach der Schule"
+          ],
+          "answer": "A) Berufswunsch gefunden",
+          "explanation": "Im letzten Absatz erklärt Jonas, dass er jetzt Biologie studiert und im Bereich Umweltbildung arbeiten möchte. Er hat seinen Berufswunsch gefunden."
+        }
+      ]
+    },
+    {
+      "id": "r12",
+      "type": "article",
+      "examPart": 2,
+      "title": "Warum Deutsche so gerne reisen",
+      "source": "Frankfurter Allgemeine Zeitung (adaptiert)",
+      "text": "Die Deutschen sind Reiseweltmeister - so heißt es zumindest. Tatsächlich geben die Deutschen pro Jahr über 70 Milliarden Euro für Urlaub aus, und mehr als 55 Prozent der Bevölkerung machen mindestens eine Urlaubsreise pro Jahr. Aber warum ist Reisen für die Deutschen so wichtig?\n\nHistorisch gesehen hat die Reiselust der Deutschen mit dem Wirtschaftswunder in den 1950er und 1960er Jahren begonnen. Als die Menschen nach dem Krieg endlich wieder Geld hatten, wollten sie die Welt sehen. Italien war das erste beliebte Reiseziel, und noch heute zieht es viele Deutsche an die italienischen Strände und in die Toskana. Später kamen Spanien, Griechenland und die Türkei dazu.\n\nHeute hat sich das Reiseverhalten verändert. Zwar bleibt Spanien mit den Balearen und Kanaren das beliebteste Auslandsreiseziel, aber immer mehr Deutsche machen Urlaub im eigenen Land. Die Nord- und Ostsee, der Schwarzwald und Bayern sind besonders beliebt. Ein Grund dafür ist das wachsende Umweltbewusstsein: Viele Menschen verzichten bewusst auf Flugreisen und fahren lieber mit dem Zug oder Auto in den Urlaub.\n\nAuch die Art des Reisens hat sich verändert. Früher war der typische deutsche Urlaub zwei Wochen am Strand. Heute sind Aktivurlaub, Städtereisen und Kulturreisen im Trend. Besonders beliebt sind Wanderurlaube in den Alpen, Fahrradtouren entlang von Flüssen und Wellness-Wochenenden. Auch Kreuzfahrten erfreuen sich zunehmender Beliebtheit, obwohl sie wegen ihrer Umweltbilanz in der Kritik stehen.\n\nExperten sehen den Trend zum nachhaltigen Reisen als eine der wichtigsten Entwicklungen der nächsten Jahre. Immer mehr Hotels bieten ökologische Konzepte an, und neue Nachtzüge verbinden deutsche Städte mit europäischen Metropolen. Ob die Deutschen auch in Zukunft Reiseweltmeister bleiben, wird sich zeigen. Sicher ist: Die Sehnsucht nach Ferne und neuen Erfahrungen wird bleiben.",
+      "questions": [
+        {
+          "id": "r12q1",
+          "type": "multiple_choice",
+          "question": "Wann begann die Reiselust der Deutschen?",
+          "options": [
+            "a) Nach dem Ersten Weltkrieg",
+            "b) In den 1950er und 1960er Jahren",
+            "c) Erst nach der Wiedervereinigung"
+          ],
+          "answer": "b",
+          "explanation": "Der Text sagt: 'Die Reiselust der Deutschen hat mit dem Wirtschaftswunder in den 1950er und 1960er Jahren begonnen.'"
+        },
+        {
+          "id": "r12q2",
+          "type": "multiple_choice",
+          "question": "Welches Land war das erste beliebte Reiseziel?",
+          "options": [
+            "a) Spanien",
+            "b) Griechenland",
+            "c) Italien"
+          ],
+          "answer": "c",
+          "explanation": "Im Text steht: 'Italien war das erste beliebte Reiseziel.'"
+        },
+        {
+          "id": "r12q3",
+          "type": "multiple_choice",
+          "question": "Warum machen immer mehr Deutsche Urlaub im eigenen Land?",
+          "options": [
+            "a) Weil Auslandsreisen zu teuer geworden sind.",
+            "b) Weil sie umweltbewusster geworden sind.",
+            "c) Weil die deutschen Hotels besser sind."
+          ],
+          "answer": "b",
+          "explanation": "Der Text erklärt: 'Ein Grund dafür ist das wachsende Umweltbewusstsein: Viele Menschen verzichten bewusst auf Flugreisen.'"
+        },
+        {
+          "id": "r12q4",
+          "type": "multiple_choice",
+          "question": "Welche Art von Urlaub ist heute besonders beliebt?",
+          "options": [
+            "a) Zwei Wochen Strandurlaub",
+            "b) Wanderurlaub, Städtereisen und Wellness",
+            "c) Abenteuerreisen in ferne Länder"
+          ],
+          "answer": "b",
+          "explanation": "Der Text sagt: 'Heute sind Aktivurlaub, Städtereisen und Kulturreisen im Trend. Besonders beliebt sind Wanderurlaube, Fahrradtouren und Wellness-Wochenenden.'"
+        },
+        {
+          "id": "r12q5",
+          "type": "multiple_choice",
+          "question": "Was ist laut Experten ein wichtiger Zukunftstrend beim Reisen?",
+          "options": [
+            "a) Billigflüge werden noch günstiger.",
+            "b) Nachhaltiges und umweltfreundliches Reisen.",
+            "c) Immer mehr Deutsche fliegen in die USA."
+          ],
+          "answer": "b",
+          "explanation": "Im Text heißt es: 'Experten sehen den Trend zum nachhaltigen Reisen als eine der wichtigsten Entwicklungen der nächsten Jahre.'"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="B1 Goethe Prüfung Trainer - Vokabeln, Grammatik, Lesen, Hören, Schreiben und Prüfungssimulation">
+  <meta name="theme-color" content="#e94560">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <title>B1 Trainer - Goethe Prüfungsvorbereitung</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="navbar__left">
+      <button class="navbar__toggle" id="sidebar-toggle" aria-label="Menü öffnen">
+        <span class="navbar__toggle-bar"></span>
+        <span class="navbar__toggle-bar"></span>
+        <span class="navbar__toggle-bar"></span>
+      </button>
+      <a href="#home" class="navbar__logo">
+        <span class="navbar__logo-icon">B1</span>
+        <span class="navbar__logo-text">Trainer</span>
+      </a>
+    </div>
+    <nav class="navbar__links" aria-label="Hauptnavigation">
+      <a href="#vocabulary" class="navbar__link" data-module="vocabulary">Vokabeln</a>
+      <a href="#grammar" class="navbar__link" data-module="grammar">Grammatik</a>
+      <a href="#reading" class="navbar__link" data-module="reading">Lesen</a>
+      <a href="#listening" class="navbar__link" data-module="listening">Hören</a>
+      <a href="#writing" class="navbar__link" data-module="writing">Schreiben</a>
+      <a href="#exam" class="navbar__link" data-module="exam">Prüfung</a>
+    </nav>
+  </header>
+
+  <!-- Sidebar Navigation -->
+  <aside class="sidebar" id="sidebar" aria-label="Seitennavigation">
+    <nav class="sidebar__nav">
+      <a href="#home" class="sidebar__link sidebar__link--active" data-module="home">
+        <span class="sidebar__icon" aria-hidden="true">&#9751;</span>
+        <span class="sidebar__label">Startseite</span>
+      </a>
+      <a href="#vocabulary" class="sidebar__link" data-module="vocabulary">
+        <span class="sidebar__icon" aria-hidden="true">&#9997;</span>
+        <span class="sidebar__label">Vokabeln</span>
+      </a>
+      <a href="#grammar" class="sidebar__link" data-module="grammar">
+        <span class="sidebar__icon" aria-hidden="true">&#9998;</span>
+        <span class="sidebar__label">Grammatik</span>
+      </a>
+      <a href="#reading" class="sidebar__link" data-module="reading">
+        <span class="sidebar__icon" aria-hidden="true">&#128214;</span>
+        <span class="sidebar__label">Lesen</span>
+      </a>
+      <a href="#listening" class="sidebar__link" data-module="listening">
+        <span class="sidebar__icon" aria-hidden="true">&#127911;</span>
+        <span class="sidebar__label">Hören</span>
+      </a>
+      <a href="#writing" class="sidebar__link" data-module="writing">
+        <span class="sidebar__icon" aria-hidden="true">&#9999;</span>
+        <span class="sidebar__label">Schreiben</span>
+      </a>
+      <a href="#exam" class="sidebar__link" data-module="exam">
+        <span class="sidebar__icon" aria-hidden="true">&#127942;</span>
+        <span class="sidebar__label">Prüfung</span>
+      </a>
+    </nav>
+
+    <div class="sidebar__footer">
+      <div class="sidebar__progress">
+        <span class="sidebar__progress-label">Gesamtfortschritt</span>
+        <div class="progress-bar">
+          <div class="progress-bar__fill" id="global-progress" style="width: 0%"></div>
+        </div>
+        <span class="sidebar__progress-value" id="global-progress-text">0%</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Sidebar Overlay (mobile) -->
+  <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+  <!-- Main Content Area -->
+  <main class="content" id="content">
+
+    <!-- Home / Dashboard (default view) -->
+    <section class="dashboard" id="page-home">
+      <header class="dashboard__header">
+        <h1 class="dashboard__title">Willkommen zum B1 Trainer</h1>
+        <p class="dashboard__subtitle">Bereite dich auf die Goethe B1 Prüfung vor. Wähle ein Modul, um zu beginnen.</p>
+      </header>
+
+      <!-- Progress Overview -->
+      <section class="dashboard__progress" aria-label="Fortschrittsübersicht">
+        <h2 class="section-title">Dein Fortschritt</h2>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span class="stat-card__value" id="stat-streak">0</span>
+            <span class="stat-card__label">Tage in Folge</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card__value" id="stat-words">0</span>
+            <span class="stat-card__label">Wörter gelernt</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card__value" id="stat-exercises">0</span>
+            <span class="stat-card__label">Übungen gemacht</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card__value" id="stat-accuracy">0%</span>
+            <span class="stat-card__label">Genauigkeit</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Quick-Start Module Cards -->
+      <section class="dashboard__modules" aria-label="Module">
+        <h2 class="section-title">Module</h2>
+        <div class="module-grid">
+
+          <a href="#vocabulary" class="module-card module-card--vocabulary">
+            <div class="module-card__icon" aria-hidden="true">&#9997;</div>
+            <h3 class="module-card__title">Vokabeln</h3>
+            <p class="module-card__desc">Karteikarten, Lückentexte und Artikel-Quiz</p>
+            <div class="progress-bar progress-bar--small">
+              <div class="progress-bar__fill" data-module-progress="vocabulary" style="width: 0%"></div>
+            </div>
+            <span class="module-card__action">Jetzt üben</span>
+          </a>
+
+          <a href="#grammar" class="module-card module-card--grammar">
+            <div class="module-card__icon" aria-hidden="true">&#9998;</div>
+            <h3 class="module-card__title">Grammatik</h3>
+            <p class="module-card__desc">Fälle, Konjugation, Zeiten und Satzbau</p>
+            <div class="progress-bar progress-bar--small">
+              <div class="progress-bar__fill" data-module-progress="grammar" style="width: 0%"></div>
+            </div>
+            <span class="module-card__action">Jetzt üben</span>
+          </a>
+
+          <a href="#reading" class="module-card module-card--reading">
+            <div class="module-card__icon" aria-hidden="true">&#128214;</div>
+            <h3 class="module-card__title">Lesen</h3>
+            <p class="module-card__desc">Lesetexte mit Verständnisfragen</p>
+            <div class="progress-bar progress-bar--small">
+              <div class="progress-bar__fill" data-module-progress="reading" style="width: 0%"></div>
+            </div>
+            <span class="module-card__action">Jetzt üben</span>
+          </a>
+
+          <a href="#listening" class="module-card module-card--listening">
+            <div class="module-card__icon" aria-hidden="true">&#127911;</div>
+            <h3 class="module-card__title">Hören</h3>
+            <p class="module-card__desc">Hörverstehen mit Text-to-Speech</p>
+            <div class="progress-bar progress-bar--small">
+              <div class="progress-bar__fill" data-module-progress="listening" style="width: 0%"></div>
+            </div>
+            <span class="module-card__action">Jetzt üben</span>
+          </a>
+
+          <a href="#writing" class="module-card module-card--writing">
+            <div class="module-card__icon" aria-hidden="true">&#9999;</div>
+            <h3 class="module-card__title">Schreiben</h3>
+            <p class="module-card__desc">Schreibaufgaben mit Selbstbewertung</p>
+            <div class="progress-bar progress-bar--small">
+              <div class="progress-bar__fill" data-module-progress="writing" style="width: 0%"></div>
+            </div>
+            <span class="module-card__action">Jetzt üben</span>
+          </a>
+
+          <a href="#exam" class="module-card module-card--exam">
+            <div class="module-card__icon" aria-hidden="true">&#127942;</div>
+            <h3 class="module-card__title">Prüfung</h3>
+            <p class="module-card__desc">Vollständige Goethe B1 Probeprüfung</p>
+            <div class="progress-bar progress-bar--small">
+              <div class="progress-bar__fill" data-module-progress="exam" style="width: 0%"></div>
+            </div>
+            <span class="module-card__action">Prüfung starten</span>
+          </a>
+
+        </div>
+      </section>
+
+      <!-- Weak Areas / Review Section -->
+      <section class="dashboard__review" id="dashboard-review" aria-label="Schwachstellen">
+        <h2 class="section-title">Schwachstellen üben</h2>
+        <p class="dashboard__review-desc" id="review-desc">
+          Hier erscheinen Themen und Fragen, die dir noch schwerfallen. Übe gezielt, was du bisher verfehlt hast.
+        </p>
+        <div id="weak-categories" class="topic-grid">
+          <!-- Filled dynamically by app.js -->
+        </div>
+        <div id="weak-items-preview" class="dashboard__weak-items">
+          <!-- Filled dynamically by app.js -->
+        </div>
+      </section>
+    </section>
+
+    <!-- Module Pages (rendered by JS) -->
+    <section class="module-page" id="page-vocabulary" hidden>
+      <header class="module-page__header">
+        <h1 class="module-page__title">Vokabeln</h1>
+        <p class="module-page__subtitle">Erweitere deinen Wortschatz mit Karteikarten, Lückentexten und Artikel-Quiz.</p>
+      </header>
+      <div class="module-page__toolbar">
+        <button class="btn btn--accent" data-action="vocab-flashcards">Karteikarten</button>
+        <button class="btn btn--outline" data-action="vocab-fillin">Lückentext</button>
+        <button class="btn btn--outline" data-action="vocab-articles">Artikel-Quiz</button>
+      </div>
+      <div class="module-page__content" id="vocabulary-content">
+        <!-- Rendered by vocabulary.js -->
+      </div>
+    </section>
+
+    <section class="module-page" id="page-grammar" hidden>
+      <header class="module-page__header">
+        <h1 class="module-page__title">Grammatik</h1>
+        <p class="module-page__subtitle">Übe Fälle, Konjugation, Zeiten und Satzbau.</p>
+      </header>
+      <div class="module-page__toolbar">
+        <button class="btn btn--accent" data-action="grammar-cases">Fälle</button>
+        <button class="btn btn--outline" data-action="grammar-conjugation">Konjugation</button>
+        <button class="btn btn--outline" data-action="grammar-tenses">Zeiten</button>
+        <button class="btn btn--outline" data-action="grammar-sentence">Satzbau</button>
+      </div>
+      <div class="module-page__content" id="grammar-content">
+        <!-- Rendered by grammar.js -->
+      </div>
+    </section>
+
+    <section class="module-page" id="page-reading" hidden>
+      <header class="module-page__header">
+        <h1 class="module-page__title">Lesen</h1>
+        <p class="module-page__subtitle">Lies Texte und beantworte Verständnisfragen.</p>
+      </header>
+      <div class="module-page__toolbar">
+        <button class="btn btn--accent" data-action="reading-start">Neuer Text</button>
+      </div>
+      <div class="module-page__content" id="reading-content">
+        <!-- Rendered by reading.js -->
+      </div>
+    </section>
+
+    <section class="module-page" id="page-listening" hidden>
+      <header class="module-page__header">
+        <h1 class="module-page__title">Hören</h1>
+        <p class="module-page__subtitle">Höre zu und beantworte die Fragen.</p>
+      </header>
+      <div class="module-page__toolbar">
+        <button class="btn btn--accent" data-action="listening-play">
+          <span aria-hidden="true">&#9654;</span> Abspielen
+        </button>
+        <button class="btn btn--outline" data-action="listening-slow">Langsam</button>
+        <button class="btn btn--outline" data-action="listening-repeat">Wiederholen</button>
+      </div>
+      <div class="module-page__content" id="listening-content">
+        <!-- Rendered by listening.js -->
+      </div>
+    </section>
+
+    <section class="module-page" id="page-writing" hidden>
+      <header class="module-page__header">
+        <h1 class="module-page__title">Schreiben</h1>
+        <p class="module-page__subtitle">Schreibe Texte zu den vorgegebenen Themen und bewerte dich selbst.</p>
+      </header>
+      <div class="module-page__toolbar">
+        <button class="btn btn--accent" data-action="writing-new">Neue Aufgabe</button>
+        <button class="btn btn--outline" data-action="writing-tips">Tipps anzeigen</button>
+      </div>
+      <div class="module-page__content" id="writing-content">
+        <!-- Rendered by writing.js -->
+      </div>
+    </section>
+
+    <section class="module-page" id="page-exam" hidden>
+      <header class="module-page__header">
+        <h1 class="module-page__title">Prüfungssimulation</h1>
+        <p class="module-page__subtitle">Simuliere eine vollständige Goethe B1 Prüfung unter realen Bedingungen.</p>
+      </header>
+      <div class="module-page__toolbar">
+        <div class="exam-timer" id="exam-timer" aria-live="polite">
+          <span class="exam-timer__icon" aria-hidden="true">&#9201;</span>
+          <span class="exam-timer__value" id="exam-timer-value">00:00</span>
+        </div>
+        <button class="btn btn--accent" data-action="exam-start">Prüfung starten</button>
+        <button class="btn btn--danger" data-action="exam-end" hidden>Prüfung beenden</button>
+      </div>
+      <div class="module-page__content" id="exam-content">
+        <!-- Rendered by exam.js -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Toast Notifications -->
+  <div class="toast-container" id="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- Offline indicator -->
+  <div class="offline-banner" id="offline-banner">Offline-Modus — Alle Übungen sind weiterhin verfügbar</div>
+  <div class="update-banner" id="update-banner" onclick="location.reload()">Neue Version verfügbar — hier tippen zum Aktualisieren</div>
+
+  <!-- Scripts -->
+  <script src="js/utils.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/vocabulary.js"></script>
+  <script src="js/grammar.js"></script>
+  <script src="js/reading.js"></script>
+  <script src="js/listening.js"></script>
+  <script src="js/writing.js"></script>
+  <script src="js/exam.js"></script>
+
+  <!-- Service Worker for offline support -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js')
+          .then(reg => {
+            console.log('[SW] Registered:', reg.scope);
+            // Check for updates
+            reg.addEventListener('updatefound', () => {
+              const newWorker = reg.installing;
+              newWorker.addEventListener('statechange', () => {
+                if (newWorker.state === 'activated' && navigator.serviceWorker.controller) {
+                  const banner = document.getElementById('update-banner');
+                  if (banner) banner.classList.add('update-banner--visible');
+                }
+              });
+            });
+          })
+          .catch(err => console.warn('[SW] Registration failed:', err));
+      });
+    }
+
+    // Offline/online indicators
+    const offlineBanner = document.getElementById('offline-banner');
+    window.addEventListener('offline', () => offlineBanner && offlineBanner.classList.add('offline-banner--visible'));
+    window.addEventListener('online', () => offlineBanner && offlineBanner.classList.remove('offline-banner--visible'));
+    if (!navigator.onLine && offlineBanner) offlineBanner.classList.add('offline-banner--visible');
+  </script>
+
+</body>
+</html>

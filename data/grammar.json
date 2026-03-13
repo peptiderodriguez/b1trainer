@@ -1,0 +1,2838 @@
+[
+  {
+    "id": "prep_dat_001",
+    "topic": "prepositions_dativ",
+    "subtopic": "mit",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "instruction": "Fülle die richtige Präposition ein.",
+    "sentence": "Ich fahre ___ dem Bus zur Arbeit.",
+    "answer": "mit",
+    "options": [
+      "mit",
+      "für",
+      "ohne",
+      "gegen"
+    ],
+    "explanation": "'mit' (with/by means of) always takes the dative case.",
+    "hint": "Welche Präposition bedeutet 'with' oder 'by means of'?"
+  },
+  {
+    "id": "prep_dat_002",
+    "topic": "prepositions_dativ",
+    "subtopic": "aus",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "instruction": "Fülle die richtige Präposition ein.",
+    "sentence": "Sie kommt ___ der Türkei.",
+    "answer": "aus",
+    "options": [
+      "aus",
+      "von",
+      "nach",
+      "bei"
+    ],
+    "explanation": "'aus' (from/out of) is used for origin (countries, cities, places) and takes dative.",
+    "hint": "Woher kommt sie? Welche Präposition benutzt man für Herkunftsländer?"
+  },
+  {
+    "id": "prep_dat_003",
+    "topic": "prepositions_dativ",
+    "subtopic": "bei",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "instruction": "Fülle die richtige Präposition ein.",
+    "sentence": "Er wohnt ___ seinen Eltern.",
+    "answer": "bei",
+    "options": [
+      "bei",
+      "mit",
+      "zu",
+      "von"
+    ],
+    "explanation": "'bei' (at/near/at someone's place) takes the dative case.",
+    "hint": "Welche Präposition bedeutet 'at someone's place'?"
+  },
+  {
+    "id": "prep_dat_004",
+    "topic": "prepositions_dativ",
+    "subtopic": "nach",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "instruction": "Fülle die richtige Präposition ein.",
+    "sentence": "___ dem Unterricht gehe ich nach Hause.",
+    "answer": "Nach",
+    "options": [
+      "Nach",
+      "Vor",
+      "Seit",
+      "Bei"
+    ],
+    "explanation": "'nach' (after) takes the dative case when referring to time.",
+    "hint": "Welche Präposition bedeutet 'after'?"
+  },
+  {
+    "id": "prep_dat_005",
+    "topic": "prepositions_dativ",
+    "subtopic": "seit",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Fülle die richtige Präposition ein.",
+    "sentence": "Ich lerne ___ drei Jahren Deutsch.",
+    "answer": "seit",
+    "options": [
+      "seit",
+      "vor",
+      "nach",
+      "für"
+    ],
+    "explanation": "'seit' (since/for) takes the dative and is used for durations continuing into the present.",
+    "hint": "Welche Präposition drückt eine Zeitdauer aus, die bis jetzt andauert?"
+  },
+  {
+    "id": "prep_dat_006",
+    "topic": "prepositions_dativ",
+    "subtopic": "von",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "instruction": "Fülle die richtige Präposition ein.",
+    "sentence": "Das ist ein Geschenk ___ meiner Freundin.",
+    "answer": "von",
+    "options": [
+      "von",
+      "aus",
+      "mit",
+      "bei"
+    ],
+    "explanation": "'von' (from) takes the dative. Used to indicate origin or possession.",
+    "hint": "Von wem ist das Geschenk?"
+  },
+  {
+    "id": "prep_dat_007",
+    "topic": "prepositions_dativ",
+    "subtopic": "zu",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "instruction": "Fülle die richtige Präposition ein.",
+    "sentence": "Wir gehen ___ dem Arzt.",
+    "answer": "zu",
+    "options": [
+      "zu",
+      "nach",
+      "bei",
+      "an"
+    ],
+    "explanation": "'zu' (to) takes the dative. Used for going to people or specific places.",
+    "hint": "Welche Präposition benutzt man, wenn man zu einer Person geht?"
+  },
+  {
+    "id": "prep_akk_001",
+    "topic": "prepositions_akkusativ",
+    "subtopic": "für",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "instruction": "Fülle die richtige Präposition ein.",
+    "sentence": "Dieses Geschenk ist ___ dich.",
+    "answer": "für",
+    "options": [
+      "für",
+      "um",
+      "gegen",
+      "ohne"
+    ],
+    "explanation": "'für' (for) always takes the accusative case.",
+    "hint": "Welche Präposition bedeutet 'for'?"
+  },
+  {
+    "id": "prep_akk_002",
+    "topic": "prepositions_akkusativ",
+    "subtopic": "ohne",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "instruction": "Fülle die richtige Präposition ein.",
+    "sentence": "Ich gehe nie ___ mein Handy aus dem Haus.",
+    "answer": "ohne",
+    "options": [
+      "ohne",
+      "mit",
+      "für",
+      "gegen"
+    ],
+    "explanation": "'ohne' (without) always takes the accusative case.",
+    "hint": "Welche Präposition bedeutet 'without'?"
+  },
+  {
+    "id": "prep_akk_003",
+    "topic": "prepositions_akkusativ",
+    "subtopic": "durch",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Fülle die richtige Präposition ein.",
+    "sentence": "Wir sind ___ den Park spaziert.",
+    "answer": "durch",
+    "options": [
+      "durch",
+      "über",
+      "um",
+      "für"
+    ],
+    "explanation": "'durch' (through) always takes the accusative case.",
+    "hint": "Welche Präposition bedeutet 'through'?"
+  },
+  {
+    "id": "prep_akk_004",
+    "topic": "prepositions_akkusativ",
+    "subtopic": "gegen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Fülle die richtige Präposition ein.",
+    "sentence": "Er ist ___ die Tür gelaufen.",
+    "answer": "gegen",
+    "options": [
+      "gegen",
+      "an",
+      "vor",
+      "auf"
+    ],
+    "explanation": "'gegen' (against/into) always takes the accusative case.",
+    "hint": "Welche Präposition bedeutet 'against' oder 'into'?"
+  },
+  {
+    "id": "prep_akk_005",
+    "topic": "prepositions_akkusativ",
+    "subtopic": "um",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "instruction": "Fülle die richtige Präposition ein.",
+    "sentence": "Der Kurs beginnt ___ 9 Uhr.",
+    "answer": "um",
+    "options": [
+      "um",
+      "an",
+      "in",
+      "bei"
+    ],
+    "explanation": "'um' (at) takes the accusative. Used for clock times.",
+    "hint": "Welche Präposition benutzt man für Uhrzeiten?"
+  },
+  {
+    "id": "prep_akk_006",
+    "topic": "prepositions_akkusativ",
+    "subtopic": "bis",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Fülle die richtige Präposition ein.",
+    "sentence": "Ich arbeite ___ 17 Uhr.",
+    "answer": "bis",
+    "options": [
+      "bis",
+      "um",
+      "seit",
+      "von"
+    ],
+    "explanation": "'bis' (until) takes the accusative case.",
+    "hint": "Welche Präposition bedeutet 'until'?"
+  },
+  {
+    "id": "prep_wechsel_001",
+    "topic": "prepositions_wechsel",
+    "subtopic": "in_akkusativ",
+    "type": "multiple_choice",
+    "difficulty": 2,
+    "instruction": "Wähle die richtige Form. Akkusativ oder Dativ?",
+    "sentence": "Ich gehe in ___ Schule.",
+    "answer": "die",
+    "options": [
+      "die",
+      "der",
+      "dem",
+      "den"
+    ],
+    "explanation": "'in' + Akkusativ because there is movement towards a destination (Wohin?).",
+    "hint": "Wohin gehst du? Bewegung = Akkusativ."
+  },
+  {
+    "id": "prep_wechsel_002",
+    "topic": "prepositions_wechsel",
+    "subtopic": "in_dativ",
+    "type": "multiple_choice",
+    "difficulty": 2,
+    "instruction": "Wähle die richtige Form. Akkusativ oder Dativ?",
+    "sentence": "Ich bin in ___ Schule.",
+    "answer": "der",
+    "options": [
+      "die",
+      "der",
+      "dem",
+      "den"
+    ],
+    "explanation": "'in' + Dativ because there is no movement, just location (Wo?).",
+    "hint": "Wo bist du? Ort = Dativ."
+  },
+  {
+    "id": "prep_wechsel_003",
+    "topic": "prepositions_wechsel",
+    "subtopic": "auf_akkusativ",
+    "type": "multiple_choice",
+    "difficulty": 2,
+    "instruction": "Wähle die richtige Form. Akkusativ oder Dativ?",
+    "sentence": "Leg das Buch auf ___ Tisch.",
+    "answer": "den",
+    "options": [
+      "den",
+      "dem",
+      "der",
+      "das"
+    ],
+    "explanation": "'auf' + Akkusativ because the book is being placed (movement to a surface, Wohin?).",
+    "hint": "Wohin legst du das Buch? Richtung = Akkusativ."
+  },
+  {
+    "id": "prep_wechsel_004",
+    "topic": "prepositions_wechsel",
+    "subtopic": "auf_dativ",
+    "type": "multiple_choice",
+    "difficulty": 2,
+    "instruction": "Wähle die richtige Form. Akkusativ oder Dativ?",
+    "sentence": "Das Buch liegt auf ___ Tisch.",
+    "answer": "dem",
+    "options": [
+      "den",
+      "dem",
+      "der",
+      "das"
+    ],
+    "explanation": "'auf' + Dativ because the book is already there (location, Wo?).",
+    "hint": "Wo liegt das Buch? Ort = Dativ."
+  },
+  {
+    "id": "prep_wechsel_005",
+    "topic": "prepositions_wechsel",
+    "subtopic": "an_akkusativ",
+    "type": "multiple_choice",
+    "difficulty": 2,
+    "instruction": "Wähle die richtige Form. Akkusativ oder Dativ?",
+    "sentence": "Häng das Bild an ___ Wand.",
+    "answer": "die",
+    "options": [
+      "die",
+      "der",
+      "dem",
+      "den"
+    ],
+    "explanation": "'an' + Akkusativ because the picture is being hung (direction, Wohin?).",
+    "hint": "Wohin hängst du das Bild?"
+  },
+  {
+    "id": "prep_wechsel_006",
+    "topic": "prepositions_wechsel",
+    "subtopic": "an_dativ",
+    "type": "multiple_choice",
+    "difficulty": 2,
+    "instruction": "Wähle die richtige Form. Akkusativ oder Dativ?",
+    "sentence": "Das Bild hängt an ___ Wand.",
+    "answer": "der",
+    "options": [
+      "die",
+      "der",
+      "dem",
+      "den"
+    ],
+    "explanation": "'an' + Dativ because the picture is already on the wall (location, Wo?).",
+    "hint": "Wo hängt das Bild? Ort = Dativ."
+  },
+  {
+    "id": "prep_wechsel_007",
+    "topic": "prepositions_wechsel",
+    "subtopic": "unter_dativ",
+    "type": "multiple_choice",
+    "difficulty": 2,
+    "instruction": "Wähle die richtige Form. Akkusativ oder Dativ?",
+    "sentence": "Die Katze schläft unter ___ Tisch.",
+    "answer": "dem",
+    "options": [
+      "den",
+      "dem",
+      "der",
+      "das"
+    ],
+    "explanation": "'unter' + Dativ because the cat is in a fixed location (Wo?).",
+    "hint": "Wo schläft die Katze? Ort = Dativ."
+  },
+  {
+    "id": "prep_wechsel_008",
+    "topic": "prepositions_wechsel",
+    "subtopic": "neben_akkusativ",
+    "type": "multiple_choice",
+    "difficulty": 2,
+    "instruction": "Wähle die richtige Form. Akkusativ oder Dativ?",
+    "sentence": "Setz dich neben ___ Frau dort.",
+    "answer": "die",
+    "options": [
+      "die",
+      "der",
+      "dem",
+      "den"
+    ],
+    "explanation": "'neben' + Akkusativ because 'sich setzen' implies movement to a new position (Wohin?).",
+    "hint": "Wohin setzt du dich? Bewegung = Akkusativ."
+  },
+  {
+    "id": "prep_gen_001",
+    "topic": "prepositions_genitiv",
+    "subtopic": "wegen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Fülle die richtige Präposition ein.",
+    "sentence": "___ des schlechten Wetters bleiben wir zu Hause.",
+    "answer": "Wegen",
+    "options": [
+      "Wegen",
+      "Trotz",
+      "Während",
+      "Anstatt"
+    ],
+    "explanation": "'wegen' (because of) takes the genitive case.",
+    "hint": "Welche Präposition bedeutet 'because of'?"
+  },
+  {
+    "id": "prep_gen_002",
+    "topic": "prepositions_genitiv",
+    "subtopic": "trotz",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Fülle die richtige Präposition ein.",
+    "sentence": "___ des Regens gehen wir spazieren.",
+    "answer": "Trotz",
+    "options": [
+      "Trotz",
+      "Wegen",
+      "Während",
+      "Anstatt"
+    ],
+    "explanation": "'trotz' (despite/in spite of) takes the genitive case.",
+    "hint": "Welche Präposition bedeutet 'despite'?"
+  },
+  {
+    "id": "prep_gen_003",
+    "topic": "prepositions_genitiv",
+    "subtopic": "während",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Fülle die richtige Präposition ein.",
+    "sentence": "___ der Pause trinke ich einen Kaffee.",
+    "answer": "Während",
+    "options": [
+      "Während",
+      "Wegen",
+      "Trotz",
+      "Anstatt"
+    ],
+    "explanation": "'während' (during) takes the genitive case.",
+    "hint": "Welche Präposition bedeutet 'during'?"
+  },
+  {
+    "id": "prep_gen_004",
+    "topic": "prepositions_genitiv",
+    "subtopic": "anstatt",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Fülle die richtige Präposition ein.",
+    "sentence": "___ eines Autos hat er ein Fahrrad gekauft.",
+    "answer": "Anstatt",
+    "options": [
+      "Anstatt",
+      "Wegen",
+      "Trotz",
+      "Während"
+    ],
+    "explanation": "'anstatt' (instead of) takes the genitive case.",
+    "hint": "Welche Präposition bedeutet 'instead of'?"
+  },
+  {
+    "id": "prep_gen_005",
+    "topic": "prepositions_genitiv",
+    "subtopic": "wegen",
+    "type": "multiple_choice",
+    "difficulty": 3,
+    "instruction": "Wähle den richtigen Artikel im Genitiv.",
+    "sentence": "Wegen ___ Staus bin ich zu spät gekommen.",
+    "answer": "des",
+    "options": [
+      "des",
+      "dem",
+      "den",
+      "der"
+    ],
+    "explanation": "'Stau' is masculine. Genitive masculine = des + noun often gets -(e)s ending.",
+    "hint": "Der Stau → Genitiv maskulin?"
+  },
+  {
+    "id": "konj2_001",
+    "topic": "konjunktiv_II",
+    "subtopic": "wuerde_infinitiv",
+    "type": "transform",
+    "difficulty": 1,
+    "instruction": "Bilde den Konjunktiv II mit 'würde + Infinitiv'.",
+    "sentence": "Ich ___ gern nach Spanien fliegen. (würde)",
+    "answer": "würde",
+    "options": [],
+    "explanation": "Konjunktiv II with 'würde' + infinitive: ich würde, du würdest, er/sie würde, wir würden, ihr würdet, sie würden.",
+    "hint": "ich → würde"
+  },
+  {
+    "id": "konj2_002",
+    "topic": "konjunktiv_II",
+    "subtopic": "wuerde_infinitiv",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "instruction": "Bilde den Konjunktiv II mit 'würde + Infinitiv'.",
+    "sentence": "An deiner Stelle ___ ich mehr Sport machen.",
+    "answer": "würde",
+    "options": [
+      "würde",
+      "wäre",
+      "hätte",
+      "könnte"
+    ],
+    "explanation": "'würde' + infinitive is used for most verbs in Konjunktiv II.",
+    "hint": "würde + Infinitiv für Ratschläge."
+  },
+  {
+    "id": "konj2_003",
+    "topic": "konjunktiv_II",
+    "subtopic": "haette",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "instruction": "Setze die richtige Konjunktiv-II-Form von 'haben' ein.",
+    "sentence": "Wenn ich mehr Geld ___, würde ich eine Weltreise machen.",
+    "answer": "hätte",
+    "options": [
+      "hätte",
+      "habe",
+      "hatte",
+      "würde"
+    ],
+    "explanation": "'hätte' is the Konjunktiv II form of 'haben'. It is used directly (not with würde).",
+    "hint": "Konjunktiv II von 'haben'?"
+  },
+  {
+    "id": "konj2_004",
+    "topic": "konjunktiv_II",
+    "subtopic": "waere",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "instruction": "Setze die richtige Konjunktiv-II-Form von 'sein' ein.",
+    "sentence": "Wenn ich du ___, würde ich zum Arzt gehen.",
+    "answer": "wäre",
+    "options": [
+      "wäre",
+      "war",
+      "bin",
+      "sei"
+    ],
+    "explanation": "'wäre' is the Konjunktiv II form of 'sein'. It is used directly (not with würde).",
+    "hint": "Konjunktiv II von 'sein'?"
+  },
+  {
+    "id": "konj2_005",
+    "topic": "konjunktiv_II",
+    "subtopic": "koennte",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze die richtige Konjunktiv-II-Form ein.",
+    "sentence": "___ Sie mir bitte helfen?",
+    "answer": "Könnten",
+    "options": [
+      "Könnten",
+      "Können",
+      "Konnten",
+      "Würden"
+    ],
+    "explanation": "'könnten' is the Konjunktiv II of 'können'. Used for polite requests.",
+    "hint": "Höfliche Bitte mit 'können' im Konjunktiv II."
+  },
+  {
+    "id": "konj2_006",
+    "topic": "konjunktiv_II",
+    "subtopic": "muesste",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze die richtige Konjunktiv-II-Form ein.",
+    "sentence": "Eigentlich ___ ich heute lernen, aber ich bin müde.",
+    "answer": "müsste",
+    "options": [
+      "müsste",
+      "muss",
+      "musste",
+      "würde"
+    ],
+    "explanation": "'müsste' is the Konjunktiv II of 'müssen'. Expresses a softer obligation.",
+    "hint": "Konjunktiv II von 'müssen'?"
+  },
+  {
+    "id": "konj2_007",
+    "topic": "konjunktiv_II",
+    "subtopic": "duerfte",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze die richtige Konjunktiv-II-Form ein.",
+    "sentence": "___ ich Sie etwas fragen?",
+    "answer": "Dürfte",
+    "options": [
+      "Dürfte",
+      "Darf",
+      "Durfte",
+      "Könnte"
+    ],
+    "explanation": "'dürfte' is the Konjunktiv II of 'dürfen'. Used for very polite requests.",
+    "hint": "Sehr höfliche Frage mit 'dürfen' im Konjunktiv II."
+  },
+  {
+    "id": "konj2_008",
+    "topic": "konjunktiv_II",
+    "subtopic": "sollte",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze die richtige Konjunktiv-II-Form ein.",
+    "sentence": "Du ___ mehr Wasser trinken.",
+    "answer": "solltest",
+    "options": [
+      "solltest",
+      "sollst",
+      "sollte",
+      "würdest"
+    ],
+    "explanation": "'solltest' is the Konjunktiv II of 'sollen' for 'du'. Used for suggestions/advice.",
+    "hint": "Konjunktiv II von 'sollen' für 'du'?"
+  },
+  {
+    "id": "konj2_009",
+    "topic": "konjunktiv_II",
+    "subtopic": "irreale_bedingung",
+    "type": "transform",
+    "difficulty": 3,
+    "instruction": "Vervollständige den irrealen Bedingungssatz.",
+    "sentence": "Wenn ich reich ___, ___ ich ein großes Haus kaufen.",
+    "answer": "wäre, würde",
+    "options": [],
+    "explanation": "Irreale Bedingung: Wenn + Konjunktiv II, Konjunktiv II + Infinitiv. 'sein' → 'wäre'.",
+    "hint": "Wenn-Satz: Konjunktiv II. Hauptsatz: würde + Infinitiv."
+  },
+  {
+    "id": "konj2_010",
+    "topic": "konjunktiv_II",
+    "subtopic": "wuensche",
+    "type": "transform",
+    "difficulty": 2,
+    "instruction": "Drücke den Wunsch im Konjunktiv II aus.",
+    "sentence": "Ich ___ so gern Klavier spielen! (können)",
+    "answer": "könnte",
+    "options": [],
+    "explanation": "Wünsche werden mit Konjunktiv II ausgedrückt. 'können' → 'könnte'.",
+    "hint": "Konjunktiv II von 'können' für 'ich'?"
+  },
+  {
+    "id": "konj2_011",
+    "topic": "konjunktiv_II",
+    "subtopic": "hoefliche_bitte",
+    "type": "multiple_choice",
+    "difficulty": 2,
+    "instruction": "Wähle die höflichste Form.",
+    "sentence": "___ Sie das Fenster öffnen?",
+    "answer": "Würden",
+    "options": [
+      "Würden",
+      "Werden",
+      "Wollen",
+      "Müssen"
+    ],
+    "explanation": "'Würden Sie...?' is the standard polite request form in German.",
+    "hint": "Höfliche Bitte = würde + Sie?"
+  },
+  {
+    "id": "konj2_012",
+    "topic": "konjunktiv_II",
+    "subtopic": "irreale_bedingung",
+    "type": "fill_blank",
+    "difficulty": 3,
+    "instruction": "Setze die richtige Konjunktiv-II-Form ein.",
+    "sentence": "Wenn er besser Deutsch ___, könnte er in Deutschland arbeiten. (sprechen)",
+    "answer": "spräche",
+    "options": [
+      "spräche",
+      "sprechen würde",
+      "spricht",
+      "sprach"
+    ],
+    "explanation": "'spräche' is the direct Konjunktiv II of 'sprechen'. For strong verbs, the direct form is also common.",
+    "hint": "Starke Verben haben oft eigene Konjunktiv-II-Formen."
+  },
+  {
+    "id": "passiv_001",
+    "topic": "passiv",
+    "subtopic": "praesens",
+    "type": "transform",
+    "difficulty": 2,
+    "instruction": "Bilde das Vorgangspassiv im Präsens.",
+    "sentence": "Man repariert das Auto. → Das Auto ___ ___.",
+    "answer": "wird repariert",
+    "options": [],
+    "explanation": "Passiv Präsens: werden (konjugiert) + Partizip II. Das Auto wird repariert.",
+    "hint": "werden + Partizip II"
+  },
+  {
+    "id": "passiv_002",
+    "topic": "passiv",
+    "subtopic": "praesens",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze das Verb im Passiv Präsens ein.",
+    "sentence": "In Deutschland ___ viel Bier ___. (trinken)",
+    "answer": "wird ... getrunken",
+    "options": [
+      "wird ... getrunken",
+      "hat ... getrunken",
+      "ist ... getrunken",
+      "werden ... getrunken"
+    ],
+    "explanation": "Passiv Präsens: wird + Partizip II. 'Bier' ist Singular, also 'wird'.",
+    "hint": "Passiv = werden + Partizip II. Bier = Singular."
+  },
+  {
+    "id": "passiv_003",
+    "topic": "passiv",
+    "subtopic": "praeteritum",
+    "type": "transform",
+    "difficulty": 2,
+    "instruction": "Bilde das Vorgangspassiv im Präteritum.",
+    "sentence": "Man baute die Brücke 1990. → Die Brücke ___ 1990 ___.",
+    "answer": "wurde ... gebaut",
+    "options": [],
+    "explanation": "Passiv Präteritum: wurde + Partizip II.",
+    "hint": "Präteritum von 'werden' = 'wurde'."
+  },
+  {
+    "id": "passiv_004",
+    "topic": "passiv",
+    "subtopic": "perfekt",
+    "type": "transform",
+    "difficulty": 3,
+    "instruction": "Bilde das Vorgangspassiv im Perfekt.",
+    "sentence": "Man hat den Brief geschickt. → Der Brief ___ ___ ___.",
+    "answer": "ist geschickt worden",
+    "options": [],
+    "explanation": "Passiv Perfekt: ist + Partizip II + worden.",
+    "hint": "ist + Partizip II + worden"
+  },
+  {
+    "id": "passiv_005",
+    "topic": "passiv",
+    "subtopic": "praesens",
+    "type": "multiple_choice",
+    "difficulty": 2,
+    "instruction": "Wähle den richtigen Passivsatz.",
+    "sentence": "Die Lehrerin erklärt die Grammatik. (Passiv?)",
+    "answer": "Die Grammatik wird von der Lehrerin erklärt.",
+    "options": [
+      "Die Grammatik wird von der Lehrerin erklärt.",
+      "Die Grammatik ist von der Lehrerin erklärt.",
+      "Die Grammatik hat von der Lehrerin erklärt.",
+      "Die Grammatik wurde von der Lehrerin erklärt."
+    ],
+    "explanation": "Passiv Präsens: Subjekt + wird + von + Dativ + Partizip II.",
+    "hint": "Präsens Passiv = wird + Partizip II."
+  },
+  {
+    "id": "passiv_006",
+    "topic": "passiv",
+    "subtopic": "praesens",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze das Verb im Passiv Präsens ein.",
+    "sentence": "Die Kinder ___ von den Eltern zur Schule ___. (bringen)",
+    "answer": "werden ... gebracht",
+    "options": [
+      "werden ... gebracht",
+      "wird ... gebracht",
+      "wurde ... gebracht",
+      "sind ... gebracht"
+    ],
+    "explanation": "Passiv Präsens: werden + Partizip II. 'Kinder' ist Plural → 'werden'.",
+    "hint": "Plural-Subjekt → werden + Partizip II."
+  },
+  {
+    "id": "passiv_007",
+    "topic": "passiv",
+    "subtopic": "modal_passiv",
+    "type": "fill_blank",
+    "difficulty": 3,
+    "instruction": "Setze das Passiv mit Modalverb ein.",
+    "sentence": "Das Formular ___ bis morgen ___ ___. (müssen/ausfüllen)",
+    "answer": "muss ... ausgefüllt werden",
+    "options": [
+      "muss ... ausgefüllt werden",
+      "muss ... ausfüllen werden",
+      "wird ... ausgefüllt müssen",
+      "muss ... werden ausgefüllt"
+    ],
+    "explanation": "Passiv mit Modalverb: Modalverb (konjugiert) + Partizip II + werden (Infinitiv).",
+    "hint": "Modalverb + Partizip II + werden."
+  },
+  {
+    "id": "passiv_008",
+    "topic": "passiv",
+    "subtopic": "praeteritum",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze das Verb im Passiv Präteritum ein.",
+    "sentence": "Das Haus ___ im letzten Jahr ___. (renovieren)",
+    "answer": "wurde ... renoviert",
+    "options": [
+      "wurde ... renoviert",
+      "wird ... renoviert",
+      "ist ... renoviert",
+      "war ... renoviert"
+    ],
+    "explanation": "Passiv Präteritum: wurde + Partizip II.",
+    "hint": "Vergangenheit Passiv = wurde + Partizip II."
+  },
+  {
+    "id": "passiv_009",
+    "topic": "passiv",
+    "subtopic": "praesens",
+    "type": "transform",
+    "difficulty": 2,
+    "instruction": "Forme den Aktivsatz ins Passiv um.",
+    "sentence": "Man spricht hier Deutsch. → Hier ___ Deutsch ___.",
+    "answer": "wird ... gesprochen",
+    "options": [],
+    "explanation": "Passiv Präsens: wird + Partizip II. 'Man' fällt im Passiv weg.",
+    "hint": "werden + Partizip II. 'Man' verschwindet."
+  },
+  {
+    "id": "relativ_001",
+    "topic": "relativsaetze",
+    "subtopic": "nominativ_maskulin",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze das richtige Relativpronomen ein.",
+    "sentence": "Das ist der Mann, ___ mir geholfen hat.",
+    "answer": "der",
+    "options": [
+      "der",
+      "den",
+      "dem",
+      "dessen"
+    ],
+    "explanation": "Relativpronomen im Nominativ maskulin = 'der'. Das Pronomen ist Subjekt im Relativsatz.",
+    "hint": "Wer hat geholfen? → Nominativ maskulin."
+  },
+  {
+    "id": "relativ_002",
+    "topic": "relativsaetze",
+    "subtopic": "akkusativ_maskulin",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze das richtige Relativpronomen ein.",
+    "sentence": "Das ist der Film, ___ ich gestern gesehen habe.",
+    "answer": "den",
+    "options": [
+      "der",
+      "den",
+      "dem",
+      "dessen"
+    ],
+    "explanation": "Relativpronomen im Akkusativ maskulin = 'den'. 'sehen' braucht Akkusativ.",
+    "hint": "Was habe ich gesehen? → Akkusativ maskulin."
+  },
+  {
+    "id": "relativ_003",
+    "topic": "relativsaetze",
+    "subtopic": "dativ_maskulin",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze das richtige Relativpronomen ein.",
+    "sentence": "Das ist der Freund, ___ ich das Buch geliehen habe.",
+    "answer": "dem",
+    "options": [
+      "der",
+      "den",
+      "dem",
+      "dessen"
+    ],
+    "explanation": "Relativpronomen im Dativ maskulin = 'dem'. 'leihen' braucht Dativ für die Person.",
+    "hint": "Wem habe ich das Buch geliehen? → Dativ maskulin."
+  },
+  {
+    "id": "relativ_004",
+    "topic": "relativsaetze",
+    "subtopic": "nominativ_feminin",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze das richtige Relativpronomen ein.",
+    "sentence": "Die Frau, ___ nebenan wohnt, ist sehr nett.",
+    "answer": "die",
+    "options": [
+      "die",
+      "der",
+      "dem",
+      "den"
+    ],
+    "explanation": "Relativpronomen im Nominativ feminin = 'die'. Die Frau ist Subjekt im Relativsatz.",
+    "hint": "Wer wohnt nebenan? → Nominativ feminin."
+  },
+  {
+    "id": "relativ_005",
+    "topic": "relativsaetze",
+    "subtopic": "akkusativ_feminin",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze das richtige Relativpronomen ein.",
+    "sentence": "Die Stadt, ___ wir besucht haben, war wunderschön.",
+    "answer": "die",
+    "options": [
+      "die",
+      "der",
+      "dem",
+      "den"
+    ],
+    "explanation": "Relativpronomen im Akkusativ feminin = 'die'. 'besuchen' braucht Akkusativ.",
+    "hint": "Was haben wir besucht? → Akkusativ feminin."
+  },
+  {
+    "id": "relativ_006",
+    "topic": "relativsaetze",
+    "subtopic": "dativ_feminin",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze das richtige Relativpronomen ein.",
+    "sentence": "Die Kollegin, ___ ich geholfen habe, hat sich bedankt.",
+    "answer": "der",
+    "options": [
+      "die",
+      "der",
+      "dem",
+      "den"
+    ],
+    "explanation": "Relativpronomen im Dativ feminin = 'der'. 'helfen' braucht Dativ.",
+    "hint": "Wem habe ich geholfen? → Dativ feminin."
+  },
+  {
+    "id": "relativ_007",
+    "topic": "relativsaetze",
+    "subtopic": "nominativ_neutrum",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze das richtige Relativpronomen ein.",
+    "sentence": "Das Kind, ___ im Garten spielt, ist mein Neffe.",
+    "answer": "das",
+    "options": [
+      "das",
+      "der",
+      "dem",
+      "den"
+    ],
+    "explanation": "Relativpronomen im Nominativ neutrum = 'das'.",
+    "hint": "Wer spielt im Garten? → Nominativ neutrum."
+  },
+  {
+    "id": "relativ_008",
+    "topic": "relativsaetze",
+    "subtopic": "nominativ_plural",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze das richtige Relativpronomen ein.",
+    "sentence": "Die Leute, ___ hier arbeiten, sind sehr freundlich.",
+    "answer": "die",
+    "options": [
+      "die",
+      "der",
+      "das",
+      "den"
+    ],
+    "explanation": "Relativpronomen im Nominativ Plural = 'die'.",
+    "hint": "Wer arbeitet hier? → Nominativ Plural."
+  },
+  {
+    "id": "relativ_009",
+    "topic": "relativsaetze",
+    "subtopic": "dativ_plural",
+    "type": "fill_blank",
+    "difficulty": 3,
+    "instruction": "Setze das richtige Relativpronomen ein.",
+    "sentence": "Die Freunde, ___ ich geschrieben habe, antworten nicht.",
+    "answer": "denen",
+    "options": [
+      "denen",
+      "die",
+      "den",
+      "deren"
+    ],
+    "explanation": "Relativpronomen im Dativ Plural = 'denen'. 'schreiben' + Dativ für die Person.",
+    "hint": "Wem habe ich geschrieben? → Dativ Plural."
+  },
+  {
+    "id": "relativ_010",
+    "topic": "relativsaetze",
+    "subtopic": "praeposition",
+    "type": "fill_blank",
+    "difficulty": 3,
+    "instruction": "Setze das richtige Relativpronomen mit Präposition ein.",
+    "sentence": "Das ist das Thema, über ___ wir gesprochen haben.",
+    "answer": "das",
+    "options": [
+      "das",
+      "dem",
+      "den",
+      "die"
+    ],
+    "explanation": "Präposition + Relativpronomen: 'über' + Akkusativ. Neutrum Akkusativ = 'das'.",
+    "hint": "Über + Akkusativ. Das Thema = neutrum."
+  },
+  {
+    "id": "relativ_011",
+    "topic": "relativsaetze",
+    "subtopic": "praeposition",
+    "type": "fill_blank",
+    "difficulty": 3,
+    "instruction": "Setze das richtige Relativpronomen mit Präposition ein.",
+    "sentence": "Die Stadt, in ___ ich geboren bin, liegt in Bayern.",
+    "answer": "der",
+    "options": [
+      "der",
+      "die",
+      "dem",
+      "den"
+    ],
+    "explanation": "Präposition + Relativpronomen: 'in' + Dativ (Wo?). Feminin Dativ = 'der'.",
+    "hint": "Wo bin ich geboren? → in + Dativ. Die Stadt = feminin."
+  },
+  {
+    "id": "relativ_012",
+    "topic": "relativsaetze",
+    "subtopic": "genitiv",
+    "type": "fill_blank",
+    "difficulty": 3,
+    "instruction": "Setze das richtige Relativpronomen im Genitiv ein.",
+    "sentence": "Der Mann, ___ Auto vor dem Haus steht, ist mein Nachbar.",
+    "answer": "dessen",
+    "options": [
+      "dessen",
+      "deren",
+      "dem",
+      "den"
+    ],
+    "explanation": "Relativpronomen im Genitiv maskulin = 'dessen'. Es drückt Besitz aus.",
+    "hint": "Wessen Auto? → Genitiv maskulin = dessen."
+  },
+  {
+    "id": "neben_001",
+    "topic": "nebensaetze",
+    "subtopic": "weil",
+    "type": "reorder",
+    "difficulty": 1,
+    "instruction": "Bilde einen korrekten Nebensatz mit 'weil'. Das Verb steht am Ende.",
+    "sentence": "Ich bleibe zu Hause, weil ___. (ich / krank / bin)",
+    "answer": "weil ich krank bin",
+    "options": [],
+    "explanation": "In Nebensätzen mit 'weil' steht das konjugierte Verb am Ende.",
+    "hint": "Nebensatz: Konjunktion + Subjekt + ... + Verb am Ende."
+  },
+  {
+    "id": "neben_002",
+    "topic": "nebensaetze",
+    "subtopic": "obwohl",
+    "type": "reorder",
+    "difficulty": 2,
+    "instruction": "Bilde einen korrekten Nebensatz mit 'obwohl'. Das Verb steht am Ende.",
+    "sentence": "Er geht zur Arbeit, obwohl ___. (er / Fieber / hat)",
+    "answer": "obwohl er Fieber hat",
+    "options": [],
+    "explanation": "'obwohl' (although) introduces a concessive clause. Verb goes to the end.",
+    "hint": "Konjunktion + Subjekt + Objekt + Verb."
+  },
+  {
+    "id": "neben_003",
+    "topic": "nebensaetze",
+    "subtopic": "wenn",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "instruction": "Setze die richtige Konjunktion ein.",
+    "sentence": "___ es regnet, nehme ich einen Regenschirm mit.",
+    "answer": "Wenn",
+    "options": [
+      "Wenn",
+      "Weil",
+      "Obwohl",
+      "Als"
+    ],
+    "explanation": "'wenn' (if/when) is used for conditions or repeated events in the present/future.",
+    "hint": "Welche Konjunktion drückt eine Bedingung aus?"
+  },
+  {
+    "id": "neben_004",
+    "topic": "nebensaetze",
+    "subtopic": "als",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze die richtige Konjunktion ein: 'als' oder 'wenn'?",
+    "sentence": "___ ich ein Kind war, habe ich in Berlin gelebt.",
+    "answer": "Als",
+    "options": [
+      "Als",
+      "Wenn",
+      "Weil",
+      "Dass"
+    ],
+    "explanation": "'als' is used for single events in the past. 'wenn' is for repeated past events or present/future.",
+    "hint": "Einmaliges Ereignis in der Vergangenheit → als."
+  },
+  {
+    "id": "neben_005",
+    "topic": "nebensaetze",
+    "subtopic": "damit",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze die richtige Konjunktion ein.",
+    "sentence": "Ich lerne Deutsch, ___ ich in Deutschland studieren kann.",
+    "answer": "damit",
+    "options": [
+      "damit",
+      "weil",
+      "dass",
+      "ob"
+    ],
+    "explanation": "'damit' (so that/in order to) expresses a purpose. Different subjects in main and subordinate clause.",
+    "hint": "Welche Konjunktion drückt einen Zweck (purpose) aus?"
+  },
+  {
+    "id": "neben_006",
+    "topic": "nebensaetze",
+    "subtopic": "dass",
+    "type": "reorder",
+    "difficulty": 1,
+    "instruction": "Bilde einen korrekten Nebensatz mit 'dass'.",
+    "sentence": "Ich hoffe, dass ___. (du / bald / kommst)",
+    "answer": "dass du bald kommst",
+    "options": [],
+    "explanation": "'dass' introduces a declarative subordinate clause. Verb at the end.",
+    "hint": "dass + Subjekt + Adverb + Verb."
+  },
+  {
+    "id": "neben_007",
+    "topic": "nebensaetze",
+    "subtopic": "ob",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze die richtige Konjunktion ein.",
+    "sentence": "Ich weiß nicht, ___ er morgen kommt.",
+    "answer": "ob",
+    "options": [
+      "ob",
+      "dass",
+      "weil",
+      "wenn"
+    ],
+    "explanation": "'ob' (whether/if) introduces an indirect yes/no question.",
+    "hint": "Indirekte Ja/Nein-Frage → welche Konjunktion?"
+  },
+  {
+    "id": "neben_008",
+    "topic": "nebensaetze",
+    "subtopic": "bevor",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze die richtige Konjunktion ein.",
+    "sentence": "___ du gehst, räum bitte dein Zimmer auf.",
+    "answer": "Bevor",
+    "options": [
+      "Bevor",
+      "Nachdem",
+      "Während",
+      "Seitdem"
+    ],
+    "explanation": "'bevor' (before) introduces a temporal subordinate clause.",
+    "hint": "Welche Konjunktion bedeutet 'before'?"
+  },
+  {
+    "id": "neben_009",
+    "topic": "nebensaetze",
+    "subtopic": "nachdem",
+    "type": "fill_blank",
+    "difficulty": 3,
+    "instruction": "Setze die richtige Konjunktion ein und beachte die Zeitform.",
+    "sentence": "___ ich gefrühstückt hatte, ging ich zur Arbeit.",
+    "answer": "Nachdem",
+    "options": [
+      "Nachdem",
+      "Bevor",
+      "Als",
+      "Wenn"
+    ],
+    "explanation": "'nachdem' (after) requires Zeitenfolge: Plusquamperfekt im Nebensatz, Präteritum im Hauptsatz.",
+    "hint": "'after' + Plusquamperfekt = ?"
+  },
+  {
+    "id": "neben_010",
+    "topic": "nebensaetze",
+    "subtopic": "waehrend",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze die richtige Konjunktion ein.",
+    "sentence": "___ ich koche, hört mein Mann Musik.",
+    "answer": "Während",
+    "options": [
+      "Während",
+      "Bevor",
+      "Nachdem",
+      "Seitdem"
+    ],
+    "explanation": "'während' (while) introduces a simultaneous temporal subordinate clause.",
+    "hint": "Welche Konjunktion bedeutet 'while'?"
+  },
+  {
+    "id": "neben_011",
+    "topic": "nebensaetze",
+    "subtopic": "seitdem",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze die richtige Konjunktion ein.",
+    "sentence": "___ er in München wohnt, fährt er jeden Tag mit der U-Bahn.",
+    "answer": "Seitdem",
+    "options": [
+      "Seitdem",
+      "Während",
+      "Nachdem",
+      "Bevor"
+    ],
+    "explanation": "'seitdem' (since/ever since) introduces a clause that marks the starting point of an ongoing situation.",
+    "hint": "Welche Konjunktion bedeutet 'ever since'?"
+  },
+  {
+    "id": "neben_012",
+    "topic": "nebensaetze",
+    "subtopic": "wortstellung",
+    "type": "multiple_choice",
+    "difficulty": 2,
+    "instruction": "Welcher Satz hat die richtige Wortstellung?",
+    "sentence": "Wähle den grammatisch korrekten Satz.",
+    "answer": "Ich gehe nicht zur Arbeit, weil ich krank bin.",
+    "options": [
+      "Ich gehe nicht zur Arbeit, weil ich krank bin.",
+      "Ich gehe nicht zur Arbeit, weil ich bin krank.",
+      "Ich gehe nicht zur Arbeit, weil bin ich krank.",
+      "Ich gehe nicht zur Arbeit, weil krank ich bin."
+    ],
+    "explanation": "Im Nebensatz steht das konjugierte Verb am Ende.",
+    "hint": "Nebensatz: Subjekt + ... + Verb am Ende."
+  },
+  {
+    "id": "adj_def_001",
+    "topic": "adjektivdeklination",
+    "subtopic": "definiter_artikel_nominativ",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "instruction": "Dekliniere das Adjektiv nach dem bestimmten Artikel.",
+    "sentence": "Der klein___ Junge spielt im Garten.",
+    "answer": "kleine",
+    "options": [
+      "kleine",
+      "kleiner",
+      "kleines",
+      "kleinen"
+    ],
+    "explanation": "Nach bestimmtem Artikel im Nominativ maskulin: -e. Der kleine Junge.",
+    "hint": "Bestimmter Artikel + Nominativ maskulin → Adjektiv + -e."
+  },
+  {
+    "id": "adj_def_002",
+    "topic": "adjektivdeklination",
+    "subtopic": "definiter_artikel_nominativ",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "instruction": "Dekliniere das Adjektiv nach dem bestimmten Artikel.",
+    "sentence": "Die schön___ Blume steht auf dem Tisch.",
+    "answer": "schöne",
+    "options": [
+      "schöne",
+      "schöner",
+      "schönes",
+      "schönen"
+    ],
+    "explanation": "Nach bestimmtem Artikel im Nominativ feminin: -e. Die schöne Blume.",
+    "hint": "Bestimmter Artikel + Nominativ feminin → Adjektiv + -e."
+  },
+  {
+    "id": "adj_def_003",
+    "topic": "adjektivdeklination",
+    "subtopic": "definiter_artikel_nominativ",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "instruction": "Dekliniere das Adjektiv nach dem bestimmten Artikel.",
+    "sentence": "Das groß___ Haus gehört meinem Onkel.",
+    "answer": "große",
+    "options": [
+      "große",
+      "großer",
+      "großes",
+      "großen"
+    ],
+    "explanation": "Nach bestimmtem Artikel im Nominativ neutrum: -e. Das große Haus.",
+    "hint": "Bestimmter Artikel + Nominativ neutrum → Adjektiv + -e."
+  },
+  {
+    "id": "adj_def_004",
+    "topic": "adjektivdeklination",
+    "subtopic": "definiter_artikel_akkusativ",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Dekliniere das Adjektiv nach dem bestimmten Artikel.",
+    "sentence": "Ich kaufe den rot___ Pullover.",
+    "answer": "roten",
+    "options": [
+      "roten",
+      "rote",
+      "roter",
+      "rotes"
+    ],
+    "explanation": "Nach bestimmtem Artikel im Akkusativ maskulin: -en. Den roten Pullover.",
+    "hint": "Bestimmter Artikel + Akkusativ maskulin → Adjektiv + -en."
+  },
+  {
+    "id": "adj_def_005",
+    "topic": "adjektivdeklination",
+    "subtopic": "definiter_artikel_dativ",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Dekliniere das Adjektiv nach dem bestimmten Artikel.",
+    "sentence": "Ich spreche mit dem nett___ Nachbarn.",
+    "answer": "netten",
+    "options": [
+      "netten",
+      "nette",
+      "netter",
+      "nettes"
+    ],
+    "explanation": "Nach bestimmtem Artikel im Dativ maskulin: -en. Dem netten Nachbarn.",
+    "hint": "Bestimmter Artikel + Dativ → Adjektiv immer + -en."
+  },
+  {
+    "id": "adj_def_006",
+    "topic": "adjektivdeklination",
+    "subtopic": "definiter_artikel_dativ",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Dekliniere das Adjektiv nach dem bestimmten Artikel.",
+    "sentence": "Er wohnt in der alt___ Stadt.",
+    "answer": "alten",
+    "options": [
+      "alten",
+      "alte",
+      "alter",
+      "altes"
+    ],
+    "explanation": "Nach bestimmtem Artikel im Dativ feminin: -en. Der alten Stadt.",
+    "hint": "Bestimmter Artikel + Dativ → Adjektiv immer + -en."
+  },
+  {
+    "id": "adj_def_007",
+    "topic": "adjektivdeklination",
+    "subtopic": "definiter_artikel_genitiv",
+    "type": "fill_blank",
+    "difficulty": 3,
+    "instruction": "Dekliniere das Adjektiv nach dem bestimmten Artikel.",
+    "sentence": "Die Farbe des neu___ Autos gefällt mir.",
+    "answer": "neuen",
+    "options": [
+      "neuen",
+      "neue",
+      "neuer",
+      "neues"
+    ],
+    "explanation": "Nach bestimmtem Artikel im Genitiv neutrum: -en. Des neuen Autos.",
+    "hint": "Bestimmter Artikel + Genitiv → Adjektiv immer + -en."
+  },
+  {
+    "id": "adj_def_008",
+    "topic": "adjektivdeklination",
+    "subtopic": "definiter_artikel_plural",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Dekliniere das Adjektiv nach dem bestimmten Artikel.",
+    "sentence": "Die klein___ Kinder spielen draußen.",
+    "answer": "kleinen",
+    "options": [
+      "kleinen",
+      "kleine",
+      "kleiner",
+      "kleines"
+    ],
+    "explanation": "Nach bestimmtem Artikel im Nominativ Plural: -en. Die kleinen Kinder.",
+    "hint": "Bestimmter Artikel + Plural Nominativ → Adjektiv + -en."
+  },
+  {
+    "id": "adj_def_009",
+    "topic": "adjektivdeklination",
+    "subtopic": "definiter_artikel_akkusativ",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Dekliniere das Adjektiv nach dem bestimmten Artikel.",
+    "sentence": "Siehst du die hoh___ Berge?",
+    "answer": "hohen",
+    "options": [
+      "hohen",
+      "hohe",
+      "hoher",
+      "hohes"
+    ],
+    "explanation": "Nach bestimmtem Artikel im Akkusativ Plural: -en. Die hohen Berge.",
+    "hint": "Bestimmter Artikel + Plural Akkusativ → Adjektiv + -en."
+  },
+  {
+    "id": "adj_def_010",
+    "topic": "adjektivdeklination",
+    "subtopic": "definiter_artikel_akkusativ",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "instruction": "Dekliniere das Adjektiv nach dem bestimmten Artikel.",
+    "sentence": "Ich trinke die kalt___ Milch.",
+    "answer": "kalte",
+    "options": [
+      "kalte",
+      "kalten",
+      "kalter",
+      "kaltes"
+    ],
+    "explanation": "Nach bestimmtem Artikel im Akkusativ feminin: -e. Die kalte Milch.",
+    "hint": "Bestimmter Artikel + Akkusativ feminin → Adjektiv + -e."
+  },
+  {
+    "id": "adj_indef_001",
+    "topic": "adjektivdeklination",
+    "subtopic": "indefiniter_artikel_nominativ",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Dekliniere das Adjektiv nach dem unbestimmten Artikel.",
+    "sentence": "Ein jung___ Mann wartet an der Haltestelle.",
+    "answer": "junger",
+    "options": [
+      "junger",
+      "junge",
+      "junges",
+      "jungen"
+    ],
+    "explanation": "Nach unbestimmtem Artikel im Nominativ maskulin: -er. Ein junger Mann.",
+    "hint": "Unbestimmter Artikel + Nominativ maskulin → Adjektiv + -er."
+  },
+  {
+    "id": "adj_indef_002",
+    "topic": "adjektivdeklination",
+    "subtopic": "indefiniter_artikel_nominativ",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Dekliniere das Adjektiv nach dem unbestimmten Artikel.",
+    "sentence": "Eine interessant___ Frau hat mich angesprochen.",
+    "answer": "interessante",
+    "options": [
+      "interessante",
+      "interessanter",
+      "interessantes",
+      "interessanten"
+    ],
+    "explanation": "Nach unbestimmtem Artikel im Nominativ feminin: -e. Eine interessante Frau.",
+    "hint": "Unbestimmter Artikel + Nominativ feminin → Adjektiv + -e."
+  },
+  {
+    "id": "adj_indef_003",
+    "topic": "adjektivdeklination",
+    "subtopic": "indefiniter_artikel_nominativ",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Dekliniere das Adjektiv nach dem unbestimmten Artikel.",
+    "sentence": "Ein klein___ Kind weint im Supermarkt.",
+    "answer": "kleines",
+    "options": [
+      "kleines",
+      "kleine",
+      "kleiner",
+      "kleinen"
+    ],
+    "explanation": "Nach unbestimmtem Artikel im Nominativ neutrum: -es. Ein kleines Kind.",
+    "hint": "Unbestimmter Artikel + Nominativ neutrum → Adjektiv + -es."
+  },
+  {
+    "id": "adj_indef_004",
+    "topic": "adjektivdeklination",
+    "subtopic": "indefiniter_artikel_akkusativ",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Dekliniere das Adjektiv nach dem unbestimmten Artikel.",
+    "sentence": "Ich suche einen billig___ Flug nach Madrid.",
+    "answer": "billigen",
+    "options": [
+      "billigen",
+      "billiger",
+      "billiges",
+      "billige"
+    ],
+    "explanation": "Nach unbestimmtem Artikel im Akkusativ maskulin: -en. Einen billigen Flug.",
+    "hint": "Unbestimmter Artikel + Akkusativ maskulin → Adjektiv + -en."
+  },
+  {
+    "id": "adj_indef_005",
+    "topic": "adjektivdeklination",
+    "subtopic": "indefiniter_artikel_akkusativ",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Dekliniere das Adjektiv nach dem unbestimmten Artikel.",
+    "sentence": "Sie hat eine lang___ Reise gemacht.",
+    "answer": "lange",
+    "options": [
+      "lange",
+      "langer",
+      "langes",
+      "langen"
+    ],
+    "explanation": "Nach unbestimmtem Artikel im Akkusativ feminin: -e. Eine lange Reise.",
+    "hint": "Unbestimmter Artikel + Akkusativ feminin → Adjektiv + -e."
+  },
+  {
+    "id": "adj_indef_006",
+    "topic": "adjektivdeklination",
+    "subtopic": "indefiniter_artikel_dativ",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Dekliniere das Adjektiv nach dem unbestimmten Artikel.",
+    "sentence": "Er fährt mit einem alt___ Auto zur Arbeit.",
+    "answer": "alten",
+    "options": [
+      "alten",
+      "altes",
+      "alter",
+      "alte"
+    ],
+    "explanation": "Nach unbestimmtem Artikel im Dativ neutrum: -en. Einem alten Auto.",
+    "hint": "Unbestimmter Artikel + Dativ → Adjektiv immer + -en."
+  },
+  {
+    "id": "adj_indef_007",
+    "topic": "adjektivdeklination",
+    "subtopic": "indefiniter_artikel_dativ",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Dekliniere das Adjektiv nach dem unbestimmten Artikel.",
+    "sentence": "Sie wohnt in einer gemütlich___ Wohnung.",
+    "answer": "gemütlichen",
+    "options": [
+      "gemütlichen",
+      "gemütliche",
+      "gemütlicher",
+      "gemütliches"
+    ],
+    "explanation": "Nach unbestimmtem Artikel im Dativ feminin: -en. Einer gemütlichen Wohnung.",
+    "hint": "Unbestimmter Artikel + Dativ → Adjektiv immer + -en."
+  },
+  {
+    "id": "adj_indef_008",
+    "topic": "adjektivdeklination",
+    "subtopic": "kein_nominativ",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Dekliniere das Adjektiv nach 'kein'.",
+    "sentence": "Das ist keine gut___ Idee.",
+    "answer": "gute",
+    "options": [
+      "gute",
+      "guter",
+      "gutes",
+      "guten"
+    ],
+    "explanation": "'kein' dekliniert wie unbestimmter Artikel. Nominativ feminin: -e. Keine gute Idee.",
+    "hint": "'kein' funktioniert wie ein unbestimmter Artikel."
+  },
+  {
+    "id": "adj_indef_009",
+    "topic": "adjektivdeklination",
+    "subtopic": "possessiv_akkusativ",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Dekliniere das Adjektiv nach dem Possessivartikel.",
+    "sentence": "Ich besuche meinen alt___ Freund.",
+    "answer": "alten",
+    "options": [
+      "alten",
+      "alter",
+      "altes",
+      "alte"
+    ],
+    "explanation": "Possessivartikel dekliniert wie unbestimmter Artikel. Akkusativ maskulin: -en.",
+    "hint": "Possessivartikel + Akkusativ maskulin → Adjektiv + -en."
+  },
+  {
+    "id": "adj_indef_010",
+    "topic": "adjektivdeklination",
+    "subtopic": "indefiniter_artikel_genitiv",
+    "type": "fill_blank",
+    "difficulty": 3,
+    "instruction": "Dekliniere das Adjektiv nach dem unbestimmten Artikel.",
+    "sentence": "Wegen eines schwer___ Unfalls war die Straße gesperrt.",
+    "answer": "schweren",
+    "options": [
+      "schweren",
+      "schwerer",
+      "schweres",
+      "schwere"
+    ],
+    "explanation": "Nach unbestimmtem Artikel im Genitiv maskulin: -en. Eines schweren Unfalls.",
+    "hint": "Unbestimmter Artikel + Genitiv → Adjektiv immer + -en."
+  },
+  {
+    "id": "adj_null_001",
+    "topic": "adjektivdeklination",
+    "subtopic": "ohne_artikel_nominativ",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Dekliniere das Adjektiv ohne Artikel.",
+    "sentence": "Kalt___ Wasser ist gesund.",
+    "answer": "Kaltes",
+    "options": [
+      "Kaltes",
+      "Kalte",
+      "Kalter",
+      "Kalten"
+    ],
+    "explanation": "Ohne Artikel im Nominativ neutrum: -es. Kaltes Wasser. Das Adjektiv übernimmt die Endung des bestimmten Artikels.",
+    "hint": "Ohne Artikel → Adjektiv zeigt das Genus. Neutrum Nominativ = -es."
+  },
+  {
+    "id": "adj_null_002",
+    "topic": "adjektivdeklination",
+    "subtopic": "ohne_artikel_nominativ",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Dekliniere das Adjektiv ohne Artikel.",
+    "sentence": "Frisch___ Obst ist vitaminreich.",
+    "answer": "Frisches",
+    "options": [
+      "Frisches",
+      "Frische",
+      "Frischer",
+      "Frischen"
+    ],
+    "explanation": "Ohne Artikel im Nominativ neutrum: -es. Frisches Obst.",
+    "hint": "Ohne Artikel: Das Adjektiv braucht die starke Endung. Neutrum Nominativ = -es."
+  },
+  {
+    "id": "adj_null_003",
+    "topic": "adjektivdeklination",
+    "subtopic": "ohne_artikel_nominativ",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Dekliniere das Adjektiv ohne Artikel.",
+    "sentence": "Deutsch___ Bier ist weltbekannt.",
+    "answer": "Deutsches",
+    "options": [
+      "Deutsches",
+      "Deutsche",
+      "Deutscher",
+      "Deutschen"
+    ],
+    "explanation": "Ohne Artikel im Nominativ neutrum: -es. Deutsches Bier.",
+    "hint": "Das Bier → neutrum. Ohne Artikel = starke Deklination."
+  },
+  {
+    "id": "adj_null_004",
+    "topic": "adjektivdeklination",
+    "subtopic": "ohne_artikel_akkusativ",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Dekliniere das Adjektiv ohne Artikel.",
+    "sentence": "Ich trinke gern heiß___ Tee.",
+    "answer": "heißen",
+    "options": [
+      "heißen",
+      "heißer",
+      "heißes",
+      "heiße"
+    ],
+    "explanation": "Ohne Artikel im Akkusativ maskulin: -en. Heißen Tee.",
+    "hint": "Der Tee → maskulin. Akkusativ maskulin ohne Artikel = -en."
+  },
+  {
+    "id": "adj_null_005",
+    "topic": "adjektivdeklination",
+    "subtopic": "ohne_artikel_dativ",
+    "type": "fill_blank",
+    "difficulty": 3,
+    "instruction": "Dekliniere das Adjektiv ohne Artikel.",
+    "sentence": "Wir kochen mit frisch___ Gemüse.",
+    "answer": "frischem",
+    "options": [
+      "frischem",
+      "frische",
+      "frischer",
+      "frischen"
+    ],
+    "explanation": "Ohne Artikel im Dativ neutrum: -em. Mit frischem Gemüse.",
+    "hint": "Das Gemüse → neutrum. Dativ ohne Artikel = -em."
+  },
+  {
+    "id": "adj_null_006",
+    "topic": "adjektivdeklination",
+    "subtopic": "ohne_artikel_nominativ_plural",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Dekliniere das Adjektiv ohne Artikel (Plural).",
+    "sentence": "Gut___ Freunde sind wichtig.",
+    "answer": "Gute",
+    "options": [
+      "Gute",
+      "Guter",
+      "Gutes",
+      "Guten"
+    ],
+    "explanation": "Ohne Artikel im Nominativ Plural: -e. Gute Freunde.",
+    "hint": "Plural Nominativ ohne Artikel = -e."
+  },
+  {
+    "id": "adj_null_007",
+    "topic": "adjektivdeklination",
+    "subtopic": "ohne_artikel_akkusativ_plural",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Dekliniere das Adjektiv ohne Artikel (Plural).",
+    "sentence": "Wir haben schön___ Fotos gemacht.",
+    "answer": "schöne",
+    "options": [
+      "schöne",
+      "schöner",
+      "schönes",
+      "schönen"
+    ],
+    "explanation": "Ohne Artikel im Akkusativ Plural: -e. Schöne Fotos.",
+    "hint": "Plural Akkusativ ohne Artikel = -e."
+  },
+  {
+    "id": "adj_null_008",
+    "topic": "adjektivdeklination",
+    "subtopic": "ohne_artikel_dativ_plural",
+    "type": "fill_blank",
+    "difficulty": 3,
+    "instruction": "Dekliniere das Adjektiv ohne Artikel (Plural Dativ).",
+    "sentence": "Er spricht mit ausländisch___ Studenten.",
+    "answer": "ausländischen",
+    "options": [
+      "ausländischen",
+      "ausländische",
+      "ausländischer",
+      "ausländischem"
+    ],
+    "explanation": "Ohne Artikel im Dativ Plural: -en. Mit ausländischen Studenten.",
+    "hint": "Dativ Plural ohne Artikel = -en."
+  },
+  {
+    "id": "adj_null_009",
+    "topic": "adjektivdeklination",
+    "subtopic": "ohne_artikel_nominativ",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Dekliniere das Adjektiv ohne Artikel.",
+    "sentence": "Warm___ Milch hilft beim Einschlafen.",
+    "answer": "Warme",
+    "options": [
+      "Warme",
+      "Warmer",
+      "Warmes",
+      "Warmen"
+    ],
+    "explanation": "Ohne Artikel im Nominativ feminin: -e. Warme Milch.",
+    "hint": "Die Milch → feminin. Nominativ feminin ohne Artikel = -e."
+  },
+  {
+    "id": "adj_null_010",
+    "topic": "adjektivdeklination",
+    "subtopic": "ohne_artikel_genitiv",
+    "type": "fill_blank",
+    "difficulty": 3,
+    "instruction": "Dekliniere das Adjektiv ohne Artikel (Genitiv).",
+    "sentence": "Der Geschmack gut___ Weines ist einzigartig.",
+    "answer": "guten",
+    "options": [
+      "guten",
+      "guter",
+      "gutes",
+      "gutem"
+    ],
+    "explanation": "Ohne Artikel im Genitiv maskulin: -en. Guten Weines.",
+    "hint": "Genitiv maskulin ohne Artikel = -en."
+  },
+  {
+    "id": "komp_001",
+    "topic": "komparativ_superlativ",
+    "subtopic": "regelmaessig",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "instruction": "Bilde den Komparativ.",
+    "sentence": "Mein Auto ist schnell, aber dein Auto ist ___.",
+    "answer": "schneller",
+    "options": [
+      "schneller",
+      "am schnellsten",
+      "schnellste",
+      "schnellerer"
+    ],
+    "explanation": "Komparativ: Adjektiv + -er. schnell → schneller.",
+    "hint": "Komparativ = Adjektiv + -er."
+  },
+  {
+    "id": "komp_002",
+    "topic": "komparativ_superlativ",
+    "subtopic": "regelmaessig",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "instruction": "Bilde den Superlativ.",
+    "sentence": "Der Mount Everest ist ___ Berg der Welt. (hoch)",
+    "answer": "der höchste",
+    "options": [
+      "der höchste",
+      "der hochste",
+      "am höchsten",
+      "höchster"
+    ],
+    "explanation": "Superlativ vor Nomen: der/die/das + Adjektiv + -ste. hoch → höchst- (mit Umlaut).",
+    "hint": "Superlativ + Nomen = der/die/das + Adjektiv + -(e)ste."
+  },
+  {
+    "id": "komp_003",
+    "topic": "komparativ_superlativ",
+    "subtopic": "unregelmaessig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Bilde den Komparativ von 'gut'.",
+    "sentence": "Dein Kuchen schmeckt gut, aber meiner schmeckt ___.",
+    "answer": "besser",
+    "options": [
+      "besser",
+      "guter",
+      "am besten",
+      "mehr gut"
+    ],
+    "explanation": "Unregelmäßig: gut → besser → am besten.",
+    "hint": "gut → ? → am besten. Unregelmäßige Steigerung."
+  },
+  {
+    "id": "komp_004",
+    "topic": "komparativ_superlativ",
+    "subtopic": "unregelmaessig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Bilde den Superlativ von 'gern'.",
+    "sentence": "Ich esse gern Pasta, aber ___ esse ich Pizza.",
+    "answer": "am liebsten",
+    "options": [
+      "am liebsten",
+      "am gernsten",
+      "lieber",
+      "am meisten"
+    ],
+    "explanation": "Unregelmäßig: gern → lieber → am liebsten.",
+    "hint": "gern → lieber → ?"
+  },
+  {
+    "id": "komp_005",
+    "topic": "komparativ_superlativ",
+    "subtopic": "unregelmaessig",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Bilde den Komparativ von 'viel'.",
+    "sentence": "Ich habe viel gelernt, aber du hast ___ gelernt.",
+    "answer": "mehr",
+    "options": [
+      "mehr",
+      "vieler",
+      "am meisten",
+      "vielerer"
+    ],
+    "explanation": "Unregelmäßig: viel → mehr → am meisten.",
+    "hint": "viel → ? → am meisten."
+  },
+  {
+    "id": "komp_006",
+    "topic": "komparativ_superlativ",
+    "subtopic": "mit_umlaut",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Bilde den Komparativ. Achtung: Umlaut!",
+    "sentence": "Es ist heute warm, aber morgen wird es ___.",
+    "answer": "wärmer",
+    "options": [
+      "wärmer",
+      "warmer",
+      "am wärmsten",
+      "warmerer"
+    ],
+    "explanation": "Einsilbige Adjektive mit a, o, u bekommen oft einen Umlaut: warm → wärmer.",
+    "hint": "warm → w_rmer (mit Umlaut)."
+  },
+  {
+    "id": "komp_007",
+    "topic": "komparativ_superlativ",
+    "subtopic": "vergleich_als",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "instruction": "Setze 'als' oder 'wie' ein.",
+    "sentence": "Berlin ist größer ___ München.",
+    "answer": "als",
+    "options": [
+      "als",
+      "wie",
+      "von",
+      "zu"
+    ],
+    "explanation": "Nach dem Komparativ steht 'als' (than). Nach 'genauso/so...wie' steht 'wie'.",
+    "hint": "Komparativ + als, Positiv + wie."
+  },
+  {
+    "id": "komp_008",
+    "topic": "komparativ_superlativ",
+    "subtopic": "vergleich_wie",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "instruction": "Setze 'als' oder 'wie' ein.",
+    "sentence": "Anna ist genauso groß ___ ihre Schwester.",
+    "answer": "wie",
+    "options": [
+      "wie",
+      "als",
+      "von",
+      "so"
+    ],
+    "explanation": "Nach 'genauso...wie' oder 'so...wie' steht 'wie' (as...as).",
+    "hint": "genauso + Adjektiv + ?"
+  },
+  {
+    "id": "komp_009",
+    "topic": "komparativ_superlativ",
+    "subtopic": "superlativ_am",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Bilde den Superlativ mit 'am'.",
+    "sentence": "Welche Stadt gefällt dir ___? (gut)",
+    "answer": "am besten",
+    "options": [
+      "am besten",
+      "am gutsten",
+      "am bessersten",
+      "bester"
+    ],
+    "explanation": "Superlativ prädikativ: am + Adjektiv + -(e)sten. gut → am besten (unregelmäßig).",
+    "hint": "gut → besser → am ___."
+  },
+  {
+    "id": "komp_010",
+    "topic": "komparativ_superlativ",
+    "subtopic": "mit_umlaut",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Bilde den Komparativ. Achtung: Umlaut!",
+    "sentence": "Der Zug ist schnell, aber das Flugzeug ist noch ___.",
+    "answer": "schneller",
+    "options": [
+      "schneller",
+      "schnellerer",
+      "am schnellsten",
+      "mehr schnell"
+    ],
+    "explanation": "schnell → schneller (kein Umlaut, weil 'e' kein a/o/u ist).",
+    "hint": "schnell + -er. Kein Umlaut nötig."
+  },
+  {
+    "id": "konnek_001",
+    "topic": "konnektoren",
+    "subtopic": "deshalb",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze den passenden Konnektor ein.",
+    "sentence": "Es regnet stark, ___ bleibe ich zu Hause.",
+    "answer": "deshalb",
+    "options": [
+      "deshalb",
+      "trotzdem",
+      "außerdem",
+      "sondern"
+    ],
+    "explanation": "'deshalb' (therefore) expresses a consequence. Inversion follows: deshalb + Verb + Subjekt.",
+    "hint": "Es regnet → Konsequenz: zu Hause bleiben. Welcher Konnektor?"
+  },
+  {
+    "id": "konnek_002",
+    "topic": "konnektoren",
+    "subtopic": "trotzdem",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze den passenden Konnektor ein.",
+    "sentence": "Es regnet stark, ___ gehe ich spazieren.",
+    "answer": "trotzdem",
+    "options": [
+      "trotzdem",
+      "deshalb",
+      "außerdem",
+      "weil"
+    ],
+    "explanation": "'trotzdem' (nevertheless) expresses a contrast/concession. Inversion follows.",
+    "hint": "Es regnet, aber ich gehe trotzdem spazieren. Welcher Konnektor?"
+  },
+  {
+    "id": "konnek_003",
+    "topic": "konnektoren",
+    "subtopic": "ausserdem",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze den passenden Konnektor ein.",
+    "sentence": "Die Wohnung ist schön, ___ ist sie auch günstig.",
+    "answer": "außerdem",
+    "options": [
+      "außerdem",
+      "deshalb",
+      "trotzdem",
+      "sondern"
+    ],
+    "explanation": "'außerdem' (furthermore/besides) adds additional information.",
+    "hint": "Schön UND günstig → welcher Konnektor fügt Information hinzu?"
+  },
+  {
+    "id": "konnek_004",
+    "topic": "konnektoren",
+    "subtopic": "sondern",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze 'sondern' oder 'aber' ein.",
+    "sentence": "Er ist nicht faul, ___ sehr fleißig.",
+    "answer": "sondern",
+    "options": [
+      "sondern",
+      "aber",
+      "und",
+      "oder"
+    ],
+    "explanation": "'sondern' (but rather) is used after a negation to introduce a correction.",
+    "hint": "Nach Negation (nicht/kein) + Korrektur → sondern."
+  },
+  {
+    "id": "konnek_005",
+    "topic": "konnektoren",
+    "subtopic": "aber",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "instruction": "Setze 'sondern' oder 'aber' ein.",
+    "sentence": "Die Wohnung ist schön, ___ teuer.",
+    "answer": "aber",
+    "options": [
+      "aber",
+      "sondern",
+      "und",
+      "denn"
+    ],
+    "explanation": "'aber' (but) is used for simple contrast without negation.",
+    "hint": "Kontrast ohne Negation → aber."
+  },
+  {
+    "id": "konnek_006",
+    "topic": "konnektoren",
+    "subtopic": "denn",
+    "type": "fill_blank",
+    "difficulty": 1,
+    "instruction": "Setze den passenden Konnektor ein.",
+    "sentence": "Ich lerne Deutsch, ___ ich möchte in Deutschland arbeiten.",
+    "answer": "denn",
+    "options": [
+      "denn",
+      "deshalb",
+      "trotzdem",
+      "sondern"
+    ],
+    "explanation": "'denn' (because) is a coordinating conjunction (Hauptsatz-Konnektor). No inversion.",
+    "hint": "Grund angeben mit Hauptsatz-Konnektor (keine Inversion)."
+  },
+  {
+    "id": "konnek_007",
+    "topic": "konnektoren",
+    "subtopic": "wortstellung",
+    "type": "multiple_choice",
+    "difficulty": 2,
+    "instruction": "Welcher Satz hat die richtige Wortstellung nach 'deshalb'?",
+    "sentence": "Ich bin müde, deshalb ___.",
+    "answer": "gehe ich früh ins Bett",
+    "options": [
+      "gehe ich früh ins Bett",
+      "ich gehe früh ins Bett",
+      "ich früh ins Bett gehe",
+      "früh gehe ich ins Bett"
+    ],
+    "explanation": "Nach Adverbial-Konnektoren (deshalb, trotzdem, etc.) folgt Inversion: Verb + Subjekt.",
+    "hint": "deshalb → Inversion: Verb + Subjekt."
+  },
+  {
+    "id": "konnek_008",
+    "topic": "konnektoren",
+    "subtopic": "deswegen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze den passenden Konnektor ein.",
+    "sentence": "Er hat die Prüfung bestanden, ___ ist er sehr glücklich.",
+    "answer": "deswegen",
+    "options": [
+      "deswegen",
+      "trotzdem",
+      "außerdem",
+      "sondern"
+    ],
+    "explanation": "'deswegen' (that's why) is a synonym of 'deshalb'. Both express consequence.",
+    "hint": "Synonym von 'deshalb' → ?"
+  },
+  {
+    "id": "konnek_009",
+    "topic": "konnektoren",
+    "subtopic": "zwar_aber",
+    "type": "fill_blank",
+    "difficulty": 3,
+    "instruction": "Ergänze die Konnektoren-Kombination.",
+    "sentence": "Die Arbeit ist ___ anstrengend, ___ sie macht Spaß.",
+    "answer": "zwar ... aber",
+    "options": [
+      "zwar ... aber",
+      "nicht ... sondern",
+      "weder ... noch",
+      "sowohl ... als auch"
+    ],
+    "explanation": "'zwar ... aber' (admittedly ... but) is a two-part connector expressing concession.",
+    "hint": "Einschränkung: ___ X, ___ Y."
+  },
+  {
+    "id": "konnek_010",
+    "topic": "konnektoren",
+    "subtopic": "weder_noch",
+    "type": "fill_blank",
+    "difficulty": 3,
+    "instruction": "Ergänze die Konnektoren-Kombination.",
+    "sentence": "Er spricht ___ Deutsch ___ Englisch.",
+    "answer": "weder ... noch",
+    "options": [
+      "weder ... noch",
+      "sowohl ... als auch",
+      "zwar ... aber",
+      "entweder ... oder"
+    ],
+    "explanation": "'weder ... noch' (neither ... nor) negates both options.",
+    "hint": "Doppelte Verneinung: ___ X ___ Y."
+  },
+  {
+    "id": "konnek_011",
+    "topic": "konnektoren",
+    "subtopic": "entweder_oder",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Ergänze die Konnektoren-Kombination.",
+    "sentence": "___ wir gehen ins Kino, ___ wir bleiben zu Hause.",
+    "answer": "Entweder ... oder",
+    "options": [
+      "Entweder ... oder",
+      "Weder ... noch",
+      "Sowohl ... als auch",
+      "Zwar ... aber"
+    ],
+    "explanation": "'entweder ... oder' (either ... or) presents two alternatives.",
+    "hint": "Zwei Alternativen: ___ X ___ Y."
+  },
+  {
+    "id": "prep_dat_008",
+    "topic": "prepositions_dativ",
+    "subtopic": "mixed",
+    "type": "multiple_choice",
+    "difficulty": 2,
+    "instruction": "Wähle die richtige Präposition mit Dativ.",
+    "sentence": "Ich habe das Rezept ___ meiner Großmutter bekommen.",
+    "answer": "von",
+    "options": [
+      "von",
+      "aus",
+      "mit",
+      "zu"
+    ],
+    "explanation": "'von' + Dativ is used to indicate from whom something was received.",
+    "hint": "Von wem hast du das Rezept bekommen?"
+  },
+  {
+    "id": "prep_akk_007",
+    "topic": "prepositions_akkusativ",
+    "subtopic": "mixed",
+    "type": "multiple_choice",
+    "difficulty": 2,
+    "instruction": "Wähle die richtige Präposition mit Akkusativ.",
+    "sentence": "Wir laufen ___ den See herum.",
+    "answer": "um",
+    "options": [
+      "um",
+      "durch",
+      "für",
+      "gegen"
+    ],
+    "explanation": "'um' + Akkusativ means 'around'. 'um ... herum' = around (something).",
+    "hint": "Welche Präposition bedeutet 'around'?"
+  },
+  {
+    "id": "passiv_010",
+    "topic": "passiv",
+    "subtopic": "mit_agent",
+    "type": "transform",
+    "difficulty": 2,
+    "instruction": "Forme den Aktivsatz ins Passiv um. Benutze 'von + Dativ' für die handelnde Person.",
+    "sentence": "Der Mechaniker repariert das Auto. → Das Auto ___ ___ ___ ___.",
+    "answer": "wird vom Mechaniker repariert",
+    "options": [],
+    "explanation": "Passiv mit Agens: wird + von + Dativ + Partizip II. 'von dem' → 'vom'.",
+    "hint": "werden + von + Dativ + Partizip II."
+  },
+  {
+    "id": "konj2_013",
+    "topic": "konjunktiv_II",
+    "subtopic": "ratschlag",
+    "type": "multiple_choice",
+    "difficulty": 2,
+    "instruction": "Wähle den besten Ratschlag im Konjunktiv II.",
+    "sentence": "Du siehst müde aus. ___",
+    "answer": "An deiner Stelle würde ich früher ins Bett gehen.",
+    "options": [
+      "An deiner Stelle würde ich früher ins Bett gehen.",
+      "An deiner Stelle gehe ich früher ins Bett.",
+      "An deiner Stelle bin ich früher ins Bett gegangen.",
+      "An deiner Stelle werde ich früher ins Bett gehen."
+    ],
+    "explanation": "'An deiner Stelle würde ich...' is a common Konjunktiv II pattern for giving advice.",
+    "hint": "Ratschlag: An deiner Stelle + würde + Infinitiv."
+  },
+  {
+    "id": "relativ_013",
+    "topic": "relativsaetze",
+    "subtopic": "wo",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze das richtige Relativpronomen oder Relativadverb ein.",
+    "sentence": "Die Stadt, ___ ich studiert habe, heißt Heidelberg.",
+    "answer": "wo",
+    "options": [
+      "wo",
+      "die",
+      "der",
+      "in der"
+    ],
+    "explanation": "'wo' can replace 'in der/dem' in relative clauses referring to places. Note: \"in der\" is also grammatically correct here.",
+    "hint": "Relativadverb für Orte = ?",
+    "also_accept": [
+      "in der"
+    ]
+  },
+  {
+    "id": "neben_013",
+    "topic": "nebensaetze",
+    "subtopic": "wenn_als_unterschied",
+    "type": "multiple_choice",
+    "difficulty": 2,
+    "instruction": "Wähle die richtige Konjunktion: 'als' oder 'wenn'?",
+    "sentence": "Immer ___ ich ihn sehe, muss ich lachen.",
+    "answer": "wenn",
+    "options": [
+      "wenn",
+      "als",
+      "weil",
+      "dass"
+    ],
+    "explanation": "'wenn' is used for repeated events (immer wenn = whenever). 'als' is for single past events.",
+    "hint": "Wiederholtes Ereignis → wenn. Einmaliges Ereignis in der Vergangenheit → als."
+  },
+  {
+    "id": "adj_mixed_001",
+    "topic": "adjektivdeklination",
+    "subtopic": "gemischt",
+    "type": "multiple_choice",
+    "difficulty": 3,
+    "instruction": "Wähle die richtige Adjektivendung.",
+    "sentence": "Mit einem freundlich___ Lächeln begrüßte sie mich.",
+    "answer": "freundlichen",
+    "options": [
+      "freundlichen",
+      "freundliches",
+      "freundlicher",
+      "freundliche"
+    ],
+    "explanation": "Unbestimmter Artikel + Dativ neutrum: -en. Einem freundlichen Lächeln.",
+    "hint": "mit + Dativ. Das Lächeln = neutrum. Unbestimmter Artikel + Dativ = -en."
+  },
+  {
+    "id": "adj_mixed_002",
+    "topic": "adjektivdeklination",
+    "subtopic": "gemischt",
+    "type": "multiple_choice",
+    "difficulty": 3,
+    "instruction": "Wähle die richtige Adjektivendung.",
+    "sentence": "Trotz des schlecht___ Wetters machen wir einen Ausflug.",
+    "answer": "schlechten",
+    "options": [
+      "schlechten",
+      "schlechtes",
+      "schlechter",
+      "schlechte"
+    ],
+    "explanation": "Bestimmter Artikel + Genitiv neutrum: -en. Des schlechten Wetters.",
+    "hint": "Bestimmter Artikel + Genitiv = immer -en."
+  },
+  {
+    "id": "komp_011",
+    "topic": "komparativ_superlativ",
+    "subtopic": "unregelmaessig",
+    "type": "transform",
+    "difficulty": 2,
+    "instruction": "Bilde Komparativ und Superlativ.",
+    "sentence": "nah → ___ → ___",
+    "answer": "näher → am nächsten",
+    "options": [],
+    "explanation": "nah → näher → am nächsten (unregelmäßige Steigerung mit Umlaut und Stammwechsel).",
+    "hint": "nah hat eine unregelmäßige Superlativform."
+  },
+  {
+    "id": "prep_wechsel_009",
+    "topic": "prepositions_wechsel",
+    "subtopic": "hinter_akkusativ",
+    "type": "multiple_choice",
+    "difficulty": 2,
+    "instruction": "Wähle die richtige Form. Akkusativ oder Dativ?",
+    "sentence": "Die Kinder laufen hinter ___ Haus.",
+    "answer": "das",
+    "options": [
+      "das",
+      "dem",
+      "den",
+      "der"
+    ],
+    "explanation": "'hinter' + Akkusativ because 'laufen' indicates movement to behind the house (Wohin?).",
+    "hint": "Wohin laufen die Kinder? Bewegung = Akkusativ."
+  },
+  {
+    "id": "prep_wechsel_010",
+    "topic": "prepositions_wechsel",
+    "subtopic": "vor_dativ",
+    "type": "multiple_choice",
+    "difficulty": 2,
+    "instruction": "Wähle die richtige Form. Akkusativ oder Dativ?",
+    "sentence": "Wir treffen uns vor ___ Kino.",
+    "answer": "dem",
+    "options": [
+      "dem",
+      "das",
+      "den",
+      "der"
+    ],
+    "explanation": "'vor' + Dativ because 'sich treffen' indicates a location (Wo?).",
+    "hint": "Wo treffen wir uns? Ort = Dativ."
+  },
+  {
+    "id": "prep_wechsel_011",
+    "topic": "prepositions_wechsel",
+    "subtopic": "zwischen_dativ",
+    "type": "multiple_choice",
+    "difficulty": 2,
+    "instruction": "Wähle die richtige Form. Akkusativ oder Dativ?",
+    "sentence": "Das Restaurant ist zwischen ___ Bank und ___ Post.",
+    "answer": "der ... der",
+    "options": [
+      "der ... der",
+      "die ... die",
+      "den ... den",
+      "dem ... dem"
+    ],
+    "explanation": "'zwischen' + Dativ because it describes a location (Wo?). Both 'Bank' and 'Post' are feminine → 'der' in Dativ.",
+    "hint": "Wo ist das Restaurant? Ort = Dativ. Die Bank, die Post → feminin Dativ."
+  },
+  {
+    "id": "passiv_011",
+    "topic": "passiv",
+    "subtopic": "futur",
+    "type": "fill_blank",
+    "difficulty": 3,
+    "instruction": "Bilde das Passiv im Futur I.",
+    "sentence": "Das neue Museum ___ nächstes Jahr ___ ___. (eröffnen)",
+    "answer": "wird ... eröffnet werden",
+    "options": [
+      "wird ... eröffnet werden",
+      "wird ... eröffnen werden",
+      "wird ... werden eröffnet",
+      "werden ... eröffnet wird"
+    ],
+    "explanation": "Passiv Futur I: wird + Partizip II + werden.",
+    "hint": "Futur Passiv = wird + Partizip II + werden (Infinitiv)."
+  },
+  {
+    "id": "konj2_014",
+    "topic": "konjunktiv_II",
+    "subtopic": "irreale_vergangenheit",
+    "type": "fill_blank",
+    "difficulty": 3,
+    "instruction": "Bilde den irrealen Bedingungssatz in der Vergangenheit.",
+    "sentence": "Wenn ich das gewusst ___, ___ ich dir geholfen.",
+    "answer": "hätte, hätte",
+    "options": [
+      "hätte, hätte",
+      "habe, habe",
+      "würde, würde",
+      "hatte, hatte"
+    ],
+    "explanation": "Konjunktiv II der Vergangenheit: hätte/wäre + Partizip II. Wenn ich gewusst hätte, hätte ich geholfen.",
+    "hint": "Irreale Vergangenheit: hätte/wäre + Partizip II."
+  },
+  {
+    "id": "konj2_015",
+    "topic": "konjunktiv_II",
+    "subtopic": "irreale_vergangenheit",
+    "type": "fill_blank",
+    "difficulty": 3,
+    "instruction": "Bilde den irrealen Bedingungssatz in der Vergangenheit.",
+    "sentence": "Wenn sie früher aufgestanden ___, ___ sie den Bus nicht verpasst.",
+    "answer": "wäre, hätte",
+    "options": [
+      "wäre, hätte",
+      "hätte, hätte",
+      "ist, hat",
+      "würde, würde"
+    ],
+    "explanation": "'aufstehen' uses 'sein' → wäre aufgestanden. 'verpassen' uses 'haben' → hätte verpasst.",
+    "hint": "aufstehen = sein-Verb → wäre. verpassen = haben-Verb → hätte."
+  },
+  {
+    "id": "neben_014",
+    "topic": "nebensaetze",
+    "subtopic": "indem",
+    "type": "fill_blank",
+    "difficulty": 3,
+    "instruction": "Setze die richtige Konjunktion ein.",
+    "sentence": "Man kann Geld sparen, ___ man weniger isst.",
+    "answer": "indem",
+    "options": [
+      "indem",
+      "damit",
+      "weil",
+      "dass"
+    ],
+    "explanation": "'indem' (by doing) describes the means/method of achieving something.",
+    "hint": "Wie kann man Geld sparen? Durch welche Methode? → indem."
+  },
+  {
+    "id": "neben_015",
+    "topic": "nebensaetze",
+    "subtopic": "falls",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze die richtige Konjunktion ein.",
+    "sentence": "___ du Hilfe brauchst, ruf mich an.",
+    "answer": "Falls",
+    "options": [
+      "Falls",
+      "Weil",
+      "Obwohl",
+      "Dass"
+    ],
+    "explanation": "'falls' (in case/if) introduces a conditional clause, similar to 'wenn' but less certain.",
+    "hint": "Bedingung (weniger wahrscheinlich als 'wenn') → ?"
+  },
+  {
+    "id": "relativ_014",
+    "topic": "relativsaetze",
+    "subtopic": "was",
+    "type": "fill_blank",
+    "difficulty": 3,
+    "instruction": "Setze das richtige Relativpronomen ein.",
+    "sentence": "Alles, ___ er gesagt hat, war falsch.",
+    "answer": "was",
+    "options": [
+      "was",
+      "das",
+      "die",
+      "dass"
+    ],
+    "explanation": "'was' is used as relative pronoun after alles, nichts, etwas, das (demonstrative), and superlatives.",
+    "hint": "Nach 'alles', 'nichts', 'etwas' → welches Relativpronomen?"
+  },
+  {
+    "id": "adj_mixed_003",
+    "topic": "adjektivdeklination",
+    "subtopic": "gemischt",
+    "type": "fill_blank",
+    "difficulty": 3,
+    "instruction": "Dekliniere alle Adjektive korrekt.",
+    "sentence": "In der klein___ Stadt gibt es viele alt___ Häuser.",
+    "answer": "kleinen ... alte",
+    "options": [
+      "kleinen ... alte",
+      "kleine ... alten",
+      "kleinen ... alten",
+      "kleine ... alte"
+    ],
+    "explanation": "'in der kleinen Stadt' = bestimmter Artikel + Dativ feminin → -en. 'viele alte Häuser' = nach 'viele' wie ohne Artikel Plural → -e.",
+    "hint": "Dativ + bestimmter Artikel = -en. 'viele' + Plural = wie ohne Artikel."
+  },
+  {
+    "id": "prep_gen_006",
+    "topic": "prepositions_genitiv",
+    "subtopic": "innerhalb",
+    "type": "fill_blank",
+    "difficulty": 3,
+    "instruction": "Fülle die richtige Präposition ein.",
+    "sentence": "Sie müssen den Antrag ___ einer Woche einreichen.",
+    "answer": "innerhalb",
+    "options": [
+      "innerhalb",
+      "außerhalb",
+      "während",
+      "wegen"
+    ],
+    "explanation": "'innerhalb' (within) takes the genitive case.",
+    "hint": "Welche Präposition bedeutet 'within' (Zeitraum)?"
+  },
+  {
+    "id": "konnek_012",
+    "topic": "konnektoren",
+    "subtopic": "sowohl_als_auch",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Ergänze die Konnektoren-Kombination.",
+    "sentence": "Er spricht ___ Deutsch ___ ___ Englisch.",
+    "answer": "sowohl ... als auch",
+    "options": [
+      "sowohl ... als auch",
+      "weder ... noch",
+      "entweder ... oder",
+      "zwar ... aber"
+    ],
+    "explanation": "'sowohl ... als auch' (both ... and) connects two positive elements.",
+    "hint": "Er spricht Deutsch UND Englisch. Betonung: beides."
+  },
+  {
+    "id": "passiv_012",
+    "topic": "passiv",
+    "subtopic": "zustandspassiv",
+    "type": "multiple_choice",
+    "difficulty": 3,
+    "instruction": "Vorgangspassiv oder Zustandspassiv? Wähle die richtige Form.",
+    "sentence": "Die Tür ___ geschlossen. (Zustand, nicht Vorgang)",
+    "answer": "ist",
+    "options": [
+      "ist",
+      "wird",
+      "wurde",
+      "hat"
+    ],
+    "explanation": "Zustandspassiv: sein + Partizip II. Es beschreibt einen Zustand (result), nicht einen Vorgang (process).",
+    "hint": "Zustandspassiv = sein + Partizip II."
+  },
+  {
+    "id": "adj_def_011",
+    "topic": "adjektivdeklination",
+    "subtopic": "definiter_artikel_mixed",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Dekliniere das Adjektiv nach dem bestimmten Artikel.",
+    "sentence": "Ich helfe den alt___ Leuten im Seniorenheim.",
+    "answer": "alten",
+    "options": [
+      "alten",
+      "alte",
+      "alter",
+      "altes"
+    ],
+    "explanation": "Nach bestimmtem Artikel im Dativ Plural: -en. Den alten Leuten.",
+    "hint": "Bestimmter Artikel + Dativ Plural → -en."
+  },
+  {
+    "id": "konj2_016",
+    "topic": "konjunktiv_II",
+    "subtopic": "wuensche",
+    "type": "transform",
+    "difficulty": 2,
+    "instruction": "Drücke den Wunsch im Konjunktiv II aus.",
+    "sentence": "Ich ___ gern mehr Freizeit! (haben)",
+    "answer": "hätte",
+    "options": [],
+    "explanation": "Wünsche mit 'haben': ich hätte gern... Konjunktiv II von 'haben' = hätte.",
+    "hint": "haben → hätte (Konjunktiv II)."
+  },
+  {
+    "id": "neben_016",
+    "topic": "nebensaetze",
+    "subtopic": "obwohl_trotzdem",
+    "type": "multiple_choice",
+    "difficulty": 2,
+    "instruction": "Wähle: 'obwohl' (Nebensatz) oder 'trotzdem' (Hauptsatz)?",
+    "sentence": "___ es kalt ist, geht sie ohne Jacke raus.",
+    "answer": "Obwohl",
+    "options": [
+      "Obwohl",
+      "Trotzdem",
+      "Deshalb",
+      "Weil"
+    ],
+    "explanation": "'obwohl' introduces a subordinate clause (verb at end). 'trotzdem' is used in a main clause (inversion).",
+    "hint": "Verb am Ende → Nebensatz-Konjunktion."
+  },
+  {
+    "id": "prep_dat_009",
+    "topic": "prepositions_dativ",
+    "subtopic": "zu_kontraktionen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze die richtige Kontraktion ein.",
+    "sentence": "Ich gehe ___ Bäcker. (zu + dem)",
+    "answer": "zum",
+    "options": [
+      "zum",
+      "zur",
+      "zu dem",
+      "zu den"
+    ],
+    "explanation": "'zu + dem' contracts to 'zum' (masculine/neuter dative).",
+    "hint": "zu + dem = ?"
+  },
+  {
+    "id": "prep_dat_010",
+    "topic": "prepositions_dativ",
+    "subtopic": "zu_kontraktionen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze die richtige Kontraktion ein.",
+    "sentence": "Sie fährt ___ Universität. (zu + der)",
+    "answer": "zur",
+    "options": [
+      "zur",
+      "zum",
+      "zu der",
+      "zu den"
+    ],
+    "explanation": "'zu + der' contracts to 'zur' (feminine dative).",
+    "hint": "zu + der = ?"
+  },
+  {
+    "id": "komp_012",
+    "topic": "komparativ_superlativ",
+    "subtopic": "je_desto",
+    "type": "fill_blank",
+    "difficulty": 3,
+    "instruction": "Ergänze die Struktur 'je ... desto/umso'.",
+    "sentence": "___ mehr man übt, ___ besser wird man.",
+    "answer": "Je ... desto",
+    "options": [
+      "Je ... desto",
+      "So ... wie",
+      "Mehr ... als",
+      "Wenn ... dann"
+    ],
+    "explanation": "'je + Komparativ, desto/umso + Komparativ' expresses a proportional relationship.",
+    "hint": "Proportionale Beziehung: je + Komparativ, desto + Komparativ."
+  },
+  {
+    "id": "adj_indef_011",
+    "topic": "adjektivdeklination",
+    "subtopic": "possessiv_nominativ",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Dekliniere das Adjektiv nach dem Possessivartikel.",
+    "sentence": "Mein neu___ Computer funktioniert nicht.",
+    "answer": "neuer",
+    "options": [
+      "neuer",
+      "neue",
+      "neues",
+      "neuen"
+    ],
+    "explanation": "Possessivartikel wie unbestimmter Artikel. Nominativ maskulin: -er. Mein neuer Computer.",
+    "hint": "Possessivartikel + Nominativ maskulin → -er."
+  },
+  {
+    "id": "adj_indef_012",
+    "topic": "adjektivdeklination",
+    "subtopic": "possessiv_nominativ",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Dekliniere das Adjektiv nach dem Possessivartikel.",
+    "sentence": "Ihre klein___ Tochter geht in den Kindergarten.",
+    "answer": "kleine",
+    "options": [
+      "kleine",
+      "kleiner",
+      "kleines",
+      "kleinen"
+    ],
+    "explanation": "Possessivartikel + Nominativ feminin: -e. Ihre kleine Tochter.",
+    "hint": "Possessivartikel + Nominativ feminin → -e."
+  },
+  {
+    "id": "neben_017",
+    "topic": "nebensaetze",
+    "subtopic": "um_zu",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Ergänze mit 'um ... zu' oder 'damit'.",
+    "sentence": "Ich lerne Deutsch, ___ in Deutschland zu studieren.",
+    "answer": "um",
+    "options": [
+      "um",
+      "damit",
+      "weil",
+      "dass"
+    ],
+    "explanation": "'um ... zu + Infinitiv' is used when the subject is the same in both clauses (Zweck/purpose).",
+    "hint": "Gleiches Subjekt + Zweck → um ... zu."
+  },
+  {
+    "id": "passiv_013",
+    "topic": "passiv",
+    "subtopic": "praesens_plural",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze das Verb im Passiv Präsens ein.",
+    "sentence": "Die E-Mails ___ jeden Tag ___. (beantworten)",
+    "answer": "werden ... beantwortet",
+    "options": [
+      "werden ... beantwortet",
+      "wird ... beantwortet",
+      "wurden ... beantwortet",
+      "sind ... beantwortet"
+    ],
+    "explanation": "Passiv Präsens Plural: werden + Partizip II. 'E-Mails' = Plural → 'werden'.",
+    "hint": "Plural → werden. Präsens Passiv."
+  },
+  {
+    "id": "konnek_013",
+    "topic": "konnektoren",
+    "subtopic": "darum",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze den passenden Konnektor ein.",
+    "sentence": "Sie möchte abnehmen, ___ macht sie jeden Tag Sport.",
+    "answer": "darum",
+    "options": [
+      "darum",
+      "trotzdem",
+      "außerdem",
+      "sondern"
+    ],
+    "explanation": "'darum' (that's why) is another synonym of 'deshalb/deswegen' for expressing consequence.",
+    "hint": "Synonyme: deshalb = deswegen = darum."
+  },
+  {
+    "id": "prep_akk_008",
+    "topic": "prepositions_akkusativ",
+    "subtopic": "entlang",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Fülle die richtige Präposition ein.",
+    "sentence": "Gehen Sie die Straße ___ bis zur Kreuzung.",
+    "answer": "entlang",
+    "options": [
+      "entlang",
+      "durch",
+      "über",
+      "um"
+    ],
+    "explanation": "'entlang' (along) is a postposition with accusative: die Straße entlang.",
+    "hint": "Welche Präposition/Postposition bedeutet 'along'?"
+  },
+  {
+    "id": "relativ_015",
+    "topic": "relativsaetze",
+    "subtopic": "genitiv_feminin",
+    "type": "fill_blank",
+    "difficulty": 3,
+    "instruction": "Setze das richtige Relativpronomen im Genitiv ein.",
+    "sentence": "Die Frau, ___ Tasche gestohlen wurde, hat die Polizei gerufen.",
+    "answer": "deren",
+    "options": [
+      "deren",
+      "dessen",
+      "der",
+      "die"
+    ],
+    "explanation": "Relativpronomen im Genitiv feminin = 'deren'. Es drückt Besitz aus.",
+    "hint": "Wessen Tasche? → Genitiv feminin = deren."
+  },
+  {
+    "id": "adj_null_011",
+    "topic": "adjektivdeklination",
+    "subtopic": "ohne_artikel_nominativ",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Dekliniere das Adjektiv ohne Artikel.",
+    "sentence": "Stark___ Kaffee hilft gegen Müdigkeit.",
+    "answer": "Starker",
+    "options": [
+      "Starker",
+      "Starke",
+      "Starkes",
+      "Starken"
+    ],
+    "explanation": "Ohne Artikel im Nominativ maskulin: -er. Starker Kaffee.",
+    "hint": "Der Kaffee → maskulin. Nominativ maskulin ohne Artikel = -er."
+  },
+  {
+    "id": "konj2_017",
+    "topic": "konjunktiv_II",
+    "subtopic": "als_ob",
+    "type": "fill_blank",
+    "difficulty": 3,
+    "instruction": "Setze die richtige Konjunktiv-II-Form ein.",
+    "sentence": "Er tut so, als ob er alles ___. (wissen)",
+    "answer": "wüsste",
+    "options": [
+      "wüsste",
+      "weiß",
+      "wusste",
+      "würde"
+    ],
+    "explanation": "'als ob' + Konjunktiv II: 'wissen' → 'wüsste'. Drückt etwas Irreales/Vorgetäuschtes aus.",
+    "hint": "als ob + Konjunktiv II. wissen → w_sste."
+  },
+  {
+    "id": "neben_018",
+    "topic": "nebensaetze",
+    "subtopic": "so_dass",
+    "type": "fill_blank",
+    "difficulty": 3,
+    "instruction": "Setze die richtige Konjunktion ein.",
+    "sentence": "Es hat stark geregnet, ___ die Straßen überflutet waren.",
+    "answer": "sodass",
+    "options": [
+      "sodass",
+      "damit",
+      "weil",
+      "obwohl"
+    ],
+    "explanation": "'sodass' (so that/with the result that) expresses a consequence.",
+    "hint": "Regen → Konsequenz: überflutete Straßen. Welche Konjunktion?"
+  },
+  {
+    "id": "prep_wechsel_012",
+    "topic": "prepositions_wechsel",
+    "subtopic": "ueber_akkusativ",
+    "type": "multiple_choice",
+    "difficulty": 2,
+    "instruction": "Wähle die richtige Form. Akkusativ oder Dativ?",
+    "sentence": "Der Vogel fliegt über ___ Haus.",
+    "answer": "das",
+    "options": [
+      "das",
+      "dem",
+      "den",
+      "der"
+    ],
+    "explanation": "'über' + Akkusativ because the bird is flying across/over (direction, Wohin?).",
+    "hint": "Der Vogel bewegt sich → Akkusativ."
+  }
+]

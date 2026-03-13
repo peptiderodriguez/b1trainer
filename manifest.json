@@ -1,0 +1,22 @@
+{
+  "name": "B1 Goethe Trainer",
+  "short_name": "B1 Trainer",
+  "description": "Prüfungsvorbereitung für das Goethe-Zertifikat B1 — Vokabeln, Grammatik, Lesen, Hören, Schreiben und Prüfungssimulation",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#e94560",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
