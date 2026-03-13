@@ -97,7 +97,7 @@
   "diseases": [
     { "de": "die Grippe", "en": "flu", "article": "die", "symptoms": ["Fieber", "Husten", "Kopfschmerzen", "Müdigkeit", "Schüttelfrost"], "treatment": "Bettruhe, ausreichend Flüssigkeitszufuhr, ggf. Schmerzmittel wie Paracetamol oder Ibuprofen" },
     { "de": "die Erkältung", "en": "common cold", "article": "die", "symptoms": ["Schnupfen", "Husten", "Halsschmerzen", "Kopfschmerzen"], "treatment": "Symptomatische Therapie, viel trinken, Ruhe, ggf. Nasenspray und Lutschpastillen" },
-    { "de": "der Diabetes mellitus", "en": "diabetes mellitus", "article": "der", "symptoms": ["Müdigkeit", "Gewichtsverlust", "Durchfall", "Sehstörungen"], "treatment": "Diätberatung, Blutzuckerkontrolle, orale Antidiabetika oder Insulintherapie, regelmäßige Bewegung" },
+    { "de": "der Diabetes mellitus", "en": "diabetes mellitus", "article": "der", "symptoms": ["Müdigkeit", "Gewichtsverlust", "vermehrter Durst", "Sehstörungen"], "treatment": "Diätberatung, Blutzuckerkontrolle, orale Antidiabetika oder Insulintherapie, regelmäßige Bewegung" },
     { "de": "die Hypertonie", "en": "hypertension", "article": "die", "symptoms": ["Bluthochdruck", "Kopfschmerzen", "Schwindel", "Sehstörungen"], "treatment": "Lebensstiländerung (Gewichtsreduktion, salzarme Ernährung, Bewegung), Antihypertensiva (z. B. ACE-Hemmer, Betablocker)" },
     { "de": "die Lungenentzündung", "en": "pneumonia", "article": "die", "symptoms": ["Fieber", "Husten", "Atemnot", "Schüttelfrost", "Brustschmerzen"], "treatment": "Antibiotische Therapie (z. B. Amoxicillin), Antipyretika, Bettruhe, ggf. Sauerstoffgabe bei schwerer Atemnot" },
     { "de": "der Herzinfarkt", "en": "heart attack", "article": "der", "symptoms": ["Brustschmerzen", "Atemnot", "Übelkeit", "Herzrasen", "Ohnmacht"], "treatment": "Sofortige Notfallversorgung, Herzkatheteruntersuchung mit ggf. Stentimplantation, medikamentöse Therapie (ASS, Heparin, Betablocker)" },
@@ -111,19 +111,18 @@
     { "de": "die Allergie", "en": "allergy", "article": "die", "symptoms": ["Hautausschlag", "Juckreiz", "Schnupfen", "Atemnot"], "treatment": "Allergenvermeidung, Antihistaminika, ggf. Kortikosteroide, bei schwerer Allergie Hyposensibilisierung" },
     { "de": "die Anämie", "en": "anemia", "article": "die", "symptoms": ["Müdigkeit", "Schwindel", "Atemnot", "Kopfschmerzen"], "treatment": "Ursachenklärung, Eisensubstitution (oral oder i.v.), ggf. Vitamin-B12-Substitution, Ernährungsberatung" },
     { "de": "die Niereninsuffizienz", "en": "renal insufficiency", "article": "die", "symptoms": ["Müdigkeit", "Schwellung", "Übelkeit", "Bluthochdruck"], "treatment": "Grunderkrankung behandeln, Blutdruckeinstellung, eiweißarme Ernährung, ggf. Dialyse bei fortgeschrittenem Stadium" },
-    { "de": "die Schilddrüsenerkrankung", "en": "thyroid disease", "article": "die", "symptoms": ["Müdigkeit", "Gewichtsverlust", "Herzrasen", "Schlaflosigkeit"], "treatment": "Je nach Form: Thyreostatika bei Hyperthyreose, L-Thyroxin-Substitution bei Hypothyreose, regelmäßige Laborkontrollen" },
+    { "de": "die Hyperthyreose", "en": "hyperthyroidism", "article": "die", "symptoms": ["Müdigkeit", "Gewichtsverlust", "Herzrasen", "Schlaflosigkeit"], "treatment": "Je nach Form: Thyreostatika bei Hyperthyreose, L-Thyroxin-Substitution bei Hypothyreose, regelmäßige Laborkontrollen" },
     { "de": "die Osteoporose", "en": "osteoporosis", "article": "die", "symptoms": ["Rückenschmerzen", "Krämpfe"], "treatment": "Kalzium- und Vitamin-D-Supplementierung, Bisphosphonate, Sturzprophylaxe, gewichtsbelastende Bewegung" },
     { "de": "der Bandscheibenvorfall", "en": "herniated disc", "article": "der", "symptoms": ["Rückenschmerzen", "Taubheitsgefühl", "Krämpfe", "Gelenkschmerzen"], "treatment": "Konservative Therapie mit Schmerzmedikation, Physiotherapie, ggf. operative Entlastung bei schwerer Neurologie" },
     { "de": "die Appendizitis", "en": "appendicitis", "article": "die", "symptoms": ["Bauchschmerzen", "Fieber", "Übelkeit", "Erbrechen"], "treatment": "In der Regel operative Therapie (Appendektomie), antibiotische Abdeckung, stationäre Überwachung" },
     { "de": "die Lungenembolie", "en": "pulmonary embolism", "article": "die", "symptoms": ["Atemnot", "Brustschmerzen", "Herzrasen", "Ohnmacht"], "treatment": "Antikoagulation mit Heparin, ggf. systemische Thrombolyse bei hämodynamischer Instabilität, Sauerstoffgabe, intensivmedizinische Überwachung" },
     { "de": "die COPD", "en": "chronic obstructive pulmonary disease", "article": "die", "symptoms": ["Atemnot", "Husten", "Müdigkeit"], "treatment": "Inhalative Therapie mit Bronchodilatatoren und ggf. Kortikosteroiden, Rauchstopp, pulmonale Rehabilitation, Sauerstofflangzeittherapie bei schwerer COPD" },
     { "de": "die Leberzirrhose", "en": "liver cirrhosis", "article": "die", "symptoms": ["Müdigkeit", "Ikterus", "Schwellung", "Übelkeit", "Gewichtsverlust"], "treatment": "Behandlung der Grunderkrankung, Alkoholkarenz, natriumarme Ernährung, ggf. Aszitespunktion, Lebertransplantation bei Endstadium" },
-    { "de": "die Hypothyreose", "en": "hypothyroidism", "article": "die", "symptoms": ["Müdigkeit", "Gewichtsverlust", "Verstopfung", "Krämpfe", "Schlaflosigkeit"], "treatment": "Substitution mit L-Thyroxin, regelmäßige TSH-Kontrollen, Dosisanpassung nach Klinik und Laborwerten" },
+    { "de": "die Hypothyreose", "en": "hypothyroidism", "article": "die", "symptoms": ["Müdigkeit", "Gewichtszunahme", "Verstopfung", "Krämpfe", "Kälteintoleranz"], "treatment": "Substitution mit L-Thyroxin, regelmäßige TSH-Kontrollen, Dosisanpassung nach Klinik und Laborwerten" },
     { "de": "die Sepsis", "en": "sepsis", "article": "die", "symptoms": ["Fieber", "Herzrasen", "Atemnot", "Schüttelfrost", "Bewusstlosigkeit"], "treatment": "Sofortige Antibiotikagabe nach Abnahme von Blutkulturen, Volumentherapie, ggf. Katecholamine, intensivmedizinische Behandlung" },
     { "de": "die Thrombose", "en": "thrombosis", "article": "die", "symptoms": ["Schwellung", "Schmerzen im Bein", "Wassereinlagerungen"], "treatment": "Antikoagulation mit Heparin und Umstellung auf orale Antikoagulanzien, Kompressionstherapie, Mobilisation unter Antikoagulation" },
     { "de": "die Cholezystitis", "en": "cholecystitis", "article": "die", "symptoms": ["Bauchschmerzen", "Fieber", "Übelkeit", "Erbrechen"], "treatment": "Antibiotische Therapie, Analgesie, frühzeitige laparoskopische Cholezystektomie" },
-    { "de": "die Pankreatitis", "en": "pancreatitis", "article": "die", "symptoms": ["Bauchschmerzen", "Übelkeit", "Erbrechen", "Fieber"], "treatment": "Nahrungskarenz, Infusionstherapie, Analgesie, ggf. endoskopische Intervention bei biliärer Ursache" },
-    { "de": "die Pneumonie", "en": "pneumonia", "article": "die", "symptoms": ["Fieber", "Husten", "Atemnot", "Schüttelfrost", "Brustschmerzen"], "treatment": "Antibiotische Therapie je nach Erreger, Sauerstoffgabe, Antipyretika, ausreichende Flüssigkeitszufuhr" }
+    { "de": "die Pankreatitis", "en": "pancreatitis", "article": "die", "symptoms": ["Bauchschmerzen", "Übelkeit", "Erbrechen", "Fieber"], "treatment": "Nahrungskarenz, Infusionstherapie, Analgesie, ggf. endoskopische Intervention bei biliärer Ursache" }
   ],
 
   "procedures": [
@@ -532,7 +531,7 @@
     { "fach": "Tachykardie", "laien": "schneller Herzschlag", "en": "tachycardia" },
     { "fach": "Bradykardie", "laien": "langsamer Herzschlag", "en": "bradycardia" },
     { "fach": "Dyspnoe", "laien": "Atemnot", "en": "dyspnea" },
-    { "fach": "Zephalgie", "laien": "Kopfschmerzen", "en": "cephalalgia" },
+    { "fach": "Cephalgie", "laien": "Kopfschmerzen", "en": "cephalalgia" },
     { "fach": "Emesis", "laien": "Erbrechen", "en": "emesis" },
     { "fach": "Nausea", "laien": "Übelkeit", "en": "nausea" },
     { "fach": "Obstipation", "laien": "Verstopfung", "en": "constipation" },

@@ -1932,10 +1932,10 @@
   {
     "id": "komp_010",
     "topic": "komparativ_superlativ",
-    "subtopic": "mit_umlaut",
+    "subtopic": "regelmaessig",
     "type": "fill_blank",
     "difficulty": 2,
-    "instruction": "Bilde den Komparativ. Achtung: Umlaut!",
+    "instruction": "Bilde den Komparativ.",
     "sentence": "Der Zug ist schnell, aber das Flugzeug ist noch ___.",
     "answer": "schneller",
     "options": [
@@ -2844,7 +2844,12 @@
     "instruction": "Setze die richtige Konjunktiv-II-Form ein.",
     "sentence": "Wenn ich mehr Geld ___, würde ich eine größere Wohnung mieten.",
     "answer": "hätte",
-    "options": ["hätte", "habe", "hatte", "haben"],
+    "options": [
+      "hätte",
+      "habe",
+      "hatte",
+      "haben"
+    ],
     "also_accept": [],
     "explanation": "Der Konjunktiv II von 'haben' lautet: ich hätte, du hättest, er/sie hätte, wir hätten, ihr hättet, sie hätten.",
     "hint": "Konjunktiv II von 'haben' → hätte."
@@ -2858,7 +2863,12 @@
     "instruction": "Setze die richtige Konjunktiv-II-Form ein.",
     "sentence": "___ Sie mir bitte sagen, wo der nächste Supermarkt ist?",
     "answer": "Könnten",
-    "options": ["Könnten", "Können", "Konnten", "Konnte"],
+    "options": [
+      "Könnten",
+      "Können",
+      "Konnten",
+      "Konnte"
+    ],
     "also_accept": [],
     "explanation": "'Könnten Sie …?' ist eine höfliche Bitte im Konjunktiv II. Viel höflicher als 'Können Sie …?'.",
     "hint": "Höfliche Form von 'können' = könnten."
@@ -2872,8 +2882,15 @@
     "instruction": "Setze die richtige Konjunktiv-II-Form ein.",
     "sentence": "Wenn ich besser Deutsch ___, würde ich mich um die Stelle bewerben.",
     "answer": "spräche",
-    "options": ["spräche", "spreche", "sprach", "sprechen"],
-    "also_accept": ["sprechen würde"],
+    "options": [
+      "spräche",
+      "spreche",
+      "sprach",
+      "sprechen"
+    ],
+    "also_accept": [
+      "sprechen würde"
+    ],
     "explanation": "Der Konjunktiv II von 'sprechen' lautet 'spräche'. Alternativ: 'sprechen würde'.",
     "hint": "Konjunktiv II von 'sprechen' = spräche (oder: sprechen würde)."
   },
@@ -2886,8 +2903,15 @@
     "instruction": "Wähle die höflichste Formulierung.",
     "sentence": "___ du mir beim Umzug helfen?",
     "answer": "Könntest",
-    "options": ["Könntest", "Kannst", "Konntest", "Wirst"],
-    "also_accept": ["Würdest"],
+    "options": [
+      "Könntest",
+      "Kannst",
+      "Konntest",
+      "Wirst"
+    ],
+    "also_accept": [
+      "Würdest"
+    ],
     "explanation": "'Könntest du …?' drückt eine höfliche Bitte im Konjunktiv II aus.",
     "hint": "Höfliche Bitte → Konjunktiv II."
   },
@@ -2900,7 +2924,12 @@
     "instruction": "Setze die richtige Konjunktiv-II-Form ein.",
     "sentence": "Wenn wir einen Garten ___, würden die Kinder draußen spielen.",
     "answer": "hätten",
-    "options": ["hätten", "haben", "hatten", "gehabt"],
+    "options": [
+      "hätten",
+      "haben",
+      "hatten",
+      "gehabt"
+    ],
     "also_accept": [],
     "explanation": "'Wenn wir … hätten' drückt einen irrealen Wunsch aus. Konjunktiv II Plural von 'haben' = hätten.",
     "hint": "Irrealer Wunsch: Wenn + Subjekt + … + Konjunktiv II am Ende."
@@ -2914,8 +2943,15 @@
     "instruction": "Setze die richtige Konjunktiv-II-Form ein.",
     "sentence": "Ich ___ gern einen Termin beim Bürgeramt vereinbaren.",
     "answer": "würde",
-    "options": ["würde", "werde", "will", "wollte"],
-    "also_accept": ["möchte"],
+    "options": [
+      "würde",
+      "werde",
+      "will",
+      "wollte"
+    ],
+    "also_accept": [
+      "möchte"
+    ],
     "explanation": "'Ich würde gern …' ist eine höfliche Formulierung mit Konjunktiv II.",
     "hint": "Höflich: ich würde gern + Infinitiv."
   },
@@ -2942,7 +2978,12 @@
     "instruction": "Setze die richtige Konjunktiv-II-Form ein.",
     "sentence": "An deiner Stelle ___ ich das Jobangebot annehmen.",
     "answer": "würde",
-    "options": ["würde", "werde", "wollte", "sollte"],
+    "options": [
+      "würde",
+      "werde",
+      "wollte",
+      "sollte"
+    ],
     "also_accept": [],
     "explanation": "'An deiner Stelle würde ich …' drückt einen Ratschlag im Konjunktiv II aus.",
     "hint": "Ratschlag: An deiner Stelle + würde + ich + Infinitiv."
@@ -2956,7 +2997,12 @@
     "instruction": "Setze die richtige Form von 'werden' ein (Vorgangspassiv).",
     "sentence": "Die Wohnung ___ nächste Woche renoviert.",
     "answer": "wird",
-    "options": ["wird", "ist", "hat", "wurde"],
+    "options": [
+      "wird",
+      "ist",
+      "hat",
+      "wurde"
+    ],
     "also_accept": [],
     "explanation": "Vorgangspassiv Präsens: werden + Partizip II. 'Die Wohnung wird renoviert' = Die Renovierung findet statt.",
     "hint": "Vorgangspassiv = werden + Partizip II."
@@ -2970,7 +3016,12 @@
     "instruction": "Setze die richtige Form ein: Zustandspassiv mit 'sein'.",
     "sentence": "Der Mietvertrag ___ bereits unterschrieben.",
     "answer": "ist",
-    "options": ["ist", "wird", "hat", "wurde"],
+    "options": [
+      "ist",
+      "wird",
+      "hat",
+      "wurde"
+    ],
     "also_accept": [],
     "explanation": "Zustandspassiv: sein + Partizip II. 'ist unterschrieben' = das Ergebnis liegt vor.",
     "hint": "Zustandspassiv = sein + Partizip II (Ergebnis)."
@@ -2984,7 +3035,12 @@
     "instruction": "Setze die richtige Form von 'werden' im Präteritum ein.",
     "sentence": "Die Küche ___ letztes Jahr komplett erneuert.",
     "answer": "wurde",
-    "options": ["wurde", "wird", "ist", "war"],
+    "options": [
+      "wurde",
+      "wird",
+      "ist",
+      "war"
+    ],
     "also_accept": [],
     "explanation": "Vorgangspassiv Präteritum: wurde + Partizip II. 'Die Küche wurde erneuert' = in der Vergangenheit.",
     "hint": "Passiv Präteritum: wurde + Partizip II."
@@ -2998,7 +3054,12 @@
     "instruction": "Wähle die richtige Passivform mit Modalverb.",
     "sentence": "Die Nebenkostenabrechnung ___ bis Ende des Monats erstellt werden.",
     "answer": "muss",
-    "options": ["muss", "wird", "ist", "hat"],
+    "options": [
+      "muss",
+      "wird",
+      "ist",
+      "hat"
+    ],
     "also_accept": [],
     "explanation": "Passiv mit Modalverb: Modalverb + Partizip II + werden. 'muss erstellt werden' = es ist notwendig.",
     "hint": "Modalverb + Partizip II + werden."
@@ -3012,7 +3073,12 @@
     "instruction": "Setze die richtige Passivform ein.",
     "sentence": "Im Rathaus ___ gerade neue Personalausweise ausgestellt.",
     "answer": "werden",
-    "options": ["werden", "sind", "haben", "wurden"],
+    "options": [
+      "werden",
+      "sind",
+      "haben",
+      "wurden"
+    ],
     "also_accept": [],
     "explanation": "Vorgangspassiv Plural Präsens: werden + Partizip II. Subjekt 'Personalausweise' ist Plural.",
     "hint": "Plural → werden + Partizip II."
@@ -3026,7 +3092,12 @@
     "instruction": "Zustandspassiv oder Vorgangspassiv? Wähle die richtige Form.",
     "sentence": "Die Tür ___ abgeschlossen. Niemand kann rein.",
     "answer": "ist",
-    "options": ["ist", "wird", "wurde", "hat"],
+    "options": [
+      "ist",
+      "wird",
+      "wurde",
+      "hat"
+    ],
     "also_accept": [],
     "explanation": "Zustandspassiv: 'Die Tür ist abgeschlossen' beschreibt einen Zustand (Ergebnis einer Handlung).",
     "hint": "Es geht um den Zustand → sein + Partizip II."
@@ -3040,7 +3111,12 @@
     "instruction": "Setze die richtige Passivform ein.",
     "sentence": "Das Paket ___ vom Nachbarn angenommen.",
     "answer": "wurde",
-    "options": ["wurde", "wird", "ist", "hat"],
+    "options": [
+      "wurde",
+      "wird",
+      "ist",
+      "hat"
+    ],
     "also_accept": [],
     "explanation": "Passiv Präteritum + 'von' + Dativ für den Handelnden: 'Das Paket wurde vom Nachbarn angenommen.'",
     "hint": "Passiv Präteritum: wurde + Partizip II. Wer? → von + Dativ."
@@ -3054,7 +3130,12 @@
     "instruction": "Setze die richtige Passivform im Perfekt ein.",
     "sentence": "Die Anmeldung beim Einwohnermeldeamt ___ schon erledigt worden.",
     "answer": "ist",
-    "options": ["ist", "hat", "wird", "wurde"],
+    "options": [
+      "ist",
+      "hat",
+      "wird",
+      "wurde"
+    ],
     "also_accept": [],
     "explanation": "Passiv Perfekt: sein + Partizip II + worden. 'ist erledigt worden' = wurde in der Vergangenheit erledigt.",
     "hint": "Passiv Perfekt: ist + Partizip II + worden."
@@ -3068,8 +3149,16 @@
     "instruction": "Setze den passenden Konnektor ein.",
     "sentence": "Die Miete ist gestiegen, ___ suchen viele Menschen eine WG.",
     "answer": "deshalb",
-    "options": ["deshalb", "trotzdem", "allerdings", "hingegen"],
-    "also_accept": ["deswegen", "daher"],
+    "options": [
+      "deshalb",
+      "trotzdem",
+      "allerdings",
+      "hingegen"
+    ],
+    "also_accept": [
+      "deswegen",
+      "daher"
+    ],
     "explanation": "'deshalb' (therefore) drückt eine Folge aus. Achtung: Nach 'deshalb' steht das Verb auf Position 2.",
     "hint": "Welcher Konnektor drückt eine Folge/Konsequenz aus?"
   },
@@ -3082,8 +3171,15 @@
     "instruction": "Setze den passenden Konnektor ein.",
     "sentence": "Die Nachbarn sind laut, ___ verstehen wir uns gut mit ihnen.",
     "answer": "trotzdem",
-    "options": ["trotzdem", "deshalb", "außerdem", "folglich"],
-    "also_accept": ["dennoch"],
+    "options": [
+      "trotzdem",
+      "deshalb",
+      "außerdem",
+      "folglich"
+    ],
+    "also_accept": [
+      "dennoch"
+    ],
     "explanation": "'trotzdem' (nevertheless) drückt einen Gegensatz/Widerspruch aus: laut, aber gute Beziehung.",
     "hint": "Gegensatz: obwohl sie laut sind → ___ verstehen wir uns gut."
   },
@@ -3096,8 +3192,15 @@
     "instruction": "Wähle den passenden Konnektor.",
     "sentence": "Meine Schwester lebt gern in der Stadt, ich ___ bevorzuge das Landleben.",
     "answer": "hingegen",
-    "options": ["hingegen", "deshalb", "außerdem", "folglich"],
-    "also_accept": ["dagegen"],
+    "options": [
+      "hingegen",
+      "deshalb",
+      "außerdem",
+      "folglich"
+    ],
+    "also_accept": [
+      "dagegen"
+    ],
     "explanation": "'hingegen' (on the other hand) drückt einen Kontrast zwischen zwei Aussagen aus.",
     "hint": "Kontrast: Stadt vs. Land → welcher Konnektor?"
   },
@@ -3110,8 +3213,16 @@
     "instruction": "Setze den passenden Konnektor ein.",
     "sentence": "Die Wohnung hat einen Balkon, ___ gibt es einen Stellplatz in der Tiefgarage.",
     "answer": "außerdem",
-    "options": ["außerdem", "trotzdem", "stattdessen", "allerdings"],
-    "also_accept": ["darüber hinaus", "zudem"],
+    "options": [
+      "außerdem",
+      "trotzdem",
+      "stattdessen",
+      "allerdings"
+    ],
+    "also_accept": [
+      "darüber hinaus",
+      "zudem"
+    ],
     "explanation": "'außerdem' (furthermore) fügt eine zusätzliche Information hinzu.",
     "hint": "Balkon + Stellplatz = zwei Vorteile. Welcher Konnektor verbindet sie?"
   },
@@ -3124,8 +3235,15 @@
     "instruction": "Setze den passenden Konnektor ein.",
     "sentence": "Das Haus ist sehr schön, ___ liegt es weit vom Stadtzentrum entfernt.",
     "answer": "allerdings",
-    "options": ["allerdings", "deshalb", "außerdem", "folglich"],
-    "also_accept": ["jedoch"],
+    "options": [
+      "allerdings",
+      "deshalb",
+      "außerdem",
+      "folglich"
+    ],
+    "also_accept": [
+      "jedoch"
+    ],
     "explanation": "'allerdings' (however) schränkt die vorherige Aussage ein: schön, aber weit entfernt.",
     "hint": "Einschränkung: schön, aber …"
   },
@@ -3138,8 +3256,15 @@
     "instruction": "Setze den passenden Konnektor ein.",
     "sentence": "Er hat keine Berufserfahrung, ___ hat er schlechte Chancen auf dem Arbeitsmarkt.",
     "answer": "folglich",
-    "options": ["folglich", "trotzdem", "hingegen", "stattdessen"],
-    "also_accept": ["infolgedessen"],
+    "options": [
+      "folglich",
+      "trotzdem",
+      "hingegen",
+      "stattdessen"
+    ],
+    "also_accept": [
+      "infolgedessen"
+    ],
     "explanation": "'folglich' (consequently) drückt eine logische Konsequenz aus.",
     "hint": "Keine Erfahrung → schlechte Chancen. Welcher Konnektor drückt eine Konsequenz aus?"
   },
@@ -3152,7 +3277,12 @@
     "instruction": "Wähle den passenden Konnektor.",
     "sentence": "Wir wollten grillen, ___ haben wir wegen des Regens drinnen gekocht.",
     "answer": "stattdessen",
-    "options": ["stattdessen", "außerdem", "deshalb", "trotzdem"],
+    "options": [
+      "stattdessen",
+      "außerdem",
+      "deshalb",
+      "trotzdem"
+    ],
     "also_accept": [],
     "explanation": "'stattdessen' (instead) zeigt an, dass etwas anderes als geplant gemacht wurde.",
     "hint": "Grillen war geplant, aber gekocht wurde → Alternative."
@@ -3166,7 +3296,12 @@
     "instruction": "Setze den passenden Konnektor ein.",
     "sentence": "Wir haben lange gesucht, ___ haben wir eine bezahlbare Wohnung gefunden.",
     "answer": "schließlich",
-    "options": ["schließlich", "stattdessen", "hingegen", "allerdings"],
+    "options": [
+      "schließlich",
+      "stattdessen",
+      "hingegen",
+      "allerdings"
+    ],
     "also_accept": [],
     "explanation": "'schließlich' (finally/eventually) zeigt das Ende eines Prozesses an.",
     "hint": "Lange gesucht → am Ende gefunden. Welches Wort passt?"
@@ -3180,7 +3315,12 @@
     "instruction": "Setze die richtige Konjunktiv-I-Form ein (indirekte Rede).",
     "sentence": "Mein Nachbar sagte, er ___ sich über den Lärm. (sich beschweren)",
     "answer": "beschwere",
-    "options": ["beschwere", "beschwert", "beschwerte", "beschweren"],
+    "options": [
+      "beschwere",
+      "beschwert",
+      "beschwerte",
+      "beschweren"
+    ],
     "also_accept": [],
     "explanation": "Indirekte Rede mit Konjunktiv I: er beschwere (von 'sich beschweren'). Der Konjunktiv I wird vom Infinitivstamm gebildet.",
     "hint": "Konjunktiv I: er + Verbstamm + e."
@@ -3194,7 +3334,12 @@
     "instruction": "Setze die richtige Konjunktiv-I-Form ein (indirekte Rede).",
     "sentence": "Die Vermieterin erklärte, die Nebenkosten ___ gestiegen. (sein)",
     "answer": "seien",
-    "options": ["seien", "sind", "waren", "wären"],
+    "options": [
+      "seien",
+      "sind",
+      "waren",
+      "wären"
+    ],
     "also_accept": [],
     "explanation": "Konjunktiv I von 'sein' im Plural: sie seien. 'seien gestiegen' = Perfekt in der indirekten Rede.",
     "hint": "Konjunktiv I Plural von 'sein' = seien."
@@ -3208,7 +3353,12 @@
     "instruction": "Setze die richtige Konjunktiv-I-Form ein (indirekte Rede).",
     "sentence": "Der Vermieter meinte, er ___ die Heizung nächste Woche reparieren lassen. (wollen)",
     "answer": "wolle",
-    "options": ["wolle", "will", "wollte", "würde"],
+    "options": [
+      "wolle",
+      "will",
+      "wollte",
+      "würde"
+    ],
     "also_accept": [],
     "explanation": "Konjunktiv I von 'wollen': er wolle. In der indirekten Rede gibt man die Aussage eines Dritten wieder.",
     "hint": "Konjunktiv I: er + Stamm + e → wolle."
@@ -3222,7 +3372,12 @@
     "instruction": "Wähle die richtige Form der indirekten Rede.",
     "sentence": "Die Nachbarin erzählte, ihre Tochter ___ nächstes Jahr heiraten. (werden)",
     "answer": "werde",
-    "options": ["werde", "wird", "würde", "wurde"],
+    "options": [
+      "werde",
+      "wird",
+      "würde",
+      "wurde"
+    ],
     "also_accept": [],
     "explanation": "Konjunktiv I von 'werden': sie werde. 'werde heiraten' = Futur I in der indirekten Rede.",
     "hint": "Konjunktiv I von 'werden': er/sie werde."
@@ -3234,9 +3389,14 @@
     "type": "fill_blank",
     "difficulty": 3,
     "instruction": "Setze die richtige Form ein. Wenn Konjunktiv I = Indikativ, benutze Konjunktiv II.",
-    "sentence": "Die Eltern sagten, sie ___ mit der neuen Schule zufrieden. (sein → Konj. I nicht erkennbar)",
+    "sentence": "Die Eltern sagten, sie ___ mit der neuen Schule zufrieden. (sein → Konj. I)",
     "answer": "seien",
-    "options": ["seien", "sind", "waren", "wären"],
+    "options": [
+      "seien",
+      "sind",
+      "waren",
+      "wären"
+    ],
     "also_accept": [],
     "explanation": "Konjunktiv I von 'sein' im Plural: seien. Hier ist Konjunktiv I vom Indikativ unterscheidbar, daher korrekt.",
     "hint": "Konjunktiv I Plural: sie seien (≠ sie sind)."
@@ -3250,7 +3410,12 @@
     "instruction": "Setze die richtige Konjunktiv-I-Form ein (indirekte Rede).",
     "sentence": "Der Makler behauptete, die Wohnung ___ ruhig und zentral gelegen. (sein)",
     "answer": "sei",
-    "options": ["sei", "ist", "war", "wäre"],
+    "options": [
+      "sei",
+      "ist",
+      "war",
+      "wäre"
+    ],
     "also_accept": [],
     "explanation": "Konjunktiv I von 'sein': er/sie/es sei. 'Die Wohnung sei …' gibt die Aussage des Maklers wieder.",
     "hint": "Konjunktiv I: er/sie/es sei."
@@ -3278,7 +3443,12 @@
     "instruction": "Ergänze die richtige Adjektivendung.",
     "sentence": "Trotz des schlecht___ Wetters gingen wir spazieren.",
     "answer": "schlechten",
-    "options": ["schlechten", "schlechtem", "schlechter", "schlechtes"],
+    "options": [
+      "schlechten",
+      "schlechtem",
+      "schlechter",
+      "schlechtes"
+    ],
     "also_accept": [],
     "explanation": "Nach 'des' (Genitiv, Neutrum/Maskulinum) bekommt das Adjektiv die Endung '-en'.",
     "hint": "Genitiv nach 'des' → Adjektivendung '-en'."
@@ -3292,7 +3462,12 @@
     "instruction": "Ergänze die richtige Adjektivendung.",
     "sentence": "Einige jung___ Familien ziehen aufs Land.",
     "answer": "junge",
-    "options": ["junge", "jungen", "junger", "junges"],
+    "options": [
+      "junge",
+      "jungen",
+      "junger",
+      "junges"
+    ],
     "also_accept": [],
     "explanation": "Nach 'einige' im Nominativ Plural wird das Adjektiv wie ohne Artikel dekliniert: 'junge' (starke Deklination, Nom. Pl.).",
     "hint": "Nach 'einige' folgt die starke Adjektivdeklination: Nom. Pl. → -e."
@@ -3306,7 +3481,12 @@
     "instruction": "Ergänze die richtige Adjektivendung.",
     "sentence": "Wir suchen eine groß___, hell___ Wohnung in der Innenstadt.",
     "answer": "große, helle",
-    "options": ["große, helle", "großen, hellen", "großer, heller", "großes, helles"],
+    "options": [
+      "große, helle",
+      "großen, hellen",
+      "großer, heller",
+      "großes, helles"
+    ],
     "also_accept": [],
     "explanation": "Nach 'eine' (Akk. Fem.) bekommen beide Adjektive die Endung '-e': eine große, helle Wohnung.",
     "hint": "Akkusativ Femininum nach 'eine': Adjektiv + '-e'."
@@ -3320,7 +3500,12 @@
     "instruction": "Ergänze die richtige Adjektivendung.",
     "sentence": "Alle neu___ Mieter müssen sich beim Vermieter vorstellen.",
     "answer": "neuen",
-    "options": ["neuen", "neue", "neuer", "neuem"],
+    "options": [
+      "neuen",
+      "neue",
+      "neuer",
+      "neuem"
+    ],
     "also_accept": [],
     "explanation": "Nach 'alle' (Nom. Pl.) folgt die schwache Deklination: Adjektiv + '-en'.",
     "hint": "Nach 'alle' → schwache Deklination: Nom. Pl. → '-en'."
@@ -3334,7 +3519,12 @@
     "instruction": "Ergänze die richtige Adjektivendung.",
     "sentence": "Frisch___ Obst kaufe ich am liebsten auf dem Wochenmarkt.",
     "answer": "Frisches",
-    "options": ["Frisches", "Frischen", "Frischer", "Frische"],
+    "options": [
+      "Frisches",
+      "Frischen",
+      "Frischer",
+      "Frische"
+    ],
     "also_accept": [],
     "explanation": "Ohne Artikel, Akk. Neutrum: Adjektiv bekommt die Endung '-es' (starke Deklination).",
     "hint": "Ohne Artikel + Akk. Neutrum (Obst) → '-es'."
@@ -3348,8 +3538,15 @@
     "instruction": "Ergänze die richtige Adjektivendung.",
     "sentence": "Manche älter___ Menschen brauchen Hilfe beim Einkaufen.",
     "answer": "älteren",
-    "options": ["älteren", "ältere", "älterer", "älterem"],
-    "also_accept": [],
+    "options": [
+      "älteren",
+      "ältere",
+      "älterer",
+      "älterem"
+    ],
+    "also_accept": [
+      "ältere"
+    ],
     "explanation": "Nach 'manche' (Nom. Pl.) kann das Adjektiv sowohl stark ('-e') als auch schwach ('-en') dekliniert werden. Im Standarddeutsch ist '-en' üblich.",
     "hint": "Nach 'manche' im Plural: Adjektiv meist mit '-en'."
   },
@@ -3362,7 +3559,12 @@
     "instruction": "Ergänze die richtige Adjektivendung.",
     "sentence": "Die Preise viel___ wichtig___ Lebensmittel sind gestiegen.",
     "answer": "vieler wichtiger",
-    "options": ["vieler wichtiger", "vielen wichtigen", "viele wichtige", "vielem wichtigem"],
+    "options": [
+      "vieler wichtiger",
+      "vielen wichtigen",
+      "viele wichtige",
+      "vielem wichtigem"
+    ],
     "also_accept": [],
     "explanation": "Genitiv Plural ohne Artikel: 'vieler wichtiger Lebensmittel' — starke Deklination, Gen. Pl. → '-er'.",
     "hint": "Genitiv Plural, starke Deklination → '-er'."
@@ -3376,8 +3578,15 @@
     "instruction": "Setze die passende Präposition ein.",
     "sentence": "___ des starken Regens fiel das Grillfest aus.",
     "answer": "Aufgrund",
-    "options": ["Aufgrund", "Trotz", "Während", "Statt"],
-    "also_accept": ["Wegen"],
+    "options": [
+      "Aufgrund",
+      "Trotz",
+      "Während",
+      "Statt"
+    ],
+    "also_accept": [
+      "Wegen"
+    ],
     "explanation": "'Aufgrund' + Genitiv drückt einen Grund aus. 'Wegen' ist ebenfalls möglich.",
     "hint": "Grund: starker Regen → Grillfest fiel aus."
   },
@@ -3390,8 +3599,16 @@
     "instruction": "Setze die passende Präposition ein.",
     "sentence": "___ der Bauarbeiten gibt es momentan keinen Parkplatz.",
     "answer": "Infolge",
-    "options": ["Infolge", "Mithilfe", "Zugunsten", "Anlässlich"],
-    "also_accept": ["Aufgrund", "Wegen"],
+    "options": [
+      "Infolge",
+      "Mithilfe",
+      "Zugunsten",
+      "Anlässlich"
+    ],
+    "also_accept": [
+      "Aufgrund",
+      "Wegen"
+    ],
     "explanation": "'Infolge' + Genitiv drückt eine Folge/Konsequenz aus: Bauarbeiten → kein Parkplatz.",
     "hint": "Konsequenz der Bauarbeiten → welche Präposition?"
   },
@@ -3404,8 +3621,15 @@
     "instruction": "Setze die passende Präposition ein.",
     "sentence": "___ meiner Nachbarin habe ich die schweren Möbel in die Wohnung getragen.",
     "answer": "Mithilfe",
-    "options": ["Mithilfe", "Aufgrund", "Trotz", "Mangels"],
-    "also_accept": ["Mit Hilfe"],
+    "options": [
+      "Mithilfe",
+      "Aufgrund",
+      "Trotz",
+      "Mangels"
+    ],
+    "also_accept": [
+      "Mit Hilfe"
+    ],
     "explanation": "'Mithilfe' + Genitiv bedeutet 'mit der Hilfe von'. Die Nachbarin hat geholfen.",
     "hint": "Die Nachbarin hat geholfen → welche Präposition?"
   },
@@ -3418,7 +3642,12 @@
     "instruction": "Setze die passende Präposition ein.",
     "sentence": "___ ausreichender Sprachkenntnisse konnte er den Arbeitsvertrag nicht verstehen.",
     "answer": "Mangels",
-    "options": ["Mangels", "Mithilfe", "Zugunsten", "Anlässlich"],
+    "options": [
+      "Mangels",
+      "Mithilfe",
+      "Zugunsten",
+      "Anlässlich"
+    ],
     "also_accept": [],
     "explanation": "'Mangels' + Genitiv bedeutet 'wegen des Fehlens von'. Ihm fehlten die Sprachkenntnisse.",
     "hint": "Er hatte nicht genug Sprachkenntnisse → es fehlte etwas."
@@ -3432,7 +3661,12 @@
     "instruction": "Setze die passende Präposition ein.",
     "sentence": "Das Gericht entschied ___ der Mieterin.",
     "answer": "zugunsten",
-    "options": ["zugunsten", "aufgrund", "mangels", "anlässlich"],
+    "options": [
+      "zugunsten",
+      "aufgrund",
+      "mangels",
+      "anlässlich"
+    ],
     "also_accept": [],
     "explanation": "'zugunsten' + Genitiv bedeutet 'zum Vorteil von'. Das Urteil war positiv für die Mieterin.",
     "hint": "Zum Vorteil der Mieterin → welche Präposition?"
@@ -3446,7 +3680,12 @@
     "instruction": "Setze die passende Präposition ein.",
     "sentence": "___ ihres Geburtstags lud sie die ganze Familie ein.",
     "answer": "Anlässlich",
-    "options": ["Anlässlich", "Mangels", "Infolge", "Aufgrund"],
+    "options": [
+      "Anlässlich",
+      "Mangels",
+      "Infolge",
+      "Aufgrund"
+    ],
     "also_accept": [],
     "explanation": "'Anlässlich' + Genitiv bedeutet 'aus Anlass von'. Der Geburtstag ist der Anlass.",
     "hint": "Geburtstag = Anlass für die Einladung."
@@ -3460,7 +3699,12 @@
     "instruction": "Wähle die richtige Präposition.",
     "sentence": "Dem Wetterbericht ___ wird es morgen regnen.",
     "answer": "zufolge",
-    "options": ["zufolge", "aufgrund", "infolge", "mithilfe"],
+    "options": [
+      "zufolge",
+      "aufgrund",
+      "infolge",
+      "mithilfe"
+    ],
     "also_accept": [],
     "explanation": "'zufolge' steht mit Dativ nach dem Nomen: 'dem Bericht zufolge'. Es bedeutet 'laut/gemäß'.",
     "hint": "Dem Wetterbericht ___ = laut dem Wetterbericht."
@@ -3474,7 +3718,12 @@
     "instruction": "Setze die richtige Präposition ein.",
     "sentence": "Ich muss mich erst ___ das Klima gewöhnen.",
     "answer": "an",
-    "options": ["an", "auf", "über", "mit"],
+    "options": [
+      "an",
+      "auf",
+      "über",
+      "mit"
+    ],
     "also_accept": [],
     "explanation": "'sich gewöhnen an' + Akkusativ: Man gewöhnt sich an etwas Neues.",
     "hint": "sich gewöhnen ___ + Akkusativ."
@@ -3488,7 +3737,12 @@
     "instruction": "Setze die richtige Präposition ein.",
     "sentence": "Die Nachbarn beschweren sich ___ den Lärm aus unserer Wohnung.",
     "answer": "über",
-    "options": ["über", "an", "auf", "von"],
+    "options": [
+      "über",
+      "an",
+      "auf",
+      "von"
+    ],
     "also_accept": [],
     "explanation": "'sich beschweren über' + Akkusativ: Man beschwert sich über etwas, das stört.",
     "hint": "sich beschweren ___ + Akkusativ."
@@ -3502,7 +3756,12 @@
     "instruction": "Setze die richtige Präposition ein.",
     "sentence": "Meine Schwester kümmert sich ___ die Kinder, wenn ich arbeite.",
     "answer": "um",
-    "options": ["um", "für", "über", "an"],
+    "options": [
+      "um",
+      "für",
+      "über",
+      "an"
+    ],
     "also_accept": [],
     "explanation": "'sich kümmern um' + Akkusativ: Jemand sorgt für jemanden/etwas.",
     "hint": "sich kümmern ___ + Akkusativ."
@@ -3516,7 +3775,12 @@
     "instruction": "Setze die richtige Präposition ein.",
     "sentence": "Ob wir umziehen, hängt ___ dem Preis der neuen Wohnung ab.",
     "answer": "von",
-    "options": ["von", "an", "auf", "mit"],
+    "options": [
+      "von",
+      "an",
+      "auf",
+      "mit"
+    ],
     "also_accept": [],
     "explanation": "'abhängen von' + Dativ: Etwas hängt von einer Bedingung ab.",
     "hint": "abhängen ___ + Dativ."
@@ -3530,7 +3794,12 @@
     "instruction": "Setze die richtige Präposition ein.",
     "sentence": "Gute Nachbarschaft trägt ___ einem angenehmen Wohnklima bei.",
     "answer": "zu",
-    "options": ["zu", "an", "für", "bei"],
+    "options": [
+      "zu",
+      "an",
+      "für",
+      "bei"
+    ],
     "also_accept": [],
     "explanation": "'beitragen zu' + Dativ: Etwas trägt zu etwas Positivem bei.",
     "hint": "beitragen ___ + Dativ."
@@ -3544,7 +3813,12 @@
     "instruction": "Setze die richtige Präposition ein.",
     "sentence": "Im Urlaub verzichte ich bewusst ___ mein Handy.",
     "answer": "auf",
-    "options": ["auf", "an", "von", "über"],
+    "options": [
+      "auf",
+      "an",
+      "von",
+      "über"
+    ],
     "also_accept": [],
     "explanation": "'verzichten auf' + Akkusativ: Man verzichtet auf etwas, das man nicht nutzt.",
     "hint": "verzichten ___ + Akkusativ."
@@ -3558,7 +3832,12 @@
     "instruction": "Wähle die richtige Präposition.",
     "sentence": "Die ganze Familie freut sich ___ die Sommerferien.",
     "answer": "auf",
-    "options": ["auf", "über", "an", "für"],
+    "options": [
+      "auf",
+      "über",
+      "an",
+      "für"
+    ],
     "also_accept": [],
     "explanation": "'sich freuen auf' + Akkusativ: Vorfreude auf etwas Zukünftiges. Vergleiche: 'sich freuen über' = Freude über etwas Gegenwärtiges.",
     "hint": "Vorfreude auf die Zukunft: sich freuen ___ + Akk."
@@ -3572,7 +3851,12 @@
     "instruction": "Setze die richtige Präposition ein.",
     "sentence": "Ich habe mich beim Amt ___ den Öffnungszeiten erkundigt.",
     "answer": "nach",
-    "options": ["nach", "über", "für", "um"],
+    "options": [
+      "nach",
+      "über",
+      "für",
+      "um"
+    ],
     "also_accept": [],
     "explanation": "'sich erkundigen nach' + Dativ: Man fragt nach Informationen.",
     "hint": "sich erkundigen ___ + Dativ."
@@ -3586,7 +3870,12 @@
     "instruction": "Setze die richtige Konjunktiv-I-Form ein (indirekte Rede).",
     "sentence": "Der Patient sagte, er ___ starke Schmerzen im Brustbereich. (haben)",
     "answer": "habe",
-    "options": ["habe", "hat", "hatte", "hätte"],
+    "options": [
+      "habe",
+      "hat",
+      "hatte",
+      "hätte"
+    ],
     "also_accept": [],
     "explanation": "Konjunktiv I von 'haben': er habe. In der indirekten Rede gibt man die Aussage des Patienten wieder.",
     "hint": "Konjunktiv I: er + Verbstamm + e -> habe."
@@ -3600,7 +3889,12 @@
     "instruction": "Setze die richtige Konjunktiv-I-Form ein (indirekte Rede).",
     "sentence": "Die Ärztin berichtete, die Wunde ___ gut. (heilen)",
     "answer": "heile",
-    "options": ["heile", "heilt", "heilte", "heilende"],
+    "options": [
+      "heile",
+      "heilt",
+      "heilte",
+      "heilende"
+    ],
     "also_accept": [],
     "explanation": "Konjunktiv I von 'heilen': sie heile. Im Arztbrief wird die indirekte Rede mit Konjunktiv I verwendet.",
     "hint": "Konjunktiv I: sie (Sing.) + Verbstamm + e -> heile."
@@ -3614,7 +3908,12 @@
     "instruction": "Setze die richtige Konjunktiv-I-Form ein (indirekte Rede).",
     "sentence": "Laut Befund ___ die Laborwerte im Normbereich. (sein)",
     "answer": "seien",
-    "options": ["seien", "sind", "waren", "wären"],
+    "options": [
+      "seien",
+      "sind",
+      "waren",
+      "wären"
+    ],
     "also_accept": [],
     "explanation": "Konjunktiv I Plural von 'sein': sie seien. 'sein' ist das einzige Verb, bei dem der Konjunktiv I in allen Formen eindeutig erkennbar ist.",
     "hint": "Konjunktiv I Plural von 'sein' = seien."
@@ -3628,7 +3927,12 @@
     "instruction": "Setze die richtige Konjunktiv-I-Form ein (indirekte Rede).",
     "sentence": "Die Patientin gab an, sie ___ seit drei Tagen unter Übelkeit. (leiden)",
     "answer": "leide",
-    "options": ["leide", "leidet", "litt", "litte"],
+    "options": [
+      "leide",
+      "leidet",
+      "litt",
+      "litte"
+    ],
     "also_accept": [],
     "explanation": "Konjunktiv I von 'leiden': sie leide. Die Patientin beschreibt ihre Beschwerden, und im Arztbrief steht das in indirekter Rede.",
     "hint": "Konjunktiv I: sie + Verbstamm + e -> leide."
@@ -3642,7 +3946,12 @@
     "instruction": "Setze die richtige Konjunktiv-I-Form ein (indirekte Rede).",
     "sentence": "Der Radiologe teilte mit, der Befund ___ unauffällig. (sein)",
     "answer": "sei",
-    "options": ["sei", "ist", "war", "wäre"],
+    "options": [
+      "sei",
+      "ist",
+      "war",
+      "wäre"
+    ],
     "also_accept": [],
     "explanation": "Konjunktiv I von 'sein': er sei. Im medizinischen Bericht wird die Mitteilung des Radiologen in indirekter Rede wiedergegeben.",
     "hint": "Konjunktiv I von 'sein' (3. Person Sing.) = sei."
@@ -3656,7 +3965,12 @@
     "instruction": "Wähle die richtige Konjunktiv-I-Form für die indirekte Rede.",
     "sentence": "Der Patient berichtete, er ___ das Medikament regelmäßig ein. (nehmen)",
     "answer": "nehme",
-    "options": ["nehme", "nimmt", "nahm", "nähme"],
+    "options": [
+      "nehme",
+      "nimmt",
+      "nahm",
+      "nähme"
+    ],
     "also_accept": [],
     "explanation": "Konjunktiv I von 'nehmen': er nehme. In der Anamnese wird dokumentiert, was der Patient berichtet.",
     "hint": "Konjunktiv I: er + Stamm des Infinitivs + e -> nehme."
@@ -3670,7 +3984,12 @@
     "instruction": "Setze die richtige Konjunktiv-I-Form ein (indirekte Rede).",
     "sentence": "Die Stationsärztin erklärte, man ___ den Patienten morgen entlassen. (können)",
     "answer": "könne",
-    "options": ["könne", "kann", "konnte", "könnte"],
+    "options": [
+      "könne",
+      "kann",
+      "konnte",
+      "könnte"
+    ],
     "also_accept": [],
     "explanation": "Konjunktiv I von 'können': man könne. 'könne' (Konj. I) drückt indirekte Rede aus, 'könnte' (Konj. II) drückt Möglichkeit/Höflichkeit aus.",
     "hint": "Konjunktiv I von 'können' = könne (nicht verwechseln mit könnte!)."
@@ -3684,7 +4003,12 @@
     "instruction": "Setze die richtige Konjunktiv-I-Form ein (indirekte Rede).",
     "sentence": "Der Patient äußerte, er ___ seit zwei Wochen an Schlaflosigkeit. (leiden)",
     "answer": "leide",
-    "options": ["leide", "leidet", "litt", "litte"],
+    "options": [
+      "leide",
+      "leidet",
+      "litt",
+      "litte"
+    ],
     "also_accept": [],
     "explanation": "Konjunktiv I von 'leiden': er leide. In der Anamnese dokumentiert man die Patientenaussage in indirekter Rede.",
     "hint": "Konjunktiv I: er + Verbstamm + e."
@@ -3698,7 +4022,12 @@
     "instruction": "Setze das richtige Partizipialattribut ein.",
     "sentence": "Der ___ Patient wurde auf die Normalstation verlegt. (genesen)",
     "answer": "genesene",
-    "options": ["genesene", "genesende", "geneste", "geneser"],
+    "options": [
+      "genesene",
+      "genesende",
+      "geneste",
+      "geneser"
+    ],
     "also_accept": [],
     "explanation": "Das Partizip II 'genesen' wird als Attribut dekliniert: der genesene Patient (Nominativ, mask., bestimmter Artikel -> -e).",
     "hint": "Partizip II von 'genesen' = genesen -> der genesen-e Patient."
@@ -3712,7 +4041,12 @@
     "instruction": "Setze das richtige Partizipialattribut ein.",
     "sentence": "Die vom Arzt ___ Therapie zeigte nach zwei Wochen Wirkung. (verordnen)",
     "answer": "verordnete",
-    "options": ["verordnete", "verordnende", "verordneter", "verordnet"],
+    "options": [
+      "verordnete",
+      "verordnende",
+      "verordneter",
+      "verordnet"
+    ],
     "also_accept": [],
     "explanation": "Partizip II von 'verordnen' = verordnet. Als Attribut dekliniert: die verordnete Therapie (Nominativ, fem., best. Artikel -> -e).",
     "hint": "Partizip II von 'verordnen' als Adjektivattribut: die verordnet-e Therapie."
@@ -3726,7 +4060,12 @@
     "instruction": "Setze das richtige Partizipialattribut ein.",
     "sentence": "Der ___ Schmerz ließ den Patienten nicht schlafen. (anhalten)",
     "answer": "anhaltende",
-    "options": ["anhaltende", "angehaltene", "anhaltender", "anhalte"],
+    "options": [
+      "anhaltende",
+      "angehaltene",
+      "anhaltender",
+      "anhalte"
+    ],
     "also_accept": [],
     "explanation": "Partizip I von 'anhalten' = anhaltend (fortdauernd). Als Attribut: der anhaltende Schmerz (Nom., mask., best. Artikel -> -e).",
     "hint": "Partizip I = Infinitiv + d: anhaltend -> der anhaltend-e Schmerz."
@@ -3740,7 +4079,12 @@
     "instruction": "Setze das richtige Partizipialattribut ein.",
     "sentence": "Das vom Labor ___ Blutbild zeigt keine Auffälligkeiten. (auswerten)",
     "answer": "ausgewertete",
-    "options": ["ausgewertete", "auswertende", "ausgewertet", "auswertete"],
+    "options": [
+      "ausgewertete",
+      "auswertende",
+      "ausgewertet",
+      "auswertete"
+    ],
     "also_accept": [],
     "explanation": "Partizip II von 'auswerten' = ausgewertet. Als Attribut: das ausgewertete Blutbild (Nom., neutr., best. Artikel -> -e).",
     "hint": "Partizip II eines trennbaren Verbs: aus-ge-wert-et -> das ausgewertete Blutbild."
@@ -3754,7 +4098,12 @@
     "instruction": "Setze das richtige Partizipialattribut ein.",
     "sentence": "Die ___ Blutung muss sofort gestillt werden. (stark bluten)",
     "answer": "stark blutende",
-    "options": ["stark blutende", "stark geblutete", "starkblutende", "blutende starke"],
+    "options": [
+      "stark blutende",
+      "stark geblutete",
+      "starkblutende",
+      "blutende starke"
+    ],
     "also_accept": [],
     "explanation": "Partizip I von 'bluten' = blutend. Mit Adverb: die stark blutende Wunde. Das Adverb bleibt unflektiert.",
     "hint": "Partizip I: blutend + Deklinationsendung. Das Adverb 'stark' steht davor."
@@ -3768,7 +4117,12 @@
     "instruction": "Wähle das richtige Partizipialattribut.",
     "sentence": "Den ___ Verband muss die Pflegekraft täglich wechseln. (anlegen)",
     "answer": "angelegten",
-    "options": ["angelegten", "anlegenden", "angelegte", "angelegt"],
+    "options": [
+      "angelegten",
+      "anlegenden",
+      "angelegte",
+      "angelegt"
+    ],
     "also_accept": [],
     "explanation": "Partizip II von 'anlegen' = angelegt. Akkusativ maskulin mit best. Artikel: den angelegten Verband.",
     "hint": "Partizip II: angelegt. Akkusativ mask. + best. Artikel -> -en."
@@ -3782,7 +4136,12 @@
     "instruction": "Setze das richtige Partizipialattribut ein.",
     "sentence": "Der ___ Chirurg konnte die Blutung stoppen. (operieren)",
     "answer": "operierende",
-    "options": ["operierende", "operierte", "operierender", "operierend"],
+    "options": [
+      "operierende",
+      "operierte",
+      "operierender",
+      "operierend"
+    ],
     "also_accept": [],
     "explanation": "Partizip I von 'operieren' = operierend. Als Attribut: der operierende Chirurg (aktiv, gleichzeitig). Partizip II wäre: der operierte Patient (passiv, abgeschlossen).",
     "hint": "Partizip I = aktive Handlung: der Chirurg operiert -> der operierende Chirurg."
@@ -3795,8 +4154,13 @@
     "difficulty": 3,
     "instruction": "Forme den Relativsatz in ein erweitertes Partizipialattribut um. Schreibe den vollständigen Ausdruck.",
     "sentence": "Das Medikament, das dreimal täglich eingenommen wird -> das dreimal täglich ___ Medikament",
-    "answer": "einzunehmende",
-    "options": ["einzunehmende", "eingenommene", "einnehmende", "einzunehmen"],
+    "answer": "eingenommene",
+    "options": [
+      "einzunehmende",
+      "eingenommene",
+      "einnehmende",
+      "einzunehmen"
+    ],
     "also_accept": [],
     "explanation": "Ein Relativsatz mit 'werden + Partizip II' (Passiv + Modalverb 'sollen/müssen') wird zum Gerundivum: das einzunehmende Medikament (= das Medikament, das eingenommen werden soll).",
     "hint": "Passiv + sollen/müssen -> Gerundivum: zu + Partizip I -> einzunehmend."
@@ -3810,7 +4174,12 @@
     "instruction": "Dekliniere das Nomen richtig (n-Deklination).",
     "sentence": "Die Schwester rief den ___ zur Untersuchung. (Patient)",
     "answer": "Patienten",
-    "options": ["Patienten", "Patient", "Patients", "Patiente"],
+    "options": [
+      "Patienten",
+      "Patient",
+      "Patients",
+      "Patiente"
+    ],
     "also_accept": [],
     "explanation": "'Der Patient' gehört zur n-Deklination: den Patienten, dem Patienten, des Patienten. Alle Formen außer Nominativ Singular enden auf -en.",
     "hint": "N-Deklination: Patient -> Patienten in allen Fällen außer Nominativ."
@@ -3824,7 +4193,12 @@
     "instruction": "Dekliniere das Nomen richtig (n-Deklination).",
     "sentence": "Die Diagnose des ___ war korrekt. (Kollege)",
     "answer": "Kollegen",
-    "options": ["Kollegen", "Kollege", "Kolleges", "Kolleger"],
+    "options": [
+      "Kollegen",
+      "Kollege",
+      "Kolleges",
+      "Kolleger"
+    ],
     "also_accept": [],
     "explanation": "'Der Kollege' gehört zur n-Deklination: den/dem/des Kollegen. Maskuline Nomen auf -e gehören oft zur n-Deklination.",
     "hint": "N-Deklination: der Kollege -> des Kollegen."
@@ -3838,7 +4212,12 @@
     "instruction": "Dekliniere das Nomen richtig (n-Deklination).",
     "sentence": "Der Arzt erklärte dem ___ die Behandlung. (Patient)",
     "answer": "Patienten",
-    "options": ["Patienten", "Patient", "Patients", "Patiente"],
+    "options": [
+      "Patienten",
+      "Patient",
+      "Patients",
+      "Patiente"
+    ],
     "also_accept": [],
     "explanation": "Dativ von 'der Patient': dem Patienten. Alle Kasus außer Nominativ Singular enden auf -(e)n.",
     "hint": "N-Deklination Dativ: dem Patienten."
@@ -3852,7 +4231,12 @@
     "instruction": "Dekliniere das Nomen richtig (n-Deklination).",
     "sentence": "Bitte rufen Sie den nächsten ___ herein. (Herr)",
     "answer": "Herrn",
-    "options": ["Herrn", "Herr", "Herren", "Herrn's"],
+    "options": [
+      "Herrn",
+      "Herr",
+      "Herren",
+      "Herrn's"
+    ],
     "also_accept": [],
     "explanation": "'Der Herr' hat eine besondere n-Deklination: den Herrn, dem Herrn, des Herrn. Im Plural: die Herren.",
     "hint": "N-Deklination von 'Herr': den Herrn (Singular), die Herren (Plural)."
@@ -3866,7 +4250,12 @@
     "instruction": "Dekliniere das Nomen richtig (n-Deklination).",
     "sentence": "Die Meinung des ___ ist bei der Tumorkonferenz wichtig. (Experte)",
     "answer": "Experten",
-    "options": ["Experten", "Experte", "Expertes", "Experter"],
+    "options": [
+      "Experten",
+      "Experte",
+      "Expertes",
+      "Experter"
+    ],
     "also_accept": [],
     "explanation": "'Der Experte' gehört zur n-Deklination: den/dem/des Experten. Maskulina auf -e folgen diesem Muster.",
     "hint": "N-Deklination: der Experte -> des Experten."
@@ -3880,7 +4269,12 @@
     "instruction": "Wähle die richtige Form (n-Deklination).",
     "sentence": "Wir verdanken dem ___ die neue Diagnosemethode. (Biologe)",
     "answer": "Biologen",
-    "options": ["Biologen", "Biologe", "Biologes", "Biologer"],
+    "options": [
+      "Biologen",
+      "Biologe",
+      "Biologes",
+      "Biologer"
+    ],
     "also_accept": [],
     "explanation": "'Der Biologe' folgt der n-Deklination: dem Biologen. Maskulina auf -e mit belebter Bedeutung gehören zur n-Deklination.",
     "hint": "N-Deklination: der Biologe -> dem Biologen."
@@ -3894,7 +4288,12 @@
     "instruction": "Dekliniere das Nomen richtig (n-Deklination).",
     "sentence": "Die Klinik behandelt jährlich über 5000 ___. (Patient)",
     "answer": "Patienten",
-    "options": ["Patienten", "Patients", "Patiente", "Patienter"],
+    "options": [
+      "Patienten",
+      "Patients",
+      "Patiente",
+      "Patienter"
+    ],
     "also_accept": [],
     "explanation": "Plural von 'der Patient': die Patienten. Bei der n-Deklination ist der Plural immer auf -(e)n.",
     "hint": "N-Deklination: Plural = Patienten."
@@ -3908,7 +4307,12 @@
     "instruction": "Dekliniere das Nomen richtig. Achtung: Sonderform!",
     "sentence": "Die Größe des ___ war im Ultraschall auffällig. (Herz)",
     "answer": "Herzens",
-    "options": ["Herzens", "Herzes", "Herzen", "Herz"],
+    "options": [
+      "Herzens",
+      "Herzes",
+      "Herzen",
+      "Herz"
+    ],
     "also_accept": [],
     "explanation": "'Das Herz' hat eine gemischte Deklination: des Herzens (Genitiv), dem Herzen (Dativ). Es gehört zu den wenigen Neutra mit n-Deklination.",
     "hint": "Genitiv von 'das Herz' = des Herzens (Sonderform)."
@@ -3922,7 +4326,12 @@
     "instruction": "Setze die richtige Präposition ein.",
     "sentence": "Der Arzt, ___ dem ich in Behandlung war, ist Kardiologe. (Präposition?)",
     "answer": "bei",
-    "options": ["bei", "mit", "von", "zu"],
+    "options": [
+      "bei",
+      "mit",
+      "von",
+      "zu"
+    ],
     "also_accept": [],
     "explanation": "'bei jemandem in Behandlung sein' -> Der Arzt, bei dem ich in Behandlung war. 'bei' + Dativ.",
     "hint": "Man ist ___ einem Arzt in Behandlung."
@@ -3936,7 +4345,12 @@
     "instruction": "Setze die richtige Präposition ein.",
     "sentence": "Das Medikament, ___ das ich allergisch reagiere, ist Penicillin. (Präposition?)",
     "answer": "auf",
-    "options": ["auf", "gegen", "für", "über"],
+    "options": [
+      "auf",
+      "gegen",
+      "für",
+      "über"
+    ],
     "also_accept": [],
     "explanation": "'allergisch reagieren auf etwas' (+ Akkusativ) -> das Medikament, auf das ich allergisch reagiere.",
     "hint": "Man reagiert allergisch ___ etwas (+ Akkusativ)."
@@ -3950,8 +4364,15 @@
     "instruction": "Setze die richtige Präposition ein.",
     "sentence": "Die Krankheit, ___ der er seit Jahren leidet, ist Diabetes. (Präposition?)",
     "answer": "an",
-    "options": ["an", "unter", "von", "mit"],
-    "also_accept": ["unter"],
+    "options": [
+      "an",
+      "unter",
+      "von",
+      "mit"
+    ],
+    "also_accept": [
+      "unter"
+    ],
     "explanation": "'leiden an + Dativ' -> die Krankheit, an der er leidet. Auch 'leiden unter + Dativ' ist möglich.",
     "hint": "Man leidet ___ einer Krankheit (+ Dativ)."
   },
@@ -3964,7 +4385,12 @@
     "instruction": "Setze die richtige Präposition ein.",
     "sentence": "Das Instrument, ___ dem die Operation durchgeführt wurde, ist ein Endoskop. (Präposition?)",
     "answer": "mit",
-    "options": ["mit", "durch", "von", "bei"],
+    "options": [
+      "mit",
+      "durch",
+      "von",
+      "bei"
+    ],
     "also_accept": [],
     "explanation": "'etwas mit einem Instrument durchführen' -> das Instrument, mit dem die Operation durchgeführt wurde.",
     "hint": "Eine Operation wird ___ einem Instrument durchgeführt."
@@ -3978,7 +4404,12 @@
     "instruction": "Setze die richtige Präposition ein.",
     "sentence": "Die Nebenwirkungen, ___ die der Arzt aufgeklärt hat, traten nicht auf. (Präposition?)",
     "answer": "über",
-    "options": ["über", "von", "für", "an"],
+    "options": [
+      "über",
+      "von",
+      "für",
+      "an"
+    ],
     "also_accept": [],
     "explanation": "'aufklären über + Akkusativ' -> die Nebenwirkungen, über die der Arzt aufgeklärt hat.",
     "hint": "Der Arzt klärt den Patienten ___ die Risiken auf."
@@ -3992,7 +4423,12 @@
     "instruction": "Setze die richtige Präposition ein.",
     "sentence": "Die Therapie, ___ der wir uns viel versprechen, beginnt morgen. (Präposition?)",
     "answer": "von",
-    "options": ["von", "mit", "für", "an"],
+    "options": [
+      "von",
+      "mit",
+      "für",
+      "an"
+    ],
     "also_accept": [],
     "explanation": "'sich etwas versprechen von + Dativ' -> die Therapie, von der wir uns viel versprechen.",
     "hint": "Man verspricht sich etwas ___ einer Therapie."
@@ -4006,7 +4442,12 @@
     "instruction": "Wähle die richtige Präposition für den Relativsatz.",
     "sentence": "Die Diagnose, ___ der der Facharzt noch sucht, ist unklar. (Präposition?)",
     "answer": "nach",
-    "options": ["nach", "für", "über", "auf"],
+    "options": [
+      "nach",
+      "für",
+      "über",
+      "auf"
+    ],
     "also_accept": [],
     "explanation": "'suchen nach + Dativ' -> die Diagnose, nach der der Facharzt sucht.",
     "hint": "Man sucht ___ einer Diagnose."
@@ -4020,7 +4461,12 @@
     "instruction": "Setze die richtige Präposition ein.",
     "sentence": "Der Erreger, ___ den die Antibiotika nicht wirken, ist resistent. (Präposition?)",
     "answer": "gegen",
-    "options": ["gegen", "auf", "für", "über"],
+    "options": [
+      "gegen",
+      "auf",
+      "für",
+      "über"
+    ],
     "also_accept": [],
     "explanation": "'wirken gegen + Akkusativ' -> der Erreger, gegen den die Antibiotika nicht wirken.",
     "hint": "Antibiotika wirken ___ einen Erreger."
@@ -4034,7 +4480,12 @@
     "instruction": "Bilde die Nominalisierung des Verbs. Schreibe das passende Nomen in die Lücke.",
     "sentence": "Beim ___ treten bei der Patientin stechende Schmerzen auf. (atmen)",
     "answer": "Atmen",
-    "options": ["Atmen", "Atem", "Atmung", "Geatme"],
+    "options": [
+      "Atmen",
+      "Atem",
+      "Atmung",
+      "Geatme"
+    ],
     "also_accept": [],
     "explanation": "Nominalisierung des Infinitivs: das Atmen. 'Beim Atmen' = 'bei dem Atmen' (Dativ). Substantivierte Infinitive sind immer Neutrum.",
     "hint": "Infinitiv als Nomen: atmen -> das Atmen."
@@ -4048,8 +4499,15 @@
     "instruction": "Bilde die Nominalisierung des Verbs.",
     "sentence": "Das ___ der Wunde dauerte drei Wochen. (heilen)",
     "answer": "Heilen",
-    "options": ["Heilen", "Heilung", "Geheil", "Heilnis"],
-    "also_accept": ["Abheilen"],
+    "options": [
+      "Heilen",
+      "Heilung",
+      "Geheil",
+      "Heilnis"
+    ],
+    "also_accept": [
+      "Abheilen"
+    ],
     "explanation": "Nominalisierter Infinitiv: das Heilen. Auch 'die Heilung' ist möglich, aber hier wird nach dem substantivierten Infinitiv gefragt.",
     "hint": "Infinitiv als Nomen: heilen -> das Heilen."
   },
@@ -4062,7 +4520,12 @@
     "instruction": "Bilde die Nominalisierung des Adjektivs. Schreibe das passende Nomen in die Lücke.",
     "sentence": "Der ___ wurde heute aus der Klinik entlassen. (krank)",
     "answer": "Kranke",
-    "options": ["Kranke", "Kranker", "Krankene", "Krank"],
+    "options": [
+      "Kranke",
+      "Kranker",
+      "Krankene",
+      "Krank"
+    ],
     "also_accept": [],
     "explanation": "Nominalisiertes Adjektiv: der Kranke (bestimmter Artikel + Nom. Sing. mask.). 'Der Kranke' wird wie ein Adjektiv dekliniert.",
     "hint": "Nominalisierung von 'krank': der Kranke (wie Adjektivdeklination)."
@@ -4076,7 +4539,12 @@
     "instruction": "Bilde die Nominalisierung des Verbs.",
     "sentence": "Das ___ von Blut wird unter dem Mikroskop durchgeführt. (untersuchen)",
     "answer": "Untersuchen",
-    "options": ["Untersuchen", "Untersuchung", "Untersuch", "Untersuchnis"],
+    "options": [
+      "Untersuchen",
+      "Untersuchung",
+      "Untersuch",
+      "Untersuchnis"
+    ],
     "also_accept": [],
     "explanation": "Nominalisierter Infinitiv: das Untersuchen. Man kann auch 'die Untersuchung' sagen, aber der substantivierte Infinitiv betont den Prozess.",
     "hint": "Infinitiv als Nomen: untersuchen -> das Untersuchen."
@@ -4090,7 +4558,12 @@
     "instruction": "Bilde das passende Nomen mit der Endung -ung.",
     "sentence": "Die ___ des Blutdrucks erfolgt täglich. (messen)",
     "answer": "Messung",
-    "options": ["Messung", "Messen", "Messnis", "Gemess"],
+    "options": [
+      "Messung",
+      "Messen",
+      "Messnis",
+      "Gemess"
+    ],
     "also_accept": [],
     "explanation": "Nominalisierung mit -ung: messen -> die Messung. Nomen auf -ung sind immer feminin.",
     "hint": "Verb + -ung: messen -> die Messung."
@@ -4104,7 +4577,12 @@
     "instruction": "Bilde das passende Nomen mit der Endung -ung.",
     "sentence": "Die ___ des Patienten über die Risiken ist gesetzlich vorgeschrieben. (aufklären)",
     "answer": "Aufklärung",
-    "options": ["Aufklärung", "Aufklären", "Aufklärnis", "Aufgeklärtheit"],
+    "options": [
+      "Aufklärung",
+      "Aufklären",
+      "Aufklärnis",
+      "Aufgeklärtheit"
+    ],
     "also_accept": [],
     "explanation": "Nominalisierung mit -ung: aufklären -> die Aufklärung. Im medizinischen Kontext ist die Aufklärung ein wichtiger juristischer Begriff.",
     "hint": "aufklären + -ung -> die Aufklärung."
@@ -4118,8 +4596,15 @@
     "instruction": "Wähle die richtige nominalisierte Form.",
     "sentence": "Die ___ an der Wunde hat zugenommen. (rot + Nominalisierung)",
     "answer": "Rötung",
-    "options": ["Rötung", "Röte", "Rotheit", "Rotes"],
-    "also_accept": ["Röte"],
+    "options": [
+      "Rötung",
+      "Röte",
+      "Rotheit",
+      "Rotes"
+    ],
+    "also_accept": [
+      "Röte"
+    ],
     "explanation": "Hier passt 'die Rötung' am besten: eine krankhafte Veränderung der Hautfarbe. 'Die Röte' ist auch korrekt, wird aber seltener medizinisch verwendet.",
     "hint": "Medizinischer Fachbegriff für Hautrötung: die Rötung."
   },
@@ -4130,10 +4615,17 @@
     "type": "fill_blank",
     "difficulty": 3,
     "instruction": "Bilde die Nominalisierung des Verbs.",
-    "sentence": "Vor dem ___ müssen Sie nüchtern sein. (Blut abnehmen)",
-    "answer": "Blutabnehmen",
-    "options": ["Blutabnehmen", "Blutabnahme", "Blutentnahme", "Abnehmen"],
-    "also_accept": ["Blutabnahme"],
+    "sentence": "Vor der ___ müssen Sie nüchtern sein. (Blut abnehmen)",
+    "answer": "Blutabnahme",
+    "options": [
+      "Blutabnehmen",
+      "Blutabnahme",
+      "Blutentnahme",
+      "Abnehmen"
+    ],
+    "also_accept": [
+      "Blutentnahme"
+    ],
     "explanation": "Nominalisierter Infinitiv: das Blutabnehmen. In der Praxis wird häufiger 'die Blutabnahme' oder 'die Blutentnahme' verwendet.",
     "hint": "Infinitiv als Nomen: das Blutabnehmen (oder: die Blutabnahme)."
   },
@@ -4146,8 +4638,15 @@
     "instruction": "Setze die passende Doppelkonjunktion ein.",
     "sentence": "___ der Blutdruck ___ der Puls sind erhöht. (sowohl...als auch)",
     "answer": "Sowohl...als auch",
-    "options": ["Sowohl...als auch", "Weder...noch", "Entweder...oder", "Nicht nur...sondern auch"],
-    "also_accept": ["Sowohl ... als auch"],
+    "options": [
+      "Sowohl...als auch",
+      "Weder...noch",
+      "Entweder...oder",
+      "Nicht nur...sondern auch"
+    ],
+    "also_accept": [
+      "Sowohl ... als auch"
+    ],
     "explanation": "'Sowohl...als auch' verbindet zwei gleichwertige Aussagen, die beide zutreffen: Blutdruck UND Puls sind erhöht.",
     "hint": "Beide Werte sind erhöht -> sowohl...als auch."
   },
@@ -4160,7 +4659,12 @@
     "instruction": "Setze die passende Doppelkonjunktion ein.",
     "sentence": "Der Patient hat ___ Fieber ___ Schüttelfrost.",
     "answer": "weder...noch",
-    "options": ["weder...noch", "sowohl...als auch", "entweder...oder", "nicht nur...sondern auch"],
+    "options": [
+      "weder...noch",
+      "sowohl...als auch",
+      "entweder...oder",
+      "nicht nur...sondern auch"
+    ],
     "also_accept": [],
     "explanation": "'Weder...noch' drückt aus, dass keines von beiden zutrifft: kein Fieber UND kein Schüttelfrost.",
     "hint": "Beide Symptome sind NICHT vorhanden -> weder...noch."
@@ -4174,7 +4678,12 @@
     "instruction": "Setze die passende Doppelkonjunktion ein.",
     "sentence": "___ nehmen wir eine CT-Aufnahme vor, ___ wir machen ein MRT.",
     "answer": "Entweder...oder",
-    "options": ["Entweder...oder", "Sowohl...als auch", "Weder...noch", "Zwar...aber"],
+    "options": [
+      "Entweder...oder",
+      "Sowohl...als auch",
+      "Weder...noch",
+      "Zwar...aber"
+    ],
     "also_accept": [],
     "explanation": "'Entweder...oder' bietet eine Wahl zwischen zwei Alternativen: CT ODER MRT, nicht beides.",
     "hint": "Zwei Alternativen -> entweder...oder."
@@ -4188,8 +4697,15 @@
     "instruction": "Setze die passende Doppelkonjunktion ein.",
     "sentence": "___ früher die Diagnose gestellt wird, ___ besser sind die Heilungschancen.",
     "answer": "Je...desto",
-    "options": ["Je...desto", "Sowohl...als auch", "Zwar...aber", "Weder...noch"],
-    "also_accept": ["Je...umso"],
+    "options": [
+      "Je...desto",
+      "Sowohl...als auch",
+      "Zwar...aber",
+      "Weder...noch"
+    ],
+    "also_accept": [
+      "Je...umso"
+    ],
     "explanation": "'Je...desto' (oder 'je...umso') drückt eine proportionale Beziehung aus: mehr A -> mehr B.",
     "hint": "Proportionale Beziehung: ___ früher, ___ besser."
   },
@@ -4202,7 +4718,12 @@
     "instruction": "Setze die passende Doppelkonjunktion ein.",
     "sentence": "Die Operation ist ___ gelungen, ___ der Patient braucht noch Rehabilitation.",
     "answer": "zwar...aber",
-    "options": ["zwar...aber", "sowohl...als auch", "weder...noch", "entweder...oder"],
+    "options": [
+      "zwar...aber",
+      "sowohl...als auch",
+      "weder...noch",
+      "entweder...oder"
+    ],
     "also_accept": [],
     "explanation": "'Zwar...aber' drückt eine Einschränkung aus: Die OP war erfolgreich, ABER es gibt eine Einschränkung (Reha nötig).",
     "hint": "Positives mit Einschränkung -> zwar...aber."
@@ -4216,7 +4737,12 @@
     "instruction": "Setze die passende Doppelkonjunktion ein.",
     "sentence": "Das Antibiotikum wirkt ___ gegen Bakterien, ___ gegen bestimmte Pilze.",
     "answer": "nicht nur...sondern auch",
-    "options": ["nicht nur...sondern auch", "sowohl...als auch", "weder...noch", "zwar...aber"],
+    "options": [
+      "nicht nur...sondern auch",
+      "sowohl...als auch",
+      "weder...noch",
+      "zwar...aber"
+    ],
     "also_accept": [],
     "explanation": "'Nicht nur...sondern auch' betont, dass etwas über die Erwartung hinausgeht: Es wirkt gegen Bakterien UND sogar gegen Pilze.",
     "hint": "Mehr als erwartet -> nicht nur...sondern auch."
@@ -4230,8 +4756,15 @@
     "instruction": "Wähle die passende Doppelkonjunktion.",
     "sentence": "___ höher die Dosierung, ___ stärker die Nebenwirkungen.",
     "answer": "Je...desto",
-    "options": ["Je...desto", "Zwar...aber", "Sowohl...als auch", "Weder...noch"],
-    "also_accept": ["Je...umso"],
+    "options": [
+      "Je...desto",
+      "Zwar...aber",
+      "Sowohl...als auch",
+      "Weder...noch"
+    ],
+    "also_accept": [
+      "Je...umso"
+    ],
     "explanation": "'Je...desto' zeigt die proportionale Beziehung zwischen Dosierung und Nebenwirkungen.",
     "hint": "Proportional: höhere Dosis -> stärkere Nebenwirkungen."
   },
@@ -4244,7 +4777,12 @@
     "instruction": "Setze die passende Doppelkonjunktion ein.",
     "sentence": "Der Tumor wurde ___ mittels Chemotherapie ___ mittels Bestrahlung behandelt.",
     "answer": "sowohl...als auch",
-    "options": ["sowohl...als auch", "entweder...oder", "weder...noch", "zwar...aber"],
+    "options": [
+      "sowohl...als auch",
+      "entweder...oder",
+      "weder...noch",
+      "zwar...aber"
+    ],
     "also_accept": [],
     "explanation": "'Sowohl...als auch' zeigt, dass beide Behandlungsmethoden gleichzeitig angewendet wurden.",
     "hint": "Beide Methoden kommen zum Einsatz -> sowohl...als auch."
