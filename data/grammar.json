@@ -4626,7 +4626,7 @@
     "also_accept": [
       "Blutentnahme"
     ],
-    "explanation": "Nominalisierter Infinitiv: das Blutabnehmen. In der Praxis wird häufiger 'die Blutabnahme' oder 'die Blutentnahme' verwendet.",
+    "explanation": "In der Praxis wird häufiger 'die Blutabnahme' oder 'die Blutentnahme' verwendet.",
     "hint": "Blut abnehmen → die Blutabnahme / die Blutentnahme"
   },
   {
@@ -4790,7 +4790,7 @@
   {
     "id": "trenn_001",
     "topic": "trennbare_verben",
-    "subtopic": "trennbar_entlassen",
+    "subtopic": "untrennbar_entlassen",
     "type": "fill_blank",
     "difficulty": 2,
     "instruction": "Fülle die Lücke(n) mit der richtigen Verbform. Achte auf trennbare und untrennbare Verben.",

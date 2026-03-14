@@ -767,7 +767,7 @@
         "Sehstörungen",
         "Schwindel",
         "Kopfschmerzen",
-        "Ohnmacht"
+        "Sprachstörung"
       ],
       "treatment": "Sofortige Notfallversorgung, ggf. Lysetherapie innerhalb des Zeitfensters, Aufnahme auf die Stroke Unit, Rehabilitation"
     },
@@ -1045,13 +1045,13 @@
       "de": "der Ultraschall",
       "en": "ultrasound",
       "article": "der",
-      "description": "Bildgebende Untersuchung mittels Schallwellen, z. B. Sonographie des Abdomens"
+      "description": "Bildgebende Untersuchung mittels Schallwellen, z. B. Sonografie des Abdomens"
     },
     {
       "de": "das EKG",
       "en": "ECG",
       "article": "das",
-      "description": "Elektrokardiographie zur Aufzeichnung der elektrischen Herzaktivität"
+      "description": "Elektrokardiografie zur Aufzeichnung der elektrischen Herzaktivität"
     },
     {
       "de": "das MRT",
@@ -1208,17 +1208,17 @@
     "templates": [
       {
         "title": "Entlassungsbrief — Ambulant erworbene Pneumonie",
-        "example": "Sehr geehrte Frau Kollegin, sehr geehrter Herr Kollege,\n\nwir berichten über Ihren o.g. Patienten, der sich vom ___ bis ___ in unserer stationären Behandlung befand.\n\nDiagnosen:\n1. Ambulant erworbene Pneumonie\n2. Arterielle Hypertonie\n\nAnamnese:\nDer Patient stellte sich mit seit 3 Tagen bestehendem Fieber bis 39,5 °C, produktivem Husten und zunehmender Atemnot in unserer Notaufnahme vor. Vorbekannt sind eine arterielle Hypertonie sowie ein Nikotinabusus (20 pack-years).\n\nBefund:\nBei Aufnahme AZ reduziert, Temperatur 39,2 °C, RR 140/90 mmHg, HF 98/min, SpO2 92 % unter Raumluft. Auskultation: feinblasige Rasselgeräusche rechts basal. Laborchemisch CRP 180 mg/l, Leukozyten 15.200/µl. Röntgen-Thorax: Infiltrat im rechten Unterlappen.\n\nTherapie:\nAntibiotische Therapie initial mit Ampicillin/Sulbactam i.v. über 5 Tage, anschließend Umstellung auf Amoxicillin/Clavulansäure p.o. Antipyretische Therapie mit Paracetamol. Sauerstoffgabe über Nasenbrille bei Bedarf.\n\nProcedere:\nWir bitten um Wiedervorstellung in 4 Wochen mit Kontroll-Röntgen-Thorax. Die antibiotische Therapie sollte für insgesamt 7 Tage fortgeführt werden. Rauchstopp wurde dringend empfohlen.\n\nMit freundlichen kollegialen Grüßen"
+        "example": "Sehr geehrte Frau Kollegin, sehr geehrter Herr Kollege,\n\nwir berichten über Ihren o. g. Patienten, der sich vom ___ bis ___ in unserer stationären Behandlung befand.\n\nDiagnosen:\n1. Ambulant erworbene Pneumonie\n2. Arterielle Hypertonie\n\nAnamnese:\nDer Patient stellte sich mit seit 3 Tagen bestehendem Fieber bis 39,5 °C, produktivem Husten und zunehmender Atemnot in unserer Notaufnahme vor. Vorbekannt sind eine arterielle Hypertonie sowie ein Nikotinabusus (20 pack-years).\n\nBefund:\nBei Aufnahme AZ reduziert, Temperatur 39,2 °C, RR 140/90 mmHg, HF 98/min, SpO2 92 % unter Raumluft. Auskultation: feinblasige Rasselgeräusche rechts basal. Laborchemisch CRP 180 mg/l, Leukozyten 15.200/µl. Röntgen-Thorax: Infiltrat im rechten Unterlappen.\n\nTherapie:\nAntibiotische Therapie initial mit Ampicillin/Sulbactam i.v. über 5 Tage, anschließend Umstellung auf Amoxicillin/Clavulansäure p.o. Antipyretische Therapie mit Paracetamol. Sauerstoffgabe über Nasenbrille bei Bedarf.\n\nProcedere:\nWir bitten um Wiedervorstellung in 4 Wochen mit Kontroll-Röntgen-Thorax. Die antibiotische Therapie sollte für insgesamt 7 Tage fortgeführt werden. Rauchstopp wurde dringend empfohlen.\n\nMit freundlichen kollegialen Grüßen"
       },
       {
         "title": "Entlassungsbrief — Akuter Myokardinfarkt",
-        "example": "Sehr geehrte Frau Kollegin, sehr geehrter Herr Kollege,\n\nwir berichten über Ihren o.g. Patienten, der sich vom ___ bis ___ in unserer stationären Behandlung befand.\n\nDiagnosen:\n1. Akuter ST-Hebungsinfarkt der Vorderwand (STEMI)\n2. KHK (1-Gefäß-Erkrankung: LAD)\n3. Arterielle Hypertonie\n4. Hyperlipidämie\n\nAnamnese:\nDer Patient stellte sich notfallmäßig mit seit ca. 2 Stunden bestehenden retrosternalen Brustschmerzen mit Ausstrahlung in den linken Arm vor. Begleitend bestanden Übelkeit und Kaltschweißigkeit.\n\nBefund:\nBei Aufnahme RR 100/65 mmHg, HF 110/min, SpO2 96 %. EKG: ST-Hebungen in V1-V4. Troponin I erhöht auf 5,2 ng/ml. Koronarangiographie: hochgradige Stenose der LAD.\n\nTherapie:\nPrimäre PCI mit Implantation eines DES in die LAD. Duale Thrombozytenaggregationshemmung mit ASS 100 mg und Clopidogrel 75 mg. Weitere Medikation: Bisoprolol, Ramipril, Atorvastatin.\n\nProcedere:\nKardiologische Rehabilitation empfohlen. Wiedervorstellung in 4 Wochen zur echokardiographischen Kontrolle. Duale Plättchenhemmung für mindestens 12 Monate.\n\nMit freundlichen kollegialen Grüßen"
+        "example": "Sehr geehrte Frau Kollegin, sehr geehrter Herr Kollege,\n\nwir berichten über Ihren o. g. Patienten, der sich vom ___ bis ___ in unserer stationären Behandlung befand.\n\nDiagnosen:\n1. Akuter ST-Hebungsinfarkt der Vorderwand (STEMI)\n2. KHK (1-Gefäß-Erkrankung: LAD)\n3. Arterielle Hypertonie\n4. Hyperlipidämie\n\nAnamnese:\nDer Patient stellte sich notfallmäßig mit seit ca. 2 Stunden bestehenden retrosternalen Brustschmerzen mit Ausstrahlung in den linken Arm vor. Begleitend bestanden Übelkeit und Kaltschweißigkeit.\n\nBefund:\nBei Aufnahme RR 100/65 mmHg, HF 110/min, SpO2 96 %. EKG: ST-Hebungen in V1-V4. Troponin I erhöht auf 5,2 ng/ml. Koronarangiografie: hochgradige Stenose der LAD.\n\nTherapie:\nPrimäre PCI mit Implantation eines DES in die LAD. Duale Thrombozytenaggregationshemmung mit ASS 100 mg und Clopidogrel 75 mg. Weitere Medikation: Bisoprolol, Ramipril, Atorvastatin.\n\nProcedere:\nKardiologische Rehabilitation empfohlen. Wiedervorstellung in 4 Wochen zur echokardiografischen Kontrolle. Duale Plättchenhemmung für mindestens 12 Monate.\n\nMit freundlichen kollegialen Grüßen"
       }
     ],
     "phrases": {
       "opening": [
         "Sehr geehrte Frau Kollegin, sehr geehrter Herr Kollege,",
-        "wir berichten über Ihren o.g. Patienten/Ihre o.g. Patientin,",
+        "wir berichten über Ihren o. g. Patienten/Ihre o. g. Patientin,",
         "der/die sich vom ___ bis ___ in unserer stationären Behandlung befand."
       ],
       "diagnoses": [
@@ -1468,7 +1468,7 @@
         {
           "q": "Was ist die wichtigste therapeutische Maßnahme?",
           "options": [
-            "Koronarangiographie mit PCI",
+            "Koronarangiografie mit PCI",
             "Thrombolyse i.v.",
             "Thoraxdrainage",
             "Antazida"
@@ -1844,7 +1844,7 @@
           "options": [
             "Absetzen des auslösenden Medikaments und Antihistaminikum",
             "Dosis des Antibiotikums erhöhen",
-            "Antibiotikum weitergeben",
+            "Antibiotikum weiternehmen",
             "Sofortige Operation"
           ],
           "answer": 0
@@ -2026,8 +2026,8 @@
           "options": [
             "12-Kanal-EKG innerhalb von 10 Minuten",
             "Röntgen-Thorax",
-            "CT-Angiographie",
-            "Echokardiographie"
+            "CT-Angiografie",
+            "Echokardiografie"
           ],
           "answer": 0
         },
@@ -2380,7 +2380,7 @@
     },
     {
       "fach": "Analgesie",
-      "laien": "Schmerzausschaltung",
+      "laien": "Schmerzlinderung",
       "en": "analgesia"
     },
     {
