@@ -1104,7 +1104,7 @@ const App = {
       inputHtml =
         '<div class="drill-options">' +
         shuffled.map(opt =>
-          '<button class="drill-option" data-value="' + escapeHtml(opt) + '" disabled>' +
+          '<button class="drill-option" data-value="' + escapeHtml(opt) + '" disabled tabindex="-1">' +
             escapeHtml(opt) +
           '</button>'
         ).join('') +
