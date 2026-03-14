@@ -2906,11 +2906,12 @@ img {
   text-align: left;
   transition: border-color var(--transition-fast), background var(--transition-fast);
   font-family: var(--font-family);
+  -webkit-tap-highlight-color: transparent;
 }
 
 .drill-option:hover:not(:disabled) {
-  border-color: var(--color-accent);
-  background: var(--color-accent-light);
+  border-color: var(--color-reading);
+  background: rgba(9, 132, 227, 0.08);
 }
 
 .drill-option:disabled {
