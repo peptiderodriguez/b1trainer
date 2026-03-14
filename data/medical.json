@@ -883,12 +883,12 @@
       "en": "hyperthyroidism",
       "article": "die",
       "symptoms": [
-        "Müdigkeit",
+        "Nervosität",
         "Gewichtsverlust",
         "Herzrasen",
         "Schlaflosigkeit"
       ],
-      "treatment": "Je nach Form: Thyreostatika bei Hyperthyreose, L-Thyroxin-Substitution bei Hypothyreose, regelmäßige Laborkontrollen"
+      "treatment": "Thyreostatika (z. B. Thiamazol), Betablocker bei Tachykardie, regelmäßige Laborkontrollen (TSH, fT3, fT4), ggf. Radiojodtherapie oder Thyreoidektomie"
     },
     {
       "de": "die Osteoporose",

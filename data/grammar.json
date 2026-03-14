@@ -4096,7 +4096,7 @@
     "type": "fill_blank",
     "difficulty": 3,
     "instruction": "Setze das richtige Partizipialattribut ein.",
-    "sentence": "Die ___ Blutung muss sofort gestillt werden. (stark bluten)",
+    "sentence": "Die ___ Wunde muss sofort versorgt werden. (stark bluten)",
     "answer": "stark blutende",
     "options": [
       "stark blutende",
@@ -4153,8 +4153,8 @@
     "type": "transform",
     "difficulty": 3,
     "instruction": "Forme den Relativsatz in ein erweitertes Partizipialattribut um. Schreibe den vollständigen Ausdruck.",
-    "sentence": "Das Medikament, das dreimal täglich eingenommen wird -> das dreimal täglich ___ Medikament",
-    "answer": "eingenommene",
+    "sentence": "Das Medikament, das dreimal täglich eingenommen werden muss -> das dreimal täglich ___ Medikament",
+    "answer": "einzunehmende",
     "options": [
       "einzunehmende",
       "eingenommene",
@@ -4614,7 +4614,7 @@
     "subtopic": "infinitiv_als_nomen",
     "type": "fill_blank",
     "difficulty": 3,
-    "instruction": "Bilde die Nominalisierung des Verbs.",
+    "instruction": "Setze das passende Nomen ein.",
     "sentence": "Vor der ___ müssen Sie nüchtern sein. (Blut abnehmen)",
     "answer": "Blutabnahme",
     "options": [
@@ -4627,7 +4627,7 @@
       "Blutentnahme"
     ],
     "explanation": "Nominalisierter Infinitiv: das Blutabnehmen. In der Praxis wird häufiger 'die Blutabnahme' oder 'die Blutentnahme' verwendet.",
-    "hint": "Infinitiv als Nomen: das Blutabnehmen (oder: die Blutabnahme)."
+    "hint": "Blut abnehmen → die Blutabnahme / die Blutentnahme"
   },
   {
     "id": "med_doko_001",
@@ -4794,7 +4794,7 @@
     "type": "fill_blank",
     "difficulty": 2,
     "instruction": "Fülle die Lücke(n) mit der richtigen Verbform. Achte auf trennbare und untrennbare Verben.",
-    "sentence": "Der Arzt ___ den Patienten aus dem Krankenhaus ___.",
+    "sentence": "Der Arzt ___ den Patienten aus dem Krankenhaus.",
     "answer": "entlässt",
     "options": [
       "entlässt",
@@ -4946,7 +4946,7 @@
     "type": "fill_blank",
     "difficulty": 2,
     "instruction": "Fülle die Lücke(n) mit der richtigen Verbform.",
-    "sentence": "Der Patient ___ nach der Operation langsam zu Kräften ___.",
+    "sentence": "Der Patient ___ morgen aus der Rehabilitation ___.",
     "answer": "kommt...zurück",
     "options": [
       "kommt...zurück",
@@ -4954,7 +4954,7 @@
       "kommt...zuruck",
       "kammt...zurück"
     ],
-    "explanation": "'zurückkommen' ist TRENNBAR. Im Hauptsatz: konjugiertes Verb an Position 2, Vorsilbe am Satzende.",
+    "explanation": "'zurückkommen' ist trennbar (Präfix 'zurück-'): Er kommt morgen zurück.",
     "hint": "'zurück-' ist eine trennbare Vorsilbe."
   },
   {
@@ -5058,7 +5058,10 @@
       "mit"
     ],
     "explanation": "'leiden an' (+Dat) – an einer Krankheit oder Beschwerden leiden. 'Kopfschmerzen' steht hier im Dativ.",
-    "hint": "Man leidet AN einer Krankheit (+ Dativ)."
+    "hint": "Man leidet AN einer Krankheit (+ Dativ).",
+    "also_accept": [
+      "unter"
+    ]
   },
   {
     "id": "vfp_002",

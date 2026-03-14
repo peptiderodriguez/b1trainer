@@ -14447,5 +14447,297 @@
       "reflexive": false,
       "withSein": false
     }
+  },
+  {
+    "word": "machen",
+    "translation": "to make, to do",
+    "type": "verb",
+    "level": "A1",
+    "examples": [
+      "Was machst du?",
+      "Ich mache meine Hausaufgaben."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "mache",
+        "du": "machst",
+        "es": "macht",
+        "wir": "machen",
+        "ihr": "macht",
+        "Sie": "machen"
+      },
+      "präteritum": {
+        "ich": "machte",
+        "du": "machtest",
+        "es": "machte",
+        "wir": "machten",
+        "ihr": "machtet",
+        "Sie": "machten"
+      },
+      "perfekt": "gemacht",
+      "imperativ": {
+        "du": "mach(e)",
+        "ihr": "macht"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "kaufen",
+    "translation": "to buy",
+    "type": "verb",
+    "level": "A1",
+    "examples": [
+      "Ich kaufe Obst auf dem Markt."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "kaufe",
+        "du": "kaufst",
+        "es": "kauft",
+        "wir": "kaufen",
+        "ihr": "kauft",
+        "Sie": "kaufen"
+      },
+      "präteritum": {
+        "ich": "kaufte",
+        "du": "kauftest",
+        "es": "kaufte",
+        "wir": "kauften",
+        "ihr": "kauftet",
+        "Sie": "kauften"
+      },
+      "perfekt": "gekauft",
+      "imperativ": {
+        "du": "kauf(e)",
+        "ihr": "kauft"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "lernen",
+    "translation": "to learn",
+    "type": "verb",
+    "level": "A1",
+    "examples": [
+      "Ich lerne Deutsch.",
+      "Er lernt für die Prüfung."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "lerne",
+        "du": "lernst",
+        "es": "lernt",
+        "wir": "lernen",
+        "ihr": "lernt",
+        "Sie": "lernen"
+      },
+      "präteritum": {
+        "ich": "lernte",
+        "du": "lerntest",
+        "es": "lernte",
+        "wir": "lernten",
+        "ihr": "lerntet",
+        "Sie": "lernten"
+      },
+      "perfekt": "gelernt",
+      "imperativ": {
+        "du": "lern(e)",
+        "ihr": "lernt"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "spielen",
+    "translation": "to play",
+    "type": "verb",
+    "level": "A1",
+    "examples": [
+      "Die Kinder spielen im Garten."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "spiele",
+        "du": "spielst",
+        "es": "spielt",
+        "wir": "spielen",
+        "ihr": "spielt",
+        "Sie": "spielen"
+      },
+      "präteritum": {
+        "ich": "spielte",
+        "du": "spieltest",
+        "es": "spielte",
+        "wir": "spielten",
+        "ihr": "spieltet",
+        "Sie": "spielten"
+      },
+      "perfekt": "gespielt",
+      "imperativ": {
+        "du": "spiel(e)",
+        "ihr": "spielt"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "arbeiten",
+    "translation": "to work",
+    "type": "verb",
+    "level": "A1",
+    "examples": [
+      "Sie arbeitet im Krankenhaus.",
+      "Ich arbeite seit fünf Jahren hier."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "arbeite",
+        "du": "arbeitest",
+        "es": "arbeitet",
+        "wir": "arbeiten",
+        "ihr": "arbeitet",
+        "Sie": "arbeiten"
+      },
+      "präteritum": {
+        "ich": "arbeitete",
+        "du": "arbeitetest",
+        "es": "arbeitete",
+        "wir": "arbeiteten",
+        "ihr": "arbeitetet",
+        "Sie": "arbeiteten"
+      },
+      "perfekt": "gearbeitet",
+      "imperativ": {
+        "du": "arbeite",
+        "ihr": "arbeitet"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "warten",
+    "translation": "to wait",
+    "type": "verb",
+    "level": "A1",
+    "examples": [
+      "Bitte warten Sie im Wartezimmer."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "warte",
+        "du": "wartest",
+        "es": "wartet",
+        "wir": "warten",
+        "ihr": "wartet",
+        "Sie": "warten"
+      },
+      "präteritum": {
+        "ich": "wartete",
+        "du": "wartetest",
+        "es": "wartete",
+        "wir": "warteten",
+        "ihr": "wartetet",
+        "Sie": "warteten"
+      },
+      "perfekt": "gewartet",
+      "imperativ": {
+        "du": "warte",
+        "ihr": "wartet"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "öffnen",
+    "translation": "to open",
+    "type": "verb",
+    "level": "A1",
+    "examples": [
+      "Bitte öffnen Sie den Mund.",
+      "Die Apotheke öffnet um acht Uhr."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "öffne",
+        "du": "öffnest",
+        "es": "öffnet",
+        "wir": "öffnen",
+        "ihr": "öffnet",
+        "Sie": "öffnen"
+      },
+      "präteritum": {
+        "ich": "öffnete",
+        "du": "öffnetest",
+        "es": "öffnete",
+        "wir": "öffneten",
+        "ihr": "öffnetet",
+        "Sie": "öffneten"
+      },
+      "perfekt": "geöffnet",
+      "imperativ": {
+        "du": "öffne",
+        "ihr": "öffnet"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
+  },
+  {
+    "word": "rechnen",
+    "translation": "to calculate, to reckon",
+    "type": "verb",
+    "level": "A2",
+    "examples": [
+      "Man muss mit Nebenwirkungen rechnen."
+    ],
+    "conjugation": {
+      "präsens": {
+        "ich": "rechne",
+        "du": "rechnest",
+        "es": "rechnet",
+        "wir": "rechnen",
+        "ihr": "rechnet",
+        "Sie": "rechnen"
+      },
+      "präteritum": {
+        "ich": "rechnete",
+        "du": "rechnetest",
+        "es": "rechnete",
+        "wir": "rechneten",
+        "ihr": "rechnetet",
+        "Sie": "rechneten"
+      },
+      "perfekt": "gerechnet",
+      "imperativ": {
+        "du": "rechne",
+        "ihr": "rechnet"
+      },
+      "separable": false,
+      "modal": false,
+      "reflexive": false,
+      "withSein": false
+    }
   }
 ]
