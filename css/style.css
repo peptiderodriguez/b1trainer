@@ -2228,7 +2228,7 @@ img {
 @media (hover: hover) { .grammar-option-btn:hover { border-color: var(--color-grammar); background: rgba(108, 92, 231, 0.05); } }
 .grammar-option-btn--correct { border-color: var(--color-success) !important; background: var(--color-success-light) !important; transition: none !important; }
 .grammar-option-btn--wrong { border-color: var(--color-error) !important; background: var(--color-error-light) !important; transition: none !important; }
-.grammar-option-btn:active { border-color: var(--color-grammar); background: rgba(108, 92, 231, 0.08); }
+.grammar-option-btn:focus, .grammar-option-btn:active { outline: none; box-shadow: none; }
 
 .grammar-blank { display: inline-block; min-width: 100px; border-bottom: 2px dashed var(--color-grammar); padding: 0 var(--space-xs); }
 .grammar-input { padding: var(--space-sm) var(--space-md); border: 2px solid var(--color-border); border-radius: var(--radius-md); font-size: var(--font-size-md); transition: border-color 0.2s; }
@@ -2922,9 +2922,14 @@ img {
   opacity: 1;
 }
 
-.drill-option:focus {
+.drill-option:focus,
+.drill-option:active,
+.drill-option:focus-visible {
   outline: none;
   box-shadow: none;
+  border-color: var(--color-border);
+  background: var(--color-bg);
+  -webkit-appearance: none;
 }
 
 .drill-option--correct {
@@ -2941,10 +2946,6 @@ img {
   transition: none !important;
 }
 
-.drill-option:active {
-  border-color: var(--color-reading);
-  background: rgba(9, 132, 227, 0.08);
-}
 
 /* Text input form */
 .drill-input-form {
