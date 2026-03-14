@@ -21,6 +21,7 @@ const ReadingModule = (() => {
     if (u === c) return true;
     // Single-letter answer like "b" should match "b) some option text"
     if (/^[a-d]$/.test(c) && u.startsWith(c + ')')) return true;
+    if (/^[a-d]$/.test(u) && c.startsWith(u + ')')) return true;
     return false;
   }
   let currentPassage = null;

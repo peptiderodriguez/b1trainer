@@ -60,7 +60,9 @@ const VocabularyModule = (() => {
   }
 
   /** Flat list of all medical German words for tagging. */
+  let _medicalWordSetCache = null;
   function _medicalWordSet() {
+    if (_medicalWordSetCache) return _medicalWordSetCache;
     const m = _medicalData();
     const words = new Set();
     ['bodyParts', 'symptoms', 'diseases', 'procedures'].forEach(cat => {

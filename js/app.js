@@ -27,7 +27,7 @@ const App = {
   _ready: false,
 
   /** All known module names matching page sections */
-  _moduleNames: ['vocabulary', 'grammar', 'reading', 'listening', 'writing', 'exam', 'drill'],
+  _moduleNames: ['vocabulary', 'grammar', 'reading', 'listening', 'writing', 'exam', 'fsp', 'drill'],
 
   /** Data files to fetch on startup */
   _dataFiles: [

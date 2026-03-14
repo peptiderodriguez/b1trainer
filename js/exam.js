@@ -29,6 +29,7 @@ const ExamModule = (() => {
   let currentSectionIndex = -1;
   let timerInterval = null;
   let timerRemaining = 0;
+  let _sprechenIntervals = [];
   let examData = {};   // assembled exercises for each section
   let examResults = {}; // results per section
   let warningShown = false;
@@ -92,6 +93,8 @@ const ExamModule = (() => {
     if (examActive) {
       _stopTimer();
     }
+    _sprechenIntervals.forEach(i => clearInterval(i));
+    _sprechenIntervals = [];
     if (typeof ListeningModule !== 'undefined' && ListeningModule.cancelForExam) {
       ListeningModule.cancelForExam();
     }
@@ -669,6 +672,7 @@ const ExamModule = (() => {
     let currentPromptIdx = 0;
     let speakingPhase = 'overview'; // 'overview' | 'preparation' | 'speaking' | 'done'
     let selfRatings = [];
+    _sprechenIntervals = [];
     let prepInterval = null;
 
     function renderSpeakingPrompt(idx) {
@@ -729,9 +733,11 @@ const ExamModule = (() => {
 
           if (prepRemaining <= 0) {
             clearInterval(prepInterval);
+            _sprechenIntervals = _sprechenIntervals.filter(i => i !== prepInterval);
             _startSpeakingPhase(prompt, phasesEl, idx);
           }
         }, 1000);
+        _sprechenIntervals.push(prepInterval);
       });
 
       // Next button in self-eval

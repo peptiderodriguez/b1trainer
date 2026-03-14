@@ -537,6 +537,7 @@ function showModal(title, content, onClose) {
 
   // Close helpers
   function close() {
+    document.removeEventListener('keydown', onKey);
     overlay.classList.remove('modal-visible');
     overlay.classList.add('modal-hiding');
     document.body.classList.remove('modal-open');
