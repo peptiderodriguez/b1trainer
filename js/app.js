@@ -1080,7 +1080,7 @@ const App = {
     const area = document.getElementById('drill-exercise-area');
     if (!area) return;
 
-    this._drill.answered = false;
+    this._drill.answered = true; // guard against instant taps from previous question
     const exercise = this._generateDrillExercise();
     if (!exercise) {
       area.innerHTML =
@@ -1124,6 +1124,9 @@ const App = {
         inputHtml +
         '<div id="drill-feedback"></div>' +
       '</div>';
+
+    // Enable input after short delay to prevent accidental taps from previous question
+    setTimeout(() => { this._drill.answered = false; }, 300);
 
     // Bind event handlers
     if (exercise.options && exercise.options.length) {
