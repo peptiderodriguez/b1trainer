@@ -100,6 +100,10 @@
         <p class="dashboard__subtitle">Bereite dich auf die Goethe B1/B2 Prüfung vor. Wähle ein Modul, um zu beginnen.</p>
       </header>
 
+      <!-- Exam Countdown -->
+      <section class="dashboard__countdown" id="dashboard-countdown" aria-label="Prüfungscountdown">
+      </section>
+
       <!-- Progress Overview -->
       <section class="dashboard__progress" aria-label="Fortschrittsübersicht">
         <h2 class="section-title">Dein Fortschritt</h2>
@@ -120,6 +124,34 @@
             <span class="stat-card__value" id="stat-accuracy">0%</span>
             <span class="stat-card__label">Genauigkeit</span>
           </div>
+        </div>
+      </section>
+
+      <!-- Schnellübung (Timed Mixed Drill) -->
+      <section class="dashboard__drill" aria-label="Schnellübung">
+        <h2 class="section-title">Schnellübung</h2>
+        <p class="dashboard__drill-desc">Gemischte Übungen gegen die Uhr — Grammatik, Artikel, Konjugation und Vokabeln bunt durcheinander.</p>
+        <div class="drill-time-grid">
+          <a href="#drill/5" class="drill-time-card">
+            <span class="drill-time-card__value">5</span>
+            <span class="drill-time-card__unit">Minuten</span>
+            <span class="drill-time-card__label">Kurz &amp; knackig</span>
+          </a>
+          <a href="#drill/10" class="drill-time-card">
+            <span class="drill-time-card__value">10</span>
+            <span class="drill-time-card__unit">Minuten</span>
+            <span class="drill-time-card__label">Aufwärmrunde</span>
+          </a>
+          <a href="#drill/15" class="drill-time-card">
+            <span class="drill-time-card__value">15</span>
+            <span class="drill-time-card__unit">Minuten</span>
+            <span class="drill-time-card__label">Gründlich üben</span>
+          </a>
+          <a href="#drill/25" class="drill-time-card">
+            <span class="drill-time-card__value">25</span>
+            <span class="drill-time-card__unit">Minuten</span>
+            <span class="drill-time-card__label">Intensivtraining</span>
+          </a>
         </div>
       </section>
 
@@ -188,38 +220,6 @@
             <span class="module-card__action">Prüfung starten</span>
           </a>
 
-        </div>
-      </section>
-
-      <!-- Exam Countdown -->
-      <section class="dashboard__countdown" id="dashboard-countdown" aria-label="Prüfungscountdown">
-      </section>
-
-      <!-- Schnellübung (Timed Mixed Drill) -->
-      <section class="dashboard__drill" aria-label="Schnellübung">
-        <h2 class="section-title">Schnellübung</h2>
-        <p class="dashboard__drill-desc">Gemischte Übungen gegen die Uhr — Grammatik, Artikel, Konjugation und Vokabeln bunt durcheinander.</p>
-        <div class="drill-time-grid">
-          <a href="#drill/5" class="drill-time-card">
-            <span class="drill-time-card__value">5</span>
-            <span class="drill-time-card__unit">Minuten</span>
-            <span class="drill-time-card__label">Kurz &amp; knackig</span>
-          </a>
-          <a href="#drill/10" class="drill-time-card">
-            <span class="drill-time-card__value">10</span>
-            <span class="drill-time-card__unit">Minuten</span>
-            <span class="drill-time-card__label">Aufwärmrunde</span>
-          </a>
-          <a href="#drill/15" class="drill-time-card">
-            <span class="drill-time-card__value">15</span>
-            <span class="drill-time-card__unit">Minuten</span>
-            <span class="drill-time-card__label">Gründlich üben</span>
-          </a>
-          <a href="#drill/25" class="drill-time-card">
-            <span class="drill-time-card__value">25</span>
-            <span class="drill-time-card__unit">Minuten</span>
-            <span class="drill-time-card__label">Intensivtraining</span>
-          </a>
         </div>
       </section>
 
