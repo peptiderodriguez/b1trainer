@@ -2225,7 +2225,7 @@ img {
 
 .grammar-options { display: flex; gap: var(--space-sm); flex-wrap: wrap; margin-top: var(--space-md); }
 .grammar-option-btn { padding: var(--space-sm) var(--space-md); border: 2px solid var(--color-border); border-radius: var(--radius-md); background: var(--color-card); cursor: pointer; font-size: var(--font-size-md); transition: all 0.2s; }
-.grammar-option-btn:hover { border-color: var(--color-grammar); background: rgba(108, 92, 231, 0.05); }
+@media (hover: hover) { .grammar-option-btn:hover { border-color: var(--color-grammar); background: rgba(108, 92, 231, 0.05); } }
 .grammar-option-btn--correct { border-color: var(--color-success) !important; background: var(--color-success-light) !important; transition: none !important; }
 .grammar-option-btn--wrong { border-color: var(--color-error) !important; background: var(--color-error-light) !important; transition: none !important; }
 .grammar-option-btn:active { border-color: var(--color-grammar); background: rgba(108, 92, 231, 0.08); }
@@ -2910,9 +2910,11 @@ img {
   -webkit-tap-highlight-color: transparent;
 }
 
-.drill-option:hover:not(:disabled) {
-  border-color: var(--color-reading);
-  background: rgba(9, 132, 227, 0.08);
+@media (hover: hover) {
+  .drill-option:hover:not(:disabled) {
+    border-color: var(--color-reading);
+    background: rgba(9, 132, 227, 0.08);
+  }
 }
 
 .drill-option:disabled {
