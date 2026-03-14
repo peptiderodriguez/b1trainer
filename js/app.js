@@ -1081,6 +1081,7 @@ const App = {
     if (!area) return;
 
     this._drill.answered = true; // guard against instant taps from previous question
+    if (document.activeElement) document.activeElement.blur(); // clear iOS focus
     const exercise = this._generateDrillExercise();
     if (!exercise) {
       area.innerHTML =
