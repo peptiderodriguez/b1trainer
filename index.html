@@ -35,6 +35,7 @@
       <a href="#listening" class="navbar__link" data-module="listening">Hören</a>
       <a href="#writing" class="navbar__link" data-module="writing">Schreiben</a>
       <a href="#exam" class="navbar__link" data-module="exam">Prüfung</a>
+      <a href="#fsp" class="navbar__link" data-module="fsp">FSP</a>
     </nav>
   </header>
 
@@ -68,6 +69,10 @@
       <a href="#exam" class="sidebar__link" data-module="exam">
         <span class="sidebar__icon" aria-hidden="true">&#127942;</span>
         <span class="sidebar__label">Prüfung</span>
+      </a>
+      <a href="#fsp" class="sidebar__link" data-module="fsp">
+        <span class="sidebar__icon" aria-hidden="true">&#9877;</span>
+        <span class="sidebar__label">FSP</span>
       </a>
     </nav>
 
@@ -186,6 +191,34 @@
         </div>
       </section>
 
+      <!-- Schnellübung (Timed Mixed Drill) -->
+      <section class="dashboard__drill" aria-label="Schnellübung">
+        <h2 class="section-title">Schnellübung</h2>
+        <p class="dashboard__drill-desc">Gemischte Übungen gegen die Uhr — Grammatik, Artikel, Konjugation und Vokabeln bunt durcheinander.</p>
+        <div class="drill-time-grid">
+          <a href="#drill/5" class="drill-time-card">
+            <span class="drill-time-card__value">5</span>
+            <span class="drill-time-card__unit">Minuten</span>
+            <span class="drill-time-card__label">Kurz &amp; knackig</span>
+          </a>
+          <a href="#drill/10" class="drill-time-card">
+            <span class="drill-time-card__value">10</span>
+            <span class="drill-time-card__unit">Minuten</span>
+            <span class="drill-time-card__label">Aufwärmrunde</span>
+          </a>
+          <a href="#drill/15" class="drill-time-card">
+            <span class="drill-time-card__value">15</span>
+            <span class="drill-time-card__unit">Minuten</span>
+            <span class="drill-time-card__label">Gründlich üben</span>
+          </a>
+          <a href="#drill/25" class="drill-time-card">
+            <span class="drill-time-card__value">25</span>
+            <span class="drill-time-card__unit">Minuten</span>
+            <span class="drill-time-card__label">Intensivtraining</span>
+          </a>
+        </div>
+      </section>
+
       <!-- Weak Areas / Review Section -->
       <section class="dashboard__review" id="dashboard-review" aria-label="Schwachstellen">
         <h2 class="section-title">Schwachstellen üben</h2>
@@ -295,6 +328,32 @@
       </div>
     </section>
 
+    <!-- FSP Simulation -->
+    <section class="module-page" id="page-fsp" hidden>
+      <header class="module-page__header">
+        <h1 class="module-page__title">Fachsprachprüfung</h1>
+        <p class="module-page__subtitle">Simuliere die medizinische Fachsprachprüfung: Arzt-Patienten-Gespräch, Arzt-Arzt-Gespräch und Arztbrief.</p>
+      </header>
+      <div class="module-page__toolbar">
+        <div class="exam-timer" id="fsp-timer" hidden>
+          <span class="exam-timer__icon" aria-hidden="true">&#9201;</span>
+          <span class="exam-timer__value" id="fsp-timer-value">20:00</span>
+        </div>
+        <button class="btn btn--accent" data-action="fsp-start">Simulation starten</button>
+        <button class="btn btn--danger" data-action="fsp-end" hidden>Beenden</button>
+      </div>
+      <div class="module-page__content" id="fsp-content">
+        <!-- Rendered by fsp.js -->
+      </div>
+    </section>
+
+    <!-- Schnellübung / Timed Mixed Drill -->
+    <section class="module-page" id="page-drill" hidden>
+      <div class="module-page__content" id="drill-content">
+        <!-- Rendered by app.js drill logic -->
+      </div>
+    </section>
+
   </main>
 
   <!-- Toast Notifications -->
@@ -313,6 +372,7 @@
   <script src="js/listening.js"></script>
   <script src="js/writing.js"></script>
   <script src="js/exam.js"></script>
+  <script src="js/fsp.js"></script>
 
   <!-- Service Worker for offline support -->
   <script>

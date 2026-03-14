@@ -2,7 +2,7 @@
 // Service Worker — B1/B2 Goethe Trainer (offline support)
 // =============================================================================
 
-const CACHE_VERSION = 'b1trainer-v2';
+const CACHE_VERSION = 'b1trainer-v3';
 
 const ASSETS_TO_CACHE = [
   './',
@@ -16,6 +16,7 @@ const ASSETS_TO_CACHE = [
   './js/listening.js',
   './js/writing.js',
   './js/exam.js',
+  './js/fsp.js',
   './data/nouns.json',
   './data/verbs.json',
   './data/other.json',

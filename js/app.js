@@ -27,7 +27,7 @@ const App = {
   _ready: false,
 
   /** All known module names matching page sections */
-  _moduleNames: ['vocabulary', 'grammar', 'reading', 'listening', 'writing', 'exam'],
+  _moduleNames: ['vocabulary', 'grammar', 'reading', 'listening', 'writing', 'exam', 'drill'],
 
   /** Data files to fetch on startup */
   _dataFiles: [
@@ -202,7 +202,9 @@ const App = {
     const { module: moduleName, subRoute } = this._parseHash();
 
     // --- Tear down the previous module if it has a destroy method -----------
-    if (this._activeModule && this._modules[this._activeModule]) {
+    if (this._activeModule === 'drill') {
+      this._destroyDrill();
+    } else if (this._activeModule && this._modules[this._activeModule]) {
       const prev = this._modules[this._activeModule].obj;
       if (typeof prev.destroy === 'function') prev.destroy();
     }
@@ -218,6 +220,16 @@ const App = {
       this._activeModule = null;
       this._updateDashboard();
       this._updateGlobalProgress();
+    } else if (moduleName === 'drill') {
+      this._activeModule = 'drill';
+      const minutes = parseInt(subRoute, 10);
+      if ([5, 10, 15, 25].includes(minutes)) {
+        this._startDrill(minutes);
+      } else {
+        // Invalid drill time — go home
+        window.location.hash = '#home';
+        return;
+      }
     } else {
       this._activeModule = moduleName;
       this._activateModule(moduleName, subRoute);
@@ -366,6 +378,7 @@ const App = {
 
     // Per-module progress bars on dashboard cards
     this._moduleNames.forEach(name => {
+      if (name === 'drill') return; // drill has no persistent progress bar
       const progress = Storage.getProgress(name);
       const pct = progress.total > 0
         ? Math.round((progress.completed / progress.total) * 100)
@@ -514,6 +527,7 @@ const App = {
     let totalItems = 0;
 
     this._moduleNames.forEach(name => {
+      if (name === 'drill') return; // drill is not a persistent module
       const p = Storage.getProgress(name);
       wordsLearned      += p.completed || 0;
       exercisesCompleted += p.total || 0;
@@ -577,6 +591,613 @@ const App = {
 
     Storage.set('global_streak', streak);
     Storage.set('last_practice_date', today);
+  },
+
+  // ---------------------------------------------------------------------------
+  // Schnellübung — Timed Mixed Drill
+  // ---------------------------------------------------------------------------
+
+  /** Drill state */
+  _drill: {
+    active: false,
+    timer: null,
+    totalSeconds: 0,
+    remainingSeconds: 0,
+    score: 0,
+    total: 0,
+    currentExercise: null,
+    answered: false,
+    advanceTimeout: null,
+  },
+
+  /**
+   * Stop and clean up any running drill session.
+   */
+  _destroyDrill() {
+    if (this._drill.timer) clearInterval(this._drill.timer);
+    if (this._drill.advanceTimeout) clearTimeout(this._drill.advanceTimeout);
+    this._drill.active = false;
+    this._drill.timer = null;
+    this._drill.advanceTimeout = null;
+  },
+
+  /**
+   * Start a timed mixed drill session.
+   * @param {number} minutes — duration in minutes (5, 10, 15, or 25)
+   */
+  _startDrill(minutes) {
+    this._destroyDrill();
+
+    const container = document.getElementById('drill-content');
+    if (!container) return;
+
+    const totalSeconds = minutes * 60;
+    this._drill.active = true;
+    this._drill.totalSeconds = totalSeconds;
+    this._drill.remainingSeconds = totalSeconds;
+    this._drill.score = 0;
+    this._drill.total = 0;
+    this._drill.answered = false;
+
+    // Render the drill shell
+    container.innerHTML =
+      '<div class="drill-header" id="drill-header">' +
+        '<div class="drill-header__timer">' +
+          '<span class="drill-header__timer-icon" aria-hidden="true">&#9201;</span>' +
+          '<span class="drill-header__timer-value" id="drill-timer-value">' + this._formatDrillTime(totalSeconds) + '</span>' +
+        '</div>' +
+        '<div class="drill-header__score">' +
+          '<span class="drill-header__correct" id="drill-score-correct">0</span>' +
+          '<span class="drill-header__separator">/</span>' +
+          '<span class="drill-header__total" id="drill-score-total">0</span>' +
+        '</div>' +
+        '<button class="drill-header__quit" id="drill-quit">Beenden</button>' +
+      '</div>' +
+      '<div class="drill-timer-bar">' +
+        '<div class="drill-timer-bar__fill" id="drill-timer-bar" style="width: 100%"></div>' +
+      '</div>' +
+      '<div id="drill-exercise-area"></div>';
+
+    // Bind quit button
+    document.getElementById('drill-quit').addEventListener('click', () => {
+      this._endDrill();
+    });
+
+    // Start the countdown
+    this._drill.timer = setInterval(() => {
+      this._drill.remainingSeconds--;
+      this._updateDrillTimer();
+      if (this._drill.remainingSeconds <= 0) {
+        this._endDrill();
+      }
+    }, 1000);
+
+    // Show first exercise
+    this._showNextDrillExercise();
+  },
+
+  /**
+   * Format seconds as MM:SS.
+   * @param {number} seconds
+   * @returns {string}
+   */
+  _formatDrillTime(seconds) {
+    const m = Math.floor(seconds / 60);
+    const s = seconds % 60;
+    return String(m).padStart(2, '0') + ':' + String(s).padStart(2, '0');
+  },
+
+  /**
+   * Update the timer display and progress bar.
+   */
+  _updateDrillTimer() {
+    const timerVal = document.getElementById('drill-timer-value');
+    const timerBar = document.getElementById('drill-timer-bar');
+    const timerEl  = timerVal ? timerVal.parentElement : null;
+    const rem = this._drill.remainingSeconds;
+    const total = this._drill.totalSeconds;
+    const pct = Math.max(0, (rem / total) * 100);
+
+    if (timerVal) timerVal.textContent = this._formatDrillTime(Math.max(0, rem));
+    if (timerBar) timerBar.style.width = pct + '%';
+
+    // Color changes at thresholds
+    if (timerEl) {
+      timerEl.classList.remove('drill-header__timer--warning', 'drill-header__timer--danger');
+      if (rem <= 30) {
+        timerEl.classList.add('drill-header__timer--danger');
+      } else if (rem <= 60) {
+        timerEl.classList.add('drill-header__timer--warning');
+      }
+    }
+    if (timerBar) {
+      timerBar.classList.remove('drill-timer-bar__fill--warning', 'drill-timer-bar__fill--danger');
+      if (rem <= 30) {
+        timerBar.classList.add('drill-timer-bar__fill--danger');
+      } else if (rem <= 60) {
+        timerBar.classList.add('drill-timer-bar__fill--warning');
+      }
+    }
+  },
+
+  /**
+   * Generate a random exercise from all available data sources.
+   * Returns an exercise object or null if no data is available.
+   * @returns {object|null}
+   */
+  /**
+   * Get the current curriculum week (1-13) based on start date 2026-03-14.
+   * Returns { week, maxDifficulty, allowedLevels, topics }
+   */
+  _getCurriculum() {
+    const START = new Date('2026-03-14');
+    const now = new Date();
+    const week = Math.max(1, Math.min(13, Math.ceil((now - START) / (7 * 24 * 60 * 60 * 1000))));
+    let maxDiff, levels, topics;
+    if (week <= 3) {
+      maxDiff = 1; levels = ['A1', 'A2', 'B1'];
+      topics = ['prepositions_akkusativ', 'prepositions_dativ', 'adjektivdeklination', 'komparativ_superlativ'];
+    } else if (week <= 6) {
+      maxDiff = 2; levels = ['A1', 'A2', 'B1'];
+      topics = null; // all B1 topics
+    } else if (week <= 9) {
+      maxDiff = 3; levels = ['A1', 'A2', 'B1', 'B2'];
+      topics = null; // all topics including B2
+    } else {
+      maxDiff = 3; levels = ['B1', 'B2'];
+      topics = null; // B2 focus
+    }
+    return { week, maxDiff, levels, topics };
+  },
+
+  _generateDrillExercise() {
+    const nouns = this.data.nouns || [];
+    const verbs = this.data.verbs || [];
+    const grammar = this.data.grammar || [];
+    const vocabulary = this.data.vocabulary || [];
+    const curriculum = this._getCurriculum();
+
+    // Filter grammar by curriculum difficulty
+    const filteredGrammar = grammar.filter(e => {
+      const diff = e.difficulty || 1;
+      return diff <= curriculum.maxDiff;
+    });
+
+    // Filter vocabulary by level when in early/late weeks
+    const filterByLevel = (items) => {
+      if (!curriculum.levels) return items;
+      return items.filter(v => !v.level || curriculum.levels.includes(v.level));
+    };
+    const filteredNouns = filterByLevel(nouns);
+    const filteredVerbs = filterByLevel(verbs);
+    const filteredVocab = filterByLevel(vocabulary);
+
+    // 30% chance: pull from weak areas / bookmarks instead
+    const missedItems = Storage.getMissedItems ? Storage.getMissedItems() : [];
+    const bookmarks = Storage.getBookmarks ? Storage.getBookmarks() : [];
+    const reviewPool = [...missedItems, ...bookmarks];
+    if (reviewPool.length > 0 && Math.random() < 0.3) {
+      // Try to generate from a missed grammar exercise
+      const missed = missedItems.filter(m => m.module === 'grammar' && m.id);
+      if (missed.length > 0) {
+        const m = missed[Math.floor(Math.random() * missed.length)];
+        const ex = grammar.find(e => e.id === m.id);
+        if (ex && (ex.type === 'fill_blank' || ex.type === 'multiple_choice')) {
+          return {
+            type: 'grammar', typeLabel: 'Wiederholung',
+            question: ex.sentence, answer: ex.answer,
+            options: ex.options?.length ? ex.options : null,
+            detail: ex.explanation || '', also_accept: ex.also_accept || null,
+          };
+        }
+      }
+    }
+
+    // Build a weighted list of generator functions based on available data
+    const generators = [];
+    if (filteredNouns.length > 0)  generators.push({ fn: () => this._genArticleEx(filteredNouns), weight: 3 });
+    if (filteredVerbs.length > 0)  generators.push({ fn: () => this._genConjugationEx(filteredVerbs), weight: 3 });
+    if (filteredGrammar.length > 0) generators.push({ fn: () => this._genGrammarEx(filteredGrammar), weight: 3 });
+    if (filteredVocab.length > 0)  generators.push({ fn: () => this._genTranslationEx(filteredVocab), weight: 2 });
+
+    if (generators.length === 0) return null;
+
+    // Weighted random selection — try up to 5 times to get a non-null result
+    const totalWeight = generators.reduce((sum, g) => sum + g.weight, 0);
+    for (let attempt = 0; attempt < 5; attempt++) {
+      let r = Math.random() * totalWeight;
+      for (const gen of generators) {
+        r -= gen.weight;
+        if (r <= 0) {
+          const ex = gen.fn();
+          if (ex) return ex;
+          break;
+        }
+      }
+    }
+
+    // Fallback: try all generators in order
+    for (const gen of generators) {
+      const ex = gen.fn();
+      if (ex) return ex;
+    }
+    return null;
+  },
+
+  /**
+   * Generate an article quiz exercise.
+   * @param {Array} nouns
+   * @returns {object}
+   */
+  _genArticleEx(nouns) {
+    const noun = nouns[Math.floor(Math.random() * nouns.length)];
+    if (!noun.article || !noun.noun) return null;
+    return {
+      type: 'article',
+      typeLabel: 'Artikel',
+      question: 'Welcher Artikel? ___ ' + noun.noun,
+      answer: noun.article,
+      options: ['der', 'die', 'das'],
+      detail: noun.translation || '',
+    };
+  },
+
+  /**
+   * Generate a conjugation exercise.
+   * @param {Array} verbs
+   * @returns {object|null}
+   */
+  _genConjugationEx(verbs) {
+    const verb = verbs[Math.floor(Math.random() * verbs.length)];
+    if (!verb.conjugation || !verb.conjugation.präsens) return null;
+
+    const pronouns = ['ich', 'du', 'er/sie/es', 'wir', 'ihr', 'Sie'];
+    const conjKeys = ['ich', 'du', 'es', 'wir', 'ihr', 'Sie'];
+    const idx = Math.floor(Math.random() * pronouns.length);
+    const pronoun = pronouns[idx];
+    const conjKey = conjKeys[idx];
+    const form = verb.conjugation.präsens[conjKey];
+    if (!form) return null;
+
+    return {
+      type: 'conjugation',
+      typeLabel: 'Konjugation',
+      question: pronoun + ' ___ (' + verb.word + ')',
+      answer: form,
+      detail: verb.translation || '',
+    };
+  },
+
+  /**
+   * Generate a grammar exercise (fill_blank or multiple_choice).
+   * @param {Array} exercises
+   * @returns {object|null}
+   */
+  _genGrammarEx(exercises) {
+    // Filter to types that work well in the drill
+    const suitable = exercises.filter(
+      e => e.type === 'fill_blank' || e.type === 'multiple_choice'
+    );
+    if (suitable.length === 0) return null;
+    const ex = suitable[Math.floor(Math.random() * suitable.length)];
+    return {
+      type: 'grammar',
+      typeLabel: 'Grammatik',
+      question: ex.sentence,
+      answer: ex.answer,
+      options: (ex.options && ex.options.length) ? ex.options : null,
+      detail: ex.explanation || '',
+      also_accept: ex.also_accept || null,
+    };
+  },
+
+  /**
+   * Generate a translation fill-in exercise from vocabulary.
+   * @param {Array} vocabulary
+   * @returns {object|null}
+   */
+  _genTranslationEx(vocabulary) {
+    // Filter to items that have both a word and a translation
+    const items = vocabulary.filter(v => v.word && v.translation);
+    if (items.length === 0) return null;
+    const item = items[Math.floor(Math.random() * items.length)];
+
+    // Build also_accept list: for nouns, accept bare noun without article
+    const alsoAccept = [];
+    if (item.type === 'noun' && item.noun) {
+      alsoAccept.push(item.noun);
+      if (item.article) {
+        alsoAccept.push(item.article + ' ' + item.noun);
+      }
+    }
+
+    // Ask for the German word given the English translation
+    return {
+      type: 'translation',
+      typeLabel: 'Vokabel',
+      question: 'Übersetze: ' + item.translation,
+      answer: item.word,
+      also_accept: alsoAccept.length > 0 ? alsoAccept : null,
+      detail: item.sentence || '',
+    };
+  },
+
+  /**
+   * Show the next exercise in the drill area.
+   */
+  _showNextDrillExercise() {
+    if (!this._drill.active) return;
+
+    const area = document.getElementById('drill-exercise-area');
+    if (!area) return;
+
+    this._drill.answered = false;
+    const exercise = this._generateDrillExercise();
+    if (!exercise) {
+      area.innerHTML =
+        '<div class="drill-card">' +
+          '<p>Keine Übungsdaten verfügbar. Lade die Seite neu.</p>' +
+        '</div>';
+      return;
+    }
+    this._drill.currentExercise = exercise;
+
+    // Build question text with blank styling
+    const questionHtml = escapeHtml(exercise.question)
+      .replace(/___/g, '<span class="drill-card__blank">&nbsp;&nbsp;&nbsp;</span>');
+
+    let inputHtml;
+    if (exercise.options && exercise.options.length) {
+      // Multiple choice — shuffle options
+      const shuffled = [...exercise.options];
+      shuffleArray(shuffled);
+      inputHtml =
+        '<div class="drill-options">' +
+        shuffled.map(opt =>
+          '<button class="drill-option" data-value="' + escapeHtml(opt) + '">' +
+            escapeHtml(opt) +
+          '</button>'
+        ).join('') +
+        '</div>';
+    } else {
+      // Text input
+      inputHtml =
+        '<form class="drill-input-form" id="drill-input-form">' +
+          '<input type="text" class="drill-input" id="drill-input" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Antwort eingeben&hellip;">' +
+          '<button type="submit" class="drill-submit">OK</button>' +
+        '</form>';
+    }
+
+    area.innerHTML =
+      '<div class="drill-card">' +
+        '<span class="drill-card__type">' + escapeHtml(exercise.typeLabel) + '</span>' +
+        '<div class="drill-card__question">' + questionHtml + '</div>' +
+        inputHtml +
+        '<div id="drill-feedback"></div>' +
+      '</div>';
+
+    // Bind event handlers
+    if (exercise.options && exercise.options.length) {
+      area.querySelectorAll('.drill-option').forEach(btn => {
+        btn.addEventListener('click', () => {
+          if (this._drill.answered) return;
+          this._handleDrillAnswer(btn.getAttribute('data-value'), exercise);
+        });
+      });
+    } else {
+      const form = document.getElementById('drill-input-form');
+      const input = document.getElementById('drill-input');
+      if (form) {
+        form.addEventListener('submit', (e) => {
+          e.preventDefault();
+          if (this._drill.answered) return;
+          const val = input.value.trim();
+          if (!val) return;
+          this._handleDrillAnswer(val, exercise);
+        });
+      }
+      // Auto-focus the input
+      if (input) {
+        requestAnimationFrame(() => input.focus());
+      }
+    }
+  },
+
+  /**
+   * Handle a drill answer submission.
+   * @param {string} given — the user's answer
+   * @param {object} exercise — the exercise object
+   */
+  _handleDrillAnswer(given, exercise) {
+    if (this._drill.answered || !this._drill.active) return;
+    this._drill.answered = true;
+    this._drill.total++;
+
+    // Normalize for comparison
+    const normalize = s => s.toLowerCase().trim();
+    const correct = normalize(given) === normalize(exercise.answer) ||
+      (exercise.also_accept && exercise.also_accept.some(
+        alt => normalize(given) === normalize(alt)
+      ));
+
+    if (correct) this._drill.score++;
+
+    // Update score display
+    const scoreEl = document.getElementById('drill-score-correct');
+    const totalEl = document.getElementById('drill-score-total');
+    if (scoreEl) scoreEl.textContent = this._drill.score;
+    if (totalEl) totalEl.textContent = this._drill.total;
+
+    // Show feedback on options
+    const area = document.getElementById('drill-exercise-area');
+    if (exercise.options && exercise.options.length) {
+      area.querySelectorAll('.drill-option').forEach(btn => {
+        btn.disabled = true;
+        const val = btn.getAttribute('data-value');
+        if (normalize(val) === normalize(exercise.answer)) {
+          btn.classList.add('drill-option--correct');
+        } else if (normalize(val) === normalize(given) && !correct) {
+          btn.classList.add('drill-option--wrong');
+        }
+      });
+    } else {
+      // Style the text input
+      const input = document.getElementById('drill-input');
+      const submit = area.querySelector('.drill-submit');
+      if (input) {
+        input.disabled = true;
+        input.classList.add(correct ? 'drill-input--correct' : 'drill-input--wrong');
+      }
+      if (submit) submit.disabled = true;
+    }
+
+    // Render feedback
+    const feedbackEl = document.getElementById('drill-feedback');
+    if (feedbackEl) {
+      const cls = correct ? 'drill-feedback--correct' : 'drill-feedback--wrong';
+      let fbHtml = correct
+        ? '<span class="drill-feedback__answer">Richtig!</span>'
+        : '<span class="drill-feedback__answer">Falsch — richtig: ' + escapeHtml(exercise.answer) + '</span>';
+      if (exercise.detail) {
+        fbHtml += '<div class="drill-feedback__detail">' + escapeHtml(exercise.detail) + '</div>';
+      }
+      feedbackEl.innerHTML = '<div class="drill-feedback ' + cls + '">' + fbHtml + '</div>';
+    }
+
+    // Record miss for weak-area tracking
+    if (!correct) {
+      let category = 'drill';
+      if (exercise.type === 'article') category = 'articles';
+      else if (exercise.type === 'conjugation') category = 'konjugation_präsens';
+      else if (exercise.type === 'grammar') category = 'grammar';
+      else if (exercise.type === 'translation') category = 'flashcards';
+      Storage.recordMiss({
+        module: 'vocabulary',
+        category: category,
+        id: 'drill_' + exercise.answer + '_' + Date.now(),
+        question: exercise.question,
+        expected: exercise.answer,
+        given: given,
+      });
+    }
+
+    // Auto-advance after delay
+    this._drill.advanceTimeout = setTimeout(() => {
+      if (this._drill.active) {
+        this._showNextDrillExercise();
+      }
+    }, 1500);
+  },
+
+  /**
+   * End the drill and show results.
+   */
+  /**
+   * Track weekly practice minutes. Returns { minutesThisWeek, targetMinutes, sessionsThisWeek }.
+   */
+  _trackWeeklyPractice(minutesCompleted) {
+    const log = Storage.get('weekly_practice', []);
+    if (minutesCompleted > 0) {
+      log.push({ date: new Date().toISOString(), minutes: minutesCompleted });
+      Storage.set('weekly_practice', log);
+    }
+    // Count this week's minutes
+    const now = new Date();
+    const weekStart = new Date(now);
+    weekStart.setDate(now.getDate() - now.getDay()); // Sunday start
+    weekStart.setHours(0, 0, 0, 0);
+    const thisWeek = log.filter(e => new Date(e.date) >= weekStart);
+    const minutesThisWeek = thisWeek.reduce((sum, e) => sum + e.minutes, 0);
+    const sessionsThisWeek = thisWeek.length;
+    // Target: 60 min/week in early weeks, ramp to 90 min/week later
+    const curriculum = this._getCurriculum();
+    const targetMinutes = curriculum.week <= 6 ? 60 : 90;
+    return { minutesThisWeek, targetMinutes, sessionsThisWeek };
+  },
+
+  _endDrill() {
+    this._destroyDrill();
+
+    const container = document.getElementById('drill-content');
+    if (!container) return;
+
+    // Track practice time
+    const elapsed = this._drill.totalSeconds - Math.max(0, this._drill.remainingSeconds);
+    const minutesDone = Math.round(elapsed / 60);
+    const weekly = this._trackWeeklyPractice(minutesDone);
+
+    const score = this._drill.score;
+    const total = this._drill.total;
+    const pct = total > 0 ? Math.round((score / total) * 100) : 0;
+    const perMinute = elapsed > 0 ? ((total / elapsed) * 60).toFixed(1) : '0';
+
+    let verdict, verdictClass;
+    if (pct >= 90) {
+      verdict = 'Ausgezeichnet!';
+      verdictClass = 'text-success';
+    } else if (pct >= 70) {
+      verdict = 'Gut gemacht!';
+      verdictClass = 'text-success';
+    } else if (pct >= 50) {
+      verdict = 'Weiter üben!';
+      verdictClass = 'text-warning';
+    } else {
+      verdict = 'Nicht aufgeben!';
+      verdictClass = 'text-danger';
+    }
+
+    container.innerHTML =
+      '<div class="drill-results">' +
+        '<div class="drill-results__title ' + verdictClass + '">' + escapeHtml(verdict) + '</div>' +
+        '<div class="drill-results__score">' + pct + '%</div>' +
+        '<div class="drill-results__detail">' + score + ' von ' + total + ' Aufgaben richtig</div>' +
+        '<div class="drill-results__stats">' +
+          '<div class="drill-results__stat">' +
+            '<span class="drill-results__stat-value">' + total + '</span>' +
+            '<span class="drill-results__stat-label">Aufgaben</span>' +
+          '</div>' +
+          '<div class="drill-results__stat">' +
+            '<span class="drill-results__stat-value">' + score + '</span>' +
+            '<span class="drill-results__stat-label">Richtig</span>' +
+          '</div>' +
+          '<div class="drill-results__stat">' +
+            '<span class="drill-results__stat-value">' + perMinute + '</span>' +
+            '<span class="drill-results__stat-label">pro Minute</span>' +
+          '</div>' +
+        '</div>' +
+        '<div class="drill-results__weekly">' +
+          '<h3>Wochenfortschritt</h3>' +
+          '<div class="drill-results__weekly-bar">' +
+            '<div class="progress-bar"><div class="progress-bar__fill" style="width:' + Math.min(100, Math.round(weekly.minutesThisWeek / weekly.targetMinutes * 100)) + '%"></div></div>' +
+            '<span>' + weekly.minutesThisWeek + ' / ' + weekly.targetMinutes + ' Min. diese Woche' +
+            (weekly.minutesThisWeek >= weekly.targetMinutes ? ' ✓' : ' — noch ' + (weekly.targetMinutes - weekly.minutesThisWeek) + ' Min.') +
+            '</span>' +
+          '</div>' +
+          '<p class="drill-results__curriculum">Woche ' + this._getCurriculum().week + ' von 13 — ' +
+            (this._getCurriculum().week <= 3 ? 'Grundlagen' : this._getCurriculum().week <= 6 ? 'Aufbau B1' : this._getCurriculum().week <= 9 ? 'B2 Vertiefung' : 'FSP-Vorbereitung') +
+          '</p>' +
+        '</div>' +
+        '<div class="drill-results__actions">' +
+          '<a href="#drill/' + Math.round(this._drill.totalSeconds / 60) + '" class="btn btn--accent" onclick="App._restartDrillFromLink(event, ' + Math.round(this._drill.totalSeconds / 60) + ')">Nochmal</a>' +
+          '<a href="#home" class="btn btn--outline">Zur Startseite</a>' +
+        '</div>' +
+      '</div>';
+
+    // Record practice for streak tracking
+    this.recordPractice();
+  },
+
+  /**
+   * Handle clicking "Nochmal" on results — we need to force re-entry
+   * since the hash may already be #drill/N.
+   * @param {Event} e
+   * @param {number} minutes
+   */
+  _restartDrillFromLink(e, minutes) {
+    e.preventDefault();
+    // Force a re-route by toggling hash
+    window.location.hash = '#drill/' + minutes;
+    this._startDrill(minutes);
   },
 
   // ---------------------------------------------------------------------------

@@ -4786,5 +4786,530 @@
     "also_accept": [],
     "explanation": "'Sowohl...als auch' zeigt, dass beide Behandlungsmethoden gleichzeitig angewendet wurden.",
     "hint": "Beide Methoden kommen zum Einsatz -> sowohl...als auch."
+  },
+  {
+    "id": "trenn_001",
+    "topic": "trennbare_verben",
+    "subtopic": "trennbar_entlassen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Fülle die Lücke(n) mit der richtigen Verbform. Achte auf trennbare und untrennbare Verben.",
+    "sentence": "Der Arzt ___ den Patienten aus dem Krankenhaus ___.",
+    "answer": "entlässt",
+    "options": [
+      "entlässt",
+      "lässt...ent",
+      "lasst...ent",
+      "entlasst"
+    ],
+    "explanation": "'entlassen' ist UNTRENNBAR (Vorsilbe 'ent-'). Das konjugierte Verb bleibt zusammen: 'entlässt'.",
+    "hint": "Die Vorsilbe 'ent-' ist untrennbar. Das Verb bleibt als Ganzes an Position 2."
+  },
+  {
+    "id": "trenn_002",
+    "topic": "trennbare_verben",
+    "subtopic": "trennbar_aufstehen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Fülle die Lücke(n) mit der richtigen Verbform. Achte auf trennbare und untrennbare Verben.",
+    "sentence": "Der Patient ___ morgen früh um 6 Uhr ___.",
+    "answer": "steht...auf",
+    "options": [
+      "steht...auf",
+      "aufsteht",
+      "steht...an",
+      "stehlt...auf"
+    ],
+    "explanation": "'aufstehen' ist TRENNBAR (Vorsilbe 'auf-'). Im Hauptsatz steht das konjugierte Verb an Position 2, die Vorsilbe am Satzende.",
+    "hint": "Die Vorsilbe 'auf-' ist trennbar: konjugierter Stamm an Position 2, Vorsilbe am Ende."
+  },
+  {
+    "id": "trenn_003",
+    "topic": "trennbare_verben",
+    "subtopic": "trennbar_einnehmen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Fülle die Lücke(n) mit der richtigen Verbform.",
+    "sentence": "Bitte ___ Sie das Medikament dreimal täglich ___.",
+    "answer": "nehmen...ein",
+    "options": [
+      "nehmen...ein",
+      "einnehmen",
+      "nehmen...an",
+      "nehmt...ein"
+    ],
+    "explanation": "'einnehmen' ist TRENNBAR. Bei Imperativ (Sie-Form): 'Nehmen Sie ... ein.'",
+    "hint": "Trennbares Verb im Imperativ: konjugierter Stamm + Sie + Objekt + Vorsilbe."
+  },
+  {
+    "id": "trenn_004",
+    "topic": "trennbare_verben",
+    "subtopic": "trennbar_anfangen",
+    "type": "transform",
+    "difficulty": 2,
+    "instruction": "Bilde einen korrekten Hauptsatz mit dem angegebenen Verb. Achte auf die Wortstellung.",
+    "sentence": "anfangen → Die Therapie ___ nächste Woche ___.",
+    "answer": "fängt...an",
+    "options": [],
+    "explanation": "'anfangen' ist TRENNBAR. Im Hauptsatz: 'fängt' (Position 2) + 'an' (Satzende).",
+    "hint": "Trennbar: Stamm konjugiert an Position 2, Vorsilbe am Ende."
+  },
+  {
+    "id": "trenn_005",
+    "topic": "trennbare_verben",
+    "subtopic": "trennbar_aufhoeren",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Fülle die Lücke(n) mit der richtigen Verbform.",
+    "sentence": "Der Schmerz ___ nach der Einnahme des Medikaments ___.",
+    "answer": "hört...auf",
+    "options": [
+      "hört...auf",
+      "aufhört",
+      "hört...an",
+      "höhrt...auf"
+    ],
+    "explanation": "'aufhören' ist TRENNBAR. Im Hauptsatz wird die Vorsilbe 'auf' ans Satzende gestellt.",
+    "hint": "'auf-' ist eine trennbare Vorsilbe."
+  },
+  {
+    "id": "trenn_006",
+    "topic": "trennbare_verben",
+    "subtopic": "untrennbar_untersuchen",
+    "type": "multiple_choice",
+    "difficulty": 2,
+    "instruction": "Welcher Satz hat die korrekte Wortstellung?",
+    "sentence": "Der Arzt untersucht den Patienten gründlich.",
+    "answer": "Der Arzt untersucht den Patienten gründlich.",
+    "options": [
+      "Der Arzt untersucht den Patienten gründlich.",
+      "Der Arzt sucht den Patienten gründlich unter.",
+      "Der Arzt sucht unter den Patienten gründlich.",
+      "Unter sucht der Arzt den Patienten gründlich."
+    ],
+    "explanation": "'untersuchen' ist UNTRENNBAR (Vorsilbe 'unter-'). Das Verb bleibt zusammen.",
+    "hint": "'unter-' ist hier eine untrennbare Vorsilbe – das Verb wird nicht getrennt."
+  },
+  {
+    "id": "trenn_007",
+    "topic": "trennbare_verben",
+    "subtopic": "trennbar_vorstellen",
+    "type": "transform",
+    "difficulty": 3,
+    "instruction": "Bilde einen Hauptsatz mit dem reflexiven Verb. Achte auf Wortstellung und Reflexivpronomen.",
+    "sentence": "sich vorstellen → Ich ___ ___ ___, dass die Behandlung lange dauert.",
+    "answer": "stelle mir vor",
+    "options": [],
+    "explanation": "'sich vorstellen' ist TRENNBAR. Reflexivpronomen steht nach dem konjugierten Verb: 'Ich stelle mir vor, dass...'",
+    "hint": "Trennbar + reflexiv: Stamm + Reflexivpronomen + ... + Vorsilbe."
+  },
+  {
+    "id": "trenn_008",
+    "topic": "trennbare_verben",
+    "subtopic": "untrennbar_verordnen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze das Verb in der richtigen Form ein.",
+    "sentence": "Die Ärztin ___ dem Patienten ein neues Medikament. (verordnen)",
+    "answer": "verordnet",
+    "options": [
+      "verordnet",
+      "ordnet...ver",
+      "verordnete",
+      "ordnet...vor"
+    ],
+    "explanation": "'verordnen' ist UNTRENNBAR (Vorsilbe 'ver-'). Präsens, 3. Person Singular: 'verordnet'.",
+    "hint": "'ver-' ist immer untrennbar."
+  },
+  {
+    "id": "trenn_009",
+    "topic": "trennbare_verben",
+    "subtopic": "trennbar_zuhoeren",
+    "type": "multiple_choice",
+    "difficulty": 2,
+    "instruction": "Welcher Satz hat die korrekte Wortstellung?",
+    "sentence": "Hören Sie dem Arzt bitte aufmerksam zu.",
+    "answer": "Hören Sie dem Arzt bitte aufmerksam zu.",
+    "options": [
+      "Hören Sie dem Arzt bitte aufmerksam zu.",
+      "Zuhören Sie dem Arzt bitte aufmerksam.",
+      "Sie hören dem Arzt bitte aufmerksam zu.",
+      "Hören zu Sie dem Arzt bitte aufmerksam."
+    ],
+    "explanation": "'zuhören' ist TRENNBAR. Im Imperativ (Sie-Form): 'Hören Sie ... zu!'",
+    "hint": "Imperativ eines trennbaren Verbs: Stamm + Sie + ... + Vorsilbe."
+  },
+  {
+    "id": "trenn_010",
+    "topic": "trennbare_verben",
+    "subtopic": "trennbar_zurueckkommen",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Fülle die Lücke(n) mit der richtigen Verbform.",
+    "sentence": "Der Patient ___ nach der Operation langsam zu Kräften ___.",
+    "answer": "kommt...zurück",
+    "options": [
+      "kommt...zurück",
+      "zurückkommt",
+      "kommt...zuruck",
+      "kammt...zurück"
+    ],
+    "explanation": "'zurückkommen' ist TRENNBAR. Im Hauptsatz: konjugiertes Verb an Position 2, Vorsilbe am Satzende.",
+    "hint": "'zurück-' ist eine trennbare Vorsilbe."
+  },
+  {
+    "id": "trenn_011",
+    "topic": "trennbare_verben",
+    "subtopic": "untrennbar_empfehlen",
+    "type": "transform",
+    "difficulty": 2,
+    "instruction": "Setze das Verb in der richtigen Form in den Satz ein.",
+    "sentence": "empfehlen → Der Arzt ___ eine Kur an der Ostsee.",
+    "answer": "empfiehlt",
+    "options": [],
+    "explanation": "'empfehlen' ist UNTRENNBAR (Vorsilbe 'emp-'). Präsens mit Vokalwechsel e→ie: 'empfiehlt'.",
+    "hint": "'emp-' ist untrennbar. Vokalwechsel bei 'er/sie/es': e → ie."
+  },
+  {
+    "id": "trenn_012",
+    "topic": "trennbare_verben",
+    "subtopic": "trennbar_abnehmen",
+    "type": "multiple_choice",
+    "difficulty": 3,
+    "instruction": "Wähle den grammatisch korrekten Satz.",
+    "sentence": "Welcher Satz ist korrekt?",
+    "answer": "Die Schwellung nimmt nach drei Tagen deutlich ab.",
+    "options": [
+      "Die Schwellung nimmt nach drei Tagen deutlich ab.",
+      "Die Schwellung abnimmt nach drei Tagen deutlich.",
+      "Die Schwellung nimmt ab nach drei Tagen deutlich.",
+      "Ab nimmt die Schwellung nach drei Tagen deutlich."
+    ],
+    "explanation": "'abnehmen' ist TRENNBAR. Die Vorsilbe 'ab' steht im Hauptsatz am Satzende, nicht direkt nach dem Verb.",
+    "hint": "Trennbar: Die Vorsilbe gehört ans absolute Satzende."
+  },
+  {
+    "id": "trenn_013",
+    "topic": "trennbare_verben",
+    "subtopic": "nebensatz_trennbar",
+    "type": "multiple_choice",
+    "difficulty": 3,
+    "instruction": "Wähle den korrekten Nebensatz. Im Nebensatz steht das Verb am Ende — was passiert mit trennbaren Verben?",
+    "sentence": "Ich weiß, dass der Patient morgen früh ___.",
+    "answer": "aufsteht",
+    "options": [
+      "aufsteht",
+      "steht auf",
+      "steht...auf",
+      "auf steht"
+    ],
+    "explanation": "Im Nebensatz (nach 'dass') steht das konjugierte Verb am Ende. Trennbare Verben werden im Nebensatz NICHT getrennt: 'aufsteht'.",
+    "hint": "Im Nebensatz: Verb am Ende → trennbares Verb wird wieder zusammengeschrieben."
+  },
+  {
+    "id": "trenn_014",
+    "topic": "trennbare_verben",
+    "subtopic": "trennbar_sich_vornehmen",
+    "type": "fill_blank",
+    "difficulty": 3,
+    "instruction": "Fülle die Lücke(n) mit der richtigen Verbform.",
+    "sentence": "Ich ___ ___ ___, ab morgen mehr Sport zu treiben. (sich vornehmen)",
+    "answer": "nehme mir vor",
+    "options": [
+      "nehme mir vor",
+      "vornehme mir",
+      "nehme vor mir",
+      "mir vornehme"
+    ],
+    "explanation": "'sich vornehmen' ist TRENNBAR und reflexiv. Im Hauptsatz: 'nehme' (Pos. 2) + 'mir' (Reflexivpronomen) + ... + 'vor' (Satzende).",
+    "hint": "Trennbar + reflexiv (Dativ): Stamm + Reflexivpronomen + ... + Vorsilbe."
+  },
+  {
+    "id": "trenn_015",
+    "topic": "trennbare_verben",
+    "subtopic": "trennbar_vs_untrennbar_mix",
+    "type": "multiple_choice",
+    "difficulty": 3,
+    "instruction": "Welches Verb ist TRENNBAR?",
+    "sentence": "Welches dieser Verben ist trennbar?",
+    "answer": "mitnehmen",
+    "options": [
+      "mitnehmen",
+      "behandeln",
+      "beschreiben",
+      "erklären"
+    ],
+    "explanation": "'mitnehmen' ist TRENNBAR (Vorsilbe 'mit-'). Die Vorsilben 'be-', 'er-' und 'ver-' sind IMMER untrennbar.",
+    "hint": "Untrennbare Vorsilben: be-, emp-, ent-, er-, ge-, miss-, ver-, zer-. Alles andere ist meist trennbar."
+  },
+  {
+    "id": "vfp_001",
+    "topic": "verben_feste_praepositionen",
+    "subtopic": "leiden_an",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze die richtige Präposition ein.",
+    "sentence": "Der Patient leidet ___ starken Kopfschmerzen.",
+    "answer": "an",
+    "options": [
+      "an",
+      "unter",
+      "von",
+      "mit"
+    ],
+    "explanation": "'leiden an' (+Dat) – an einer Krankheit oder Beschwerden leiden. 'Kopfschmerzen' steht hier im Dativ.",
+    "hint": "Man leidet AN einer Krankheit (+ Dativ)."
+  },
+  {
+    "id": "vfp_002",
+    "topic": "verben_feste_praepositionen",
+    "subtopic": "vorbereiten_auf",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze die richtige Präposition ein.",
+    "sentence": "Ich muss mich ___ die Prüfung vorbereiten.",
+    "answer": "auf",
+    "options": [
+      "auf",
+      "für",
+      "an",
+      "über"
+    ],
+    "explanation": "'sich vorbereiten auf' (+Akk) – 'die Prüfung' ist Akkusativ.",
+    "hint": "Man bereitet sich AUF etwas vor (+ Akkusativ)."
+  },
+  {
+    "id": "vfp_003",
+    "topic": "verben_feste_praepositionen",
+    "subtopic": "abhaengen_von",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze die richtige Präposition ein.",
+    "sentence": "Die Therapie hängt ___ der Diagnose ab.",
+    "answer": "von",
+    "options": [
+      "von",
+      "an",
+      "auf",
+      "mit"
+    ],
+    "explanation": "'abhängen von' (+Dat) – 'der Diagnose' ist Dativ feminin.",
+    "hint": "Etwas hängt VON etwas ab (+ Dativ)."
+  },
+  {
+    "id": "vfp_004",
+    "topic": "verben_feste_praepositionen",
+    "subtopic": "sich_beschweren_ueber",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze die richtige Präposition ein.",
+    "sentence": "Der Patient beschwert sich ___ die langen Wartezeiten.",
+    "answer": "über",
+    "options": [
+      "über",
+      "auf",
+      "von",
+      "für"
+    ],
+    "explanation": "'sich beschweren über' (+Akk) – 'die langen Wartezeiten' ist Akkusativ Plural.",
+    "hint": "Man beschwert sich ÜBER etwas (+ Akkusativ)."
+  },
+  {
+    "id": "vfp_005",
+    "topic": "verben_feste_praepositionen",
+    "subtopic": "sich_kuemmern_um",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze die richtige Präposition ein.",
+    "sentence": "Die Krankenschwester kümmert sich ___ den Patienten auf Station 3.",
+    "answer": "um",
+    "options": [
+      "um",
+      "für",
+      "über",
+      "an"
+    ],
+    "explanation": "'sich kümmern um' (+Akk) – 'den Patienten' ist Akkusativ maskulin.",
+    "hint": "Man kümmert sich UM jemanden (+ Akkusativ)."
+  },
+  {
+    "id": "vfp_006",
+    "topic": "verben_feste_praepositionen",
+    "subtopic": "sich_freuen_auf",
+    "type": "multiple_choice",
+    "difficulty": 3,
+    "instruction": "Wähle die richtige Präposition. Achte auf den Bedeutungsunterschied.",
+    "sentence": "Ich freue mich ___ meinen Urlaub nächsten Monat.",
+    "answer": "auf",
+    "options": [
+      "auf",
+      "über",
+      "an",
+      "für"
+    ],
+    "explanation": "'sich freuen auf' (+Akk) = Vorfreude auf etwas Zukünftiges. 'sich freuen über' (+Akk) = Freude über etwas, das bereits geschehen ist.",
+    "hint": "Vorfreude auf etwas Zukünftiges: AUF. Freude über etwas Vergangenes: ÜBER."
+  },
+  {
+    "id": "vfp_007",
+    "topic": "verben_feste_praepositionen",
+    "subtopic": "sich_freuen_ueber",
+    "type": "multiple_choice",
+    "difficulty": 3,
+    "instruction": "Wähle die richtige Präposition. Achte auf den Bedeutungsunterschied.",
+    "sentence": "Die Patientin freut sich ___ die schnelle Genesung.",
+    "answer": "über",
+    "options": [
+      "über",
+      "auf",
+      "an",
+      "für"
+    ],
+    "explanation": "'sich freuen über' (+Akk) = Freude über etwas Eingetretenes. Die Genesung ist bereits passiert.",
+    "hint": "Freude über etwas, das bereits eingetreten ist: ÜBER."
+  },
+  {
+    "id": "vfp_008",
+    "topic": "verben_feste_praepositionen",
+    "subtopic": "warten_auf",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze die richtige Präposition ein.",
+    "sentence": "Wir warten ___ die Ergebnisse der Blutuntersuchung.",
+    "answer": "auf",
+    "options": [
+      "auf",
+      "für",
+      "nach",
+      "über"
+    ],
+    "explanation": "'warten auf' (+Akk) – 'die Ergebnisse' ist Akkusativ Plural.",
+    "hint": "Man wartet AUF etwas (+ Akkusativ)."
+  },
+  {
+    "id": "vfp_009",
+    "topic": "verben_feste_praepositionen",
+    "subtopic": "warnen_vor",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze die richtige Präposition ein.",
+    "sentence": "Der Arzt warnt ___ den Nebenwirkungen des Medikaments.",
+    "answer": "vor",
+    "options": [
+      "vor",
+      "von",
+      "gegen",
+      "über"
+    ],
+    "explanation": "'warnen vor' (+Dat) – 'den Nebenwirkungen' ist Dativ Plural.",
+    "hint": "Man warnt VOR etwas (+ Dativ)."
+  },
+  {
+    "id": "vfp_010",
+    "topic": "verben_feste_praepositionen",
+    "subtopic": "sich_erholen_von",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze die richtige Präposition ein.",
+    "sentence": "Der Patient erholt sich langsam ___ der Operation.",
+    "answer": "von",
+    "options": [
+      "von",
+      "nach",
+      "aus",
+      "über"
+    ],
+    "explanation": "'sich erholen von' (+Dat) – 'der Operation' ist Dativ feminin.",
+    "hint": "Man erholt sich VON etwas (+ Dativ)."
+  },
+  {
+    "id": "vfp_011",
+    "topic": "verben_feste_praepositionen",
+    "subtopic": "teilnehmen_an",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze die richtige Präposition ein.",
+    "sentence": "Möchten Sie ___ der Rehabilitationsmaßnahme teilnehmen?",
+    "answer": "an",
+    "options": [
+      "an",
+      "in",
+      "bei",
+      "mit"
+    ],
+    "explanation": "'teilnehmen an' (+Dat) – 'der Rehabilitationsmaßnahme' ist Dativ feminin.",
+    "hint": "Man nimmt AN etwas teil (+ Dativ)."
+  },
+  {
+    "id": "vfp_012",
+    "topic": "verben_feste_praepositionen",
+    "subtopic": "sich_interessieren_fuer",
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Setze die richtige Präposition ein.",
+    "sentence": "Er interessiert sich ___ alternative Heilmethoden.",
+    "answer": "für",
+    "options": [
+      "für",
+      "an",
+      "über",
+      "auf"
+    ],
+    "explanation": "'sich interessieren für' (+Akk) – 'alternative Heilmethoden' ist Akkusativ Plural.",
+    "hint": "Man interessiert sich FÜR etwas (+ Akkusativ)."
+  },
+  {
+    "id": "vfp_013",
+    "topic": "verben_feste_praepositionen",
+    "subtopic": "verzichten_auf",
+    "type": "fill_blank",
+    "difficulty": 3,
+    "instruction": "Setze die richtige Präposition ein.",
+    "sentence": "Bei Diabetes muss man ___ zuckerhaltige Getränke verzichten.",
+    "answer": "auf",
+    "options": [
+      "auf",
+      "von",
+      "an",
+      "über"
+    ],
+    "explanation": "'verzichten auf' (+Akk) – 'zuckerhaltige Getränke' ist Akkusativ Plural.",
+    "hint": "Man verzichtet AUF etwas (+ Akkusativ)."
+  },
+  {
+    "id": "vfp_014",
+    "topic": "verben_feste_praepositionen",
+    "subtopic": "sich_gewoehnen_an",
+    "type": "multiple_choice",
+    "difficulty": 3,
+    "instruction": "Wähle die richtige Präposition.",
+    "sentence": "Der Patient muss sich erst ___ die neue Prothese gewöhnen.",
+    "answer": "an",
+    "options": [
+      "an",
+      "auf",
+      "mit",
+      "für"
+    ],
+    "explanation": "'sich gewöhnen an' (+Akk) – 'die neue Prothese' ist Akkusativ feminin.",
+    "hint": "Man gewöhnt sich AN etwas (+ Akkusativ)."
+  },
+  {
+    "id": "vfp_015",
+    "topic": "verben_feste_praepositionen",
+    "subtopic": "sich_konzentrieren_auf",
+    "type": "multiple_choice",
+    "difficulty": 3,
+    "instruction": "Wähle die richtige Präposition.",
+    "sentence": "Bitte konzentrieren Sie sich ___ Ihre Atmung.",
+    "answer": "auf",
+    "options": [
+      "auf",
+      "an",
+      "über",
+      "in"
+    ],
+    "explanation": "'sich konzentrieren auf' (+Akk) – 'Ihre Atmung' ist Akkusativ feminin.",
+    "hint": "Man konzentriert sich AUF etwas (+ Akkusativ)."
   }
 ]

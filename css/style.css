@@ -2679,3 +2679,398 @@ img {
 .bookmark-item__remove:hover {
   color: var(--color-error);
 }
+
+/* =============================================================
+   Schnellübung — Timed Mixed Drill
+   ============================================================= */
+
+/* Dashboard time-picker grid */
+.drill-time-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: var(--space-md);
+  margin-top: var(--space-md);
+}
+
+.drill-time-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-lg) var(--space-md);
+  background: var(--color-card);
+  border-radius: var(--radius-lg);
+  border: 2px solid var(--color-border-light);
+  text-decoration: none;
+  color: var(--color-text);
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast), transform var(--transition-fast);
+  cursor: pointer;
+}
+
+.drill-time-card:hover {
+  border-color: var(--color-accent);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.drill-time-card__value {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  line-height: 1;
+}
+
+.drill-time-card__unit {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: var(--space-xs);
+}
+
+.drill-time-card__label {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  margin-top: var(--space-sm);
+}
+
+.dashboard__drill-desc {
+  color: var(--color-text-muted);
+  font-size: var(--font-size-md);
+}
+
+/* Drill header with timer and score */
+.drill-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-md) var(--space-lg);
+  background: var(--color-dark);
+  color: #fff;
+  border-radius: var(--radius-lg);
+  margin-bottom: var(--space-lg);
+  position: sticky;
+  top: var(--navbar-height);
+  z-index: 10;
+}
+
+.drill-header__timer {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.drill-header__timer-icon {
+  font-size: 1.2em;
+}
+
+.drill-header__timer-value {
+  min-width: 5ch;
+  text-align: center;
+}
+
+.drill-header__timer--warning {
+  color: var(--color-warning);
+}
+
+.drill-header__timer--danger {
+  color: var(--color-error);
+  animation: drill-pulse 1s ease-in-out infinite;
+}
+
+@keyframes drill-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.drill-header__score {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+}
+
+.drill-header__correct {
+  color: var(--color-success);
+}
+
+.drill-header__separator {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.drill-header__total {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.drill-header__quit {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  padding: var(--space-xs) var(--space-md);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  font-size: var(--font-size-sm);
+  transition: background var(--transition-fast);
+}
+
+.drill-header__quit:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Timer progress bar underneath header */
+.drill-timer-bar {
+  height: 4px;
+  background: var(--color-border-light);
+  border-radius: 2px;
+  margin-bottom: var(--space-lg);
+  overflow: hidden;
+}
+
+.drill-timer-bar__fill {
+  height: 100%;
+  background: var(--color-accent);
+  border-radius: 2px;
+  transition: width 1s linear;
+}
+
+.drill-timer-bar__fill--warning {
+  background: var(--color-warning);
+}
+
+.drill-timer-bar__fill--danger {
+  background: var(--color-error);
+}
+
+/* Exercise card */
+.drill-card {
+  background: var(--color-card);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  padding: var(--space-xl);
+  max-width: 640px;
+  margin: 0 auto;
+  animation: drill-card-in 0.25s ease-out;
+}
+
+@keyframes drill-card-in {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.drill-card__type {
+  display: inline-block;
+  font-size: var(--font-size-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-muted);
+  background: var(--color-bg);
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--radius-sm);
+  margin-bottom: var(--space-md);
+}
+
+.drill-card__question {
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: var(--space-lg);
+}
+
+.drill-card__blank {
+  display: inline-block;
+  border-bottom: 3px solid var(--color-accent);
+  min-width: 80px;
+  text-align: center;
+}
+
+/* Multiple-choice options */
+.drill-options {
+  display: grid;
+  gap: var(--space-sm);
+}
+
+.drill-option {
+  display: block;
+  width: 100%;
+  padding: var(--space-md);
+  background: var(--color-bg);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-md);
+  font-weight: 500;
+  cursor: pointer;
+  text-align: left;
+  transition: border-color var(--transition-fast), background var(--transition-fast);
+  font-family: var(--font-family);
+}
+
+.drill-option:hover:not(:disabled) {
+  border-color: var(--color-accent);
+  background: var(--color-accent-light);
+}
+
+.drill-option:disabled {
+  cursor: default;
+}
+
+.drill-option--correct {
+  border-color: var(--color-success) !important;
+  background: var(--color-success-light) !important;
+  color: var(--color-success-text);
+}
+
+.drill-option--wrong {
+  border-color: var(--color-error) !important;
+  background: var(--color-error-light) !important;
+  color: var(--color-error);
+}
+
+/* Text input form */
+.drill-input-form {
+  display: flex;
+  gap: var(--space-sm);
+}
+
+.drill-input {
+  flex: 1;
+  padding: var(--space-md);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-md);
+  font-family: var(--font-family);
+  transition: border-color var(--transition-fast);
+}
+
+.drill-input:focus {
+  outline: none;
+  border-color: var(--color-accent);
+}
+
+.drill-input--correct {
+  border-color: var(--color-success) !important;
+  background: var(--color-success-light);
+}
+
+.drill-input--wrong {
+  border-color: var(--color-error) !important;
+  background: var(--color-error-light);
+}
+
+.drill-submit {
+  padding: var(--space-md) var(--space-lg);
+  background: var(--color-accent);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-md);
+  font-weight: 600;
+  cursor: pointer;
+  transition: background var(--transition-fast);
+  font-family: var(--font-family);
+}
+
+.drill-submit:hover {
+  background: var(--color-accent-hover);
+}
+
+.drill-submit:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+/* Feedback area */
+.drill-feedback {
+  margin-top: var(--space-md);
+  padding: var(--space-md);
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-md);
+}
+
+.drill-feedback--correct {
+  background: var(--color-success-light);
+  border: 1px solid var(--color-success);
+  color: var(--color-success-text);
+}
+
+.drill-feedback--wrong {
+  background: var(--color-error-light);
+  border: 1px solid var(--color-error);
+  color: var(--color-error);
+}
+
+.drill-feedback__answer {
+  font-weight: 600;
+}
+
+.drill-feedback__detail {
+  margin-top: var(--space-xs);
+  font-size: var(--font-size-sm);
+  opacity: 0.85;
+}
+
+/* Results screen */
+.drill-results {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  animation: drill-card-in 0.3s ease-out;
+}
+
+.drill-results__emoji {
+  font-size: 4rem;
+  margin-bottom: var(--space-md);
+}
+
+.drill-results__title {
+  font-size: var(--font-size-xxl);
+  font-weight: 700;
+  margin-bottom: var(--space-sm);
+}
+
+.drill-results__score {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  margin: var(--space-md) 0;
+}
+
+.drill-results__detail {
+  font-size: var(--font-size-lg);
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-lg);
+}
+
+.drill-results__stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-md);
+  margin-bottom: var(--space-xl);
+}
+
+.drill-results__stat {
+  background: var(--color-bg);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+}
+
+.drill-results__stat-value {
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  display: block;
+}
+
+.drill-results__stat-label {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+}
+
+.drill-results__actions {
+  display: flex;
+  gap: var(--space-sm);
+  justify-content: center;
+  flex-wrap: wrap;
+}
