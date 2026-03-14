@@ -49,8 +49,17 @@ function _pickGermanVoice() {
   const voices = window.speechSynthesis.getVoices();
   if (!voices.length) return null;
   _voicesLoaded = true;
-  _cachedGermanVoice = voices.find(v => v.lang.startsWith('de') && v.localService) ||
-                       voices.find(v => v.lang.startsWith('de')) || null;
+  const deVoices = voices.filter(v => v.lang.startsWith('de'));
+  // Prefer enhanced/premium voices (they have "Enhanced", "Premium", or "Neural" in the name)
+  _cachedGermanVoice =
+    deVoices.find(v => /enhanced|premium|neural|compact/i.test(v.name)) ||
+    // Then prefer non-local (network) voices which are usually higher quality
+    deVoices.find(v => !v.localService) ||
+    // Fallback to any German voice
+    deVoices[0] || null;
+  if (_cachedGermanVoice) {
+    console.log('[TTS] Using voice:', _cachedGermanVoice.name, _cachedGermanVoice.lang);
+  }
   return _cachedGermanVoice;
 }
 
@@ -65,24 +74,33 @@ if ('speechSynthesis' in window) {
  * @param {string} text
  * @param {string} lang - BCP-47 language tag (default: 'de-DE')
  */
-function speak(text, lang = 'de-DE') {
+function speak(text, lang = 'de-DE', options = {}) {
   if (!('speechSynthesis' in window)) return;
 
   // Cancel any ongoing speech first
   window.speechSynthesis.cancel();
 
-  const utterance = new SpeechSynthesisUtterance(text);
-  utterance.lang = lang;
-  utterance.rate = 0.9;
-  utterance.pitch = 1;
-
-  // Use cached voice, or try to pick one now
+  const rate = options.rate || 0.85;
   const voice = _cachedGermanVoice || _pickGermanVoice();
-  if (voice) {
-    utterance.voice = voice;
-  }
 
-  window.speechSynthesis.speak(utterance);
+  // Break long text into sentences for more natural delivery
+  const sentences = text.match(/[^.!?]+[.!?]+/g) || [text];
+
+  sentences.forEach((sentence, i) => {
+    const trimmed = sentence.trim();
+    if (!trimmed) return;
+
+    const utterance = new SpeechSynthesisUtterance(trimmed);
+    utterance.lang = lang;
+    utterance.rate = rate;
+    utterance.pitch = 1.0;
+
+    if (voice) {
+      utterance.voice = voice;
+    }
+
+    window.speechSynthesis.speak(utterance);
+  });
 }
 
 // -----------------------------------------------------------------------------
