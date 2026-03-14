@@ -362,6 +362,88 @@ const Storage = {
     const bookmarks = this.getBookmarks().filter(b => !(b.module === module && b.id === id));
     this.set('bookmarks', bookmarks);
   },
+
+  // ---------------------------------------------------------------------------
+  // Spaced Repetition System (SRS) — SM-2 inspired algorithm
+  // Intervals in days: 1 → 3 → 7 → 14 → 30 → 60 → mastered
+  // Each item: { module, id, label, detail, interval, nextReview, easeFactor, reviewCount }
+  // ---------------------------------------------------------------------------
+
+  /**
+   * Get all SRS items.
+   * @returns {Array}
+   */
+  getSrsItems() {
+    return this.get('srs_items', []);
+  },
+
+  /**
+   * Called when the user gets an item WRONG — schedule review in 1 day.
+   * If the item is new to SRS, it is added; if existing, its interval resets.
+   * @param {object} item - { module, id, label, detail }
+   */
+  srsRecordMiss(item) {
+    const items = this.getSrsItems();
+    const existing = items.find(i => i.module === item.module && i.id === item.id);
+    if (existing) {
+      existing.interval = 1; // reset to 1 day
+      existing.nextReview = Date.now() + (1 * 24 * 60 * 60 * 1000);
+      existing.easeFactor = Math.max(1.3, existing.easeFactor - 0.2);
+    } else {
+      items.push({
+        ...item,
+        interval: 1,
+        nextReview: Date.now() + (1 * 24 * 60 * 60 * 1000),
+        easeFactor: 2.5,
+        reviewCount: 0,
+      });
+    }
+    this.set('srs_items', items);
+  },
+
+  /**
+   * Called when the user gets an item RIGHT during review — increase interval.
+   * If the interval exceeds 60 days, the item is considered mastered and removed.
+   * @param {string} module
+   * @param {string} id
+   */
+  srsRecordCorrect(module, id) {
+    const items = this.getSrsItems();
+    const item = items.find(i => i.module === module && i.id === id);
+    if (!item) return;
+    item.reviewCount++;
+    item.interval = Math.round(item.interval * item.easeFactor);
+    item.easeFactor = Math.min(3.0, item.easeFactor + 0.1);
+    item.nextReview = Date.now() + (item.interval * 24 * 60 * 60 * 1000);
+    // Remove from SRS if interval exceeds 60 days (mastered)
+    if (item.interval > 60) {
+      const idx = items.indexOf(item);
+      items.splice(idx, 1);
+    }
+    this.set('srs_items', items);
+  },
+
+  /**
+   * Get items due for review (nextReview <= now).
+   * @returns {Array}
+   */
+  getDueItems() {
+    return this.getSrsItems().filter(i => i.nextReview <= Date.now());
+  },
+
+  /**
+   * Get summary statistics for the SRS queue.
+   * @returns {{total: number, due: number, mastered: number, learning: number}}
+   */
+  getSrsStats() {
+    const items = this.getSrsItems();
+    return {
+      total: items.length,
+      due: items.filter(i => i.nextReview <= Date.now()).length,
+      mastered: items.filter(i => i.interval > 30).length,
+      learning: items.filter(i => i.interval <= 7).length,
+    };
+  },
 };
 
 // -----------------------------------------------------------------------------

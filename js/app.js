@@ -394,6 +394,57 @@ const App = {
 
     // Render weak areas section
     this._renderWeakAreas();
+
+    // Render exam countdown
+    this._renderCountdown();
+  },
+
+  /**
+   * Render the exam countdown card on the dashboard, showing days left,
+   * curriculum phase, progress bar, and weekly practice stats.
+   */
+  _renderCountdown() {
+    const el = document.getElementById('dashboard-countdown');
+    if (!el) return;
+
+    const examDate = new Date('2026-06-14');
+    const now = new Date();
+    const diffMs = examDate - now;
+    const daysLeft = Math.max(0, Math.ceil(diffMs / (24 * 60 * 60 * 1000)));
+    const weeksLeft = Math.floor(daysLeft / 7);
+    const totalDays = Math.ceil((examDate - new Date('2026-03-14')) / (24 * 60 * 60 * 1000));
+    const daysPassed = totalDays - daysLeft;
+    const progressPct = Math.min(100, Math.round((daysPassed / totalDays) * 100));
+
+    const curriculum = this._getCurriculum();
+    const phaseNames = ['Grundlagen', 'Grundlagen', 'Grundlagen', 'Aufbau B1', 'Aufbau B1', 'Aufbau B1', 'B2 Vertiefung', 'B2 Vertiefung', 'B2 Vertiefung', 'FSP-Vorbereitung', 'FSP-Vorbereitung', 'FSP-Vorbereitung', 'FSP-Vorbereitung'];
+    const phase = phaseNames[curriculum.week - 1] || 'FSP-Vorbereitung';
+
+    // Get weekly practice stats
+    const weekly = this._trackWeeklyPractice(0); // 0 = don't add, just read
+
+    el.innerHTML =
+      '<div class="countdown-card">' +
+        '<div class="countdown-card__days">' +
+          '<span class="countdown-card__number">' + daysLeft + '</span>' +
+          '<span class="countdown-card__label">Tage bis zur Prüfung</span>' +
+        '</div>' +
+        '<div class="countdown-card__details">' +
+          '<div class="countdown-card__phase">' +
+            '<span class="countdown-card__phase-label">Phase:</span> ' +
+            '<strong>' + phase + '</strong> (Woche ' + curriculum.week + '/13)' +
+          '</div>' +
+          '<div class="progress-bar">' +
+            '<div class="progress-bar__fill" style="width:' + progressPct + '%"></div>' +
+          '</div>' +
+          '<div class="countdown-card__weekly">' +
+            weekly.minutesThisWeek + '/' + weekly.targetMinutes + ' Min. diese Woche' +
+            (weekly.minutesThisWeek >= weekly.targetMinutes
+              ? ' <span class="text-success">\u2713 Ziel erreicht!</span>'
+              : ' — noch ' + (weekly.targetMinutes - weekly.minutesThisWeek) + ' Min.') +
+          '</div>' +
+        '</div>' +
+      '</div>';
   },
 
   /**
@@ -772,6 +823,14 @@ const App = {
     const filteredVerbs = filterByLevel(verbs);
     const filteredVocab = filterByLevel(vocabulary);
 
+    // SRS priority: if there are due items, serve one (50% of exercises)
+    const dueItems = Storage.getDueItems ? Storage.getDueItems() : [];
+    if (dueItems.length > 0 && Math.random() < 0.5) {
+      const srsItem = dueItems[Math.floor(Math.random() * dueItems.length)];
+      const srsExercise = this._generateSrsExercise(srsItem, grammar, nouns, verbs, vocabulary);
+      if (srsExercise) return srsExercise;
+    }
+
     // 30% chance: pull from weak areas / bookmarks instead
     const missedItems = Storage.getMissedItems ? Storage.getMissedItems() : [];
     const bookmarks = Storage.getBookmarks ? Storage.getBookmarks() : [];
@@ -923,6 +982,96 @@ const App = {
   },
 
   /**
+   * Generate an exercise from an SRS due item by matching it back to source data.
+   * Returns an exercise object or null if the item can't be resolved.
+   * @param {object} srsItem - { module, id, label, detail }
+   * @param {Array} grammar
+   * @param {Array} nouns
+   * @param {Array} verbs
+   * @param {Array} vocabulary
+   * @returns {object|null}
+   */
+  _generateSrsExercise(srsItem, grammar, nouns, verbs, vocabulary) {
+    const mod = srsItem.module;
+    const id = srsItem.id;
+
+    if (mod === 'grammar') {
+      const ex = grammar.find(e => e.id === id);
+      if (ex && (ex.type === 'fill_blank' || ex.type === 'multiple_choice')) {
+        return {
+          type: 'grammar', typeLabel: 'SRS-Wiederholung',
+          question: ex.sentence, answer: ex.answer,
+          options: ex.options?.length ? ex.options : null,
+          detail: ex.explanation || '', also_accept: ex.also_accept || null,
+          _srs: { module: mod, id: id },
+        };
+      }
+    }
+
+    if (mod === 'article' || mod === 'vocabulary') {
+      // Try to find a noun by id (word)
+      const noun = nouns.find(n => n.noun === id || n.word === id);
+      if (noun && noun.article && noun.noun) {
+        return {
+          type: 'article', typeLabel: 'SRS-Wiederholung',
+          question: 'Welcher Artikel? ___ ' + noun.noun,
+          answer: noun.article,
+          options: ['der', 'die', 'das'],
+          detail: noun.translation || '',
+          _srs: { module: mod, id: id },
+        };
+      }
+    }
+
+    if (mod === 'conjugation') {
+      const verb = verbs.find(v => v.word === id);
+      if (verb && verb.conjugation && verb.conjugation.präsens) {
+        const pronouns = ['ich', 'du', 'er/sie/es', 'wir', 'ihr', 'Sie'];
+        const conjKeys = ['ich', 'du', 'es', 'wir', 'ihr', 'Sie'];
+        const idx = Math.floor(Math.random() * pronouns.length);
+        const form = verb.conjugation.präsens[conjKeys[idx]];
+        if (form) {
+          return {
+            type: 'conjugation', typeLabel: 'SRS-Wiederholung',
+            question: pronouns[idx] + ' ___ (' + verb.word + ')',
+            answer: form,
+            detail: verb.translation || '',
+            _srs: { module: mod, id: id },
+          };
+        }
+      }
+    }
+
+    if (mod === 'translation') {
+      const item = vocabulary.find(v => v.word === id) ||
+                   nouns.find(n => n.word === id) ||
+                   verbs.find(v => v.word === id);
+      if (item && item.word && item.translation) {
+        return {
+          type: 'translation', typeLabel: 'SRS-Wiederholung',
+          question: 'Übersetze: ' + item.translation,
+          answer: item.word,
+          detail: item.sentence || '',
+          _srs: { module: mod, id: id },
+        };
+      }
+    }
+
+    // Fallback: present the SRS item as a simple recall question using label/detail
+    if (srsItem.label && srsItem.detail) {
+      return {
+        type: 'srs_recall', typeLabel: 'SRS-Wiederholung',
+        question: srsItem.label,
+        answer: srsItem.detail,
+        detail: '',
+        _srs: { module: mod, id: id },
+      };
+    }
+
+    return null;
+  },
+
+  /**
    * Show the next exercise in the drill area.
    */
   _showNextDrillExercise() {
@@ -1064,13 +1213,35 @@ const App = {
       feedbackEl.innerHTML = '<div class="drill-feedback ' + cls + '">' + fbHtml + '</div>';
     }
 
-    // Record miss for weak-area tracking
+    // Record miss for weak-area tracking + SRS scheduling
     if (!correct) {
       let category = 'drill';
-      if (exercise.type === 'article') category = 'articles';
-      else if (exercise.type === 'conjugation') category = 'konjugation_präsens';
-      else if (exercise.type === 'grammar') category = 'grammar';
-      else if (exercise.type === 'translation') category = 'flashcards';
+      let srsModule = exercise.type; // 'article', 'conjugation', 'grammar', 'translation'
+      let srsId = exercise.answer;
+
+      if (exercise.type === 'article') {
+        category = 'articles';
+        // Extract the noun from the question for a stable SRS id
+        const nounMatch = exercise.question.match(/___ (.+)/);
+        srsId = nounMatch ? nounMatch[1] : exercise.answer;
+        srsModule = 'article';
+      } else if (exercise.type === 'conjugation') {
+        category = 'konjugation_präsens';
+        // Extract the infinitive from the question for a stable SRS id
+        const verbMatch = exercise.question.match(/\((.+)\)/);
+        srsId = verbMatch ? verbMatch[1] : exercise.answer;
+        srsModule = 'conjugation';
+      } else if (exercise.type === 'grammar') {
+        category = 'grammar';
+        srsModule = 'grammar';
+        // Use the exercise id if available (from _srs or exercise itself)
+        srsId = (exercise._srs && exercise._srs.id) || exercise.answer;
+      } else if (exercise.type === 'translation') {
+        category = 'flashcards';
+        srsModule = 'translation';
+        srsId = exercise.answer;
+      }
+
       Storage.recordMiss({
         module: 'vocabulary',
         category: category,
@@ -1079,6 +1250,19 @@ const App = {
         expected: exercise.answer,
         given: given,
       });
+
+      // Add to SRS queue (or reset interval if already tracked)
+      Storage.srsRecordMiss({
+        module: srsModule,
+        id: srsId,
+        label: exercise.question,
+        detail: exercise.answer,
+      });
+    } else {
+      // Correct answer — if this was an SRS review, record success
+      if (exercise._srs) {
+        Storage.srsRecordCorrect(exercise._srs.module, exercise._srs.id);
+      }
     }
 
     // Auto-advance after delay

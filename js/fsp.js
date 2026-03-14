@@ -48,6 +48,12 @@ const FspModule = (() => {
   let simScenario = null;
   let simResults = {};
 
+  // Voice recording state
+  let _mediaRecorder = null;
+  let _audioChunks = [];
+  let _recordings = []; // { partKey, blob, url, timestamp }
+  let _isRecording = false;
+
   // ---------------------------------------------------------------------------
   // Initialization & lifecycle
   // ---------------------------------------------------------------------------
@@ -80,6 +86,9 @@ const FspModule = (() => {
 
   function destroy() {
     _stopTimer();
+    _stopRecording();
+    _recordings.forEach(r => URL.revokeObjectURL(r.url));
+    _recordings = [];
     if (_toolbarHandler) {
       document.removeEventListener('click', _toolbarHandler);
       _toolbarHandler = null;
@@ -241,6 +250,8 @@ const FspModule = (() => {
               <h3>Anamnese-Zusammenfassung</h3>
               <textarea class="textarea fsp-textarea" id="fsp-patient-notes" rows="8" placeholder="Fassen Sie hier Ihre Anamnese zusammen..."></textarea>
             </div>
+
+            <div id="fsp-recording-controls"></div>
           </div>
 
           <div class="fsp-column fsp-column--side">
@@ -273,6 +284,7 @@ const FspModule = (() => {
     });
 
     _startTimer();
+    _renderRecordingControls();
   }
 
   function _collectPatientResults() {
@@ -370,6 +382,8 @@ const FspModule = (() => {
               <h3>Notizen zur Fallvorstellung</h3>
               <textarea class="textarea fsp-textarea" id="fsp-arzt-notes" rows="8" placeholder="Skizzieren Sie hier Ihre Fallvorstellung..."></textarea>
             </div>
+
+            <div id="fsp-recording-controls"></div>
           </div>
 
           <div class="fsp-column fsp-column--side">
@@ -395,6 +409,7 @@ const FspModule = (() => {
       </div>`;
 
     _startTimer();
+    _renderRecordingControls();
   }
 
   function _collectArztResults() {
@@ -1011,6 +1026,91 @@ const FspModule = (() => {
     } catch {
       return isoString;
     }
+  }
+
+  // ---------------------------------------------------------------------------
+  // Voice Recording
+  // ---------------------------------------------------------------------------
+
+  function _getCurrentPartKey() {
+    if (simActive && simPartIndex >= 0 && simPartIndex < PARTS.length) {
+      return PARTS[simPartIndex].key;
+    }
+    const hash = (window.location.hash || '').replace(/^#\/?/, '');
+    const segments = hash.split('/').filter(Boolean);
+    return segments[1] || '';
+  }
+
+  function _startRecording() {
+    if (!navigator.mediaDevices) {
+      showToast('Mikrofon nicht verfügbar', 'warning');
+      return;
+    }
+    navigator.mediaDevices.getUserMedia({ audio: true })
+      .then(stream => {
+        _mediaRecorder = new MediaRecorder(stream);
+        _audioChunks = [];
+        _mediaRecorder.ondataavailable = e => _audioChunks.push(e.data);
+        _mediaRecorder.onstop = () => {
+          const blob = new Blob(_audioChunks, { type: 'audio/webm' });
+          const url = URL.createObjectURL(blob);
+          const partKey = _getCurrentPartKey();
+          _recordings.push({ partKey, blob, url, timestamp: Date.now() });
+          _renderRecordingControls();
+          // Stop all tracks to release microphone
+          stream.getTracks().forEach(t => t.stop());
+        };
+        _mediaRecorder.start();
+        _isRecording = true;
+        _renderRecordingControls();
+      })
+      .catch(err => {
+        console.warn('Microphone error:', err);
+        showToast('Mikrofon-Zugriff verweigert', 'error');
+      });
+  }
+
+  function _stopRecording() {
+    if (_mediaRecorder && _mediaRecorder.state === 'recording') {
+      _mediaRecorder.stop();
+      _isRecording = false;
+    }
+  }
+
+  function _renderRecordingControls() {
+    const controls = document.getElementById('fsp-recording-controls');
+    if (!controls) return;
+
+    const currentPartKey = _getCurrentPartKey();
+    const partRecordings = _recordings.filter(r => r.partKey === currentPartKey);
+
+    controls.innerHTML =
+      '<div class="fsp-recording">' +
+        (_isRecording
+          ? '<button class="btn btn--danger fsp-recording__btn" id="fsp-stop-rec">' +
+              '&#9209; Aufnahme stoppen</button>' +
+            '<span class="fsp-recording__indicator">' +
+              '&#9679; Aufnahme läuft\u2026</span>'
+          : '<button class="btn btn--accent fsp-recording__btn" id="fsp-start-rec">' +
+              '&#127908; Aufnahme starten</button>') +
+        (partRecordings.length > 0
+          ? '<div class="fsp-recording__list">' +
+            '<h4>Aufnahmen</h4>' +
+            partRecordings.map((r, i) =>
+              '<div class="fsp-recording__item">' +
+                '<span>Aufnahme ' + (i + 1) + '</span>' +
+                '<audio controls src="' + r.url + '"></audio>' +
+              '</div>'
+            ).join('') +
+            '</div>'
+          : '') +
+      '</div>';
+
+    // Bind handlers
+    const startBtn = document.getElementById('fsp-start-rec');
+    const stopBtn = document.getElementById('fsp-stop-rec');
+    if (startBtn) startBtn.addEventListener('click', _startRecording);
+    if (stopBtn) stopBtn.addEventListener('click', _stopRecording);
   }
 
   // ---------------------------------------------------------------------------
