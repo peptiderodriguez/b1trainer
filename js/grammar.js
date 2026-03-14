@@ -751,7 +751,8 @@ const GrammarModule = {
         options: options,
         explanation: this._buildConjugationTable(verb),
         hint: `Infinitiv: ${verb.word}`,
-        _verb: verb, // internal reference for showing table
+        _verb: verb,
+        _translation: verb.translation || '',
       });
 
       // Also add a multiple-choice variant
@@ -767,6 +768,7 @@ const GrammarModule = {
           options: options.slice(0, 4),
           explanation: this._buildConjugationTable(verb),
           hint: `Infinitiv: ${verb.word}`,
+          _translation: verb.translation || '',
           _verb: verb,
         });
       }
@@ -875,6 +877,7 @@ const GrammarModule = {
         options: [],
         explanation: `Präsens: ${pronounDisplay} ${correctForm}.<br>${this._buildConjugationTable(verb)}`,
         hint: `Konjugiere "${verb.word}" für "${pronounDisplay}".`,
+        _translation: verb.translation || '',
       });
     });
 
@@ -964,6 +967,7 @@ const GrammarModule = {
         options: options.slice(0, 4),
         explanation: `Präteritum: ${pronounDisplay} ${correctForm}.`,
         hint: `Wie heißt die Vergangenheitsform von "${verb.word}"?`,
+        _translation: verb.translation || '',
       });
     });
 
@@ -1475,8 +1479,15 @@ const GrammarModule = {
       </div>
     `;
 
-    if (exercise.hint) {
-      html += `<div class="grammar-hint"><button class="btn btn--outline grammar-hint-btn">Tipp anzeigen</button></div>`;
+    if (exercise.hint || exercise._translation) {
+      html += `<div class="grammar-hint">`;
+      if (exercise.hint) {
+        html += `<button class="btn btn--outline grammar-hint-btn">Tipp anzeigen</button>`;
+      }
+      if (exercise._translation) {
+        html += `<button class="btn btn--outline grammar-translation-btn">Bedeutung</button>`;
+      }
+      html += `</div>`;
     }
 
     body.innerHTML = html;
@@ -1516,6 +1527,14 @@ const GrammarModule = {
         hintBtn.textContent = exercise.hint;
         hintBtn.disabled = true;
         hintBtn.classList.add('grammar-hint--revealed');
+      });
+    }
+    const transBtn = body.querySelector('.grammar-translation-btn');
+    if (transBtn) {
+      transBtn.addEventListener('click', () => {
+        transBtn.textContent = exercise._translation;
+        transBtn.disabled = true;
+        transBtn.classList.add('grammar-hint--revealed');
       });
     }
 
@@ -1621,8 +1640,15 @@ const GrammarModule = {
       </div>
     `;
 
-    if (exercise.hint) {
-      html += `<div class="grammar-hint"><button class="btn btn--outline grammar-hint-btn">Tipp anzeigen</button></div>`;
+    if (exercise.hint || exercise._translation) {
+      html += `<div class="grammar-hint">`;
+      if (exercise.hint) {
+        html += `<button class="btn btn--outline grammar-hint-btn">Tipp anzeigen</button>`;
+      }
+      if (exercise._translation) {
+        html += `<button class="btn btn--outline grammar-translation-btn">Bedeutung</button>`;
+      }
+      html += `</div>`;
     }
 
     body.innerHTML = html;
@@ -1657,6 +1683,14 @@ const GrammarModule = {
         hintBtn.textContent = exercise.hint;
         hintBtn.disabled = true;
         hintBtn.classList.add('grammar-hint--revealed');
+      });
+    }
+    const transBtn = body.querySelector('.grammar-translation-btn');
+    if (transBtn) {
+      transBtn.addEventListener('click', () => {
+        transBtn.textContent = exercise._translation;
+        transBtn.disabled = true;
+        transBtn.classList.add('grammar-hint--revealed');
       });
     }
 
