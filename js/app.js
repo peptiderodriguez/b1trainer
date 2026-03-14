@@ -1103,7 +1103,7 @@ const App = {
       inputHtml =
         '<div class="drill-options">' +
         shuffled.map(opt =>
-          '<button class="drill-option" data-value="' + escapeHtml(opt) + '">' +
+          '<button class="drill-option" data-value="' + escapeHtml(opt) + '" disabled>' +
             escapeHtml(opt) +
           '</button>'
         ).join('') +
@@ -1125,8 +1125,15 @@ const App = {
         '<div id="drill-feedback"></div>' +
       '</div>';
 
-    // Enable input after short delay to prevent accidental taps from previous question
-    setTimeout(() => { this._drill.answered = false; }, 300);
+    // Enable buttons after delay to prevent ghost taps from previous question
+    setTimeout(() => {
+      this._drill.answered = false;
+      area.querySelectorAll('.drill-option').forEach(btn => {
+        btn.disabled = false;
+      });
+      const input = document.getElementById('drill-input');
+      if (input) input.focus();
+    }, 400);
 
     // Bind event handlers
     if (exercise.options && exercise.options.length) {
