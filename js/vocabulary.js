@@ -18,6 +18,8 @@ const VocabularyModule = (() => {
   let _flipped = false;       // flashcard flip state
   let _answered = false;      // whether current question has been answered
   let _focusWeak = null;      // null = not yet chosen, true/false = user preference
+  let _answers = [];           // fill-in & article answer history for back-navigation
+  let _fcAnswers = [];         // flashcard answer history for back-navigation
   let _articleStats = { der: { correct: 0, total: 0 },
                         die: { correct: 0, total: 0 },
                         das: { correct: 0, total: 0 } };
@@ -237,6 +239,46 @@ const VocabularyModule = (() => {
     `;
   }
 
+  // ---------------------------------------------------------------------------
+  // Bookmark helper
+  // ---------------------------------------------------------------------------
+
+  /**
+   * Build the HTML for a bookmark toggle button.
+   * @param {object} card - the current word/card object
+   * @returns {string} HTML string
+   */
+  function _bookmarkBtnHtml(card) {
+    const wordId = card.word || card.noun || '';
+    const isMarked = Storage.isBookmarked('vocabulary', wordId);
+    return `<button class="bookmark-btn${isMarked ? ' bookmark-btn--active' : ''}"
+                    data-bookmark-word="${escapeHtml(wordId)}"
+                    aria-label="Lesezeichen setzen"
+                    title="Lesezeichen">${isMarked ? '\u2605' : '\u2606'}</button>`;
+  }
+
+  /**
+   * Attach click handler to the bookmark button currently in the DOM.
+   * @param {object} card - the current word/card object
+   */
+  function _attachBookmarkHandler(card) {
+    const btn = _container.querySelector('[data-bookmark-word]');
+    if (!btn) return;
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const wordId = card.word || card.noun || '';
+      const added = Storage.toggleBookmark({
+        module: 'vocabulary',
+        id: wordId,
+        label: wordId,
+        detail: card.translation || '',
+      });
+      btn.textContent = added ? '\u2605' : '\u2606';
+      btn.classList.toggle('bookmark-btn--active', added);
+      showToast(added ? 'Lesezeichen gesetzt' : 'Lesezeichen entfernt', added ? 'success' : 'info', 1500);
+    });
+  }
+
   // =========================================================================
   //  MODE 1 — Flashcards
   // =========================================================================
@@ -303,8 +345,11 @@ const VocabularyModule = (() => {
     if (!_container) return;
 
     const card = _cards[_index];
-    _flipped = false;
-    _answered = false;
+    const prevAnswer = _fcAnswers[_index]; // check if already answered (back-navigation)
+    const isReview = !!prevAnswer;
+
+    _flipped = isReview;          // show both sides in review mode
+    _answered = isReview;
 
     const progressPct = Math.round(((_index) / _total) * 100);
     const isNoun = card.type === 'noun';
@@ -358,19 +403,29 @@ const VocabularyModule = (() => {
       ? card.examples[Math.floor(Math.random() * card.examples.length)]
       : card.sentence || '';
 
+    // Review-mode label
+    const reviewBanner = isReview
+      ? `<p class="flashcard__review-label" style="text-align:center;color:var(--color-text-muted);font-size:var(--font-size-sm);margin-bottom:var(--space-xs);">
+           ${prevAnswer.knew ? 'Gewusst' : 'Nicht gewusst'} — Rückblick
+         </p>`
+      : '';
+
     _container.innerHTML = `
       <div class="flashcard-round">
         <!-- Progress -->
         <div class="flashcard-progress">
           <span class="flashcard-progress__text">Karte ${_index + 1} von ${_total}</span>
+          ${_bookmarkBtnHtml(card)}
           <span class="flashcard-progress__score">${_score} richtig</span>
         </div>
         <div class="progress-bar progress-bar--small">
           <div class="progress-bar__fill" style="width: ${progressPct}%"></div>
         </div>
 
+        ${reviewBanner}
+
         <!-- Card -->
-        <div class="flashcard" id="flashcard" tabindex="0" role="button"
+        <div class="flashcard${isReview ? ' flashcard--flipped' : ''}" id="flashcard" tabindex="0" role="button"
              aria-label="Karte umdrehen">
           <div class="flashcard__inner">
             <!-- Front -->
@@ -396,19 +451,38 @@ const VocabularyModule = (() => {
           </div>
         </div>
 
-        <!-- Answer buttons (hidden until flipped) -->
-        <div class="flashcard-actions" id="flashcard-actions" hidden>
-          <button class="btn btn--success" id="fc-knew"
-                  title="Ich wusste die Antwort">Gewusst</button>
-          <button class="btn btn--danger" id="fc-didnt"
-                  title="Ich wusste es nicht">Nicht gewusst</button>
+        <!-- Answer buttons (hidden until flipped; hidden entirely in review mode) -->
+        <div class="flashcard-actions" id="flashcard-actions" ${isReview ? '' : 'hidden'}>
+          ${isReview ? '' : `
+            <button class="btn btn--success" id="fc-knew"
+                    title="Ich wusste die Antwort">Gewusst</button>
+            <button class="btn btn--danger" id="fc-didnt"
+                    title="Ich wusste es nicht">Nicht gewusst</button>
+          `}
+        </div>
+
+        <!-- Navigation (always visible when relevant) -->
+        <div class="exercise-nav-btns" style="margin-top:var(--space-sm);justify-content:center;width:100%;">
+          ${_index > 0
+            ? '<button class="btn btn--outline" id="fc-back">Zur\u00FCck</button>'
+            : ''}
+          ${isReview
+            ? `<button class="btn btn--accent" id="fc-forward">
+                 ${_index < _total - 1 ? 'Weiter' : 'Zum Ergebnis'}
+               </button>`
+            : ''}
         </div>
       </div>
     `;
 
     // — Event listeners
     const flashcardEl = document.getElementById('flashcard');
-    flashcardEl.addEventListener('click', _flipCard);
+    if (!isReview) {
+      flashcardEl.addEventListener('click', _flipCard);
+    }
+
+    // Bookmark
+    _attachBookmarkHandler(card);
 
     // Speak buttons
     _container.querySelector('[data-speak-word]')
@@ -422,9 +496,27 @@ const VocabularyModule = (() => {
         speak(example);
       });
 
-    // Answer buttons
-    document.getElementById('fc-knew')?.addEventListener('click', () => _flashcardAnswer(true));
-    document.getElementById('fc-didnt')?.addEventListener('click', () => _flashcardAnswer(false));
+    // Answer buttons (only in non-review mode)
+    if (!isReview) {
+      document.getElementById('fc-knew')?.addEventListener('click', () => _flashcardAnswer(true));
+      document.getElementById('fc-didnt')?.addEventListener('click', () => _flashcardAnswer(false));
+    }
+
+    // Back button
+    document.getElementById('fc-back')?.addEventListener('click', () => {
+      _index--;
+      _renderFlashcard();
+    });
+
+    // Forward button (review mode only — step through already-answered cards)
+    document.getElementById('fc-forward')?.addEventListener('click', () => {
+      _index++;
+      if (_index >= _total) {
+        _renderFlashcardSummary();
+      } else {
+        _renderFlashcard();
+      }
+    });
   }
 
   function _flipCard() {
@@ -454,6 +546,9 @@ const VocabularyModule = (() => {
         type: card.type || 'unknown',
       });
     }
+
+    // Store answer for back-navigation
+    _fcAnswers[_index] = { answered: true, knew };
 
     _index++;
 
@@ -623,7 +718,9 @@ const VocabularyModule = (() => {
     }
 
     const card = _cards[_index];
-    _answered = false;
+    const prevAnswer = _answers[_index]; // check if already answered (back-navigation)
+    const isReview = !!prevAnswer;
+    _answered = isReview;
 
     // Determine the blank word: for nouns use the noun (without article),
     // for others use the base word.
@@ -635,20 +732,52 @@ const VocabularyModule = (() => {
       : (card.sentence ? [card.sentence] : []);
     let sentence = sentences.find(s => s.includes(blankWord)) || sentences[0] || '';
 
-    // Create the blanked sentence
-    const blanked = sentence.replace(
-      new RegExp(_escapeRegex(blankWord), 'i'),
-      '<span class="fillin__blank">___</span>'
-    );
+    // Create the blanked sentence — in review mode show the correct answer inline
+    let blanked;
+    if (isReview) {
+      const revealClass = prevAnswer.correct ? 'fillin__blank--correct' : 'fillin__blank--wrong';
+      blanked = sentence.replace(
+        new RegExp(_escapeRegex(blankWord), 'i'),
+        `<span class="fillin__blank ${revealClass}"><strong>${escapeHtml(blankWord)}</strong></span>`
+      );
+    } else {
+      blanked = sentence.replace(
+        new RegExp(_escapeRegex(blankWord), 'i'),
+        '<span class="fillin__blank">___</span>'
+      );
+    }
 
     // Hint: translation
     const hint = card.translation || '';
+
+    // Review-mode feedback (pre-built)
+    let reviewFeedback = '';
+    if (isReview) {
+      if (prevAnswer.correct) {
+        reviewFeedback = `
+          <div class="fillin-feedback--correct">
+            <p class="fillin-feedback__verdict">Ausgezeichnet! Das ist richtig.</p>
+          </div>`;
+      } else {
+        reviewFeedback = `
+          <div class="fillin-feedback--wrong">
+            <p class="fillin-feedback__verdict">Das war leider nicht ganz richtig.</p>
+            <p class="fillin-feedback__correct-answer">
+              Die richtige Antwort lautet: <strong>${escapeHtml(blankWord)}</strong>
+            </p>
+            <p style="color:var(--color-text-muted);font-size:var(--font-size-sm);">
+              Deine Antwort: ${escapeHtml(prevAnswer.given || '')}
+            </p>
+          </div>`;
+      }
+    }
 
     _container.innerHTML = `
       <div class="fillin-round">
         <!-- Progress -->
         <div class="fillin-progress">
           <span class="fillin-progress__text">Frage ${_index + 1} von ${_total}</span>
+          ${_bookmarkBtnHtml(card)}
           <span class="fillin-progress__score">${_score} richtig</span>
         </div>
         <div class="progress-bar progress-bar--small">
@@ -663,41 +792,63 @@ const VocabularyModule = (() => {
           </p>
         </div>
 
-        <!-- Input -->
-        <div class="fillin-input">
-          <input type="text" class="input fillin-input__field" id="fillin-answer"
-                 placeholder="Fehlende Vokabel eingeben..." autocomplete="off"
-                 autofocus aria-label="Antwort eingeben">
-          <button class="btn btn--accent" id="fillin-check">Überprüfen</button>
+        <!-- Input (hidden in review mode) -->
+        ${isReview ? '' : `
+          <div class="fillin-input">
+            <input type="text" class="input fillin-input__field" id="fillin-answer"
+                   placeholder="Fehlende Vokabel eingeben..." autocomplete="off"
+                   autofocus aria-label="Antwort eingeben">
+            <button class="btn btn--accent" id="fillin-check">\u00DCberpr\u00FCfen</button>
+          </div>
+        `}
+
+        <!-- Feedback -->
+        <div class="fillin-feedback" id="fillin-feedback" ${isReview ? '' : 'hidden'}>
+          ${reviewFeedback}
         </div>
 
-        <!-- Feedback (hidden until answered) -->
-        <div class="fillin-feedback" id="fillin-feedback" hidden></div>
-
-        <!-- Next button (hidden until answered) -->
-        <button class="btn btn--accent fillin-next" id="fillin-next" hidden>
-          Weiter zur nächsten Frage
-        </button>
+        <!-- Navigation buttons -->
+        <div class="exercise-nav-btns" style="margin-top:var(--space-sm);justify-content:center;">
+          ${_index > 0
+            ? '<button class="btn btn--outline" id="fillin-back">Zur\u00FCck</button>'
+            : ''}
+          ${isReview
+            ? `<button class="btn btn--accent fillin-next" id="fillin-next">
+                 ${_index < _total - 1 ? 'Weiter zur n\u00E4chsten Frage' : 'Zum Ergebnis'}
+               </button>`
+            : '<button class="btn btn--accent fillin-next" id="fillin-next" hidden>Weiter zur n\u00E4chsten Frage</button>'}
+        </div>
       </div>
     `;
 
-    const inputEl = document.getElementById('fillin-answer');
-    const checkBtn = document.getElementById('fillin-check');
+    // Bookmark handler
+    _attachBookmarkHandler(card);
 
-    // Auto-focus
-    requestAnimationFrame(() => inputEl?.focus());
+    if (!isReview) {
+      const inputEl = document.getElementById('fillin-answer');
+      const checkBtn = document.getElementById('fillin-check');
 
-    checkBtn?.addEventListener('click', () => _checkFillIn(blankWord));
+      // Auto-focus
+      requestAnimationFrame(() => inputEl?.focus());
 
-    inputEl?.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter') {
-        e.preventDefault();
-        if (!_answered) {
-          _checkFillIn(blankWord);
-        } else {
-          _advanceFillIn();
+      checkBtn?.addEventListener('click', () => _checkFillIn(blankWord));
+
+      inputEl?.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          if (!_answered) {
+            _checkFillIn(blankWord);
+          } else {
+            _advanceFillIn();
+          }
         }
-      }
+      });
+    }
+
+    // Back button
+    document.getElementById('fillin-back')?.addEventListener('click', () => {
+      _index--;
+      _renderFillIn();
     });
 
     document.getElementById('fillin-next')?.addEventListener('click', _advanceFillIn);
@@ -717,6 +868,9 @@ const VocabularyModule = (() => {
 
     const card = _cards[_index];
 
+    // Store answer for back-navigation
+    _answers[_index] = { answered: true, correct: isCorrect, given: userAnswer };
+
     if (isCorrect) {
       _score++;
       feedbackEl.innerHTML = `
@@ -734,7 +888,7 @@ const VocabularyModule = (() => {
           </p>
           ${card.type === 'noun' && card.article ? `
             <p class="fillin-feedback__extra">
-              Vollständig: <strong>${escapeHtml(card.article)} ${escapeHtml(card.noun)}</strong>
+              Vollst\u00E4ndig: <strong>${escapeHtml(card.article)} ${escapeHtml(card.noun)}</strong>
             </p>
           ` : ''}
         </div>
@@ -858,15 +1012,60 @@ const VocabularyModule = (() => {
     }
 
     const card = _cards[_index];
-    _answered = false;
+    const prevAnswer = _answers[_index]; // check if already answered (back-navigation)
+    const isReview = !!prevAnswer;
+    _answered = isReview;
 
     const progressPct = Math.round((_index / _total) * 100);
+    const correctArt = card.article.toLowerCase();
+
+    // Build article buttons — in review mode, show correct/wrong styling and disable
+    let articleButtonsHtml = '';
+    ['der', 'die', 'das'].forEach(art => {
+      let extraClass = 'btn--outline';
+      let disabled = '';
+      if (isReview) {
+        disabled = 'disabled';
+        if (art === correctArt) {
+          extraClass = 'btn--success';
+        } else if (art === prevAnswer.chosen && !prevAnswer.correct) {
+          extraClass = 'btn--danger';
+        }
+      }
+      articleButtonsHtml += `<button class="btn ${extraClass} btn--large article-btn" data-article="${art}" ${disabled}>${art}</button>`;
+    });
+
+    // Review-mode feedback (pre-built)
+    let reviewFeedback = '';
+    if (isReview) {
+      if (prevAnswer.correct) {
+        reviewFeedback = `
+          <div class="article-feedback--correct">
+            <p class="article-feedback__verdict">Ausgezeichnet! Das ist richtig.</p>
+            <p class="article-feedback__full">
+              <strong>${escapeHtml(card.article)} ${escapeHtml(card.noun)}</strong>
+            </p>
+          </div>`;
+      } else {
+        reviewFeedback = `
+          <div class="article-feedback--wrong">
+            <p class="article-feedback__verdict">Leider nicht richtig.</p>
+            <p class="article-feedback__correct-answer">
+              Der korrekte Artikel lautet: <strong>${escapeHtml(card.article)}</strong>
+            </p>
+            <p class="article-feedback__full">
+              <strong>${escapeHtml(card.article)} ${escapeHtml(card.noun)}</strong>
+            </p>
+          </div>`;
+      }
+    }
 
     _container.innerHTML = `
       <div class="article-round">
         <!-- Progress -->
         <div class="article-progress">
           <span class="article-progress__text">Frage ${_index + 1} von ${_total}</span>
+          ${_bookmarkBtnHtml(card)}
           <span class="article-progress__score">${_score} richtig</span>
         </div>
         <div class="progress-bar progress-bar--small">
@@ -875,7 +1074,7 @@ const VocabularyModule = (() => {
 
         <!-- The noun (without article) -->
         <div class="article-question">
-          <p class="article-question__prompt">Welcher Artikel gehört zu diesem Nomen?</p>
+          <p class="article-question__prompt">Welcher Artikel geh\u00F6rt zu diesem Nomen?</p>
           <p class="article-question__noun">${escapeHtml(card.noun)}</p>
           <button class="btn btn--icon article-question__speak"
                   aria-label="Vorlesen" title="Vorlesen">&#128264;</button>
@@ -883,28 +1082,46 @@ const VocabularyModule = (() => {
 
         <!-- Article buttons -->
         <div class="article-buttons" id="article-buttons">
-          <button class="btn btn--outline btn--large article-btn" data-article="der">der</button>
-          <button class="btn btn--outline btn--large article-btn" data-article="die">die</button>
-          <button class="btn btn--outline btn--large article-btn" data-article="das">das</button>
+          ${articleButtonsHtml}
         </div>
 
-        <!-- Feedback (hidden until answered) -->
-        <div class="article-feedback" id="article-feedback" hidden></div>
+        <!-- Feedback -->
+        <div class="article-feedback" id="article-feedback" ${isReview ? '' : 'hidden'}>
+          ${reviewFeedback}
+        </div>
 
-        <!-- Next button (hidden until answered) -->
-        <button class="btn btn--accent article-next" id="article-next" hidden>
-          Weiter zur nächsten Frage
-        </button>
+        <!-- Navigation buttons -->
+        <div class="exercise-nav-btns" style="margin-top:var(--space-sm);justify-content:center;">
+          ${_index > 0
+            ? '<button class="btn btn--outline" id="article-back">Zur\u00FCck</button>'
+            : ''}
+          ${isReview
+            ? `<button class="btn btn--accent article-next" id="article-next">
+                 ${_index < _total - 1 ? 'Weiter zur n\u00E4chsten Frage' : 'Zum Ergebnis'}
+               </button>`
+            : '<button class="btn btn--accent article-next" id="article-next" hidden>Weiter zur n\u00E4chsten Frage</button>'}
+        </div>
       </div>
     `;
+
+    // Bookmark handler
+    _attachBookmarkHandler(card);
 
     // Speak button
     _container.querySelector('.article-question__speak')
       ?.addEventListener('click', () => speak(card.word || (card.article + ' ' + card.noun)));
 
-    // Article buttons
-    _container.querySelectorAll('.article-btn').forEach(btn => {
-      btn.addEventListener('click', () => _checkArticle(btn.dataset.article, card));
+    // Article buttons (only active in non-review mode)
+    if (!isReview) {
+      _container.querySelectorAll('.article-btn').forEach(btn => {
+        btn.addEventListener('click', () => _checkArticle(btn.dataset.article, card));
+      });
+    }
+
+    // Back button
+    document.getElementById('article-back')?.addEventListener('click', () => {
+      _index--;
+      _renderArticleQuestion();
     });
 
     document.getElementById('article-next')?.addEventListener('click', () => {
@@ -919,6 +1136,9 @@ const VocabularyModule = (() => {
 
     const correct = card.article.toLowerCase();
     const isCorrect = chosen.toLowerCase() === correct;
+
+    // Store answer for back-navigation
+    _answers[_index] = { answered: true, correct: isCorrect, chosen: chosen.toLowerCase() };
 
     // Update article-specific stats
     if (_articleStats[correct]) {
@@ -1089,6 +1309,8 @@ const VocabularyModule = (() => {
     _total = 0;
     _flipped = false;
     _answered = false;
+    _answers = [];
+    _fcAnswers = [];
   }
 
   function _saveProgress(scorePct) {

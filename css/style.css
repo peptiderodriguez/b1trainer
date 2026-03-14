@@ -2163,6 +2163,8 @@ img {
 .fillin-feedback__correct-answer { color: var(--color-success-text); font-weight: 500; }
 .fillin-feedback__extra { margin-top: var(--space-sm); font-size: var(--font-size-sm); color: var(--color-text-muted); }
 .fillin__blank { display: inline-block; min-width: 80px; border-bottom: 2px dashed var(--color-accent); padding: 0 var(--space-xs); }
+.fillin__blank--correct { border-bottom-color: var(--color-success); background: var(--color-success-light); border-radius: var(--radius-sm); padding: 0.1em var(--space-xs); }
+.fillin__blank--wrong { border-bottom-color: var(--color-error); background: var(--color-error-light); border-radius: var(--radius-sm); padding: 0.1em var(--space-xs); }
 
 /* Article Quiz styles */
 .article-round { max-width: 600px; margin: 0 auto; }
@@ -2235,12 +2237,18 @@ img {
 .grammar-fill-blank { display: flex; gap: var(--space-sm); align-items: center; }
 .grammar-check-btn,
 .grammar-next-btn,
+.grammar-prev-btn,
 .grammar-back-btn,
 .grammar-home-btn,
 .grammar-retry-btn,
 .grammar-start-mixed,
 .grammar-topics-btn,
 .grammar-hint-btn { cursor: pointer; }
+.grammar-review { padding: var(--space-md); }
+.grammar-review__given,
+.grammar-review__correct { margin-bottom: var(--space-sm); font-size: var(--font-size-md); }
+.grammar-review__given span,
+.grammar-review__correct span { margin-left: var(--space-xs); padding: var(--space-xs) var(--space-sm); border-radius: var(--radius-sm); display: inline-block; }
 .grammar-textarea { width: 100%; min-height: 80px; padding: var(--space-sm); border: 2px solid var(--color-border); border-radius: var(--radius-md); font-family: var(--font-family); font-size: var(--font-size-md); resize: vertical; }
 .grammar-textarea:focus { border-color: var(--color-grammar); outline: none; }
 
@@ -2594,3 +2602,80 @@ img {
   cursor: pointer;
 }
 .update-banner--visible { display: block; }
+
+/* Bookmark button */
+.bookmark-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.25rem;
+  padding: 0.25rem;
+  min-width: 44px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-muted);
+  transition: color var(--transition-fast), transform var(--transition-fast);
+}
+
+.bookmark-btn:hover {
+  color: var(--color-warning);
+}
+
+.bookmark-btn--active {
+  color: var(--color-warning);
+}
+
+/* Exercise navigation (back/next) */
+.exercise-nav-btns {
+  display: flex;
+  gap: var(--space-sm);
+  align-items: center;
+}
+
+.exercise-nav-btns .btn {
+  min-width: 44px;
+}
+
+/* Bookmarks section on dashboard */
+.bookmarks-list {
+  display: grid;
+  gap: var(--space-sm);
+}
+
+.bookmark-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-md);
+  background: var(--color-card);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border-light);
+}
+
+.bookmark-item__label {
+  flex: 1;
+  font-weight: 500;
+}
+
+.bookmark-item__detail {
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+}
+
+.bookmark-item__remove {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-text-muted);
+  min-width: 44px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bookmark-item__remove:hover {
+  color: var(--color-error);
+}

@@ -25,6 +25,9 @@ const GrammarModule = {
   /** Whether the current question has been answered */
   _answered: false,
 
+  /** Stored answers for back-navigation review mode */
+  _answers: [],
+
   /** Reorder exercise state: selected word tiles */
   _reorderSelected: [],
 
@@ -148,6 +151,7 @@ const GrammarModule = {
     this._currentIndex = 0;
     this._score = 0;
     this._answered = false;
+    this._answers = [];
     this._reorderSelected = [];
   },
 
@@ -268,6 +272,7 @@ const GrammarModule = {
     this._currentIndex = 0;
     this._score = 0;
     this._answered = false;
+    this._answers = [];
     this._reorderSelected = [];
 
     // Build the topic picker for this category
@@ -328,6 +333,7 @@ const GrammarModule = {
       this._exercises = this._buildExercises(category, null, this._sessionSize);
       this._currentIndex = 0;
       this._score = 0;
+      this._answers = [];
       this._renderExercise();
     });
 
@@ -338,6 +344,7 @@ const GrammarModule = {
         this._exercises = this._buildExercises(category, topicKey, this._sessionSize);
         this._currentIndex = 0;
         this._score = 0;
+        this._answers = [];
         this._renderExercise();
       });
     });
@@ -1276,11 +1283,20 @@ const GrammarModule = {
     const progress = `Frage ${this._currentIndex + 1} von ${this._exercises.length}`;
     const pct = Math.round(((this._currentIndex) / this._exercises.length) * 100);
 
+    // Bookmark state
+    const bookmarkId = exercise.id || `${exercise.topic}_${this._currentIndex}`;
+    const isMarked = Storage.isBookmarked('grammar', bookmarkId);
+
+    // Check if this exercise was already answered (review mode via back-navigation)
+    const previousAnswer = this._answers[this._currentIndex];
+    const isReview = !!previousAnswer;
+
     let html = `
       <div class="grammar-exercise">
         <div class="grammar-exercise__header">
           <button class="btn btn--outline grammar-back-btn">&larr; Zurück</button>
           <span class="grammar-exercise__progress">${escapeHtml(progress)}</span>
+          <button class="bookmark-btn${isMarked ? ' bookmark-btn--active' : ''}" data-bookmark-id="${escapeHtml(bookmarkId)}" title="Lesezeichen">${isMarked ? '\u2605' : '\u2606'}</button>
           <span class="grammar-exercise__score">Punkte: ${this._score}/${this._currentIndex}</span>
         </div>
         <div class="progress-bar">
@@ -1289,22 +1305,42 @@ const GrammarModule = {
         <div class="grammar-exercise__instruction">${escapeHtml(exercise.instruction || '')}</div>
         <div class="grammar-exercise__sentence">${this._renderSentenceHtml(exercise)}</div>
         <div class="grammar-exercise__body" id="grammar-exercise-body"></div>
-        <div class="grammar-exercise__feedback" id="grammar-feedback" hidden></div>
+        <div class="grammar-exercise__feedback" id="grammar-feedback" ${isReview ? '' : 'hidden'}></div>
         <div class="grammar-exercise__actions" id="grammar-actions"></div>
       </div>
     `;
 
     content.innerHTML = html;
 
-    // Back button
+    // Back button (navigate to topic picker)
     content.querySelector('.grammar-back-btn').addEventListener('click', () => {
       this._renderTopicPicker(this._category);
     });
 
-    // Render the specific exercise type
+    // Bookmark button
+    content.querySelector('.bookmark-btn').addEventListener('click', (e) => {
+      const btn = e.currentTarget;
+      const added = Storage.toggleBookmark({
+        module: 'grammar',
+        id: bookmarkId,
+        label: exercise.sentence || exercise.instruction || '',
+        detail: exercise.topic || ''
+      });
+      btn.classList.toggle('bookmark-btn--active', added);
+      btn.textContent = added ? '\u2605' : '\u2606';
+    });
+
     const body = document.getElementById('grammar-exercise-body');
     const actions = document.getElementById('grammar-actions');
 
+    // Review mode: show already-answered exercise read-only with feedback
+    if (isReview) {
+      this._answered = true;
+      this._renderReviewMode(body, actions, exercise, previousAnswer);
+      return;
+    }
+
+    // Render the specific exercise type
     switch (exercise.type) {
       case 'multiple_choice':
         this._renderMultipleChoice(body, actions, exercise);
@@ -1322,6 +1358,54 @@ const GrammarModule = {
         // Default to fill_blank
         this._renderFillBlank(body, actions, exercise);
     }
+  },
+
+  /**
+   * Render an already-answered exercise in read-only review mode.
+   * Shows the user's given answer, the correct answer, and feedback.
+   * @param {HTMLElement} body
+   * @param {HTMLElement} actions
+   * @param {object} exercise
+   * @param {object} previousAnswer - { answered, correct, given }
+   */
+  _renderReviewMode(body, actions, exercise, previousAnswer) {
+    const isCorrect = previousAnswer.correct;
+    const given = previousAnswer.given;
+
+    // Show the user's answer and the correct answer
+    let html = '<div class="grammar-review">';
+    html += `<div class="grammar-review__given">
+      <strong>Deine Antwort:</strong>
+      <span class="${isCorrect ? 'grammar-input--correct' : 'grammar-input--wrong'}">${escapeHtml(given || '(keine Eingabe)')}</span>
+    </div>`;
+
+    if (!isCorrect) {
+      html += `<div class="grammar-review__correct">
+        <strong>Korrekte Antwort:</strong>
+        <span class="grammar-input--correct">${escapeHtml(exercise.answer)}</span>
+      </div>`;
+    }
+    html += '</div>';
+    body.innerHTML = html;
+
+    // Show feedback
+    const feedbackEl = document.getElementById('grammar-feedback');
+    if (feedbackEl) {
+      let fbHtml = `<div class="grammar-feedback ${isCorrect ? 'grammar-feedback--correct' : 'grammar-feedback--wrong'}">`;
+      fbHtml += `<div class="grammar-feedback__verdict">${isCorrect ? '\u2713 Richtig' : '\u2717 Falsch'}</div>`;
+      if (!isCorrect) {
+        fbHtml += `<div class="grammar-feedback__answer">Die korrekte Antwort lautet: <strong>${escapeHtml(exercise.answer)}</strong></div>`;
+      }
+      if (exercise.explanation) {
+        fbHtml += `<div class="grammar-feedback__explanation">${exercise.explanation}</div>`;
+      }
+      fbHtml += '</div>';
+      feedbackEl.innerHTML = fbHtml;
+      feedbackEl.hidden = false;
+    }
+
+    // Show navigation buttons (Zurück + Weiter)
+    this._showNextButton(actions);
   },
 
   /**
@@ -1374,7 +1458,7 @@ const GrammarModule = {
           b.disabled = true;
         });
 
-        this._showFeedback(isCorrect, exercise);
+        this._showFeedback(isCorrect, exercise, selected);
         this._showNextButton(actions);
       });
     });
@@ -1416,7 +1500,7 @@ const GrammarModule = {
         input.classList.add('grammar-input--wrong');
       }
 
-      this._showFeedback(isCorrect, exercise);
+      this._showFeedback(isCorrect, exercise, userAnswer);
       this._showNextButton(actions);
     };
 
@@ -1512,7 +1596,7 @@ const GrammarModule = {
       checkBtn.disabled = true;
       resetBtn.disabled = true;
 
-      this._showFeedback(isCorrect, exercise);
+      this._showFeedback(isCorrect, exercise, userAnswer);
       this._showNextButton(actions);
     });
 
@@ -1562,7 +1646,7 @@ const GrammarModule = {
         textarea.classList.add('grammar-input--wrong');
       }
 
-      this._showFeedback(isCorrect, exercise);
+      this._showFeedback(isCorrect, exercise, userAnswer);
       this._showNextButton(actions);
     });
 
@@ -1619,14 +1703,22 @@ const GrammarModule = {
    * Show feedback after answering.
    * @param {boolean} isCorrect
    * @param {object}  exercise
+   * @param {string}  [userAnswer]
    */
-  _showFeedback(isCorrect, exercise) {
+  _showFeedback(isCorrect, exercise, userAnswer) {
     const feedbackEl = document.getElementById('grammar-feedback');
     if (!feedbackEl) return;
 
     if (isCorrect) {
       this._score++;
     }
+
+    // Store the answer for back-navigation review
+    this._answers[this._currentIndex] = {
+      answered: true,
+      correct: isCorrect,
+      given: userAnswer || ''
+    };
 
     const phrase = isCorrect
       ? this._correctPhrases[Math.floor(Math.random() * this._correctPhrases.length)]
@@ -1653,11 +1745,30 @@ const GrammarModule = {
   },
 
   /**
-   * Show the "Weiter" button after feedback.
+   * Show the "Zurück" and "Weiter" buttons after feedback.
    * @param {HTMLElement} actionsEl
    */
   _showNextButton(actionsEl) {
-    actionsEl.innerHTML = '<button class="btn btn--accent grammar-next-btn">Weiter &rarr;</button>';
+    let btnsHtml = '';
+
+    // Back button (to previous question) when not on the first exercise
+    if (this._currentIndex > 0) {
+      btnsHtml += '<button class="btn btn--outline grammar-prev-btn">&larr; Zurück</button>';
+    }
+
+    btnsHtml += '<button class="btn btn--accent grammar-next-btn">Weiter &rarr;</button>';
+    actionsEl.innerHTML = btnsHtml;
+
+    // Previous question handler
+    const prevBtn = actionsEl.querySelector('.grammar-prev-btn');
+    if (prevBtn) {
+      prevBtn.addEventListener('click', () => {
+        this._currentIndex--;
+        this._renderExercise();
+      });
+    }
+
+    // Next question handler
     const nextBtn = actionsEl.querySelector('.grammar-next-btn');
     nextBtn.addEventListener('click', () => {
       this._currentIndex++;

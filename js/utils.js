@@ -332,6 +332,36 @@ const Storage = {
   clearMissedItems() {
     this.set('missed_items', []);
   },
+
+  // ---------------------------------------------------------------------------
+  // Bookmarks / Favorites
+  // ---------------------------------------------------------------------------
+
+  getBookmarks() {
+    return this.get('bookmarks', []);
+  },
+
+  toggleBookmark(item) {
+    // item: { module, id, label, detail }
+    const bookmarks = this.getBookmarks();
+    const idx = bookmarks.findIndex(b => b.module === item.module && b.id === item.id);
+    if (idx >= 0) {
+      bookmarks.splice(idx, 1);
+    } else {
+      bookmarks.push({ ...item, timestamp: Date.now() });
+    }
+    this.set('bookmarks', bookmarks);
+    return idx < 0; // true if added, false if removed
+  },
+
+  isBookmarked(module, id) {
+    return this.getBookmarks().some(b => b.module === module && b.id === id);
+  },
+
+  removeBookmark(module, id) {
+    const bookmarks = this.getBookmarks().filter(b => !(b.module === module && b.id === id));
+    this.set('bookmarks', bookmarks);
+  },
 };
 
 // -----------------------------------------------------------------------------
