@@ -119,7 +119,7 @@ const ListeningModule = (() => {
           <label class="toggle-label">
             <input type="checkbox" id="listening-exam-mode" class="toggle-input">
             <span class="toggle-switch"></span>
-            Prüfungsmodus (maximal 2 Wiederholungen)
+            Prüfungsmodus (kein Pause, kein Tempo, max. 2x hören)
           </label>
         </div>
       </div>`;
@@ -301,14 +301,14 @@ const ListeningModule = (() => {
         <div class="listening-exercise__instructions">
           <h3>Hörverstehen</h3>
           <p>Sie hören gleich einen Text. Beantworten Sie anschließend die Fragen, ohne den geschriebenen Text zu sehen. Nutzen Sie die Steuerung in der Werkzeugleiste, um den Text abzuspielen.</p>
-          ${examMode ? '<p class="text-warning">Prüfungsmodus: Sie dürfen den Text höchstens zweimal anhören.</p>' : ''}
+          ${examMode ? '<p class="text-warning">Prüfungsmodus: Kein Pausieren, kein Verlangsamen — Sie dürfen den Text höchstens zweimal anhören.</p>' : ''}
         </div>
 
         <div class="listening-exercise__controls">
           <button class="btn btn--accent" id="hv-play">
             <span aria-hidden="true">&#9654;</span> Text anhören
           </button>
-          <button class="btn btn--outline" id="hv-pause">
+          ${examMode ? '' : `<button class="btn btn--outline" id="hv-pause">
             <span aria-hidden="true">&#10074;&#10074;</span> Pause
           </button>
           <div class="speed-selector">
@@ -316,7 +316,7 @@ const ListeningModule = (() => {
             <button class="btn btn--sm btn--outline" data-speed="0.7">0.7x</button>
             <button class="btn btn--sm btn--outline" data-speed="0.85">0.85x</button>
             <button class="btn btn--sm btn--accent" data-speed="1.0">1.0x</button>
-          </div>
+          </div>`}
         </div>
 
         <section class="listening-exercise__questions" id="hv-questions">
