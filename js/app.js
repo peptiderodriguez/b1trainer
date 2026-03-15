@@ -898,9 +898,9 @@ const App = {
     const example = (noun.examples && noun.examples[0]) || noun.sentence || '';
     const plural = noun.plural ? 'Pl: die ' + noun.plural : '';
     const parts = [
-      noun.translation ? '🇬🇧 ' + noun.translation : '',
+      noun.translation ? 'EN: ' + noun.translation : '',
       plural,
-      example ? '📝 ' + example : '',
+      example ? 'Bsp: ' + example : '',
     ].filter(Boolean);
     return {
       type: 'article',
@@ -932,9 +932,9 @@ const App = {
     const example = (verb.examples && verb.examples[0]) || '';
     const perfekt = verb.conjugation.perfekt ? 'Perfekt: ' + (verb.conjugation.withSein ? 'ist ' : 'hat ') + verb.conjugation.perfekt : '';
     const parts = [
-      verb.translation ? '🇬🇧 ' + verb.translation : '',
+      verb.translation ? 'EN: ' + verb.translation : '',
       perfekt,
-      example ? '📝 ' + example : '',
+      example ? 'Bsp: ' + example : '',
     ].filter(Boolean);
     return {
       type: 'conjugation',
@@ -991,7 +991,7 @@ const App = {
     // Ask for the German word given the English translation
     const example = (item.examples && item.examples[0]) || item.sentence || '';
     const parts = [
-      example ? '📝 ' + example : '',
+      example ? 'Bsp: ' + example : '',
     ].filter(Boolean);
     return {
       type: 'translation',
