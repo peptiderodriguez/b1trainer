@@ -896,8 +896,12 @@ const App = {
     const noun = nouns[Math.floor(Math.random() * nouns.length)];
     if (!noun.article || !noun.noun) return null;
     const example = (noun.examples && noun.examples[0]) || noun.sentence || '';
-    const plural = noun.plural ? 'Plural: ' + noun.plural : '';
-    const parts = [noun.translation || '', plural, example].filter(Boolean);
+    const plural = noun.plural ? 'Pl: die ' + noun.plural : '';
+    const parts = [
+      noun.translation ? '🇬🇧 ' + noun.translation : '',
+      plural,
+      example ? '📝 ' + example : '',
+    ].filter(Boolean);
     return {
       type: 'article',
       typeLabel: 'Artikel',
@@ -927,7 +931,11 @@ const App = {
 
     const example = (verb.examples && verb.examples[0]) || '';
     const perfekt = verb.conjugation.perfekt ? 'Perfekt: ' + (verb.conjugation.withSein ? 'ist ' : 'hat ') + verb.conjugation.perfekt : '';
-    const parts = [verb.translation || '', perfekt, example].filter(Boolean);
+    const parts = [
+      verb.translation ? '🇬🇧 ' + verb.translation : '',
+      perfekt,
+      example ? '📝 ' + example : '',
+    ].filter(Boolean);
     return {
       type: 'conjugation',
       typeLabel: 'Konjugation',
@@ -981,13 +989,17 @@ const App = {
     }
 
     // Ask for the German word given the English translation
+    const example = (item.examples && item.examples[0]) || item.sentence || '';
+    const parts = [
+      example ? '📝 ' + example : '',
+    ].filter(Boolean);
     return {
       type: 'translation',
       typeLabel: 'Vokabel',
       question: 'Übersetze: ' + item.translation,
       answer: item.word,
       also_accept: alsoAccept.length > 0 ? alsoAccept : null,
-      detail: item.sentence || '',
+      detail: parts.join('\n'),
     };
   },
 
