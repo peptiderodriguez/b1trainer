@@ -14,7 +14,7 @@
       "ohne",
       "gegen"
     ],
-    "explanation": "'mit' (with/by means of) always takes the dative case.",
+    "explanation": "'mit' verlangt immer den Dativ.",
     "hint": "Welche Präposition bedeutet 'with' oder 'by means of'?"
   },
   {
@@ -32,7 +32,7 @@
       "nach",
       "bei"
     ],
-    "explanation": "'aus' (from/out of) is used for origin (countries, cities, places) and takes dative.",
+    "explanation": "'aus' drückt Herkunft aus (Länder, Städte, Orte) und verlangt den Dativ.",
     "hint": "Woher kommt sie? Welche Präposition benutzt man für Herkunftsländer?"
   },
   {
@@ -50,7 +50,7 @@
       "zu",
       "von"
     ],
-    "explanation": "'bei' (at/near/at someone's place) takes the dative case.",
+    "explanation": "'bei' (bei jemandem, bei einer Firma) verlangt den Dativ.",
     "hint": "Welche Präposition bedeutet 'at someone's place'?"
   },
   {
@@ -68,7 +68,7 @@
       "Seit",
       "Bei"
     ],
-    "explanation": "'nach' (after) takes the dative case when referring to time.",
+    "explanation": "'nach' verlangt den Dativ bei Zeitangaben.",
     "hint": "Welche Präposition bedeutet 'after'?"
   },
   {
@@ -86,7 +86,7 @@
       "nach",
       "für"
     ],
-    "explanation": "'seit' (since/for) takes the dative and is used for durations continuing into the present.",
+    "explanation": "'seit' verlangt den Dativ und drückt eine andauernde Zeitspanne aus.",
     "hint": "Welche Präposition drückt eine Zeitdauer aus, die bis jetzt andauert?"
   },
   {
@@ -104,7 +104,7 @@
       "mit",
       "bei"
     ],
-    "explanation": "'von' (from) takes the dative. Used to indicate origin or possession.",
+    "explanation": "'von' verlangt den Dativ.",
     "hint": "Von wem ist das Geschenk?"
   },
   {
@@ -122,7 +122,7 @@
       "bei",
       "an"
     ],
-    "explanation": "'zu' (to) takes the dative. Used for going to people or specific places.",
+    "explanation": "'zu' verlangt den Dativ.",
     "hint": "Welche Präposition benutzt man, wenn man zu einer Person geht?"
   },
   {
@@ -140,7 +140,7 @@
       "gegen",
       "ohne"
     ],
-    "explanation": "'für' (for) always takes the accusative case.",
+    "explanation": "'für' (for) verlangt immer den Akkusativ.",
     "hint": "Welche Präposition bedeutet 'for'?"
   },
   {
@@ -158,7 +158,7 @@
       "für",
       "gegen"
     ],
-    "explanation": "'ohne' (without) always takes the accusative case.",
+    "explanation": "'ohne' (without) verlangt immer den Akkusativ.",
     "hint": "Welche Präposition bedeutet 'without'?"
   },
   {
@@ -176,7 +176,7 @@
       "um",
       "für"
     ],
-    "explanation": "'durch' (through) always takes the accusative case.",
+    "explanation": "'durch' (through) verlangt immer den Akkusativ.",
     "hint": "Welche Präposition bedeutet 'through'?"
   },
   {
@@ -194,7 +194,7 @@
       "vor",
       "auf"
     ],
-    "explanation": "'gegen' (against/into) always takes the accusative case.",
+    "explanation": "'gegen' (against/into) verlangt immer den Akkusativ.",
     "hint": "Welche Präposition bedeutet 'against' oder 'into'?"
   },
   {
@@ -212,7 +212,7 @@
       "in",
       "bei"
     ],
-    "explanation": "'um' (at) takes the accusative. Used for clock times.",
+    "explanation": "'um' verlangt den Akkusativ.",
     "hint": "Welche Präposition benutzt man für Uhrzeiten?"
   },
   {
@@ -230,7 +230,7 @@
       "seit",
       "von"
     ],
-    "explanation": "'bis' (until) takes the accusative case.",
+    "explanation": "'bis' (until) verlangt den Akkusativ.",
     "hint": "Welche Präposition bedeutet 'until'?"
   },
   {
@@ -248,7 +248,7 @@
       "dem",
       "den"
     ],
-    "explanation": "'in' + Akkusativ because there is movement towards a destination (Wohin?).",
+    "explanation": "'akkusativ' + Akkusativ (Wohin? = Bewegung/Richtung).",
     "hint": "Wohin gehst du? Bewegung = Akkusativ."
   },
   {
@@ -266,7 +266,7 @@
       "dem",
       "den"
     ],
-    "explanation": "'in' + Dativ because there is no movement, just location (Wo?).",
+    "explanation": "'in' + Dativ weil there is no movement, just location (Wo?).",
     "hint": "Wo bist du? Ort = Dativ."
   },
   {
@@ -284,7 +284,7 @@
       "der",
       "das"
     ],
-    "explanation": "'auf' + Akkusativ because the book is being placed (movement to a surface, Wohin?).",
+    "explanation": "'akkusativ' + Akkusativ (Wohin? = Bewegung/Richtung).",
     "hint": "Wohin legst du das Buch? Richtung = Akkusativ."
   },
   {
@@ -302,7 +302,7 @@
       "der",
       "das"
     ],
-    "explanation": "'auf' + Dativ because the book is already there (location, Wo?).",
+    "explanation": "'auf' + Dativ weil the book is already there (location, Wo?).",
     "hint": "Wo liegt das Buch? Ort = Dativ."
   },
   {
@@ -320,7 +320,7 @@
       "dem",
       "den"
     ],
-    "explanation": "'an' + Akkusativ because the picture is being hung (direction, Wohin?).",
+    "explanation": "'akkusativ' + Akkusativ (Wohin? = Bewegung/Richtung).",
     "hint": "Wohin hängst du das Bild?"
   },
   {
@@ -338,7 +338,7 @@
       "dem",
       "den"
     ],
-    "explanation": "'an' + Dativ because the picture is already on the wall (location, Wo?).",
+    "explanation": "'an' + Dativ weil the picture is already on the wall (location, Wo?).",
     "hint": "Wo hängt das Bild? Ort = Dativ."
   },
   {
@@ -356,7 +356,7 @@
       "der",
       "das"
     ],
-    "explanation": "'unter' + Dativ because the cat is in a fixed location (Wo?).",
+    "explanation": "'unter' + Dativ weil the cat is in a fixed location (Wo?).",
     "hint": "Wo schläft die Katze? Ort = Dativ."
   },
   {
@@ -374,7 +374,7 @@
       "dem",
       "den"
     ],
-    "explanation": "'neben' + Akkusativ because 'sich setzen' implies movement to a new position (Wohin?).",
+    "explanation": "'neben' + Akkusativ weil 'sich setzen' drückt Bewegung aus (Wohin?) to a new position (Wohin?).",
     "hint": "Wohin setzt du dich? Bewegung = Akkusativ."
   },
   {
@@ -392,7 +392,7 @@
       "Während",
       "Anstatt"
     ],
-    "explanation": "'wegen' (because of) takes the genitive case.",
+    "explanation": "'wegen' (weil of) verlangt den Genitiv.",
     "hint": "Welche Präposition bedeutet 'because of'?"
   },
   {
@@ -410,7 +410,7 @@
       "Während",
       "Anstatt"
     ],
-    "explanation": "'trotz' (despite/in spite of) takes the genitive case.",
+    "explanation": "'trotz' (despite/in spite of) verlangt den Genitiv.",
     "hint": "Welche Präposition bedeutet 'despite'?"
   },
   {
@@ -428,7 +428,7 @@
       "Trotz",
       "Anstatt"
     ],
-    "explanation": "'während' (during) takes the genitive case.",
+    "explanation": "'während' (during) verlangt den Genitiv.",
     "hint": "Welche Präposition bedeutet 'during'?"
   },
   {
@@ -446,7 +446,7 @@
       "Trotz",
       "Während"
     ],
-    "explanation": "'anstatt' (instead of) takes the genitive case.",
+    "explanation": "'anstatt' (instead of) verlangt den Genitiv.",
     "hint": "Welche Präposition bedeutet 'instead of'?"
   },
   {
@@ -464,7 +464,7 @@
       "den",
       "der"
     ],
-    "explanation": "'Stau' is masculine. Genitive masculine = des + noun often gets -(e)s ending.",
+    "explanation": "'wegen' verlangt den Genitiv.",
     "hint": "Der Stau → Genitiv maskulin?"
   },
   {
@@ -477,7 +477,7 @@
     "sentence": "Ich ___ gern nach Spanien fliegen. (würde)",
     "answer": "würde",
     "options": [],
-    "explanation": "Konjunktiv II with 'würde' + infinitive: ich würde, du würdest, er/sie würde, wir würden, ihr würdet, sie würden.",
+    "explanation": "'wäre' ist der Konjunktiv II von 'sein' (ich wäre, du wärst, er wäre...).",
     "hint": "ich → würde"
   },
   {
@@ -495,7 +495,7 @@
       "hätte",
       "könnte"
     ],
-    "explanation": "'würde' + infinitive is used for most verbs in Konjunktiv II.",
+    "explanation": "'hätte' ist der Konjunktiv II von 'haben'. Für irreale Wünsche und Bedingungen.",
     "hint": "würde + Infinitiv für Ratschläge."
   },
   {
@@ -513,7 +513,7 @@
       "hatte",
       "würde"
     ],
-    "explanation": "'hätte' is the Konjunktiv II form of 'haben'. It is used directly (not with würde).",
+    "explanation": "'könnte' ist der Konjunktiv II von 'können'. Für höfliche Bitten und Möglichkeiten.",
     "hint": "Konjunktiv II von 'haben'?"
   },
   {
@@ -531,7 +531,7 @@
       "bin",
       "sei"
     ],
-    "explanation": "'wäre' is the Konjunktiv II form of 'sein'. It is used directly (not with würde).",
+    "explanation": "'müsste' ist der Konjunktiv II von 'müssen'. Drückt eine abgeschwächte Notwendigkeit aus.",
     "hint": "Konjunktiv II von 'sein'?"
   },
   {
@@ -549,7 +549,7 @@
       "Konnten",
       "Würden"
     ],
-    "explanation": "'könnten' is the Konjunktiv II of 'können'. Used for polite requests.",
+    "explanation": "'dürfte' ist der Konjunktiv II von 'dürfen'. Für höfliche Bitten und Vermutungen.",
     "hint": "Höfliche Bitte mit 'können' im Konjunktiv II."
   },
   {
@@ -567,7 +567,7 @@
       "musste",
       "würde"
     ],
-    "explanation": "'müsste' is the Konjunktiv II of 'müssen'. Expresses a softer obligation.",
+    "explanation": "'würde' + Infinitiv ist die Umschreibung des Konjunktiv II für regelmäßige Verben.",
     "hint": "Konjunktiv II von 'müssen'?"
   },
   {
@@ -585,7 +585,7 @@
       "Durfte",
       "Könnte"
     ],
-    "explanation": "'dürfte' is the Konjunktiv II of 'dürfen'. Used for very polite requests.",
+    "explanation": "'wäre' + 'wenn'-Satz: irrealer Bedingungssatz (Wenn ich ..., wäre ich ...).",
     "hint": "Sehr höfliche Frage mit 'dürfen' im Konjunktiv II."
   },
   {
@@ -603,7 +603,7 @@
       "sollte",
       "würdest"
     ],
-    "explanation": "'solltest' is the Konjunktiv II of 'sollen' for 'du'. Used for suggestions/advice.",
+    "explanation": "'solltest' ist der Konjunktiv II von 'sollen' für 'du'. Für Ratschläge und Empfehlungen.",
     "hint": "Konjunktiv II von 'sollen' für 'du'?"
   },
   {
@@ -1036,7 +1036,7 @@
     "sentence": "Ich bleibe zu Hause, weil ___. (ich / krank / bin)",
     "answer": "weil ich krank bin",
     "options": [],
-    "explanation": "In Nebensätzen mit 'weil' steht das konjugierte Verb am Ende.",
+    "explanation": "'dass' leitet einen Nebensatz ein. Das Verb steht am Ende.",
     "hint": "Nebensatz: Konjunktion + Subjekt + ... + Verb am Ende."
   },
   {
@@ -1049,7 +1049,7 @@
     "sentence": "Er geht zur Arbeit, obwohl ___. (er / Fieber / hat)",
     "answer": "obwohl er Fieber hat",
     "options": [],
-    "explanation": "'obwohl' (although) introduces a concessive clause. Verb goes to the end.",
+    "explanation": "'obwohl' (Konzessivsatz) leitet einen Gegensatz ein. Das Verb steht am Ende.",
     "hint": "Konjunktion + Subjekt + Objekt + Verb."
   },
   {
@@ -1067,7 +1067,7 @@
       "Obwohl",
       "Als"
     ],
-    "explanation": "'wenn' (if/when) is used for conditions or repeated events in the present/future.",
+    "explanation": "'wenn' (Konditionalsatz) drückt eine Bedingung oder wiederholte Handlung aus. Verb am Ende.",
     "hint": "Welche Konjunktion drückt eine Bedingung aus?"
   },
   {
@@ -1085,7 +1085,7 @@
       "Weil",
       "Dass"
     ],
-    "explanation": "'als' is used for single events in the past. 'wenn' is for repeated past events or present/future.",
+    "explanation": "'weil' (Kausalsatz) gibt einen Grund an. Das Verb steht am Ende.",
     "hint": "Einmaliges Ereignis in der Vergangenheit → als."
   },
   {
@@ -1103,7 +1103,7 @@
       "dass",
       "ob"
     ],
-    "explanation": "'damit' (so that/in order to) expresses a purpose. Different subjects in main and subordinate clause.",
+    "explanation": "'als' wird für einmalige Ereignisse in der Vergangenheit verwendet. Verb am Ende.",
     "hint": "Welche Konjunktion drückt einen Zweck (purpose) aus?"
   },
   {
@@ -1116,7 +1116,7 @@
     "sentence": "Ich hoffe, dass ___. (du / bald / kommst)",
     "answer": "dass du bald kommst",
     "options": [],
-    "explanation": "'dass' introduces a declarative subordinate clause. Verb at the end.",
+    "explanation": "'bevor' (Temporalsatz) drückt eine zeitliche Abfolge aus. Verb am Ende.",
     "hint": "dass + Subjekt + Adverb + Verb."
   },
   {
@@ -1134,7 +1134,7 @@
       "weil",
       "wenn"
     ],
-    "explanation": "'ob' (whether/if) introduces an indirect yes/no question.",
+    "explanation": "'nachdem' (Temporalsatz) beschreibt eine vorherige Handlung. Verb am Ende.",
     "hint": "Indirekte Ja/Nein-Frage → welche Konjunktion?"
   },
   {
@@ -1152,7 +1152,7 @@
       "Während",
       "Seitdem"
     ],
-    "explanation": "'bevor' (before) introduces a temporal subordinate clause.",
+    "explanation": "'während' (Temporalsatz) drückt Gleichzeitigkeit aus. Verb am Ende.",
     "hint": "Welche Konjunktion bedeutet 'before'?"
   },
   {
@@ -1170,7 +1170,7 @@
       "Als",
       "Wenn"
     ],
-    "explanation": "'nachdem' (after) requires Zeitenfolge: Plusquamperfekt im Nebensatz, Präteritum im Hauptsatz.",
+    "explanation": "'seitdem' drückt einen Zeitpunkt aus, ab dem etwas gilt. Verb am Ende.",
     "hint": "'after' + Plusquamperfekt = ?"
   },
   {
@@ -1188,7 +1188,7 @@
       "Nachdem",
       "Seitdem"
     ],
-    "explanation": "'während' (while) introduces a simultaneous temporal subordinate clause.",
+    "explanation": "'damit' (Finalsatz) drückt ein Ziel oder eine Absicht aus. Verb am Ende.",
     "hint": "Welche Konjunktion bedeutet 'while'?"
   },
   {
@@ -1206,7 +1206,7 @@
       "Nachdem",
       "Bevor"
     ],
-    "explanation": "'seitdem' (since/ever since) introduces a clause that marks the starting point of an ongoing situation.",
+    "explanation": "'falls' (Konditionalsatz) drückt eine unsichere Bedingung aus. Verb am Ende.",
     "hint": "Welche Konjunktion bedeutet 'ever since'?"
   },
   {
@@ -1224,7 +1224,7 @@
       "Ich gehe nicht zur Arbeit, weil bin ich krank.",
       "Ich gehe nicht zur Arbeit, weil krank ich bin."
     ],
-    "explanation": "Im Nebensatz steht das konjugierte Verb am Ende.",
+    "explanation": "'obwohl' (Konzessivsatz) — trotz des Gegenteils. Verb am Ende.",
     "hint": "Nebensatz: Subjekt + ... + Verb am Ende."
   },
   {
@@ -2016,7 +2016,7 @@
       "und",
       "oder"
     ],
-    "explanation": "'sondern' (but rather) is used after a negation to introduce a correction.",
+    "explanation": "'sondern' steht nach einer Verneinung und leitet eine Korrektur ein: nicht A, sondern B.",
     "hint": "Nach Negation (nicht/kein) + Korrektur → sondern."
   },
   {
@@ -2034,7 +2034,7 @@
       "und",
       "denn"
     ],
-    "explanation": "'aber' (but) is used for simple contrast without negation.",
+    "explanation": "'aber' drückt einen einfachen Gegensatz aus, ohne Verneinung.",
     "hint": "Kontrast ohne Negation → aber."
   },
   {
@@ -2052,7 +2052,7 @@
       "trotzdem",
       "sondern"
     ],
-    "explanation": "'denn' (because) is a coordinating conjunction (Hauptsatz-Konnektor). No inversion.",
+    "explanation": "'denn' (weil) is a coordinating conjunction (Hauptsatz-Konnektor). No inversion.",
     "hint": "Grund angeben mit Hauptsatz-Konnektor (keine Inversion)."
   },
   {
@@ -2248,7 +2248,7 @@
       "weil",
       "dass"
     ],
-    "explanation": "'wenn' is used for repeated events (immer wenn = whenever). 'als' is for single past events.",
+    "explanation": "'wenn' steht bei wiederholten Handlungen (immer wenn = jedes Mal wenn). 'als' steht bei einmaligen Ereignissen in der Vergangenheit.",
     "hint": "Wiederholtes Ereignis → wenn. Einmaliges Ereignis in der Vergangenheit → als."
   },
   {
@@ -2315,7 +2315,7 @@
       "den",
       "der"
     ],
-    "explanation": "'hinter' + Akkusativ because 'laufen' indicates movement to behind the house (Wohin?).",
+    "explanation": "'akkusativ' + Akkusativ (Wohin? = Bewegung/Richtung).",
     "hint": "Wohin laufen die Kinder? Bewegung = Akkusativ."
   },
   {
@@ -2333,7 +2333,7 @@
       "den",
       "der"
     ],
-    "explanation": "'vor' + Dativ because 'sich treffen' indicates a location (Wo?).",
+    "explanation": "'vor' + Dativ weil 'sich treffen' indicates a location (Wo?).",
     "hint": "Wo treffen wir uns? Ort = Dativ."
   },
   {
@@ -2351,7 +2351,7 @@
       "den ... den",
       "dem ... dem"
     ],
-    "explanation": "'zwischen' + Dativ because it describes a location (Wo?). Both 'Bank' and 'Post' are feminine → 'der' in Dativ.",
+    "explanation": "'zwischen' + Dativ weil it describes a location (Wo?). Both 'Bank' and 'Post' are feminine → 'der' in Dativ.",
     "hint": "Wo ist das Restaurant? Ort = Dativ. Die Bank, die Post → feminin Dativ."
   },
   {
@@ -2423,7 +2423,7 @@
       "weil",
       "dass"
     ],
-    "explanation": "'indem' (by doing) describes the means/method of achieving something.",
+    "explanation": "'indem' beschreibt die Art und Weise, wie etwas erreicht wird (Mittel/Methode). Verb am Ende.",
     "hint": "Wie kann man Geld sparen? Durch welche Methode? → indem."
   },
   {
@@ -2441,7 +2441,7 @@
       "Obwohl",
       "Dass"
     ],
-    "explanation": "'falls' (in case/if) introduces a conditional clause, similar to 'wenn' but less certain.",
+    "explanation": "'falls' leitet einen Bedingungssatz ein, ähnlich wie 'wenn', aber mit mehr Unsicherheit.",
     "hint": "Bedingung (weniger wahrscheinlich als 'wenn') → ?"
   },
   {
@@ -2459,7 +2459,7 @@
       "die",
       "dass"
     ],
-    "explanation": "'was' is used as relative pronoun after alles, nichts, etwas, das (demonstrative), and superlatives.",
+    "explanation": "'was' wird als Relativpronomen nach 'alles', 'nichts', 'etwas', 'das' (Demonstrativ) und Superlativen verwendet.",
     "hint": "Nach 'alles', 'nichts', 'etwas' → welches Relativpronomen?"
   },
   {
@@ -2495,7 +2495,7 @@
       "während",
       "wegen"
     ],
-    "explanation": "'innerhalb' (within) takes the genitive case.",
+    "explanation": "'innerhalb' (within) verlangt den Genitiv.",
     "hint": "Welche Präposition bedeutet 'within' (Zeitraum)?"
   },
   {
@@ -2580,7 +2580,7 @@
       "Deshalb",
       "Weil"
     ],
-    "explanation": "'obwohl' introduces a subordinate clause (verb at end). 'trotzdem' is used in a main clause (inversion).",
+    "explanation": "'obwohl' leitet einen Nebensatz ein (Verb am Ende). 'trotzdem' steht im Hauptsatz (mit Inversion: trotzdem + Verb + Subjekt).",
     "hint": "Verb am Ende → Nebensatz-Konjunktion."
   },
   {
@@ -2688,7 +2688,7 @@
       "weil",
       "dass"
     ],
-    "explanation": "'um ... zu + Infinitiv' is used when the subject is the same in both clauses (Zweck/purpose).",
+    "explanation": "'um ... zu + Infinitiv' wird verwendet, wenn das Subjekt in beiden Sätzen gleich ist (Zweck/Absicht).",
     "hint": "Gleiches Subjekt + Zweck → um ... zu."
   },
   {
@@ -2814,7 +2814,7 @@
       "weil",
       "obwohl"
     ],
-    "explanation": "'sodass' (so that/with the result that) expresses a consequence.",
+    "explanation": "'sodass' (Konsekutivsatz) drückt eine Folge aus: Es war so kalt, sodass wir drinnen blieben.",
     "hint": "Regen → Konsequenz: überflutete Straßen. Welche Konjunktion?"
   },
   {
@@ -2832,7 +2832,7 @@
       "den",
       "der"
     ],
-    "explanation": "'über' + Akkusativ because the bird is flying across/over (direction, Wohin?).",
+    "explanation": "'über' + Akkusativ weil the bird is flying across/over (direction, Wohin?).",
     "hint": "Der Vogel bewegt sich → Akkusativ."
   },
   {
