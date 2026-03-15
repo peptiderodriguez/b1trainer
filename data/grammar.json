@@ -531,7 +531,7 @@
       "bin",
       "sei"
     ],
-    "explanation": "'müsste' ist der Konjunktiv II von 'müssen'. Drückt eine abgeschwächte Notwendigkeit aus.",
+    "explanation": "'wäre' ist der Konjunktiv II von 'sein'. Irreale Bedingung: Wenn ich du wäre, würde ich zum Arzt gehen. (= Ich bin nicht du, aber wenn doch, dann ...)",
     "hint": "Konjunktiv II von 'sein'?"
   },
   {
@@ -616,7 +616,7 @@
     "sentence": "Wenn ich reich ___, ___ ich ein großes Haus kaufen.",
     "answer": "wäre, würde",
     "options": [],
-    "explanation": "Irreale Bedingung: Wenn + Konjunktiv II, Konjunktiv II + Infinitiv. 'sein' → 'wäre'.",
+    "explanation": "Irrealer Bedingungssatz: Wenn + Konjunktiv II, Hauptsatz mit Konjunktiv II. 'sein' → 'wäre', 'kaufen' → 'würde ... kaufen'.",
     "hint": "Wenn-Satz: Konjunktiv II. Hauptsatz: würde + Infinitiv."
   },
   {
@@ -647,7 +647,7 @@
       "Wollen",
       "Müssen"
     ],
-    "explanation": "'Würden Sie...?' is the standard polite request form in German.",
+    "explanation": "'Würden Sie...?' ist die Standardform für höfliche Bitten im Deutschen.",
     "hint": "Höfliche Bitte = würde + Sie?"
   },
   {
@@ -2088,7 +2088,7 @@
       "außerdem",
       "sondern"
     ],
-    "explanation": "'deswegen' (that's why) is a synonym of 'deshalb'. Both express consequence.",
+    "explanation": "'deswegen' ist ein Synonym von 'deshalb'. Beide drücken eine Folge/Konsequenz aus.",
     "hint": "Synonym von 'deshalb' → ?"
   },
   {
@@ -2405,7 +2405,7 @@
       "ist, hat",
       "würde, würde"
     ],
-    "explanation": "'aufstehen' uses 'sein' → wäre aufgestanden. 'verpassen' uses 'haben' → hätte verpasst.",
+    "explanation": "Irrealer Bedingungssatz in der Vergangenheit: 'aufstehen' bildet das Perfekt mit 'sein' → wäre aufgestanden. 'verpassen' bildet das Perfekt mit 'haben' → hätte verpasst.",
     "hint": "aufstehen = sein-Verb → wäre. verpassen = haben-Verb → hätte."
   },
   {
@@ -2724,7 +2724,7 @@
       "außerdem",
       "sondern"
     ],
-    "explanation": "'darum' (that's why) is another synonym of 'deshalb/deswegen' for expressing consequence.",
+    "explanation": "'darum' ist ein weiteres Synonym von 'deshalb'/'deswegen' und drückt eine Konsequenz aus.",
     "hint": "Synonyme: deshalb = deswegen = darum."
   },
   {
@@ -3201,7 +3201,7 @@
     "also_accept": [
       "dagegen"
     ],
-    "explanation": "'hingegen' (on the other hand) drückt einen Kontrast zwischen zwei Aussagen aus.",
+    "explanation": "'hingegen' (andererseits) drückt einen Kontrast zwischen zwei Aussagen aus.",
     "hint": "Kontrast: Stadt vs. Land → welcher Konnektor?"
   },
   {
