@@ -1104,9 +1104,9 @@ const App = {
       inputHtml =
         '<div class="drill-options">' +
         shuffled.map(opt =>
-          '<button class="drill-option" data-value="' + escapeHtml(opt) + '" disabled tabindex="-1">' +
+          '<div class="drill-option drill-option--locked" data-value="' + escapeHtml(opt) + '" role="button">' +
             escapeHtml(opt) +
-          '</button>'
+          '</div>'
         ).join('') +
         '</div>';
     } else {
@@ -1129,8 +1129,8 @@ const App = {
     // Enable buttons after delay to prevent ghost taps from previous question
     setTimeout(() => {
       this._drill.answered = false;
-      area.querySelectorAll('.drill-option').forEach(btn => {
-        btn.disabled = false;
+      area.querySelectorAll('.drill-option--locked').forEach(el => {
+        el.classList.remove('drill-option--locked');
       });
       const input = document.getElementById('drill-input');
       if (input) input.focus();
@@ -1138,10 +1138,10 @@ const App = {
 
     // Bind event handlers
     if (exercise.options && exercise.options.length) {
-      area.querySelectorAll('.drill-option').forEach(btn => {
-        btn.addEventListener('click', () => {
-          if (this._drill.answered) return;
-          this._handleDrillAnswer(btn.getAttribute('data-value'), exercise);
+      area.querySelectorAll('.drill-option').forEach(el => {
+        el.addEventListener('click', () => {
+          if (this._drill.answered || el.classList.contains('drill-option--locked')) return;
+          this._handleDrillAnswer(el.getAttribute('data-value'), exercise);
         });
       });
     } else {
@@ -1191,13 +1191,13 @@ const App = {
     // Show feedback on options
     const area = document.getElementById('drill-exercise-area');
     if (exercise.options && exercise.options.length) {
-      area.querySelectorAll('.drill-option').forEach(btn => {
-        btn.disabled = true;
-        const val = btn.getAttribute('data-value');
+      area.querySelectorAll('.drill-option').forEach(el => {
+        el.classList.add('drill-option--locked');
+        const val = el.getAttribute('data-value');
         if (normalize(val) === normalize(exercise.answer)) {
-          btn.classList.add('drill-option--correct');
+          el.classList.add('drill-option--correct');
         } else if (normalize(val) === normalize(given) && !correct) {
-          btn.classList.add('drill-option--wrong');
+          el.classList.add('drill-option--wrong');
         }
       });
     } else {
@@ -1276,12 +1276,18 @@ const App = {
       }
     }
 
-    // Auto-advance after delay
-    this._drill.advanceTimeout = setTimeout(() => {
-      if (this._drill.active) {
-        this._showNextDrillExercise();
-      }
-    }, 1500);
+    // Show "Weiter" button instead of auto-advancing
+    const fbArea = document.getElementById('drill-feedback');
+    if (fbArea) {
+      const nextBtn = document.createElement('button');
+      nextBtn.className = 'btn btn--accent drill-next-btn';
+      nextBtn.textContent = 'Weiter';
+      nextBtn.style.marginTop = '0.5rem';
+      fbArea.appendChild(nextBtn);
+      nextBtn.addEventListener('click', () => {
+        if (this._drill.active) this._showNextDrillExercise();
+      });
+    }
   },
 
   /**

@@ -2917,9 +2917,15 @@ img {
   }
 }
 
-.drill-option:disabled {
-  cursor: default;
-  opacity: 1;
+.drill-option--locked {
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+.drill-next-btn {
+  min-width: 120px;
+  min-height: 44px;
+  margin-top: var(--space-sm);
 }
 
 .drill-option:focus,
