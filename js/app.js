@@ -1025,22 +1025,24 @@ const App = {
           type: 'grammar', typeLabel: 'SRS-Wiederholung',
           question: ex.sentence, answer: ex.answer,
           options: ex.options?.length ? ex.options : null,
-          detail: ex.explanation || '', also_accept: ex.also_accept || null,
+          detail: (ex.sentence_en ? 'EN: ' + ex.sentence_en + '\n' : '') + (ex.explanation || ''),
+          also_accept: ex.also_accept || null,
           _srs: { module: mod, id: id },
         };
       }
     }
 
     if (mod === 'article' || mod === 'vocabulary') {
-      // Try to find a noun by id (word)
       const noun = nouns.find(n => n.noun === id || n.word === id);
       if (noun && noun.article && noun.noun) {
+        const nEx = (noun.examples && noun.examples[0]) || noun.sentence || '';
+        const nPlural = noun.plural ? 'Pl: die ' + noun.plural : '';
         return {
           type: 'article', typeLabel: 'SRS-Wiederholung',
           question: 'Welcher Artikel? ___ ' + noun.noun,
           answer: noun.article,
           options: ['der', 'die', 'das'],
-          detail: noun.translation || '',
+          detail: [nEx, noun.translation ? 'EN: ' + noun.translation : '', nPlural].filter(Boolean).join('\n'),
           _srs: { module: mod, id: id },
         };
       }
@@ -1054,11 +1056,13 @@ const App = {
         const idx = Math.floor(Math.random() * pronouns.length);
         const form = verb.conjugation.präsens[conjKeys[idx]];
         if (form) {
+          const vEx = (verb.examples && verb.examples[0]) || '';
+          const perfekt = verb.conjugation.perfekt ? 'Perfekt: ' + (verb.conjugation.withSein ? 'ist ' : 'hat ') + verb.conjugation.perfekt : '';
           return {
             type: 'conjugation', typeLabel: 'SRS-Wiederholung',
             question: pronouns[idx] + ' ___ (' + verb.word + ')',
             answer: form,
-            detail: verb.translation || '',
+            detail: [vEx, verb.translation ? 'EN: ' + verb.translation : '', perfekt].filter(Boolean).join('\n'),
             _srs: { module: mod, id: id },
           };
         }
@@ -1070,11 +1074,12 @@ const App = {
                    nouns.find(n => n.word === id) ||
                    verbs.find(v => v.word === id);
       if (item && item.word && item.translation) {
+        const tEx = (item.examples && item.examples[0]) || item.sentence || '';
         return {
           type: 'translation', typeLabel: 'SRS-Wiederholung',
           question: 'Übersetze: ' + item.translation,
           answer: item.word,
-          detail: item.sentence || '',
+          detail: [tEx, item.translation ? 'EN: ' + item.translation : ''].filter(Boolean).join('\n'),
           _srs: { module: mod, id: id },
         };
       }
