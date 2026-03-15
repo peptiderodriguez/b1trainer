@@ -1215,13 +1215,30 @@ const App = {
       if (submit) submit.disabled = true;
     }
 
-    // Render feedback
+    // Render feedback — always show answer + translation
     const feedbackEl = document.getElementById('drill-feedback');
     if (feedbackEl) {
       const cls = correct ? 'drill-feedback--correct' : 'drill-feedback--wrong';
+
+      // Build a rich answer line: for articles show "die Überschrift = heading"
+      let answerText;
+      if (exercise.type === 'article') {
+        const nounMatch = exercise.question.match(/___ (.+)/);
+        const noun = nounMatch ? nounMatch[1] : '';
+        answerText = exercise.answer + ' ' + noun;
+      } else if (exercise.type === 'conjugation') {
+        const pronounMatch = exercise.question.match(/^(.+?) ___/);
+        const pronoun = pronounMatch ? pronounMatch[1] : '';
+        answerText = pronoun + ' ' + exercise.answer;
+      } else {
+        answerText = exercise.answer;
+      }
+
       let fbHtml = correct
-        ? '<span class="drill-feedback__answer">Richtig!</span>'
-        : '<span class="drill-feedback__answer">Falsch — richtig: ' + escapeHtml(exercise.answer) + '</span>';
+        ? '<span class="drill-feedback__answer">Richtig! — ' + escapeHtml(answerText) + '</span>'
+        : '<span class="drill-feedback__answer">Falsch — richtig: ' + escapeHtml(answerText) + '</span>';
+
+      // Always show translation/detail
       if (exercise.detail) {
         fbHtml += '<div class="drill-feedback__detail">' + escapeHtml(exercise.detail) + '</div>';
       }
