@@ -15,7 +15,8 @@
       "gegen"
     ],
     "explanation": "'mit' verlangt immer den Dativ.",
-    "hint": "Welche Präposition bedeutet 'with' oder 'by means of'?"
+    "hint": "Welche Präposition bedeutet 'with' oder 'by means of'?",
+    "sentence_en": "I go to work by bus."
   },
   {
     "id": "prep_dat_002",
@@ -33,7 +34,8 @@
       "bei"
     ],
     "explanation": "'aus' drückt Herkunft aus (Länder, Städte, Orte) und verlangt den Dativ.",
-    "hint": "Woher kommt sie? Welche Präposition benutzt man für Herkunftsländer?"
+    "hint": "Woher kommt sie? Welche Präposition benutzt man für Herkunftsländer?",
+    "sentence_en": "She comes from Turkey."
   },
   {
     "id": "prep_dat_003",
@@ -51,7 +53,8 @@
       "von"
     ],
     "explanation": "'bei' (bei jemandem, bei einer Firma) verlangt den Dativ.",
-    "hint": "Welche Präposition bedeutet 'at someone's place'?"
+    "hint": "Welche Präposition bedeutet 'at someone's place'?",
+    "sentence_en": "He lives with his parents."
   },
   {
     "id": "prep_dat_004",
@@ -69,7 +72,8 @@
       "Bei"
     ],
     "explanation": "'nach' verlangt den Dativ bei Zeitangaben.",
-    "hint": "Welche Präposition bedeutet 'after'?"
+    "hint": "Welche Präposition bedeutet 'after'?",
+    "sentence_en": "After class I go home."
   },
   {
     "id": "prep_dat_005",
@@ -87,7 +91,8 @@
       "für"
     ],
     "explanation": "'seit' verlangt den Dativ und drückt eine andauernde Zeitspanne aus.",
-    "hint": "Welche Präposition drückt eine Zeitdauer aus, die bis jetzt andauert?"
+    "hint": "Welche Präposition drückt eine Zeitdauer aus, die bis jetzt andauert?",
+    "sentence_en": "I have been learning German for three years."
   },
   {
     "id": "prep_dat_006",
@@ -105,7 +110,8 @@
       "bei"
     ],
     "explanation": "'von' verlangt den Dativ.",
-    "hint": "Von wem ist das Geschenk?"
+    "hint": "Von wem ist das Geschenk?",
+    "sentence_en": "This is a gift from my girlfriend."
   },
   {
     "id": "prep_dat_007",
@@ -123,7 +129,8 @@
       "an"
     ],
     "explanation": "'zu' verlangt den Dativ.",
-    "hint": "Welche Präposition benutzt man, wenn man zu einer Person geht?"
+    "hint": "Welche Präposition benutzt man, wenn man zu einer Person geht?",
+    "sentence_en": "We are going to the doctor."
   },
   {
     "id": "prep_akk_001",
@@ -141,7 +148,8 @@
       "ohne"
     ],
     "explanation": "'für' (for) verlangt immer den Akkusativ.",
-    "hint": "Welche Präposition bedeutet 'for'?"
+    "hint": "Welche Präposition bedeutet 'for'?",
+    "sentence_en": "This gift is for you."
   },
   {
     "id": "prep_akk_002",
@@ -159,7 +167,8 @@
       "gegen"
     ],
     "explanation": "'ohne' (without) verlangt immer den Akkusativ.",
-    "hint": "Welche Präposition bedeutet 'without'?"
+    "hint": "Welche Präposition bedeutet 'without'?",
+    "sentence_en": "I never leave the house without my phone."
   },
   {
     "id": "prep_akk_003",
@@ -177,7 +186,8 @@
       "für"
     ],
     "explanation": "'durch' (through) verlangt immer den Akkusativ.",
-    "hint": "Welche Präposition bedeutet 'through'?"
+    "hint": "Welche Präposition bedeutet 'through'?",
+    "sentence_en": "We walked through the park."
   },
   {
     "id": "prep_akk_004",
@@ -195,7 +205,8 @@
       "auf"
     ],
     "explanation": "'gegen' (against/into) verlangt immer den Akkusativ.",
-    "hint": "Welche Präposition bedeutet 'against' oder 'into'?"
+    "hint": "Welche Präposition bedeutet 'against' oder 'into'?",
+    "sentence_en": "He walked into the door."
   },
   {
     "id": "prep_akk_005",
@@ -213,7 +224,8 @@
       "bei"
     ],
     "explanation": "'um' verlangt den Akkusativ.",
-    "hint": "Welche Präposition benutzt man für Uhrzeiten?"
+    "hint": "Welche Präposition benutzt man für Uhrzeiten?",
+    "sentence_en": "The course starts at 9 o'clock."
   },
   {
     "id": "prep_akk_006",
@@ -231,7 +243,8 @@
       "von"
     ],
     "explanation": "'bis' (until) verlangt den Akkusativ.",
-    "hint": "Welche Präposition bedeutet 'until'?"
+    "hint": "Welche Präposition bedeutet 'until'?",
+    "sentence_en": "I work until 5 p.m."
   },
   {
     "id": "prep_wechsel_001",
@@ -249,7 +262,8 @@
       "den"
     ],
     "explanation": "'akkusativ' + Akkusativ (Wohin? = Bewegung/Richtung).",
-    "hint": "Wohin gehst du? Bewegung = Akkusativ."
+    "hint": "Wohin gehst du? Bewegung = Akkusativ.",
+    "sentence_en": "I am going to school."
   },
   {
     "id": "prep_wechsel_002",
@@ -267,7 +281,8 @@
       "den"
     ],
     "explanation": "'in' + Dativ weil there is no movement, just location (Wo?).",
-    "hint": "Wo bist du? Ort = Dativ."
+    "hint": "Wo bist du? Ort = Dativ.",
+    "sentence_en": "I am at school."
   },
   {
     "id": "prep_wechsel_003",
@@ -285,7 +300,8 @@
       "das"
     ],
     "explanation": "'akkusativ' + Akkusativ (Wohin? = Bewegung/Richtung).",
-    "hint": "Wohin legst du das Buch? Richtung = Akkusativ."
+    "hint": "Wohin legst du das Buch? Richtung = Akkusativ.",
+    "sentence_en": "Put the book on the table."
   },
   {
     "id": "prep_wechsel_004",
@@ -303,7 +319,8 @@
       "das"
     ],
     "explanation": "'auf' + Dativ weil the book is already there (location, Wo?).",
-    "hint": "Wo liegt das Buch? Ort = Dativ."
+    "hint": "Wo liegt das Buch? Ort = Dativ.",
+    "sentence_en": "The book is lying on the table."
   },
   {
     "id": "prep_wechsel_005",
@@ -321,7 +338,8 @@
       "den"
     ],
     "explanation": "'akkusativ' + Akkusativ (Wohin? = Bewegung/Richtung).",
-    "hint": "Wohin hängst du das Bild?"
+    "hint": "Wohin hängst du das Bild?",
+    "sentence_en": "Hang the picture on the wall."
   },
   {
     "id": "prep_wechsel_006",
@@ -339,7 +357,8 @@
       "den"
     ],
     "explanation": "'an' + Dativ weil the picture is already on the wall (location, Wo?).",
-    "hint": "Wo hängt das Bild? Ort = Dativ."
+    "hint": "Wo hängt das Bild? Ort = Dativ.",
+    "sentence_en": "The picture is hanging on the wall."
   },
   {
     "id": "prep_wechsel_007",
@@ -357,7 +376,8 @@
       "das"
     ],
     "explanation": "'unter' + Dativ weil the cat is in a fixed location (Wo?).",
-    "hint": "Wo schläft die Katze? Ort = Dativ."
+    "hint": "Wo schläft die Katze? Ort = Dativ.",
+    "sentence_en": "The cat is sleeping under the table."
   },
   {
     "id": "prep_wechsel_008",
@@ -375,7 +395,8 @@
       "den"
     ],
     "explanation": "'neben' + Akkusativ weil 'sich setzen' drückt Bewegung aus (Wohin?) to a new position (Wohin?).",
-    "hint": "Wohin setzt du dich? Bewegung = Akkusativ."
+    "hint": "Wohin setzt du dich? Bewegung = Akkusativ.",
+    "sentence_en": "Sit down next to the woman over there."
   },
   {
     "id": "prep_gen_001",
@@ -393,7 +414,8 @@
       "Anstatt"
     ],
     "explanation": "'wegen' (weil of) verlangt den Genitiv.",
-    "hint": "Welche Präposition bedeutet 'because of'?"
+    "hint": "Welche Präposition bedeutet 'because of'?",
+    "sentence_en": "Because of the bad weather, we are staying at home."
   },
   {
     "id": "prep_gen_002",
@@ -411,7 +433,8 @@
       "Anstatt"
     ],
     "explanation": "'trotz' (despite/in spite of) verlangt den Genitiv.",
-    "hint": "Welche Präposition bedeutet 'despite'?"
+    "hint": "Welche Präposition bedeutet 'despite'?",
+    "sentence_en": "Despite the rain, we are going for a walk."
   },
   {
     "id": "prep_gen_003",
@@ -429,7 +452,8 @@
       "Anstatt"
     ],
     "explanation": "'während' (during) verlangt den Genitiv.",
-    "hint": "Welche Präposition bedeutet 'during'?"
+    "hint": "Welche Präposition bedeutet 'during'?",
+    "sentence_en": "During the break, I am drinking a coffee."
   },
   {
     "id": "prep_gen_004",
@@ -447,7 +471,8 @@
       "Während"
     ],
     "explanation": "'anstatt' (instead of) verlangt den Genitiv.",
-    "hint": "Welche Präposition bedeutet 'instead of'?"
+    "hint": "Welche Präposition bedeutet 'instead of'?",
+    "sentence_en": "Instead of a car, he bought a bicycle."
   },
   {
     "id": "prep_gen_005",
@@ -465,7 +490,8 @@
       "der"
     ],
     "explanation": "'wegen' verlangt den Genitiv.",
-    "hint": "Der Stau → Genitiv maskulin?"
+    "hint": "Der Stau → Genitiv maskulin?",
+    "sentence_en": "Because of the traffic jam, I arrived late."
   },
   {
     "id": "konj2_001",
@@ -478,7 +504,8 @@
     "answer": "würde",
     "options": [],
     "explanation": "'wäre' ist der Konjunktiv II von 'sein' (ich wäre, du wärst, er wäre...).",
-    "hint": "ich → würde"
+    "hint": "ich → würde",
+    "sentence_en": "I would like to fly to Spain."
   },
   {
     "id": "konj2_002",
@@ -496,7 +523,8 @@
       "könnte"
     ],
     "explanation": "'hätte' ist der Konjunktiv II von 'haben'. Für irreale Wünsche und Bedingungen.",
-    "hint": "würde + Infinitiv für Ratschläge."
+    "hint": "würde + Infinitiv für Ratschläge.",
+    "sentence_en": "In your place, I would exercise more."
   },
   {
     "id": "konj2_003",
@@ -514,7 +542,8 @@
       "würde"
     ],
     "explanation": "'könnte' ist der Konjunktiv II von 'können'. Für höfliche Bitten und Möglichkeiten.",
-    "hint": "Konjunktiv II von 'haben'?"
+    "hint": "Konjunktiv II von 'haben'?",
+    "sentence_en": "If I had more money, I would take a trip around the world."
   },
   {
     "id": "konj2_004",
@@ -532,7 +561,8 @@
       "sei"
     ],
     "explanation": "'wäre' ist der Konjunktiv II von 'sein'. Irreale Bedingung: Wenn ich du wäre, würde ich zum Arzt gehen. (= Ich bin nicht du, aber wenn doch, dann ...)",
-    "hint": "Konjunktiv II von 'sein'?"
+    "hint": "Konjunktiv II von 'sein'?",
+    "sentence_en": "If I were you, I would go to the doctor."
   },
   {
     "id": "konj2_005",
@@ -550,7 +580,8 @@
       "Würden"
     ],
     "explanation": "'dürfte' ist der Konjunktiv II von 'dürfen'. Für höfliche Bitten und Vermutungen.",
-    "hint": "Höfliche Bitte mit 'können' im Konjunktiv II."
+    "hint": "Höfliche Bitte mit 'können' im Konjunktiv II.",
+    "sentence_en": "Could you please help me?"
   },
   {
     "id": "konj2_006",
@@ -568,7 +599,8 @@
       "würde"
     ],
     "explanation": "'würde' + Infinitiv ist die Umschreibung des Konjunktiv II für regelmäßige Verben.",
-    "hint": "Konjunktiv II von 'müssen'?"
+    "hint": "Konjunktiv II von 'müssen'?",
+    "sentence_en": "Actually, I should be studying today, but I'm tired."
   },
   {
     "id": "konj2_007",
@@ -586,7 +618,8 @@
       "Könnte"
     ],
     "explanation": "'wäre' + 'wenn'-Satz: irrealer Bedingungssatz (Wenn ich ..., wäre ich ...).",
-    "hint": "Sehr höfliche Frage mit 'dürfen' im Konjunktiv II."
+    "hint": "Sehr höfliche Frage mit 'dürfen' im Konjunktiv II.",
+    "sentence_en": "May I ask you something?"
   },
   {
     "id": "konj2_008",
@@ -604,7 +637,8 @@
       "würdest"
     ],
     "explanation": "'solltest' ist der Konjunktiv II von 'sollen' für 'du'. Für Ratschläge und Empfehlungen.",
-    "hint": "Konjunktiv II von 'sollen' für 'du'?"
+    "hint": "Konjunktiv II von 'sollen' für 'du'?",
+    "sentence_en": "You should drink more water."
   },
   {
     "id": "konj2_009",
@@ -617,7 +651,8 @@
     "answer": "wäre, würde",
     "options": [],
     "explanation": "Irrealer Bedingungssatz: Wenn + Konjunktiv II, Hauptsatz mit Konjunktiv II. 'sein' → 'wäre', 'kaufen' → 'würde ... kaufen'.",
-    "hint": "Wenn-Satz: Konjunktiv II. Hauptsatz: würde + Infinitiv."
+    "hint": "Wenn-Satz: Konjunktiv II. Hauptsatz: würde + Infinitiv.",
+    "sentence_en": "If I were rich, I would buy a big house."
   },
   {
     "id": "konj2_010",
@@ -630,7 +665,8 @@
     "answer": "könnte",
     "options": [],
     "explanation": "Wünsche werden mit Konjunktiv II ausgedrückt. 'können' → 'könnte'.",
-    "hint": "Konjunktiv II von 'können' für 'ich'?"
+    "hint": "Konjunktiv II von 'können' für 'ich'?",
+    "sentence_en": "I wish I could play the piano!"
   },
   {
     "id": "konj2_011",
@@ -648,7 +684,8 @@
       "Müssen"
     ],
     "explanation": "'Würden Sie...?' ist die Standardform für höfliche Bitten im Deutschen.",
-    "hint": "Höfliche Bitte = würde + Sie?"
+    "hint": "Höfliche Bitte = würde + Sie?",
+    "sentence_en": "Would you open the window?"
   },
   {
     "id": "konj2_012",
@@ -666,7 +703,8 @@
       "sprach"
     ],
     "explanation": "'spräche' is the direct Konjunktiv II of 'sprechen'. For strong verbs, the direct form is also common.",
-    "hint": "Starke Verben haben oft eigene Konjunktiv-II-Formen."
+    "hint": "Starke Verben haben oft eigene Konjunktiv-II-Formen.",
+    "sentence_en": "If he spoke better German, he could work in Germany."
   },
   {
     "id": "passiv_001",
@@ -679,7 +717,8 @@
     "answer": "wird repariert",
     "options": [],
     "explanation": "Passiv Präsens: werden (konjugiert) + Partizip II. Das Auto wird repariert.",
-    "hint": "werden + Partizip II"
+    "hint": "werden + Partizip II",
+    "sentence_en": "The car is being repaired."
   },
   {
     "id": "passiv_002",
@@ -697,7 +736,8 @@
       "werden ... getrunken"
     ],
     "explanation": "Passiv Präsens: wird + Partizip II. 'Bier' ist Singular, also 'wird'.",
-    "hint": "Passiv = werden + Partizip II. Bier = Singular."
+    "hint": "Passiv = werden + Partizip II. Bier = Singular.",
+    "sentence_en": "A lot of beer is drunk in Germany."
   },
   {
     "id": "passiv_003",
@@ -710,7 +750,8 @@
     "answer": "wurde ... gebaut",
     "options": [],
     "explanation": "Passiv Präteritum: wurde + Partizip II.",
-    "hint": "Präteritum von 'werden' = 'wurde'."
+    "hint": "Präteritum von 'werden' = 'wurde'.",
+    "sentence_en": "The bridge was built in 1990."
   },
   {
     "id": "passiv_004",
@@ -723,7 +764,8 @@
     "answer": "ist geschickt worden",
     "options": [],
     "explanation": "Passiv Perfekt: ist + Partizip II + worden.",
-    "hint": "ist + Partizip II + worden"
+    "hint": "ist + Partizip II + worden",
+    "sentence_en": "The letter has been sent."
   },
   {
     "id": "passiv_005",
@@ -741,7 +783,8 @@
       "Die Grammatik wurde von der Lehrerin erklärt."
     ],
     "explanation": "Passiv Präsens: Subjekt + wird + von + Dativ + Partizip II.",
-    "hint": "Präsens Passiv = wird + Partizip II."
+    "hint": "Präsens Passiv = wird + Partizip II.",
+    "sentence_en": "The grammar is being explained by the teacher."
   },
   {
     "id": "passiv_006",
@@ -759,7 +802,8 @@
       "sind ... gebracht"
     ],
     "explanation": "Passiv Präsens: werden + Partizip II. 'Kinder' ist Plural → 'werden'.",
-    "hint": "Plural-Subjekt → werden + Partizip II."
+    "hint": "Plural-Subjekt → werden + Partizip II.",
+    "sentence_en": "The children are taken to school by their parents."
   },
   {
     "id": "passiv_007",
@@ -777,7 +821,8 @@
       "muss ... werden ausgefüllt"
     ],
     "explanation": "Passiv mit Modalverb: Modalverb (konjugiert) + Partizip II + werden (Infinitiv).",
-    "hint": "Modalverb + Partizip II + werden."
+    "hint": "Modalverb + Partizip II + werden.",
+    "sentence_en": "The form must be filled out by tomorrow."
   },
   {
     "id": "passiv_008",
@@ -795,7 +840,8 @@
       "war ... renoviert"
     ],
     "explanation": "Passiv Präteritum: wurde + Partizip II.",
-    "hint": "Vergangenheit Passiv = wurde + Partizip II."
+    "hint": "Vergangenheit Passiv = wurde + Partizip II.",
+    "sentence_en": "The house was renovated last year."
   },
   {
     "id": "passiv_009",
@@ -808,7 +854,8 @@
     "answer": "wird ... gesprochen",
     "options": [],
     "explanation": "Passiv Präsens: wird + Partizip II. 'Man' fällt im Passiv weg.",
-    "hint": "werden + Partizip II. 'Man' verschwindet."
+    "hint": "werden + Partizip II. 'Man' verschwindet.",
+    "sentence_en": "German is spoken here."
   },
   {
     "id": "relativ_001",
@@ -826,7 +873,8 @@
       "dessen"
     ],
     "explanation": "Relativpronomen im Nominativ maskulin = 'der'. Das Pronomen ist Subjekt im Relativsatz.",
-    "hint": "Wer hat geholfen? → Nominativ maskulin."
+    "hint": "Wer hat geholfen? → Nominativ maskulin.",
+    "sentence_en": "That is the man who helped me."
   },
   {
     "id": "relativ_002",
@@ -844,7 +892,8 @@
       "dessen"
     ],
     "explanation": "Relativpronomen im Akkusativ maskulin = 'den'. 'sehen' braucht Akkusativ.",
-    "hint": "Was habe ich gesehen? → Akkusativ maskulin."
+    "hint": "Was habe ich gesehen? → Akkusativ maskulin.",
+    "sentence_en": "That is the movie that I saw yesterday."
   },
   {
     "id": "relativ_003",
@@ -862,7 +911,8 @@
       "dessen"
     ],
     "explanation": "Relativpronomen im Dativ maskulin = 'dem'. 'leihen' braucht Dativ für die Person.",
-    "hint": "Wem habe ich das Buch geliehen? → Dativ maskulin."
+    "hint": "Wem habe ich das Buch geliehen? → Dativ maskulin.",
+    "sentence_en": "That is the friend to whom I lent the book."
   },
   {
     "id": "relativ_004",
@@ -880,7 +930,8 @@
       "den"
     ],
     "explanation": "Relativpronomen im Nominativ feminin = 'die'. Die Frau ist Subjekt im Relativsatz.",
-    "hint": "Wer wohnt nebenan? → Nominativ feminin."
+    "hint": "Wer wohnt nebenan? → Nominativ feminin.",
+    "sentence_en": "The woman who lives next door is very nice."
   },
   {
     "id": "relativ_005",
@@ -898,7 +949,8 @@
       "den"
     ],
     "explanation": "Relativpronomen im Akkusativ feminin = 'die'. 'besuchen' braucht Akkusativ.",
-    "hint": "Was haben wir besucht? → Akkusativ feminin."
+    "hint": "Was haben wir besucht? → Akkusativ feminin.",
+    "sentence_en": "The city that we visited was very beautiful."
   },
   {
     "id": "relativ_006",
@@ -916,7 +968,8 @@
       "den"
     ],
     "explanation": "Relativpronomen im Dativ feminin = 'der'. 'helfen' braucht Dativ.",
-    "hint": "Wem habe ich geholfen? → Dativ feminin."
+    "hint": "Wem habe ich geholfen? → Dativ feminin.",
+    "sentence_en": "The colleague whom I helped thanked me."
   },
   {
     "id": "relativ_007",
@@ -934,7 +987,8 @@
       "den"
     ],
     "explanation": "Relativpronomen im Nominativ neutrum = 'das'.",
-    "hint": "Wer spielt im Garten? → Nominativ neutrum."
+    "hint": "Wer spielt im Garten? → Nominativ neutrum.",
+    "sentence_en": "The child who is playing in the garden is my nephew."
   },
   {
     "id": "relativ_008",
@@ -952,7 +1006,8 @@
       "den"
     ],
     "explanation": "Relativpronomen im Nominativ Plural = 'die'.",
-    "hint": "Wer arbeitet hier? → Nominativ Plural."
+    "hint": "Wer arbeitet hier? → Nominativ Plural.",
+    "sentence_en": "The people who work here are very friendly."
   },
   {
     "id": "relativ_009",
@@ -970,7 +1025,8 @@
       "deren"
     ],
     "explanation": "Relativpronomen im Dativ Plural = 'denen'. 'schreiben' + Dativ für die Person.",
-    "hint": "Wem habe ich geschrieben? → Dativ Plural."
+    "hint": "Wem habe ich geschrieben? → Dativ Plural.",
+    "sentence_en": "The friends to whom I wrote are not responding."
   },
   {
     "id": "relativ_010",
@@ -988,7 +1044,8 @@
       "die"
     ],
     "explanation": "Präposition + Relativpronomen: 'über' + Akkusativ. Neutrum Akkusativ = 'das'.",
-    "hint": "Über + Akkusativ. Das Thema = neutrum."
+    "hint": "Über + Akkusativ. Das Thema = neutrum.",
+    "sentence_en": "That is the topic that we talked about."
   },
   {
     "id": "relativ_011",
@@ -1006,7 +1063,8 @@
       "den"
     ],
     "explanation": "Präposition + Relativpronomen: 'in' + Dativ (Wo?). Feminin Dativ = 'der'.",
-    "hint": "Wo bin ich geboren? → in + Dativ. Die Stadt = feminin."
+    "hint": "Wo bin ich geboren? → in + Dativ. Die Stadt = feminin.",
+    "sentence_en": "The city in which I was born is in Bavaria."
   },
   {
     "id": "relativ_012",
@@ -1024,7 +1082,8 @@
       "den"
     ],
     "explanation": "Relativpronomen im Genitiv maskulin = 'dessen'. Es drückt Besitz aus.",
-    "hint": "Wessen Auto? → Genitiv maskulin = dessen."
+    "hint": "Wessen Auto? → Genitiv maskulin = dessen.",
+    "sentence_en": "The man whose car is parked in front of the house is my neighbor."
   },
   {
     "id": "neben_001",
@@ -1037,7 +1096,8 @@
     "answer": "weil ich krank bin",
     "options": [],
     "explanation": "'dass' leitet einen Nebensatz ein. Das Verb steht am Ende.",
-    "hint": "Nebensatz: Konjunktion + Subjekt + ... + Verb am Ende."
+    "hint": "Nebensatz: Konjunktion + Subjekt + ... + Verb am Ende.",
+    "sentence_en": "I'm staying at home because I'm sick."
   },
   {
     "id": "neben_002",
@@ -1050,7 +1110,8 @@
     "answer": "obwohl er Fieber hat",
     "options": [],
     "explanation": "'obwohl' (Konzessivsatz) leitet einen Gegensatz ein. Das Verb steht am Ende.",
-    "hint": "Konjunktion + Subjekt + Objekt + Verb."
+    "hint": "Konjunktion + Subjekt + Objekt + Verb.",
+    "sentence_en": "He goes to work even though he has a fever."
   },
   {
     "id": "neben_003",
@@ -1068,7 +1129,8 @@
       "Als"
     ],
     "explanation": "'wenn' (Konditionalsatz) drückt eine Bedingung oder wiederholte Handlung aus. Verb am Ende.",
-    "hint": "Welche Konjunktion drückt eine Bedingung aus?"
+    "hint": "Welche Konjunktion drückt eine Bedingung aus?",
+    "sentence_en": "If it rains, I take an umbrella with me."
   },
   {
     "id": "neben_004",
@@ -1086,7 +1148,8 @@
       "Dass"
     ],
     "explanation": "'weil' (Kausalsatz) gibt einen Grund an. Das Verb steht am Ende.",
-    "hint": "Einmaliges Ereignis in der Vergangenheit → als."
+    "hint": "Einmaliges Ereignis in der Vergangenheit → als.",
+    "sentence_en": "When I was a child, I lived in Berlin."
   },
   {
     "id": "neben_005",
@@ -1104,7 +1167,8 @@
       "ob"
     ],
     "explanation": "'als' wird für einmalige Ereignisse in der Vergangenheit verwendet. Verb am Ende.",
-    "hint": "Welche Konjunktion drückt einen Zweck (purpose) aus?"
+    "hint": "Welche Konjunktion drückt einen Zweck (purpose) aus?",
+    "sentence_en": "I'm learning German so that I can study in Germany."
   },
   {
     "id": "neben_006",
@@ -1117,7 +1181,8 @@
     "answer": "dass du bald kommst",
     "options": [],
     "explanation": "'bevor' (Temporalsatz) drückt eine zeitliche Abfolge aus. Verb am Ende.",
-    "hint": "dass + Subjekt + Adverb + Verb."
+    "hint": "dass + Subjekt + Adverb + Verb.",
+    "sentence_en": "I hope that you come soon."
   },
   {
     "id": "neben_007",
@@ -1135,7 +1200,8 @@
       "wenn"
     ],
     "explanation": "'nachdem' (Temporalsatz) beschreibt eine vorherige Handlung. Verb am Ende.",
-    "hint": "Indirekte Ja/Nein-Frage → welche Konjunktion?"
+    "hint": "Indirekte Ja/Nein-Frage → welche Konjunktion?",
+    "sentence_en": "I don't know whether he is coming tomorrow."
   },
   {
     "id": "neben_008",
@@ -1153,7 +1219,8 @@
       "Seitdem"
     ],
     "explanation": "'während' (Temporalsatz) drückt Gleichzeitigkeit aus. Verb am Ende.",
-    "hint": "Welche Konjunktion bedeutet 'before'?"
+    "hint": "Welche Konjunktion bedeutet 'before'?",
+    "sentence_en": "Before you leave, please clean up your room."
   },
   {
     "id": "neben_009",
@@ -1171,7 +1238,8 @@
       "Wenn"
     ],
     "explanation": "'seitdem' drückt einen Zeitpunkt aus, ab dem etwas gilt. Verb am Ende.",
-    "hint": "'after' + Plusquamperfekt = ?"
+    "hint": "'after' + Plusquamperfekt = ?",
+    "sentence_en": "After I had eaten breakfast, I went to work."
   },
   {
     "id": "neben_010",
@@ -1189,7 +1257,8 @@
       "Seitdem"
     ],
     "explanation": "'damit' (Finalsatz) drückt ein Ziel oder eine Absicht aus. Verb am Ende.",
-    "hint": "Welche Konjunktion bedeutet 'while'?"
+    "hint": "Welche Konjunktion bedeutet 'while'?",
+    "sentence_en": "While I cook, my husband listens to music."
   },
   {
     "id": "neben_011",
@@ -1207,7 +1276,8 @@
       "Bevor"
     ],
     "explanation": "'falls' (Konditionalsatz) drückt eine unsichere Bedingung aus. Verb am Ende.",
-    "hint": "Welche Konjunktion bedeutet 'ever since'?"
+    "hint": "Welche Konjunktion bedeutet 'ever since'?",
+    "sentence_en": "Since he has been living in Munich, he takes the subway every day."
   },
   {
     "id": "neben_012",
@@ -1225,7 +1295,8 @@
       "Ich gehe nicht zur Arbeit, weil krank ich bin."
     ],
     "explanation": "'obwohl' (Konzessivsatz) — trotz des Gegenteils. Verb am Ende.",
-    "hint": "Nebensatz: Subjekt + ... + Verb am Ende."
+    "hint": "Nebensatz: Subjekt + ... + Verb am Ende.",
+    "sentence_en": "I'm not going to work because I'm sick."
   },
   {
     "id": "adj_def_001",
@@ -1243,7 +1314,8 @@
       "kleinen"
     ],
     "explanation": "Nach bestimmtem Artikel im Nominativ maskulin: -e. Der kleine Junge.",
-    "hint": "Bestimmter Artikel + Nominativ maskulin → Adjektiv + -e."
+    "hint": "Bestimmter Artikel + Nominativ maskulin → Adjektiv + -e.",
+    "sentence_en": "The little boy is playing in the garden."
   },
   {
     "id": "adj_def_002",
@@ -1261,7 +1333,8 @@
       "schönen"
     ],
     "explanation": "Nach bestimmtem Artikel im Nominativ feminin: -e. Die schöne Blume.",
-    "hint": "Bestimmter Artikel + Nominativ feminin → Adjektiv + -e."
+    "hint": "Bestimmter Artikel + Nominativ feminin → Adjektiv + -e.",
+    "sentence_en": "The beautiful flower is on the table."
   },
   {
     "id": "adj_def_003",
@@ -1279,7 +1352,8 @@
       "großen"
     ],
     "explanation": "Nach bestimmtem Artikel im Nominativ neutrum: -e. Das große Haus.",
-    "hint": "Bestimmter Artikel + Nominativ neutrum → Adjektiv + -e."
+    "hint": "Bestimmter Artikel + Nominativ neutrum → Adjektiv + -e.",
+    "sentence_en": "The big house belongs to my uncle."
   },
   {
     "id": "adj_def_004",
@@ -1297,7 +1371,8 @@
       "rotes"
     ],
     "explanation": "Nach bestimmtem Artikel im Akkusativ maskulin: -en. Den roten Pullover.",
-    "hint": "Bestimmter Artikel + Akkusativ maskulin → Adjektiv + -en."
+    "hint": "Bestimmter Artikel + Akkusativ maskulin → Adjektiv + -en.",
+    "sentence_en": "I'm buying the red sweater."
   },
   {
     "id": "adj_def_005",
@@ -1315,7 +1390,8 @@
       "nettes"
     ],
     "explanation": "Nach bestimmtem Artikel im Dativ maskulin: -en. Dem netten Nachbarn.",
-    "hint": "Bestimmter Artikel + Dativ → Adjektiv immer + -en."
+    "hint": "Bestimmter Artikel + Dativ → Adjektiv immer + -en.",
+    "sentence_en": "I'm talking to the nice neighbor."
   },
   {
     "id": "adj_def_006",
@@ -1333,7 +1409,8 @@
       "altes"
     ],
     "explanation": "Nach bestimmtem Artikel im Dativ feminin: -en. Der alten Stadt.",
-    "hint": "Bestimmter Artikel + Dativ → Adjektiv immer + -en."
+    "hint": "Bestimmter Artikel + Dativ → Adjektiv immer + -en.",
+    "sentence_en": "He lives in the old city."
   },
   {
     "id": "adj_def_007",
@@ -1351,7 +1428,8 @@
       "neues"
     ],
     "explanation": "Nach bestimmtem Artikel im Genitiv neutrum: -en. Des neuen Autos.",
-    "hint": "Bestimmter Artikel + Genitiv → Adjektiv immer + -en."
+    "hint": "Bestimmter Artikel + Genitiv → Adjektiv immer + -en.",
+    "sentence_en": "I like the color of the new car."
   },
   {
     "id": "adj_def_008",
@@ -1369,7 +1447,8 @@
       "kleines"
     ],
     "explanation": "Nach bestimmtem Artikel im Nominativ Plural: -en. Die kleinen Kinder.",
-    "hint": "Bestimmter Artikel + Plural Nominativ → Adjektiv + -en."
+    "hint": "Bestimmter Artikel + Plural Nominativ → Adjektiv + -en.",
+    "sentence_en": "The little children are playing outside."
   },
   {
     "id": "adj_def_009",
@@ -1387,7 +1466,8 @@
       "hohes"
     ],
     "explanation": "Nach bestimmtem Artikel im Akkusativ Plural: -en. Die hohen Berge.",
-    "hint": "Bestimmter Artikel + Plural Akkusativ → Adjektiv + -en."
+    "hint": "Bestimmter Artikel + Plural Akkusativ → Adjektiv + -en.",
+    "sentence_en": "Do you see the tall mountains?"
   },
   {
     "id": "adj_def_010",
@@ -1405,7 +1485,8 @@
       "kaltes"
     ],
     "explanation": "Nach bestimmtem Artikel im Akkusativ feminin: -e. Die kalte Milch.",
-    "hint": "Bestimmter Artikel + Akkusativ feminin → Adjektiv + -e."
+    "hint": "Bestimmter Artikel + Akkusativ feminin → Adjektiv + -e.",
+    "sentence_en": "I'm drinking the cold milk."
   },
   {
     "id": "adj_indef_001",
@@ -1423,7 +1504,8 @@
       "jungen"
     ],
     "explanation": "Nach unbestimmtem Artikel im Nominativ maskulin: -er. Ein junger Mann.",
-    "hint": "Unbestimmter Artikel + Nominativ maskulin → Adjektiv + -er."
+    "hint": "Unbestimmter Artikel + Nominativ maskulin → Adjektiv + -er.",
+    "sentence_en": "A young man is waiting at the bus stop."
   },
   {
     "id": "adj_indef_002",
@@ -1441,7 +1523,8 @@
       "interessanten"
     ],
     "explanation": "Nach unbestimmtem Artikel im Nominativ feminin: -e. Eine interessante Frau.",
-    "hint": "Unbestimmter Artikel + Nominativ feminin → Adjektiv + -e."
+    "hint": "Unbestimmter Artikel + Nominativ feminin → Adjektiv + -e.",
+    "sentence_en": "An interesting woman spoke to me."
   },
   {
     "id": "adj_indef_003",
@@ -1459,7 +1542,8 @@
       "kleinen"
     ],
     "explanation": "Nach unbestimmtem Artikel im Nominativ neutrum: -es. Ein kleines Kind.",
-    "hint": "Unbestimmter Artikel + Nominativ neutrum → Adjektiv + -es."
+    "hint": "Unbestimmter Artikel + Nominativ neutrum → Adjektiv + -es.",
+    "sentence_en": "A small child is crying in the supermarket."
   },
   {
     "id": "adj_indef_004",
@@ -1477,7 +1561,8 @@
       "billige"
     ],
     "explanation": "Nach unbestimmtem Artikel im Akkusativ maskulin: -en. Einen billigen Flug.",
-    "hint": "Unbestimmter Artikel + Akkusativ maskulin → Adjektiv + -en."
+    "hint": "Unbestimmter Artikel + Akkusativ maskulin → Adjektiv + -en.",
+    "sentence_en": "I'm looking for a cheap flight to Madrid."
   },
   {
     "id": "adj_indef_005",
@@ -1495,7 +1580,8 @@
       "langen"
     ],
     "explanation": "Nach unbestimmtem Artikel im Akkusativ feminin: -e. Eine lange Reise.",
-    "hint": "Unbestimmter Artikel + Akkusativ feminin → Adjektiv + -e."
+    "hint": "Unbestimmter Artikel + Akkusativ feminin → Adjektiv + -e.",
+    "sentence_en": "She went on a long trip."
   },
   {
     "id": "adj_indef_006",
@@ -1513,7 +1599,8 @@
       "alte"
     ],
     "explanation": "Nach unbestimmtem Artikel im Dativ neutrum: -en. Einem alten Auto.",
-    "hint": "Unbestimmter Artikel + Dativ → Adjektiv immer + -en."
+    "hint": "Unbestimmter Artikel + Dativ → Adjektiv immer + -en.",
+    "sentence_en": "He drives to work in an old car."
   },
   {
     "id": "adj_indef_007",
@@ -1531,7 +1618,8 @@
       "gemütliches"
     ],
     "explanation": "Nach unbestimmtem Artikel im Dativ feminin: -en. Einer gemütlichen Wohnung.",
-    "hint": "Unbestimmter Artikel + Dativ → Adjektiv immer + -en."
+    "hint": "Unbestimmter Artikel + Dativ → Adjektiv immer + -en.",
+    "sentence_en": "She lives in a cozy apartment."
   },
   {
     "id": "adj_indef_008",
@@ -1549,7 +1637,8 @@
       "guten"
     ],
     "explanation": "'kein' dekliniert wie unbestimmter Artikel. Nominativ feminin: -e. Keine gute Idee.",
-    "hint": "'kein' funktioniert wie ein unbestimmter Artikel."
+    "hint": "'kein' funktioniert wie ein unbestimmter Artikel.",
+    "sentence_en": "That is not a good idea."
   },
   {
     "id": "adj_indef_009",
@@ -1567,7 +1656,8 @@
       "alte"
     ],
     "explanation": "Possessivartikel dekliniert wie unbestimmter Artikel. Akkusativ maskulin: -en.",
-    "hint": "Possessivartikel + Akkusativ maskulin → Adjektiv + -en."
+    "hint": "Possessivartikel + Akkusativ maskulin → Adjektiv + -en.",
+    "sentence_en": "I'm visiting my old friend."
   },
   {
     "id": "adj_indef_010",
@@ -1585,7 +1675,8 @@
       "schwere"
     ],
     "explanation": "Nach unbestimmtem Artikel im Genitiv maskulin: -en. Eines schweren Unfalls.",
-    "hint": "Unbestimmter Artikel + Genitiv → Adjektiv immer + -en."
+    "hint": "Unbestimmter Artikel + Genitiv → Adjektiv immer + -en.",
+    "sentence_en": "Because of a serious accident, the road was closed."
   },
   {
     "id": "adj_null_001",
@@ -1603,7 +1694,8 @@
       "Kalten"
     ],
     "explanation": "Ohne Artikel im Nominativ neutrum: -es. Kaltes Wasser. Das Adjektiv übernimmt die Endung des bestimmten Artikels.",
-    "hint": "Ohne Artikel → Adjektiv zeigt das Genus. Neutrum Nominativ = -es."
+    "hint": "Ohne Artikel → Adjektiv zeigt das Genus. Neutrum Nominativ = -es.",
+    "sentence_en": "Cold water is healthy."
   },
   {
     "id": "adj_null_002",
@@ -1621,7 +1713,8 @@
       "Frischen"
     ],
     "explanation": "Ohne Artikel im Nominativ neutrum: -es. Frisches Obst.",
-    "hint": "Ohne Artikel: Das Adjektiv braucht die starke Endung. Neutrum Nominativ = -es."
+    "hint": "Ohne Artikel: Das Adjektiv braucht die starke Endung. Neutrum Nominativ = -es.",
+    "sentence_en": "Fresh fruit is rich in vitamins."
   },
   {
     "id": "adj_null_003",
@@ -1639,7 +1732,8 @@
       "Deutschen"
     ],
     "explanation": "Ohne Artikel im Nominativ neutrum: -es. Deutsches Bier.",
-    "hint": "Das Bier → neutrum. Ohne Artikel = starke Deklination."
+    "hint": "Das Bier → neutrum. Ohne Artikel = starke Deklination.",
+    "sentence_en": "German beer is world-famous."
   },
   {
     "id": "adj_null_004",
@@ -1657,7 +1751,8 @@
       "heiße"
     ],
     "explanation": "Ohne Artikel im Akkusativ maskulin: -en. Heißen Tee.",
-    "hint": "Der Tee → maskulin. Akkusativ maskulin ohne Artikel = -en."
+    "hint": "Der Tee → maskulin. Akkusativ maskulin ohne Artikel = -en.",
+    "sentence_en": "I like drinking hot tea."
   },
   {
     "id": "adj_null_005",
@@ -1675,7 +1770,8 @@
       "frischen"
     ],
     "explanation": "Ohne Artikel im Dativ neutrum: -em. Mit frischem Gemüse.",
-    "hint": "Das Gemüse → neutrum. Dativ ohne Artikel = -em."
+    "hint": "Das Gemüse → neutrum. Dativ ohne Artikel = -em.",
+    "sentence_en": "We cook with fresh vegetables."
   },
   {
     "id": "adj_null_006",
@@ -1693,7 +1789,8 @@
       "Guten"
     ],
     "explanation": "Ohne Artikel im Nominativ Plural: -e. Gute Freunde.",
-    "hint": "Plural Nominativ ohne Artikel = -e."
+    "hint": "Plural Nominativ ohne Artikel = -e.",
+    "sentence_en": "Good friends are important."
   },
   {
     "id": "adj_null_007",
@@ -1711,7 +1808,8 @@
       "schönen"
     ],
     "explanation": "Ohne Artikel im Akkusativ Plural: -e. Schöne Fotos.",
-    "hint": "Plural Akkusativ ohne Artikel = -e."
+    "hint": "Plural Akkusativ ohne Artikel = -e.",
+    "sentence_en": "We took beautiful photos."
   },
   {
     "id": "adj_null_008",
@@ -1729,7 +1827,8 @@
       "ausländischem"
     ],
     "explanation": "Ohne Artikel im Dativ Plural: -en. Mit ausländischen Studenten.",
-    "hint": "Dativ Plural ohne Artikel = -en."
+    "hint": "Dativ Plural ohne Artikel = -en.",
+    "sentence_en": "He speaks with foreign students."
   },
   {
     "id": "adj_null_009",
@@ -1747,7 +1846,8 @@
       "Warmen"
     ],
     "explanation": "Ohne Artikel im Nominativ feminin: -e. Warme Milch.",
-    "hint": "Die Milch → feminin. Nominativ feminin ohne Artikel = -e."
+    "hint": "Die Milch → feminin. Nominativ feminin ohne Artikel = -e.",
+    "sentence_en": "Warm milk helps you fall asleep."
   },
   {
     "id": "adj_null_010",
@@ -1765,7 +1865,8 @@
       "gutem"
     ],
     "explanation": "Ohne Artikel im Genitiv maskulin: -en. Guten Weines.",
-    "hint": "Genitiv maskulin ohne Artikel = -en."
+    "hint": "Genitiv maskulin ohne Artikel = -en.",
+    "sentence_en": "The taste of good wine is unique."
   },
   {
     "id": "komp_001",
@@ -1783,7 +1884,8 @@
       "schnellerer"
     ],
     "explanation": "Komparativ: Adjektiv + -er. schnell → schneller.",
-    "hint": "Komparativ = Adjektiv + -er."
+    "hint": "Komparativ = Adjektiv + -er.",
+    "sentence_en": "My car is fast, but your car is faster."
   },
   {
     "id": "komp_002",
@@ -1801,7 +1903,8 @@
       "höchster"
     ],
     "explanation": "Superlativ vor Nomen: der/die/das + Adjektiv + -ste. hoch → höchst- (mit Umlaut).",
-    "hint": "Superlativ + Nomen = der/die/das + Adjektiv + -(e)ste."
+    "hint": "Superlativ + Nomen = der/die/das + Adjektiv + -(e)ste.",
+    "sentence_en": "Mount Everest is the highest mountain in the world."
   },
   {
     "id": "komp_003",
@@ -1819,7 +1922,8 @@
       "mehr gut"
     ],
     "explanation": "Unregelmäßig: gut → besser → am besten.",
-    "hint": "gut → ? → am besten. Unregelmäßige Steigerung."
+    "hint": "gut → ? → am besten. Unregelmäßige Steigerung.",
+    "sentence_en": "Your cake tastes good, but mine tastes better."
   },
   {
     "id": "komp_004",
@@ -1837,7 +1941,8 @@
       "am meisten"
     ],
     "explanation": "Unregelmäßig: gern → lieber → am liebsten.",
-    "hint": "gern → lieber → ?"
+    "hint": "gern → lieber → ?",
+    "sentence_en": "I like eating pasta, but most of all I like eating pizza."
   },
   {
     "id": "komp_005",
@@ -1855,7 +1960,8 @@
       "vielerer"
     ],
     "explanation": "Unregelmäßig: viel → mehr → am meisten.",
-    "hint": "viel → ? → am meisten."
+    "hint": "viel → ? → am meisten.",
+    "sentence_en": "I have learned a lot, but you have learned more."
   },
   {
     "id": "komp_006",
@@ -1873,7 +1979,8 @@
       "warmerer"
     ],
     "explanation": "Einsilbige Adjektive mit a, o, u bekommen oft einen Umlaut: warm → wärmer.",
-    "hint": "warm → w_rmer (mit Umlaut)."
+    "hint": "warm → w_rmer (mit Umlaut).",
+    "sentence_en": "It is warm today, but tomorrow it will be warmer."
   },
   {
     "id": "komp_007",
@@ -1891,7 +1998,8 @@
       "zu"
     ],
     "explanation": "Nach dem Komparativ steht 'als' (than). Nach 'genauso/so...wie' steht 'wie'.",
-    "hint": "Komparativ + als, Positiv + wie."
+    "hint": "Komparativ + als, Positiv + wie.",
+    "sentence_en": "Berlin is bigger than Munich."
   },
   {
     "id": "komp_008",
@@ -1909,7 +2017,8 @@
       "so"
     ],
     "explanation": "Nach 'genauso...wie' oder 'so...wie' steht 'wie' (as...as).",
-    "hint": "genauso + Adjektiv + ?"
+    "hint": "genauso + Adjektiv + ?",
+    "sentence_en": "Anna is just as tall as her sister."
   },
   {
     "id": "komp_009",
@@ -1927,7 +2036,8 @@
       "bester"
     ],
     "explanation": "Superlativ prädikativ: am + Adjektiv + -(e)sten. gut → am besten (unregelmäßig).",
-    "hint": "gut → besser → am ___."
+    "hint": "gut → besser → am ___.",
+    "sentence_en": "Which city do you like the best?"
   },
   {
     "id": "komp_010",
@@ -1945,7 +2055,8 @@
       "mehr schnell"
     ],
     "explanation": "schnell → schneller (kein Umlaut, weil 'e' kein a/o/u ist).",
-    "hint": "schnell + -er. Kein Umlaut nötig."
+    "hint": "schnell + -er. Kein Umlaut nötig.",
+    "sentence_en": "The train is fast, but the airplane is even faster."
   },
   {
     "id": "konnek_001",
@@ -1963,7 +2074,8 @@
       "sondern"
     ],
     "explanation": "'deshalb' (therefore) expresses a consequence. Inversion follows: deshalb + Verb + Subjekt.",
-    "hint": "Es regnet → Konsequenz: zu Hause bleiben. Welcher Konnektor?"
+    "hint": "Es regnet → Konsequenz: zu Hause bleiben. Welcher Konnektor?",
+    "sentence_en": "It's raining heavily, therefore I'm staying at home."
   },
   {
     "id": "konnek_002",
@@ -1981,7 +2093,8 @@
       "weil"
     ],
     "explanation": "'trotzdem' (nevertheless) expresses a contrast/concession. Inversion follows.",
-    "hint": "Es regnet, aber ich gehe trotzdem spazieren. Welcher Konnektor?"
+    "hint": "Es regnet, aber ich gehe trotzdem spazieren. Welcher Konnektor?",
+    "sentence_en": "It's raining heavily, nevertheless I'm going for a walk."
   },
   {
     "id": "konnek_003",
@@ -1999,7 +2112,8 @@
       "sondern"
     ],
     "explanation": "'außerdem' (furthermore/besides) adds additional information.",
-    "hint": "Schön UND günstig → welcher Konnektor fügt Information hinzu?"
+    "hint": "Schön UND günstig → welcher Konnektor fügt Information hinzu?",
+    "sentence_en": "The apartment is nice; furthermore, it is also affordable."
   },
   {
     "id": "konnek_004",
@@ -2017,7 +2131,8 @@
       "oder"
     ],
     "explanation": "'sondern' steht nach einer Verneinung und leitet eine Korrektur ein: nicht A, sondern B.",
-    "hint": "Nach Negation (nicht/kein) + Korrektur → sondern."
+    "hint": "Nach Negation (nicht/kein) + Korrektur → sondern.",
+    "sentence_en": "He is not lazy, but rather very hardworking."
   },
   {
     "id": "konnek_005",
@@ -2035,7 +2150,8 @@
       "denn"
     ],
     "explanation": "'aber' drückt einen einfachen Gegensatz aus, ohne Verneinung.",
-    "hint": "Kontrast ohne Negation → aber."
+    "hint": "Kontrast ohne Negation → aber.",
+    "sentence_en": "The apartment is nice but expensive."
   },
   {
     "id": "konnek_006",
@@ -2053,7 +2169,8 @@
       "sondern"
     ],
     "explanation": "'denn' (weil) is a coordinating conjunction (Hauptsatz-Konnektor). No inversion.",
-    "hint": "Grund angeben mit Hauptsatz-Konnektor (keine Inversion)."
+    "hint": "Grund angeben mit Hauptsatz-Konnektor (keine Inversion).",
+    "sentence_en": "I'm learning German because I want to work in Germany."
   },
   {
     "id": "konnek_007",
@@ -2071,7 +2188,8 @@
       "früh gehe ich ins Bett"
     ],
     "explanation": "Nach Adverbial-Konnektoren (deshalb, trotzdem, etc.) folgt Inversion: Verb + Subjekt.",
-    "hint": "deshalb → Inversion: Verb + Subjekt."
+    "hint": "deshalb → Inversion: Verb + Subjekt.",
+    "sentence_en": "I'm tired, therefore I'm going to bed early."
   },
   {
     "id": "konnek_008",
@@ -2089,7 +2207,8 @@
       "sondern"
     ],
     "explanation": "'deswegen' ist ein Synonym von 'deshalb'. Beide drücken eine Folge/Konsequenz aus.",
-    "hint": "Synonym von 'deshalb' → ?"
+    "hint": "Synonym von 'deshalb' → ?",
+    "sentence_en": "He passed the exam, therefore he is very happy."
   },
   {
     "id": "konnek_009",
@@ -2107,7 +2226,8 @@
       "sowohl ... als auch"
     ],
     "explanation": "'zwar ... aber' (admittedly ... but) is a two-part connector expressing concession.",
-    "hint": "Einschränkung: ___ X, ___ Y."
+    "hint": "Einschränkung: ___ X, ___ Y.",
+    "sentence_en": "The work is admittedly exhausting, but it is fun."
   },
   {
     "id": "konnek_010",
@@ -2125,7 +2245,8 @@
       "entweder ... oder"
     ],
     "explanation": "'weder ... noch' (neither ... nor) negates both options.",
-    "hint": "Doppelte Verneinung: ___ X ___ Y."
+    "hint": "Doppelte Verneinung: ___ X ___ Y.",
+    "sentence_en": "He speaks neither German nor English."
   },
   {
     "id": "konnek_011",
@@ -2143,7 +2264,8 @@
       "Zwar ... aber"
     ],
     "explanation": "'entweder ... oder' (either ... or) presents two alternatives.",
-    "hint": "Zwei Alternativen: ___ X ___ Y."
+    "hint": "Zwei Alternativen: ___ X ___ Y.",
+    "sentence_en": "Either we go to the cinema, or we stay at home."
   },
   {
     "id": "prep_dat_008",
@@ -2161,7 +2283,8 @@
       "zu"
     ],
     "explanation": "'von' + Dativ is used to indicate from whom something was received.",
-    "hint": "Von wem hast du das Rezept bekommen?"
+    "hint": "Von wem hast du das Rezept bekommen?",
+    "sentence_en": "I got the recipe from my grandmother."
   },
   {
     "id": "prep_akk_007",
@@ -2179,7 +2302,8 @@
       "gegen"
     ],
     "explanation": "'um' + Akkusativ means 'around'. 'um ... herum' = around (something).",
-    "hint": "Welche Präposition bedeutet 'around'?"
+    "hint": "Welche Präposition bedeutet 'around'?",
+    "sentence_en": "We walk around the lake."
   },
   {
     "id": "passiv_010",
@@ -2192,7 +2316,8 @@
     "answer": "wird vom Mechaniker repariert",
     "options": [],
     "explanation": "Passiv mit Agens: wird + von + Dativ + Partizip II. 'von dem' → 'vom'.",
-    "hint": "werden + von + Dativ + Partizip II."
+    "hint": "werden + von + Dativ + Partizip II.",
+    "sentence_en": "The car is being repaired by the mechanic."
   },
   {
     "id": "konj2_013",
@@ -2210,7 +2335,8 @@
       "An deiner Stelle werde ich früher ins Bett gehen."
     ],
     "explanation": "'An deiner Stelle würde ich...' is a common Konjunktiv II pattern for giving advice.",
-    "hint": "Ratschlag: An deiner Stelle + würde + Infinitiv."
+    "hint": "Ratschlag: An deiner Stelle + würde + Infinitiv.",
+    "sentence_en": "You look tired. In your place, I would go to bed earlier."
   },
   {
     "id": "relativ_013",
@@ -2231,7 +2357,8 @@
     "hint": "Relativadverb für Orte = ?",
     "also_accept": [
       "in der"
-    ]
+    ],
+    "sentence_en": "The city where I studied is called Heidelberg."
   },
   {
     "id": "neben_013",
@@ -2249,7 +2376,8 @@
       "dass"
     ],
     "explanation": "'wenn' steht bei wiederholten Handlungen (immer wenn = jedes Mal wenn). 'als' steht bei einmaligen Ereignissen in der Vergangenheit.",
-    "hint": "Wiederholtes Ereignis → wenn. Einmaliges Ereignis in der Vergangenheit → als."
+    "hint": "Wiederholtes Ereignis → wenn. Einmaliges Ereignis in der Vergangenheit → als.",
+    "sentence_en": "Every time I see him, I have to laugh."
   },
   {
     "id": "adj_mixed_001",
@@ -2267,7 +2395,8 @@
       "freundliche"
     ],
     "explanation": "Unbestimmter Artikel + Dativ neutrum: -en. Einem freundlichen Lächeln.",
-    "hint": "mit + Dativ. Das Lächeln = neutrum. Unbestimmter Artikel + Dativ = -en."
+    "hint": "mit + Dativ. Das Lächeln = neutrum. Unbestimmter Artikel + Dativ = -en.",
+    "sentence_en": "She greeted me with a friendly smile."
   },
   {
     "id": "adj_mixed_002",
@@ -2285,7 +2414,8 @@
       "schlechte"
     ],
     "explanation": "Bestimmter Artikel + Genitiv neutrum: -en. Des schlechten Wetters.",
-    "hint": "Bestimmter Artikel + Genitiv = immer -en."
+    "hint": "Bestimmter Artikel + Genitiv = immer -en.",
+    "sentence_en": "Despite the bad weather, we are going on an outing."
   },
   {
     "id": "komp_011",
@@ -2298,7 +2428,8 @@
     "answer": "näher → am nächsten",
     "options": [],
     "explanation": "nah → näher → am nächsten (unregelmäßige Steigerung mit Umlaut und Stammwechsel).",
-    "hint": "nah hat eine unregelmäßige Superlativform."
+    "hint": "nah hat eine unregelmäßige Superlativform.",
+    "sentence_en": "near → nearer → nearest"
   },
   {
     "id": "prep_wechsel_009",
@@ -2316,7 +2447,8 @@
       "der"
     ],
     "explanation": "'akkusativ' + Akkusativ (Wohin? = Bewegung/Richtung).",
-    "hint": "Wohin laufen die Kinder? Bewegung = Akkusativ."
+    "hint": "Wohin laufen die Kinder? Bewegung = Akkusativ.",
+    "sentence_en": "The children are running behind the house."
   },
   {
     "id": "prep_wechsel_010",
@@ -2334,7 +2466,8 @@
       "der"
     ],
     "explanation": "'vor' + Dativ weil 'sich treffen' indicates a location (Wo?).",
-    "hint": "Wo treffen wir uns? Ort = Dativ."
+    "hint": "Wo treffen wir uns? Ort = Dativ.",
+    "sentence_en": "We are meeting in front of the cinema."
   },
   {
     "id": "prep_wechsel_011",
@@ -2352,7 +2485,8 @@
       "dem ... dem"
     ],
     "explanation": "'zwischen' + Dativ weil it describes a location (Wo?). Both 'Bank' and 'Post' are feminine → 'der' in Dativ.",
-    "hint": "Wo ist das Restaurant? Ort = Dativ. Die Bank, die Post → feminin Dativ."
+    "hint": "Wo ist das Restaurant? Ort = Dativ. Die Bank, die Post → feminin Dativ.",
+    "sentence_en": "The restaurant is between the bank and the post office."
   },
   {
     "id": "passiv_011",
@@ -2370,7 +2504,8 @@
       "werden ... eröffnet wird"
     ],
     "explanation": "Passiv Futur I: wird + Partizip II + werden.",
-    "hint": "Futur Passiv = wird + Partizip II + werden (Infinitiv)."
+    "hint": "Futur Passiv = wird + Partizip II + werden (Infinitiv).",
+    "sentence_en": "The new museum will be opened next year."
   },
   {
     "id": "konj2_014",
@@ -2388,7 +2523,8 @@
       "hatte, hatte"
     ],
     "explanation": "Konjunktiv II der Vergangenheit: hätte/wäre + Partizip II. Wenn ich gewusst hätte, hätte ich geholfen.",
-    "hint": "Irreale Vergangenheit: hätte/wäre + Partizip II."
+    "hint": "Irreale Vergangenheit: hätte/wäre + Partizip II.",
+    "sentence_en": "If I had known that, I would have helped you."
   },
   {
     "id": "konj2_015",
@@ -2406,7 +2542,8 @@
       "würde, würde"
     ],
     "explanation": "Irrealer Bedingungssatz in der Vergangenheit: 'aufstehen' bildet das Perfekt mit 'sein' → wäre aufgestanden. 'verpassen' bildet das Perfekt mit 'haben' → hätte verpasst.",
-    "hint": "aufstehen = sein-Verb → wäre. verpassen = haben-Verb → hätte."
+    "hint": "aufstehen = sein-Verb → wäre. verpassen = haben-Verb → hätte.",
+    "sentence_en": "If she had gotten up earlier, she would not have missed the bus."
   },
   {
     "id": "neben_014",
@@ -2424,7 +2561,8 @@
       "dass"
     ],
     "explanation": "'indem' beschreibt die Art und Weise, wie etwas erreicht wird (Mittel/Methode). Verb am Ende.",
-    "hint": "Wie kann man Geld sparen? Durch welche Methode? → indem."
+    "hint": "Wie kann man Geld sparen? Durch welche Methode? → indem.",
+    "sentence_en": "You can save money by eating less."
   },
   {
     "id": "neben_015",
@@ -2442,7 +2580,8 @@
       "Dass"
     ],
     "explanation": "'falls' leitet einen Bedingungssatz ein, ähnlich wie 'wenn', aber mit mehr Unsicherheit.",
-    "hint": "Bedingung (weniger wahrscheinlich als 'wenn') → ?"
+    "hint": "Bedingung (weniger wahrscheinlich als 'wenn') → ?",
+    "sentence_en": "If you need help, call me."
   },
   {
     "id": "relativ_014",
@@ -2460,7 +2599,8 @@
       "dass"
     ],
     "explanation": "'was' wird als Relativpronomen nach 'alles', 'nichts', 'etwas', 'das' (Demonstrativ) und Superlativen verwendet.",
-    "hint": "Nach 'alles', 'nichts', 'etwas' → welches Relativpronomen?"
+    "hint": "Nach 'alles', 'nichts', 'etwas' → welches Relativpronomen?",
+    "sentence_en": "Everything that he said was wrong."
   },
   {
     "id": "adj_mixed_003",
@@ -2478,7 +2618,8 @@
       "kleine ... alte"
     ],
     "explanation": "'in der kleinen Stadt' = bestimmter Artikel + Dativ feminin → -en. 'viele alte Häuser' = nach 'viele' wie ohne Artikel Plural → -e.",
-    "hint": "Dativ + bestimmter Artikel = -en. 'viele' + Plural = wie ohne Artikel."
+    "hint": "Dativ + bestimmter Artikel = -en. 'viele' + Plural = wie ohne Artikel.",
+    "sentence_en": "In the small town, there are many old houses."
   },
   {
     "id": "prep_gen_006",
@@ -2496,7 +2637,8 @@
       "wegen"
     ],
     "explanation": "'innerhalb' (within) verlangt den Genitiv.",
-    "hint": "Welche Präposition bedeutet 'within' (Zeitraum)?"
+    "hint": "Welche Präposition bedeutet 'within' (Zeitraum)?",
+    "sentence_en": "You must submit the application within one week."
   },
   {
     "id": "konnek_012",
@@ -2514,7 +2656,8 @@
       "zwar ... aber"
     ],
     "explanation": "'sowohl ... als auch' (both ... and) connects two positive elements.",
-    "hint": "Er spricht Deutsch UND Englisch. Betonung: beides."
+    "hint": "Er spricht Deutsch UND Englisch. Betonung: beides.",
+    "sentence_en": "He speaks both German and English."
   },
   {
     "id": "passiv_012",
@@ -2532,7 +2675,8 @@
       "hat"
     ],
     "explanation": "Zustandspassiv: sein + Partizip II. Es beschreibt einen Zustand (result), nicht einen Vorgang (process).",
-    "hint": "Zustandspassiv = sein + Partizip II."
+    "hint": "Zustandspassiv = sein + Partizip II.",
+    "sentence_en": "The door is closed."
   },
   {
     "id": "adj_def_011",
@@ -2550,7 +2694,8 @@
       "altes"
     ],
     "explanation": "Nach bestimmtem Artikel im Dativ Plural: -en. Den alten Leuten.",
-    "hint": "Bestimmter Artikel + Dativ Plural → -en."
+    "hint": "Bestimmter Artikel + Dativ Plural → -en.",
+    "sentence_en": "I help the elderly people in the retirement home."
   },
   {
     "id": "konj2_016",
@@ -2563,7 +2708,8 @@
     "answer": "hätte",
     "options": [],
     "explanation": "Wünsche mit 'haben': ich hätte gern... Konjunktiv II von 'haben' = hätte.",
-    "hint": "haben → hätte (Konjunktiv II)."
+    "hint": "haben → hätte (Konjunktiv II).",
+    "sentence_en": "I wish I had more free time!"
   },
   {
     "id": "neben_016",
@@ -2581,7 +2727,8 @@
       "Weil"
     ],
     "explanation": "'obwohl' leitet einen Nebensatz ein (Verb am Ende). 'trotzdem' steht im Hauptsatz (mit Inversion: trotzdem + Verb + Subjekt).",
-    "hint": "Verb am Ende → Nebensatz-Konjunktion."
+    "hint": "Verb am Ende → Nebensatz-Konjunktion.",
+    "sentence_en": "Although it is cold, she goes outside without a jacket."
   },
   {
     "id": "prep_dat_009",
@@ -2599,7 +2746,8 @@
       "zu den"
     ],
     "explanation": "'zu + dem' contracts to 'zum' (masculine/neuter dative).",
-    "hint": "zu + dem = ?"
+    "hint": "zu + dem = ?",
+    "sentence_en": "I'm going to the bakery."
   },
   {
     "id": "prep_dat_010",
@@ -2617,7 +2765,8 @@
       "zu den"
     ],
     "explanation": "'zu + der' contracts to 'zur' (feminine dative).",
-    "hint": "zu + der = ?"
+    "hint": "zu + der = ?",
+    "sentence_en": "She is going to the university."
   },
   {
     "id": "komp_012",
@@ -2635,7 +2784,8 @@
       "Wenn ... dann"
     ],
     "explanation": "'je + Komparativ, desto/umso + Komparativ' expresses a proportional relationship.",
-    "hint": "Proportionale Beziehung: je + Komparativ, desto + Komparativ."
+    "hint": "Proportionale Beziehung: je + Komparativ, desto + Komparativ.",
+    "sentence_en": "The more you practice, the better you get."
   },
   {
     "id": "adj_indef_011",
@@ -2653,7 +2803,8 @@
       "neuen"
     ],
     "explanation": "Possessivartikel wie unbestimmter Artikel. Nominativ maskulin: -er. Mein neuer Computer.",
-    "hint": "Possessivartikel + Nominativ maskulin → -er."
+    "hint": "Possessivartikel + Nominativ maskulin → -er.",
+    "sentence_en": "My new computer isn't working."
   },
   {
     "id": "adj_indef_012",
@@ -2671,7 +2822,8 @@
       "kleinen"
     ],
     "explanation": "Possessivartikel + Nominativ feminin: -e. Ihre kleine Tochter.",
-    "hint": "Possessivartikel + Nominativ feminin → -e."
+    "hint": "Possessivartikel + Nominativ feminin → -e.",
+    "sentence_en": "Her little daughter goes to kindergarten."
   },
   {
     "id": "neben_017",
@@ -2689,7 +2841,8 @@
       "dass"
     ],
     "explanation": "'um ... zu + Infinitiv' wird verwendet, wenn das Subjekt in beiden Sätzen gleich ist (Zweck/Absicht).",
-    "hint": "Gleiches Subjekt + Zweck → um ... zu."
+    "hint": "Gleiches Subjekt + Zweck → um ... zu.",
+    "sentence_en": "I'm learning German in order to study in Germany."
   },
   {
     "id": "passiv_013",
@@ -2707,7 +2860,8 @@
       "sind ... beantwortet"
     ],
     "explanation": "Passiv Präsens Plural: werden + Partizip II. 'E-Mails' = Plural → 'werden'.",
-    "hint": "Plural → werden. Präsens Passiv."
+    "hint": "Plural → werden. Präsens Passiv.",
+    "sentence_en": "The emails are answered every day."
   },
   {
     "id": "konnek_013",
@@ -2725,7 +2879,8 @@
       "sondern"
     ],
     "explanation": "'darum' ist ein weiteres Synonym von 'deshalb'/'deswegen' und drückt eine Konsequenz aus.",
-    "hint": "Synonyme: deshalb = deswegen = darum."
+    "hint": "Synonyme: deshalb = deswegen = darum.",
+    "sentence_en": "She wants to lose weight, that's why she exercises every day."
   },
   {
     "id": "prep_akk_008",
@@ -2743,7 +2898,8 @@
       "um"
     ],
     "explanation": "'entlang' (along) is a postposition with accusative: die Straße entlang.",
-    "hint": "Welche Präposition/Postposition bedeutet 'along'?"
+    "hint": "Welche Präposition/Postposition bedeutet 'along'?",
+    "sentence_en": "Walk along the street until you reach the intersection."
   },
   {
     "id": "relativ_015",
@@ -2761,7 +2917,8 @@
       "die"
     ],
     "explanation": "Relativpronomen im Genitiv feminin = 'deren'. Es drückt Besitz aus.",
-    "hint": "Wessen Tasche? → Genitiv feminin = deren."
+    "hint": "Wessen Tasche? → Genitiv feminin = deren.",
+    "sentence_en": "The woman whose bag was stolen called the police."
   },
   {
     "id": "adj_null_011",
@@ -2779,7 +2936,8 @@
       "Starken"
     ],
     "explanation": "Ohne Artikel im Nominativ maskulin: -er. Starker Kaffee.",
-    "hint": "Der Kaffee → maskulin. Nominativ maskulin ohne Artikel = -er."
+    "hint": "Der Kaffee → maskulin. Nominativ maskulin ohne Artikel = -er.",
+    "sentence_en": "Strong coffee helps against tiredness."
   },
   {
     "id": "konj2_017",
@@ -2797,7 +2955,8 @@
       "würde"
     ],
     "explanation": "'als ob' + Konjunktiv II: 'wissen' → 'wüsste'. Drückt etwas Irreales/Vorgetäuschtes aus.",
-    "hint": "als ob + Konjunktiv II. wissen → w_sste."
+    "hint": "als ob + Konjunktiv II. wissen → w_sste.",
+    "sentence_en": "He acts as if he knew everything."
   },
   {
     "id": "neben_018",
@@ -2815,7 +2974,8 @@
       "obwohl"
     ],
     "explanation": "'sodass' (Konsekutivsatz) drückt eine Folge aus: Es war so kalt, sodass wir drinnen blieben.",
-    "hint": "Regen → Konsequenz: überflutete Straßen. Welche Konjunktion?"
+    "hint": "Regen → Konsequenz: überflutete Straßen. Welche Konjunktion?",
+    "sentence_en": "It rained so heavily that the streets were flooded."
   },
   {
     "id": "prep_wechsel_012",
@@ -2833,7 +2993,8 @@
       "der"
     ],
     "explanation": "'über' + Akkusativ weil the bird is flying across/over (direction, Wohin?).",
-    "hint": "Der Vogel bewegt sich → Akkusativ."
+    "hint": "Der Vogel bewegt sich → Akkusativ.",
+    "sentence_en": "The bird is flying over the house."
   },
   {
     "id": "alltag_konj2_001",
@@ -2852,7 +3013,8 @@
     ],
     "also_accept": [],
     "explanation": "Der Konjunktiv II von 'haben' lautet: ich hätte, du hättest, er/sie hätte, wir hätten, ihr hättet, sie hätten.",
-    "hint": "Konjunktiv II von 'haben' → hätte."
+    "hint": "Konjunktiv II von 'haben' → hätte.",
+    "sentence_en": "If I had more money, I would rent a bigger apartment."
   },
   {
     "id": "alltag_konj2_002",
@@ -2871,7 +3033,8 @@
     ],
     "also_accept": [],
     "explanation": "'Könnten Sie …?' ist eine höfliche Bitte im Konjunktiv II. Viel höflicher als 'Können Sie …?'.",
-    "hint": "Höfliche Form von 'können' = könnten."
+    "hint": "Höfliche Form von 'können' = könnten.",
+    "sentence_en": "Could you please tell me where the nearest supermarket is?"
   },
   {
     "id": "alltag_konj2_003",
@@ -2892,7 +3055,8 @@
       "sprechen würde"
     ],
     "explanation": "Der Konjunktiv II von 'sprechen' lautet 'spräche'. Alternativ: 'sprechen würde'.",
-    "hint": "Konjunktiv II von 'sprechen' = spräche (oder: sprechen würde)."
+    "hint": "Konjunktiv II von 'sprechen' = spräche (oder: sprechen würde).",
+    "sentence_en": "If I spoke better German, I would apply for the position."
   },
   {
     "id": "alltag_konj2_004",
@@ -2913,7 +3077,8 @@
       "Würdest"
     ],
     "explanation": "'Könntest du …?' drückt eine höfliche Bitte im Konjunktiv II aus.",
-    "hint": "Höfliche Bitte → Konjunktiv II."
+    "hint": "Höfliche Bitte → Konjunktiv II.",
+    "sentence_en": "Could you help me with the move?"
   },
   {
     "id": "alltag_konj2_005",
@@ -2932,7 +3097,8 @@
     ],
     "also_accept": [],
     "explanation": "'Wenn wir … hätten' drückt einen irrealen Wunsch aus. Konjunktiv II Plural von 'haben' = hätten.",
-    "hint": "Irrealer Wunsch: Wenn + Subjekt + … + Konjunktiv II am Ende."
+    "hint": "Irrealer Wunsch: Wenn + Subjekt + … + Konjunktiv II am Ende.",
+    "sentence_en": "If we had a garden, the children would play outside."
   },
   {
     "id": "alltag_konj2_006",
@@ -2953,7 +3119,8 @@
       "möchte"
     ],
     "explanation": "'Ich würde gern …' ist eine höfliche Formulierung mit Konjunktiv II.",
-    "hint": "Höflich: ich würde gern + Infinitiv."
+    "hint": "Höflich: ich würde gern + Infinitiv.",
+    "sentence_en": "I would like to make an appointment at the citizens' office."
   },
   {
     "id": "alltag_konj2_007",
@@ -2967,7 +3134,8 @@
     "options": [],
     "also_accept": [],
     "explanation": "Konjunktiv II von 'sein': ich wäre, du wärst, er/sie wäre, wir wären, ihr wärt, sie wären.",
-    "hint": "Konjunktiv II von 'sein' → wäre."
+    "hint": "Konjunktiv II von 'sein' → wäre.",
+    "sentence_en": "If my neighbor were quieter, I could sleep better."
   },
   {
     "id": "alltag_konj2_008",
@@ -2986,7 +3154,8 @@
     ],
     "also_accept": [],
     "explanation": "'An deiner Stelle würde ich …' drückt einen Ratschlag im Konjunktiv II aus.",
-    "hint": "Ratschlag: An deiner Stelle + würde + ich + Infinitiv."
+    "hint": "Ratschlag: An deiner Stelle + würde + ich + Infinitiv.",
+    "sentence_en": "In your place, I would accept the job offer."
   },
   {
     "id": "alltag_passiv_001",
@@ -3005,7 +3174,8 @@
     ],
     "also_accept": [],
     "explanation": "Vorgangspassiv Präsens: werden + Partizip II. 'Die Wohnung wird renoviert' = Die Renovierung findet statt.",
-    "hint": "Vorgangspassiv = werden + Partizip II."
+    "hint": "Vorgangspassiv = werden + Partizip II.",
+    "sentence_en": "The apartment will be renovated next week."
   },
   {
     "id": "alltag_passiv_002",
@@ -3024,7 +3194,8 @@
     ],
     "also_accept": [],
     "explanation": "Zustandspassiv: sein + Partizip II. 'ist unterschrieben' = das Ergebnis liegt vor.",
-    "hint": "Zustandspassiv = sein + Partizip II (Ergebnis)."
+    "hint": "Zustandspassiv = sein + Partizip II (Ergebnis).",
+    "sentence_en": "The rental contract has already been signed."
   },
   {
     "id": "alltag_passiv_003",
@@ -3043,7 +3214,8 @@
     ],
     "also_accept": [],
     "explanation": "Vorgangspassiv Präteritum: wurde + Partizip II. 'Die Küche wurde erneuert' = in der Vergangenheit.",
-    "hint": "Passiv Präteritum: wurde + Partizip II."
+    "hint": "Passiv Präteritum: wurde + Partizip II.",
+    "sentence_en": "The kitchen was completely renewed last year."
   },
   {
     "id": "alltag_passiv_004",
@@ -3062,7 +3234,8 @@
     ],
     "also_accept": [],
     "explanation": "Passiv mit Modalverb: Modalverb + Partizip II + werden. 'muss erstellt werden' = es ist notwendig.",
-    "hint": "Modalverb + Partizip II + werden."
+    "hint": "Modalverb + Partizip II + werden.",
+    "sentence_en": "The utility bill must be prepared by the end of the month."
   },
   {
     "id": "alltag_passiv_005",
@@ -3081,7 +3254,8 @@
     ],
     "also_accept": [],
     "explanation": "Vorgangspassiv Plural Präsens: werden + Partizip II. Subjekt 'Personalausweise' ist Plural.",
-    "hint": "Plural → werden + Partizip II."
+    "hint": "Plural → werden + Partizip II.",
+    "sentence_en": "New ID cards are currently being issued at the town hall."
   },
   {
     "id": "alltag_passiv_006",
@@ -3100,7 +3274,8 @@
     ],
     "also_accept": [],
     "explanation": "Zustandspassiv: 'Die Tür ist abgeschlossen' beschreibt einen Zustand (Ergebnis einer Handlung).",
-    "hint": "Es geht um den Zustand → sein + Partizip II."
+    "hint": "Es geht um den Zustand → sein + Partizip II.",
+    "sentence_en": "The door is locked. Nobody can get in."
   },
   {
     "id": "alltag_passiv_007",
@@ -3119,7 +3294,8 @@
     ],
     "also_accept": [],
     "explanation": "Passiv Präteritum + 'von' + Dativ für den Handelnden: 'Das Paket wurde vom Nachbarn angenommen.'",
-    "hint": "Passiv Präteritum: wurde + Partizip II. Wer? → von + Dativ."
+    "hint": "Passiv Präteritum: wurde + Partizip II. Wer? → von + Dativ.",
+    "sentence_en": "The package was accepted by the neighbor."
   },
   {
     "id": "alltag_passiv_008",
@@ -3138,7 +3314,8 @@
     ],
     "also_accept": [],
     "explanation": "Passiv Perfekt: sein + Partizip II + worden. 'ist erledigt worden' = wurde in der Vergangenheit erledigt.",
-    "hint": "Passiv Perfekt: ist + Partizip II + worden."
+    "hint": "Passiv Perfekt: ist + Partizip II + worden.",
+    "sentence_en": "The registration at the residents' registration office has already been completed."
   },
   {
     "id": "alltag_konn_001",
@@ -3160,7 +3337,8 @@
       "daher"
     ],
     "explanation": "'deshalb' (therefore) drückt eine Folge aus. Achtung: Nach 'deshalb' steht das Verb auf Position 2.",
-    "hint": "Welcher Konnektor drückt eine Folge/Konsequenz aus?"
+    "hint": "Welcher Konnektor drückt eine Folge/Konsequenz aus?",
+    "sentence_en": "The rent has increased, therefore many people are looking for a shared apartment."
   },
   {
     "id": "alltag_konn_002",
@@ -3181,7 +3359,8 @@
       "dennoch"
     ],
     "explanation": "'trotzdem' (nevertheless) drückt einen Gegensatz/Widerspruch aus: laut, aber gute Beziehung.",
-    "hint": "Gegensatz: obwohl sie laut sind → ___ verstehen wir uns gut."
+    "hint": "Gegensatz: obwohl sie laut sind → ___ verstehen wir uns gut.",
+    "sentence_en": "The neighbors are loud, nevertheless we get along well with them."
   },
   {
     "id": "alltag_konn_003",
@@ -3202,7 +3381,8 @@
       "dagegen"
     ],
     "explanation": "'hingegen' (andererseits) drückt einen Kontrast zwischen zwei Aussagen aus.",
-    "hint": "Kontrast: Stadt vs. Land → welcher Konnektor?"
+    "hint": "Kontrast: Stadt vs. Land → welcher Konnektor?",
+    "sentence_en": "My sister likes living in the city; I, on the other hand, prefer country life."
   },
   {
     "id": "alltag_konn_004",
@@ -3224,7 +3404,8 @@
       "zudem"
     ],
     "explanation": "'außerdem' (furthermore) fügt eine zusätzliche Information hinzu.",
-    "hint": "Balkon + Stellplatz = zwei Vorteile. Welcher Konnektor verbindet sie?"
+    "hint": "Balkon + Stellplatz = zwei Vorteile. Welcher Konnektor verbindet sie?",
+    "sentence_en": "The apartment has a balcony; furthermore, there is a parking space in the underground garage."
   },
   {
     "id": "alltag_konn_005",
@@ -3245,7 +3426,8 @@
       "jedoch"
     ],
     "explanation": "'allerdings' (however) schränkt die vorherige Aussage ein: schön, aber weit entfernt.",
-    "hint": "Einschränkung: schön, aber …"
+    "hint": "Einschränkung: schön, aber …",
+    "sentence_en": "The house is very nice; however, it is far from the city center."
   },
   {
     "id": "alltag_konn_006",
@@ -3266,7 +3448,8 @@
       "infolgedessen"
     ],
     "explanation": "'folglich' (consequently) drückt eine logische Konsequenz aus.",
-    "hint": "Keine Erfahrung → schlechte Chancen. Welcher Konnektor drückt eine Konsequenz aus?"
+    "hint": "Keine Erfahrung → schlechte Chancen. Welcher Konnektor drückt eine Konsequenz aus?",
+    "sentence_en": "He has no work experience; consequently, he has poor chances on the job market."
   },
   {
     "id": "alltag_konn_007",
@@ -3285,7 +3468,8 @@
     ],
     "also_accept": [],
     "explanation": "'stattdessen' (instead) zeigt an, dass etwas anderes als geplant gemacht wurde.",
-    "hint": "Grillen war geplant, aber gekocht wurde → Alternative."
+    "hint": "Grillen war geplant, aber gekocht wurde → Alternative.",
+    "sentence_en": "We wanted to barbecue; instead, we cooked indoors because of the rain."
   },
   {
     "id": "alltag_konn_008",
@@ -3304,7 +3488,8 @@
     ],
     "also_accept": [],
     "explanation": "'schließlich' (finally/eventually) zeigt das Ende eines Prozesses an.",
-    "hint": "Lange gesucht → am Ende gefunden. Welches Wort passt?"
+    "hint": "Lange gesucht → am Ende gefunden. Welches Wort passt?",
+    "sentence_en": "We searched for a long time; eventually, we found an affordable apartment."
   },
   {
     "id": "alltag_indir_001",
@@ -3323,7 +3508,8 @@
     ],
     "also_accept": [],
     "explanation": "Indirekte Rede mit Konjunktiv I: er beschwere (von 'sich beschweren'). Der Konjunktiv I wird vom Infinitivstamm gebildet.",
-    "hint": "Konjunktiv I: er + Verbstamm + e."
+    "hint": "Konjunktiv I: er + Verbstamm + e.",
+    "sentence_en": "My neighbor said he was complaining about the noise."
   },
   {
     "id": "alltag_indir_002",
@@ -3342,7 +3528,8 @@
     ],
     "also_accept": [],
     "explanation": "Konjunktiv I von 'sein' im Plural: sie seien. 'seien gestiegen' = Perfekt in der indirekten Rede.",
-    "hint": "Konjunktiv I Plural von 'sein' = seien."
+    "hint": "Konjunktiv I Plural von 'sein' = seien.",
+    "sentence_en": "The landlady explained that the utility costs had risen."
   },
   {
     "id": "alltag_indir_003",
@@ -3361,7 +3548,8 @@
     ],
     "also_accept": [],
     "explanation": "Konjunktiv I von 'wollen': er wolle. In der indirekten Rede gibt man die Aussage eines Dritten wieder.",
-    "hint": "Konjunktiv I: er + Stamm + e → wolle."
+    "hint": "Konjunktiv I: er + Stamm + e → wolle.",
+    "sentence_en": "The landlord said he wanted to have the heating repaired next week."
   },
   {
     "id": "alltag_indir_004",
@@ -3380,7 +3568,8 @@
     ],
     "also_accept": [],
     "explanation": "Konjunktiv I von 'werden': sie werde. 'werde heiraten' = Futur I in der indirekten Rede.",
-    "hint": "Konjunktiv I von 'werden': er/sie werde."
+    "hint": "Konjunktiv I von 'werden': er/sie werde.",
+    "sentence_en": "The neighbor said her daughter would be getting married next year."
   },
   {
     "id": "alltag_indir_005",
@@ -3399,7 +3588,8 @@
     ],
     "also_accept": [],
     "explanation": "Konjunktiv I von 'sein' im Plural: seien. Hier ist Konjunktiv I vom Indikativ unterscheidbar, daher korrekt.",
-    "hint": "Konjunktiv I Plural: sie seien (≠ sie sind)."
+    "hint": "Konjunktiv I Plural: sie seien (≠ sie sind).",
+    "sentence_en": "The parents said they were satisfied with the new school."
   },
   {
     "id": "alltag_indir_006",
@@ -3418,7 +3608,8 @@
     ],
     "also_accept": [],
     "explanation": "Konjunktiv I von 'sein': er/sie/es sei. 'Die Wohnung sei …' gibt die Aussage des Maklers wieder.",
-    "hint": "Konjunktiv I: er/sie/es sei."
+    "hint": "Konjunktiv I: er/sie/es sei.",
+    "sentence_en": "The real estate agent claimed the apartment was quiet and centrally located."
   },
   {
     "id": "alltag_indir_007",
@@ -3432,7 +3623,8 @@
     "options": [],
     "also_accept": [],
     "explanation": "Konjunktiv I: er brauche (vom Infinitivstamm 'brauch-' + Endung '-e').",
-    "hint": "Konjunktiv I: er + Verbstamm + e → brauche."
+    "hint": "Konjunktiv I: er + Verbstamm + e → brauche.",
+    "sentence_en": "My colleague said he needed a vacation."
   },
   {
     "id": "alltag_adj_001",
@@ -3451,7 +3643,8 @@
     ],
     "also_accept": [],
     "explanation": "Nach 'des' (Genitiv, Neutrum/Maskulinum) bekommt das Adjektiv die Endung '-en'.",
-    "hint": "Genitiv nach 'des' → Adjektivendung '-en'."
+    "hint": "Genitiv nach 'des' → Adjektivendung '-en'.",
+    "sentence_en": "Despite the bad weather, we went for a walk."
   },
   {
     "id": "alltag_adj_002",
@@ -3470,7 +3663,8 @@
     ],
     "also_accept": [],
     "explanation": "Nach 'einige' im Nominativ Plural wird das Adjektiv wie ohne Artikel dekliniert: 'junge' (starke Deklination, Nom. Pl.).",
-    "hint": "Nach 'einige' folgt die starke Adjektivdeklination: Nom. Pl. → -e."
+    "hint": "Nach 'einige' folgt die starke Adjektivdeklination: Nom. Pl. → -e.",
+    "sentence_en": "Some young families are moving to the countryside."
   },
   {
     "id": "alltag_adj_003",
@@ -3489,7 +3683,8 @@
     ],
     "also_accept": [],
     "explanation": "Nach 'eine' (Akk. Fem.) bekommen beide Adjektive die Endung '-e': eine große, helle Wohnung.",
-    "hint": "Akkusativ Femininum nach 'eine': Adjektiv + '-e'."
+    "hint": "Akkusativ Femininum nach 'eine': Adjektiv + '-e'.",
+    "sentence_en": "We are looking for a large, bright apartment in the city center."
   },
   {
     "id": "alltag_adj_004",
@@ -3508,7 +3703,8 @@
     ],
     "also_accept": [],
     "explanation": "Nach 'alle' (Nom. Pl.) folgt die schwache Deklination: Adjektiv + '-en'.",
-    "hint": "Nach 'alle' → schwache Deklination: Nom. Pl. → '-en'."
+    "hint": "Nach 'alle' → schwache Deklination: Nom. Pl. → '-en'.",
+    "sentence_en": "All new tenants must introduce themselves to the landlord."
   },
   {
     "id": "alltag_adj_005",
@@ -3527,7 +3723,8 @@
     ],
     "also_accept": [],
     "explanation": "Ohne Artikel, Akk. Neutrum: Adjektiv bekommt die Endung '-es' (starke Deklination).",
-    "hint": "Ohne Artikel + Akk. Neutrum (Obst) → '-es'."
+    "hint": "Ohne Artikel + Akk. Neutrum (Obst) → '-es'.",
+    "sentence_en": "I prefer to buy fresh fruit at the weekly market."
   },
   {
     "id": "alltag_adj_006",
@@ -3548,7 +3745,8 @@
       "ältere"
     ],
     "explanation": "Nach 'manche' (Nom. Pl.) kann das Adjektiv sowohl stark ('-e') als auch schwach ('-en') dekliniert werden. Im Standarddeutsch ist '-en' üblich.",
-    "hint": "Nach 'manche' im Plural: Adjektiv meist mit '-en'."
+    "hint": "Nach 'manche' im Plural: Adjektiv meist mit '-en'.",
+    "sentence_en": "Some elderly people need help with shopping."
   },
   {
     "id": "alltag_adj_007",
@@ -3567,7 +3765,8 @@
     ],
     "also_accept": [],
     "explanation": "Genitiv Plural ohne Artikel: 'vieler wichtiger Lebensmittel' — starke Deklination, Gen. Pl. → '-er'.",
-    "hint": "Genitiv Plural, starke Deklination → '-er'."
+    "hint": "Genitiv Plural, starke Deklination → '-er'.",
+    "sentence_en": "The prices of many important foods have risen."
   },
   {
     "id": "alltag_praep_001",
@@ -3588,7 +3787,8 @@
       "Wegen"
     ],
     "explanation": "'Aufgrund' + Genitiv drückt einen Grund aus. 'Wegen' ist ebenfalls möglich.",
-    "hint": "Grund: starker Regen → Grillfest fiel aus."
+    "hint": "Grund: starker Regen → Grillfest fiel aus.",
+    "sentence_en": "Due to the heavy rain, the barbecue was canceled."
   },
   {
     "id": "alltag_praep_002",
@@ -3610,7 +3810,8 @@
       "Wegen"
     ],
     "explanation": "'Infolge' + Genitiv drückt eine Folge/Konsequenz aus: Bauarbeiten → kein Parkplatz.",
-    "hint": "Konsequenz der Bauarbeiten → welche Präposition?"
+    "hint": "Konsequenz der Bauarbeiten → welche Präposition?",
+    "sentence_en": "As a result of the construction work, there is currently no parking space."
   },
   {
     "id": "alltag_praep_003",
@@ -3631,7 +3832,8 @@
       "Mit Hilfe"
     ],
     "explanation": "'Mithilfe' + Genitiv bedeutet 'mit der Hilfe von'. Die Nachbarin hat geholfen.",
-    "hint": "Die Nachbarin hat geholfen → welche Präposition?"
+    "hint": "Die Nachbarin hat geholfen → welche Präposition?",
+    "sentence_en": "With the help of my neighbor, I carried the heavy furniture into the apartment."
   },
   {
     "id": "alltag_praep_004",
@@ -3650,7 +3852,8 @@
     ],
     "also_accept": [],
     "explanation": "'Mangels' + Genitiv bedeutet 'wegen des Fehlens von'. Ihm fehlten die Sprachkenntnisse.",
-    "hint": "Er hatte nicht genug Sprachkenntnisse → es fehlte etwas."
+    "hint": "Er hatte nicht genug Sprachkenntnisse → es fehlte etwas.",
+    "sentence_en": "Due to a lack of sufficient language skills, he could not understand the employment contract."
   },
   {
     "id": "alltag_praep_005",
@@ -3669,7 +3872,8 @@
     ],
     "also_accept": [],
     "explanation": "'zugunsten' + Genitiv bedeutet 'zum Vorteil von'. Das Urteil war positiv für die Mieterin.",
-    "hint": "Zum Vorteil der Mieterin → welche Präposition?"
+    "hint": "Zum Vorteil der Mieterin → welche Präposition?",
+    "sentence_en": "The court ruled in favor of the tenant."
   },
   {
     "id": "alltag_praep_006",
@@ -3688,7 +3892,8 @@
     ],
     "also_accept": [],
     "explanation": "'Anlässlich' + Genitiv bedeutet 'aus Anlass von'. Der Geburtstag ist der Anlass.",
-    "hint": "Geburtstag = Anlass für die Einladung."
+    "hint": "Geburtstag = Anlass für die Einladung.",
+    "sentence_en": "On the occasion of her birthday, she invited the whole family."
   },
   {
     "id": "alltag_praep_007",
@@ -3707,7 +3912,8 @@
     ],
     "also_accept": [],
     "explanation": "'zufolge' steht mit Dativ nach dem Nomen: 'dem Bericht zufolge'. Es bedeutet 'laut/gemäß'.",
-    "hint": "Dem Wetterbericht ___ = laut dem Wetterbericht."
+    "hint": "Dem Wetterbericht ___ = laut dem Wetterbericht.",
+    "sentence_en": "According to the weather forecast, it will rain tomorrow."
   },
   {
     "id": "alltag_vprp_001",
@@ -3726,7 +3932,8 @@
     ],
     "also_accept": [],
     "explanation": "'sich gewöhnen an' + Akkusativ: Man gewöhnt sich an etwas Neues.",
-    "hint": "sich gewöhnen ___ + Akkusativ."
+    "hint": "sich gewöhnen ___ + Akkusativ.",
+    "sentence_en": "I first have to get used to the climate."
   },
   {
     "id": "alltag_vprp_002",
@@ -3745,7 +3952,8 @@
     ],
     "also_accept": [],
     "explanation": "'sich beschweren über' + Akkusativ: Man beschwert sich über etwas, das stört.",
-    "hint": "sich beschweren ___ + Akkusativ."
+    "hint": "sich beschweren ___ + Akkusativ.",
+    "sentence_en": "The neighbors are complaining about the noise from our apartment."
   },
   {
     "id": "alltag_vprp_003",
@@ -3764,7 +3972,8 @@
     ],
     "also_accept": [],
     "explanation": "'sich kümmern um' + Akkusativ: Jemand sorgt für jemanden/etwas.",
-    "hint": "sich kümmern ___ + Akkusativ."
+    "hint": "sich kümmern ___ + Akkusativ.",
+    "sentence_en": "My sister takes care of the children when I work."
   },
   {
     "id": "alltag_vprp_004",
@@ -3783,7 +3992,8 @@
     ],
     "also_accept": [],
     "explanation": "'abhängen von' + Dativ: Etwas hängt von einer Bedingung ab.",
-    "hint": "abhängen ___ + Dativ."
+    "hint": "abhängen ___ + Dativ.",
+    "sentence_en": "Whether we move depends on the price of the new apartment."
   },
   {
     "id": "alltag_vprp_005",
@@ -3802,7 +4012,8 @@
     ],
     "also_accept": [],
     "explanation": "'beitragen zu' + Dativ: Etwas trägt zu etwas Positivem bei.",
-    "hint": "beitragen ___ + Dativ."
+    "hint": "beitragen ___ + Dativ.",
+    "sentence_en": "Good neighborliness contributes to a pleasant living atmosphere."
   },
   {
     "id": "alltag_vprp_006",
@@ -3821,7 +4032,8 @@
     ],
     "also_accept": [],
     "explanation": "'verzichten auf' + Akkusativ: Man verzichtet auf etwas, das man nicht nutzt.",
-    "hint": "verzichten ___ + Akkusativ."
+    "hint": "verzichten ___ + Akkusativ.",
+    "sentence_en": "On vacation, I deliberately do without my phone."
   },
   {
     "id": "alltag_vprp_007",
@@ -3840,7 +4052,8 @@
     ],
     "also_accept": [],
     "explanation": "'sich freuen auf' + Akkusativ: Vorfreude auf etwas Zukünftiges. Vergleiche: 'sich freuen über' = Freude über etwas Gegenwärtiges.",
-    "hint": "Vorfreude auf die Zukunft: sich freuen ___ + Akk."
+    "hint": "Vorfreude auf die Zukunft: sich freuen ___ + Akk.",
+    "sentence_en": "The whole family is looking forward to the summer holidays."
   },
   {
     "id": "alltag_vprp_008",
@@ -3859,7 +4072,8 @@
     ],
     "also_accept": [],
     "explanation": "'sich erkundigen nach' + Dativ: Man fragt nach Informationen.",
-    "hint": "sich erkundigen ___ + Dativ."
+    "hint": "sich erkundigen ___ + Dativ.",
+    "sentence_en": "I inquired about the opening hours at the office."
   },
   {
     "id": "med_konj1_001",
@@ -3878,7 +4092,8 @@
     ],
     "also_accept": [],
     "explanation": "Konjunktiv I von 'haben': er habe. In der indirekten Rede gibt man die Aussage des Patienten wieder.",
-    "hint": "Konjunktiv I: er + Verbstamm + e -> habe."
+    "hint": "Konjunktiv I: er + Verbstamm + e -> habe.",
+    "sentence_en": "The patient said he had severe pain in the chest area."
   },
   {
     "id": "med_konj1_002",
@@ -3897,7 +4112,8 @@
     ],
     "also_accept": [],
     "explanation": "Konjunktiv I von 'heilen': sie heile. Im Arztbrief wird die indirekte Rede mit Konjunktiv I verwendet.",
-    "hint": "Konjunktiv I: sie (Sing.) + Verbstamm + e -> heile."
+    "hint": "Konjunktiv I: sie (Sing.) + Verbstamm + e -> heile.",
+    "sentence_en": "The doctor reported that the wound was healing well."
   },
   {
     "id": "med_konj1_003",
@@ -3916,7 +4132,8 @@
     ],
     "also_accept": [],
     "explanation": "Konjunktiv I Plural von 'sein': sie seien. 'sein' ist das einzige Verb, bei dem der Konjunktiv I in allen Formen eindeutig erkennbar ist.",
-    "hint": "Konjunktiv I Plural von 'sein' = seien."
+    "hint": "Konjunktiv I Plural von 'sein' = seien.",
+    "sentence_en": "According to the report, the lab values were within normal range."
   },
   {
     "id": "med_konj1_004",
@@ -3935,7 +4152,8 @@
     ],
     "also_accept": [],
     "explanation": "Konjunktiv I von 'leiden': sie leide. Die Patientin beschreibt ihre Beschwerden, und im Arztbrief steht das in indirekter Rede.",
-    "hint": "Konjunktiv I: sie + Verbstamm + e -> leide."
+    "hint": "Konjunktiv I: sie + Verbstamm + e -> leide.",
+    "sentence_en": "The patient stated that she had been suffering from nausea for three days."
   },
   {
     "id": "med_konj1_005",
@@ -3954,7 +4172,8 @@
     ],
     "also_accept": [],
     "explanation": "Konjunktiv I von 'sein': er sei. Im medizinischen Bericht wird die Mitteilung des Radiologen in indirekter Rede wiedergegeben.",
-    "hint": "Konjunktiv I von 'sein' (3. Person Sing.) = sei."
+    "hint": "Konjunktiv I von 'sein' (3. Person Sing.) = sei.",
+    "sentence_en": "The radiologist reported that the findings were unremarkable."
   },
   {
     "id": "med_konj1_006",
@@ -3973,7 +4192,8 @@
     ],
     "also_accept": [],
     "explanation": "Konjunktiv I von 'nehmen': er nehme. In der Anamnese wird dokumentiert, was der Patient berichtet.",
-    "hint": "Konjunktiv I: er + Stamm des Infinitivs + e -> nehme."
+    "hint": "Konjunktiv I: er + Stamm des Infinitivs + e -> nehme.",
+    "sentence_en": "The patient reported that he was taking the medication regularly."
   },
   {
     "id": "med_konj1_007",
@@ -3992,7 +4212,8 @@
     ],
     "also_accept": [],
     "explanation": "Konjunktiv I von 'können': man könne. 'könne' (Konj. I) drückt indirekte Rede aus, 'könnte' (Konj. II) drückt Möglichkeit/Höflichkeit aus.",
-    "hint": "Konjunktiv I von 'können' = könne (nicht verwechseln mit könnte!)."
+    "hint": "Konjunktiv I von 'können' = könne (nicht verwechseln mit könnte!).",
+    "sentence_en": "The attending physician explained that the patient could be discharged tomorrow."
   },
   {
     "id": "med_konj1_008",
@@ -4011,7 +4232,8 @@
     ],
     "also_accept": [],
     "explanation": "Konjunktiv I von 'leiden': er leide. In der Anamnese dokumentiert man die Patientenaussage in indirekter Rede.",
-    "hint": "Konjunktiv I: er + Verbstamm + e."
+    "hint": "Konjunktiv I: er + Verbstamm + e.",
+    "sentence_en": "The patient stated that he had been suffering from insomnia for two weeks."
   },
   {
     "id": "med_part_001",
@@ -4030,7 +4252,8 @@
     ],
     "also_accept": [],
     "explanation": "Das Partizip II 'genesen' wird als Attribut dekliniert: der genesene Patient (Nominativ, mask., bestimmter Artikel -> -e).",
-    "hint": "Partizip II von 'genesen' = genesen -> der genesen-e Patient."
+    "hint": "Partizip II von 'genesen' = genesen -> der genesen-e Patient.",
+    "sentence_en": "The recovered patient was transferred to the general ward."
   },
   {
     "id": "med_part_002",
@@ -4049,7 +4272,8 @@
     ],
     "also_accept": [],
     "explanation": "Partizip II von 'verordnen' = verordnet. Als Attribut dekliniert: die verordnete Therapie (Nominativ, fem., best. Artikel -> -e).",
-    "hint": "Partizip II von 'verordnen' als Adjektivattribut: die verordnet-e Therapie."
+    "hint": "Partizip II von 'verordnen' als Adjektivattribut: die verordnet-e Therapie.",
+    "sentence_en": "The therapy prescribed by the doctor showed results after two weeks."
   },
   {
     "id": "med_part_003",
@@ -4068,7 +4292,8 @@
     ],
     "also_accept": [],
     "explanation": "Partizip I von 'anhalten' = anhaltend (fortdauernd). Als Attribut: der anhaltende Schmerz (Nom., mask., best. Artikel -> -e).",
-    "hint": "Partizip I = Infinitiv + d: anhaltend -> der anhaltend-e Schmerz."
+    "hint": "Partizip I = Infinitiv + d: anhaltend -> der anhaltend-e Schmerz.",
+    "sentence_en": "The persistent pain kept the patient from sleeping."
   },
   {
     "id": "med_part_004",
@@ -4087,7 +4312,8 @@
     ],
     "also_accept": [],
     "explanation": "Partizip II von 'auswerten' = ausgewertet. Als Attribut: das ausgewertete Blutbild (Nom., neutr., best. Artikel -> -e).",
-    "hint": "Partizip II eines trennbaren Verbs: aus-ge-wert-et -> das ausgewertete Blutbild."
+    "hint": "Partizip II eines trennbaren Verbs: aus-ge-wert-et -> das ausgewertete Blutbild.",
+    "sentence_en": "The blood count analyzed by the laboratory shows no abnormalities."
   },
   {
     "id": "med_part_005",
@@ -4106,7 +4332,8 @@
     ],
     "also_accept": [],
     "explanation": "Partizip I von 'bluten' = blutend. Mit Adverb: die stark blutende Wunde. Das Adverb bleibt unflektiert.",
-    "hint": "Partizip I: blutend + Deklinationsendung. Das Adverb 'stark' steht davor."
+    "hint": "Partizip I: blutend + Deklinationsendung. Das Adverb 'stark' steht davor.",
+    "sentence_en": "The heavily bleeding wound must be treated immediately."
   },
   {
     "id": "med_part_006",
@@ -4125,7 +4352,8 @@
     ],
     "also_accept": [],
     "explanation": "Partizip II von 'anlegen' = angelegt. Akkusativ maskulin mit best. Artikel: den angelegten Verband.",
-    "hint": "Partizip II: angelegt. Akkusativ mask. + best. Artikel -> -en."
+    "hint": "Partizip II: angelegt. Akkusativ mask. + best. Artikel -> -en.",
+    "sentence_en": "The nurse must change the applied bandage daily."
   },
   {
     "id": "med_part_007",
@@ -4144,7 +4372,8 @@
     ],
     "also_accept": [],
     "explanation": "Partizip I von 'operieren' = operierend. Als Attribut: der operierende Chirurg (aktiv, gleichzeitig). Partizip II wäre: der operierte Patient (passiv, abgeschlossen).",
-    "hint": "Partizip I = aktive Handlung: der Chirurg operiert -> der operierende Chirurg."
+    "hint": "Partizip I = aktive Handlung: der Chirurg operiert -> der operierende Chirurg.",
+    "sentence_en": "The operating surgeon was able to stop the bleeding."
   },
   {
     "id": "med_part_008",
@@ -4163,7 +4392,8 @@
     ],
     "also_accept": [],
     "explanation": "Ein Relativsatz mit 'werden + Partizip II' (Passiv + Modalverb 'sollen/müssen') wird zum Gerundivum: das einzunehmende Medikament (= das Medikament, das eingenommen werden soll).",
-    "hint": "Passiv + sollen/müssen -> Gerundivum: zu + Partizip I -> einzunehmend."
+    "hint": "Passiv + sollen/müssen -> Gerundivum: zu + Partizip I -> einzunehmend.",
+    "sentence_en": "The medication that must be taken three times daily."
   },
   {
     "id": "med_ndek_001",
@@ -4182,7 +4412,8 @@
     ],
     "also_accept": [],
     "explanation": "'Der Patient' gehört zur n-Deklination: den Patienten, dem Patienten, des Patienten. Alle Formen außer Nominativ Singular enden auf -en.",
-    "hint": "N-Deklination: Patient -> Patienten in allen Fällen außer Nominativ."
+    "hint": "N-Deklination: Patient -> Patienten in allen Fällen außer Nominativ.",
+    "sentence_en": "The nurse called the patient for examination."
   },
   {
     "id": "med_ndek_002",
@@ -4201,7 +4432,8 @@
     ],
     "also_accept": [],
     "explanation": "'Der Kollege' gehört zur n-Deklination: den/dem/des Kollegen. Maskuline Nomen auf -e gehören oft zur n-Deklination.",
-    "hint": "N-Deklination: der Kollege -> des Kollegen."
+    "hint": "N-Deklination: der Kollege -> des Kollegen.",
+    "sentence_en": "The colleague's diagnosis was correct."
   },
   {
     "id": "med_ndek_003",
@@ -4220,7 +4452,8 @@
     ],
     "also_accept": [],
     "explanation": "Dativ von 'der Patient': dem Patienten. Alle Kasus außer Nominativ Singular enden auf -(e)n.",
-    "hint": "N-Deklination Dativ: dem Patienten."
+    "hint": "N-Deklination Dativ: dem Patienten.",
+    "sentence_en": "The doctor explained the treatment to the patient."
   },
   {
     "id": "med_ndek_004",
@@ -4239,7 +4472,8 @@
     ],
     "also_accept": [],
     "explanation": "'Der Herr' hat eine besondere n-Deklination: den Herrn, dem Herrn, des Herrn. Im Plural: die Herren.",
-    "hint": "N-Deklination von 'Herr': den Herrn (Singular), die Herren (Plural)."
+    "hint": "N-Deklination von 'Herr': den Herrn (Singular), die Herren (Plural).",
+    "sentence_en": "Please call in the next gentleman."
   },
   {
     "id": "med_ndek_005",
@@ -4258,7 +4492,8 @@
     ],
     "also_accept": [],
     "explanation": "'Der Experte' gehört zur n-Deklination: den/dem/des Experten. Maskulina auf -e folgen diesem Muster.",
-    "hint": "N-Deklination: der Experte -> des Experten."
+    "hint": "N-Deklination: der Experte -> des Experten.",
+    "sentence_en": "The expert's opinion is important at the tumor conference."
   },
   {
     "id": "med_ndek_006",
@@ -4277,7 +4512,8 @@
     ],
     "also_accept": [],
     "explanation": "'Der Biologe' folgt der n-Deklination: dem Biologen. Maskulina auf -e mit belebter Bedeutung gehören zur n-Deklination.",
-    "hint": "N-Deklination: der Biologe -> dem Biologen."
+    "hint": "N-Deklination: der Biologe -> dem Biologen.",
+    "sentence_en": "We owe the new diagnostic method to the biologist."
   },
   {
     "id": "med_ndek_007",
@@ -4296,7 +4532,8 @@
     ],
     "also_accept": [],
     "explanation": "Plural von 'der Patient': die Patienten. Bei der n-Deklination ist der Plural immer auf -(e)n.",
-    "hint": "N-Deklination: Plural = Patienten."
+    "hint": "N-Deklination: Plural = Patienten.",
+    "sentence_en": "The clinic treats over 5,000 patients annually."
   },
   {
     "id": "med_ndek_008",
@@ -4315,7 +4552,8 @@
     ],
     "also_accept": [],
     "explanation": "'Das Herz' hat eine gemischte Deklination: des Herzens (Genitiv), dem Herzen (Dativ). Es gehört zu den wenigen Neutra mit n-Deklination.",
-    "hint": "Genitiv von 'das Herz' = des Herzens (Sonderform)."
+    "hint": "Genitiv von 'das Herz' = des Herzens (Sonderform).",
+    "sentence_en": "The size of the heart was noticeable on the ultrasound."
   },
   {
     "id": "med_relpr_001",
@@ -4334,7 +4572,8 @@
     ],
     "also_accept": [],
     "explanation": "'bei jemandem in Behandlung sein' -> Der Arzt, bei dem ich in Behandlung war. 'bei' + Dativ.",
-    "hint": "Man ist ___ einem Arzt in Behandlung."
+    "hint": "Man ist ___ einem Arzt in Behandlung.",
+    "sentence_en": "The doctor with whom I was in treatment is a cardiologist."
   },
   {
     "id": "med_relpr_002",
@@ -4353,7 +4592,8 @@
     ],
     "also_accept": [],
     "explanation": "'allergisch reagieren auf etwas' (+ Akkusativ) -> das Medikament, auf das ich allergisch reagiere.",
-    "hint": "Man reagiert allergisch ___ etwas (+ Akkusativ)."
+    "hint": "Man reagiert allergisch ___ etwas (+ Akkusativ).",
+    "sentence_en": "The medication to which I have an allergic reaction is penicillin."
   },
   {
     "id": "med_relpr_003",
@@ -4374,7 +4614,8 @@
       "unter"
     ],
     "explanation": "'leiden an + Dativ' -> die Krankheit, an der er leidet. Auch 'leiden unter + Dativ' ist möglich.",
-    "hint": "Man leidet ___ einer Krankheit (+ Dativ)."
+    "hint": "Man leidet ___ einer Krankheit (+ Dativ).",
+    "sentence_en": "The disease from which he has been suffering for years is diabetes."
   },
   {
     "id": "med_relpr_004",
@@ -4393,7 +4634,8 @@
     ],
     "also_accept": [],
     "explanation": "'etwas mit einem Instrument durchführen' -> das Instrument, mit dem die Operation durchgeführt wurde.",
-    "hint": "Eine Operation wird ___ einem Instrument durchgeführt."
+    "hint": "Eine Operation wird ___ einem Instrument durchgeführt.",
+    "sentence_en": "The instrument with which the surgery was performed is an endoscope."
   },
   {
     "id": "med_relpr_005",
@@ -4412,7 +4654,8 @@
     ],
     "also_accept": [],
     "explanation": "'aufklären über + Akkusativ' -> die Nebenwirkungen, über die der Arzt aufgeklärt hat.",
-    "hint": "Der Arzt klärt den Patienten ___ die Risiken auf."
+    "hint": "Der Arzt klärt den Patienten ___ die Risiken auf.",
+    "sentence_en": "The side effects about which the doctor informed me did not occur."
   },
   {
     "id": "med_relpr_006",
@@ -4431,7 +4674,8 @@
     ],
     "also_accept": [],
     "explanation": "'sich etwas versprechen von + Dativ' -> die Therapie, von der wir uns viel versprechen.",
-    "hint": "Man verspricht sich etwas ___ einer Therapie."
+    "hint": "Man verspricht sich etwas ___ einer Therapie.",
+    "sentence_en": "The therapy from which we expect a lot starts tomorrow."
   },
   {
     "id": "med_relpr_007",
@@ -4450,7 +4694,8 @@
     ],
     "also_accept": [],
     "explanation": "'suchen nach + Dativ' -> die Diagnose, nach der der Facharzt sucht.",
-    "hint": "Man sucht ___ einer Diagnose."
+    "hint": "Man sucht ___ einer Diagnose.",
+    "sentence_en": "The diagnosis that the specialist is still looking for is unclear."
   },
   {
     "id": "med_relpr_008",
@@ -4469,7 +4714,8 @@
     ],
     "also_accept": [],
     "explanation": "'wirken gegen + Akkusativ' -> der Erreger, gegen den die Antibiotika nicht wirken.",
-    "hint": "Antibiotika wirken ___ einen Erreger."
+    "hint": "Antibiotika wirken ___ einen Erreger.",
+    "sentence_en": "The pathogen against which the antibiotics are not effective is resistant."
   },
   {
     "id": "med_nomi_001",
@@ -4488,7 +4734,8 @@
     ],
     "also_accept": [],
     "explanation": "Nominalisierung des Infinitivs: das Atmen. 'Beim Atmen' = 'bei dem Atmen' (Dativ). Substantivierte Infinitive sind immer Neutrum.",
-    "hint": "Infinitiv als Nomen: atmen -> das Atmen."
+    "hint": "Infinitiv als Nomen: atmen -> das Atmen.",
+    "sentence_en": "The patient experiences stabbing pains when breathing."
   },
   {
     "id": "med_nomi_002",
@@ -4509,7 +4756,8 @@
       "Abheilen"
     ],
     "explanation": "Nominalisierter Infinitiv: das Heilen. Auch 'die Heilung' ist möglich, aber hier wird nach dem substantivierten Infinitiv gefragt.",
-    "hint": "Infinitiv als Nomen: heilen -> das Heilen."
+    "hint": "Infinitiv als Nomen: heilen -> das Heilen.",
+    "sentence_en": "The healing of the wound took three weeks."
   },
   {
     "id": "med_nomi_003",
@@ -4528,7 +4776,8 @@
     ],
     "also_accept": [],
     "explanation": "Nominalisiertes Adjektiv: der Kranke (bestimmter Artikel + Nom. Sing. mask.). 'Der Kranke' wird wie ein Adjektiv dekliniert.",
-    "hint": "Nominalisierung von 'krank': der Kranke (wie Adjektivdeklination)."
+    "hint": "Nominalisierung von 'krank': der Kranke (wie Adjektivdeklination).",
+    "sentence_en": "The sick person was discharged from the clinic today."
   },
   {
     "id": "med_nomi_004",
@@ -4547,7 +4796,8 @@
     ],
     "also_accept": [],
     "explanation": "Nominalisierter Infinitiv: das Untersuchen. Man kann auch 'die Untersuchung' sagen, aber der substantivierte Infinitiv betont den Prozess.",
-    "hint": "Infinitiv als Nomen: untersuchen -> das Untersuchen."
+    "hint": "Infinitiv als Nomen: untersuchen -> das Untersuchen.",
+    "sentence_en": "The examination of blood is carried out under the microscope."
   },
   {
     "id": "med_nomi_005",
@@ -4566,7 +4816,8 @@
     ],
     "also_accept": [],
     "explanation": "Nominalisierung mit -ung: messen -> die Messung. Nomen auf -ung sind immer feminin.",
-    "hint": "Verb + -ung: messen -> die Messung."
+    "hint": "Verb + -ung: messen -> die Messung.",
+    "sentence_en": "The measurement of blood pressure takes place daily."
   },
   {
     "id": "med_nomi_006",
@@ -4585,7 +4836,8 @@
     ],
     "also_accept": [],
     "explanation": "Nominalisierung mit -ung: aufklären -> die Aufklärung. Im medizinischen Kontext ist die Aufklärung ein wichtiger juristischer Begriff.",
-    "hint": "aufklären + -ung -> die Aufklärung."
+    "hint": "aufklären + -ung -> die Aufklärung.",
+    "sentence_en": "Informing the patient about the risks is required by law."
   },
   {
     "id": "med_nomi_007",
@@ -4606,7 +4858,8 @@
       "Röte"
     ],
     "explanation": "Hier passt 'die Rötung' am besten: eine krankhafte Veränderung der Hautfarbe. 'Die Röte' ist auch korrekt, wird aber seltener medizinisch verwendet.",
-    "hint": "Medizinischer Fachbegriff für Hautrötung: die Rötung."
+    "hint": "Medizinischer Fachbegriff für Hautrötung: die Rötung.",
+    "sentence_en": "The redness around the wound has increased."
   },
   {
     "id": "med_nomi_008",
@@ -4627,7 +4880,8 @@
       "Blutentnahme"
     ],
     "explanation": "In der Praxis wird häufiger 'die Blutabnahme' oder 'die Blutentnahme' verwendet.",
-    "hint": "Blut abnehmen → die Blutabnahme / die Blutentnahme"
+    "hint": "Blut abnehmen → die Blutabnahme / die Blutentnahme",
+    "sentence_en": "You must be fasting before the blood draw."
   },
   {
     "id": "med_doko_001",
@@ -4648,7 +4902,8 @@
       "Sowohl ... als auch"
     ],
     "explanation": "'Sowohl...als auch' verbindet zwei gleichwertige Aussagen, die beide zutreffen: Blutdruck UND Puls sind erhöht.",
-    "hint": "Beide Werte sind erhöht -> sowohl...als auch."
+    "hint": "Beide Werte sind erhöht -> sowohl...als auch.",
+    "sentence_en": "Both the blood pressure and the pulse are elevated."
   },
   {
     "id": "med_doko_002",
@@ -4667,7 +4922,8 @@
     ],
     "also_accept": [],
     "explanation": "'Weder...noch' drückt aus, dass keines von beiden zutrifft: kein Fieber UND kein Schüttelfrost.",
-    "hint": "Beide Symptome sind NICHT vorhanden -> weder...noch."
+    "hint": "Beide Symptome sind NICHT vorhanden -> weder...noch.",
+    "sentence_en": "The patient has neither a fever nor chills."
   },
   {
     "id": "med_doko_003",
@@ -4686,7 +4942,8 @@
     ],
     "also_accept": [],
     "explanation": "'Entweder...oder' bietet eine Wahl zwischen zwei Alternativen: CT ODER MRT, nicht beides.",
-    "hint": "Zwei Alternativen -> entweder...oder."
+    "hint": "Zwei Alternativen -> entweder...oder.",
+    "sentence_en": "Either we do a CT scan, or we do an MRI."
   },
   {
     "id": "med_doko_004",
@@ -4707,7 +4964,8 @@
       "Je...umso"
     ],
     "explanation": "'Je...desto' (oder 'je...umso') drückt eine proportionale Beziehung aus: mehr A -> mehr B.",
-    "hint": "Proportionale Beziehung: ___ früher, ___ besser."
+    "hint": "Proportionale Beziehung: ___ früher, ___ besser.",
+    "sentence_en": "The earlier the diagnosis is made, the better the chances of recovery."
   },
   {
     "id": "med_doko_005",
@@ -4726,7 +4984,8 @@
     ],
     "also_accept": [],
     "explanation": "'Zwar...aber' drückt eine Einschränkung aus: Die OP war erfolgreich, ABER es gibt eine Einschränkung (Reha nötig).",
-    "hint": "Positives mit Einschränkung -> zwar...aber."
+    "hint": "Positives mit Einschränkung -> zwar...aber.",
+    "sentence_en": "The operation was admittedly successful, but the patient still needs rehabilitation."
   },
   {
     "id": "med_doko_006",
@@ -4745,7 +5004,8 @@
     ],
     "also_accept": [],
     "explanation": "'Nicht nur...sondern auch' betont, dass etwas über die Erwartung hinausgeht: Es wirkt gegen Bakterien UND sogar gegen Pilze.",
-    "hint": "Mehr als erwartet -> nicht nur...sondern auch."
+    "hint": "Mehr als erwartet -> nicht nur...sondern auch.",
+    "sentence_en": "The antibiotic is effective not only against bacteria but also against certain fungi."
   },
   {
     "id": "med_doko_007",
@@ -4766,7 +5026,8 @@
       "Je...umso"
     ],
     "explanation": "'Je...desto' zeigt die proportionale Beziehung zwischen Dosierung und Nebenwirkungen.",
-    "hint": "Proportional: höhere Dosis -> stärkere Nebenwirkungen."
+    "hint": "Proportional: höhere Dosis -> stärkere Nebenwirkungen.",
+    "sentence_en": "The higher the dosage, the stronger the side effects."
   },
   {
     "id": "med_doko_008",
@@ -4785,7 +5046,8 @@
     ],
     "also_accept": [],
     "explanation": "'Sowohl...als auch' zeigt, dass beide Behandlungsmethoden gleichzeitig angewendet wurden.",
-    "hint": "Beide Methoden kommen zum Einsatz -> sowohl...als auch."
+    "hint": "Beide Methoden kommen zum Einsatz -> sowohl...als auch.",
+    "sentence_en": "The tumor was treated with both chemotherapy and radiation."
   },
   {
     "id": "trenn_001",
@@ -4803,7 +5065,8 @@
       "entlasst"
     ],
     "explanation": "'entlassen' ist UNTRENNBAR (Vorsilbe 'ent-'). Das konjugierte Verb bleibt zusammen: 'entlässt'.",
-    "hint": "Die Vorsilbe 'ent-' ist untrennbar. Das Verb bleibt als Ganzes an Position 2."
+    "hint": "Die Vorsilbe 'ent-' ist untrennbar. Das Verb bleibt als Ganzes an Position 2.",
+    "sentence_en": "The doctor discharges the patient from the hospital."
   },
   {
     "id": "trenn_002",
@@ -4821,7 +5084,8 @@
       "stehlt...auf"
     ],
     "explanation": "'aufstehen' ist TRENNBAR (Vorsilbe 'auf-'). Im Hauptsatz steht das konjugierte Verb an Position 2, die Vorsilbe am Satzende.",
-    "hint": "Die Vorsilbe 'auf-' ist trennbar: konjugierter Stamm an Position 2, Vorsilbe am Ende."
+    "hint": "Die Vorsilbe 'auf-' ist trennbar: konjugierter Stamm an Position 2, Vorsilbe am Ende.",
+    "sentence_en": "The patient gets up at 6 o'clock tomorrow morning."
   },
   {
     "id": "trenn_003",
@@ -4839,7 +5103,8 @@
       "nehmt...ein"
     ],
     "explanation": "'einnehmen' ist TRENNBAR. Bei Imperativ (Sie-Form): 'Nehmen Sie ... ein.'",
-    "hint": "Trennbares Verb im Imperativ: konjugierter Stamm + Sie + Objekt + Vorsilbe."
+    "hint": "Trennbares Verb im Imperativ: konjugierter Stamm + Sie + Objekt + Vorsilbe.",
+    "sentence_en": "Please take the medication three times daily."
   },
   {
     "id": "trenn_004",
@@ -4852,7 +5117,8 @@
     "answer": "fängt...an",
     "options": [],
     "explanation": "'anfangen' ist TRENNBAR. Im Hauptsatz: 'fängt' (Position 2) + 'an' (Satzende).",
-    "hint": "Trennbar: Stamm konjugiert an Position 2, Vorsilbe am Ende."
+    "hint": "Trennbar: Stamm konjugiert an Position 2, Vorsilbe am Ende.",
+    "sentence_en": "The therapy starts next week."
   },
   {
     "id": "trenn_005",
@@ -4870,7 +5136,8 @@
       "höhrt...auf"
     ],
     "explanation": "'aufhören' ist TRENNBAR. Im Hauptsatz wird die Vorsilbe 'auf' ans Satzende gestellt.",
-    "hint": "'auf-' ist eine trennbare Vorsilbe."
+    "hint": "'auf-' ist eine trennbare Vorsilbe.",
+    "sentence_en": "The pain stops after taking the medication."
   },
   {
     "id": "trenn_006",
@@ -4888,7 +5155,8 @@
       "Unter sucht der Arzt den Patienten gründlich."
     ],
     "explanation": "'untersuchen' ist UNTRENNBAR (Vorsilbe 'unter-'). Das Verb bleibt zusammen.",
-    "hint": "'unter-' ist hier eine untrennbare Vorsilbe – das Verb wird nicht getrennt."
+    "hint": "'unter-' ist hier eine untrennbare Vorsilbe – das Verb wird nicht getrennt.",
+    "sentence_en": "The doctor examines the patient thoroughly."
   },
   {
     "id": "trenn_007",
@@ -4901,7 +5169,8 @@
     "answer": "stelle mir vor",
     "options": [],
     "explanation": "'sich vorstellen' ist TRENNBAR. Reflexivpronomen steht nach dem konjugierten Verb: 'Ich stelle mir vor, dass...'",
-    "hint": "Trennbar + reflexiv: Stamm + Reflexivpronomen + ... + Vorsilbe."
+    "hint": "Trennbar + reflexiv: Stamm + Reflexivpronomen + ... + Vorsilbe.",
+    "sentence_en": "I imagine that the treatment will take a long time."
   },
   {
     "id": "trenn_008",
@@ -4919,7 +5188,8 @@
       "ordnet...vor"
     ],
     "explanation": "'verordnen' ist UNTRENNBAR (Vorsilbe 'ver-'). Präsens, 3. Person Singular: 'verordnet'.",
-    "hint": "'ver-' ist immer untrennbar."
+    "hint": "'ver-' ist immer untrennbar.",
+    "sentence_en": "The doctor prescribes the patient a new medication."
   },
   {
     "id": "trenn_009",
@@ -4937,7 +5207,8 @@
       "Hören zu Sie dem Arzt bitte aufmerksam."
     ],
     "explanation": "'zuhören' ist TRENNBAR. Im Imperativ (Sie-Form): 'Hören Sie ... zu!'",
-    "hint": "Imperativ eines trennbaren Verbs: Stamm + Sie + ... + Vorsilbe."
+    "hint": "Imperativ eines trennbaren Verbs: Stamm + Sie + ... + Vorsilbe.",
+    "sentence_en": "Please listen to the doctor carefully."
   },
   {
     "id": "trenn_010",
@@ -4955,7 +5226,8 @@
       "kammt...zurück"
     ],
     "explanation": "'zurückkommen' ist trennbar (Präfix 'zurück-'): Er kommt morgen zurück.",
-    "hint": "'zurück-' ist eine trennbare Vorsilbe."
+    "hint": "'zurück-' ist eine trennbare Vorsilbe.",
+    "sentence_en": "The patient comes back from rehabilitation tomorrow."
   },
   {
     "id": "trenn_011",
@@ -4968,7 +5240,8 @@
     "answer": "empfiehlt",
     "options": [],
     "explanation": "'empfehlen' ist UNTRENNBAR (Vorsilbe 'emp-'). Präsens mit Vokalwechsel e→ie: 'empfiehlt'.",
-    "hint": "'emp-' ist untrennbar. Vokalwechsel bei 'er/sie/es': e → ie."
+    "hint": "'emp-' ist untrennbar. Vokalwechsel bei 'er/sie/es': e → ie.",
+    "sentence_en": "The doctor recommends a cure at the Baltic Sea."
   },
   {
     "id": "trenn_012",
@@ -4986,7 +5259,8 @@
       "Ab nimmt die Schwellung nach drei Tagen deutlich."
     ],
     "explanation": "'abnehmen' ist TRENNBAR. Die Vorsilbe 'ab' steht im Hauptsatz am Satzende, nicht direkt nach dem Verb.",
-    "hint": "Trennbar: Die Vorsilbe gehört ans absolute Satzende."
+    "hint": "Trennbar: Die Vorsilbe gehört ans absolute Satzende.",
+    "sentence_en": "The swelling noticeably decreases after three days."
   },
   {
     "id": "trenn_013",
@@ -5004,7 +5278,8 @@
       "auf steht"
     ],
     "explanation": "Im Nebensatz (nach 'dass') steht das konjugierte Verb am Ende. Trennbare Verben werden im Nebensatz NICHT getrennt: 'aufsteht'.",
-    "hint": "Im Nebensatz: Verb am Ende → trennbares Verb wird wieder zusammengeschrieben."
+    "hint": "Im Nebensatz: Verb am Ende → trennbares Verb wird wieder zusammengeschrieben.",
+    "sentence_en": "I know that the patient gets up early tomorrow."
   },
   {
     "id": "trenn_014",
@@ -5022,7 +5297,8 @@
       "mir vornehme"
     ],
     "explanation": "'sich vornehmen' ist TRENNBAR und reflexiv. Im Hauptsatz: 'nehme' (Pos. 2) + 'mir' (Reflexivpronomen) + ... + 'vor' (Satzende).",
-    "hint": "Trennbar + reflexiv (Dativ): Stamm + Reflexivpronomen + ... + Vorsilbe."
+    "hint": "Trennbar + reflexiv (Dativ): Stamm + Reflexivpronomen + ... + Vorsilbe.",
+    "sentence_en": "I resolve to do more exercise starting tomorrow."
   },
   {
     "id": "trenn_015",
@@ -5040,7 +5316,8 @@
       "erklären"
     ],
     "explanation": "'mitnehmen' ist TRENNBAR (Vorsilbe 'mit-'). Die Vorsilben 'be-', 'er-' und 'ver-' sind IMMER untrennbar.",
-    "hint": "Untrennbare Vorsilben: be-, emp-, ent-, er-, ge-, miss-, ver-, zer-. Alles andere ist meist trennbar."
+    "hint": "Untrennbare Vorsilben: be-, emp-, ent-, er-, ge-, miss-, ver-, zer-. Alles andere ist meist trennbar.",
+    "sentence_en": "Which of these verbs is separable? — 'mitnehmen' (to take along)."
   },
   {
     "id": "vfp_001",
@@ -5061,7 +5338,8 @@
     "hint": "Man leidet AN einer Krankheit (+ Dativ).",
     "also_accept": [
       "unter"
-    ]
+    ],
+    "sentence_en": "The patient suffers from severe headaches."
   },
   {
     "id": "vfp_002",
@@ -5079,7 +5357,8 @@
       "über"
     ],
     "explanation": "'sich vorbereiten auf' (+Akk) – 'die Prüfung' ist Akkusativ.",
-    "hint": "Man bereitet sich AUF etwas vor (+ Akkusativ)."
+    "hint": "Man bereitet sich AUF etwas vor (+ Akkusativ).",
+    "sentence_en": "I have to prepare for the exam."
   },
   {
     "id": "vfp_003",
@@ -5097,7 +5376,8 @@
       "mit"
     ],
     "explanation": "'abhängen von' (+Dat) – 'der Diagnose' ist Dativ feminin.",
-    "hint": "Etwas hängt VON etwas ab (+ Dativ)."
+    "hint": "Etwas hängt VON etwas ab (+ Dativ).",
+    "sentence_en": "The therapy depends on the diagnosis."
   },
   {
     "id": "vfp_004",
@@ -5115,7 +5395,8 @@
       "für"
     ],
     "explanation": "'sich beschweren über' (+Akk) – 'die langen Wartezeiten' ist Akkusativ Plural.",
-    "hint": "Man beschwert sich ÜBER etwas (+ Akkusativ)."
+    "hint": "Man beschwert sich ÜBER etwas (+ Akkusativ).",
+    "sentence_en": "The patient complains about the long waiting times."
   },
   {
     "id": "vfp_005",
@@ -5133,7 +5414,8 @@
       "an"
     ],
     "explanation": "'sich kümmern um' (+Akk) – 'den Patienten' ist Akkusativ maskulin.",
-    "hint": "Man kümmert sich UM jemanden (+ Akkusativ)."
+    "hint": "Man kümmert sich UM jemanden (+ Akkusativ).",
+    "sentence_en": "The nurse takes care of the patient on ward 3."
   },
   {
     "id": "vfp_006",
@@ -5151,7 +5433,8 @@
       "für"
     ],
     "explanation": "'sich freuen auf' (+Akk) = Vorfreude auf etwas Zukünftiges. 'sich freuen über' (+Akk) = Freude über etwas, das bereits geschehen ist.",
-    "hint": "Vorfreude auf etwas Zukünftiges: AUF. Freude über etwas Vergangenes: ÜBER."
+    "hint": "Vorfreude auf etwas Zukünftiges: AUF. Freude über etwas Vergangenes: ÜBER.",
+    "sentence_en": "I am looking forward to my vacation next month."
   },
   {
     "id": "vfp_007",
@@ -5169,7 +5452,8 @@
       "für"
     ],
     "explanation": "'sich freuen über' (+Akk) = Freude über etwas Eingetretenes. Die Genesung ist bereits passiert.",
-    "hint": "Freude über etwas, das bereits eingetreten ist: ÜBER."
+    "hint": "Freude über etwas, das bereits eingetreten ist: ÜBER.",
+    "sentence_en": "The patient is happy about the quick recovery."
   },
   {
     "id": "vfp_008",
@@ -5187,7 +5471,8 @@
       "über"
     ],
     "explanation": "'warten auf' (+Akk) – 'die Ergebnisse' ist Akkusativ Plural.",
-    "hint": "Man wartet AUF etwas (+ Akkusativ)."
+    "hint": "Man wartet AUF etwas (+ Akkusativ).",
+    "sentence_en": "We are waiting for the results of the blood test."
   },
   {
     "id": "vfp_009",
@@ -5205,7 +5490,8 @@
       "über"
     ],
     "explanation": "'warnen vor' (+Dat) – 'den Nebenwirkungen' ist Dativ Plural.",
-    "hint": "Man warnt VOR etwas (+ Dativ)."
+    "hint": "Man warnt VOR etwas (+ Dativ).",
+    "sentence_en": "The doctor warns about the side effects of the medication."
   },
   {
     "id": "vfp_010",
@@ -5223,7 +5509,8 @@
       "über"
     ],
     "explanation": "'sich erholen von' (+Dat) – 'der Operation' ist Dativ feminin.",
-    "hint": "Man erholt sich VON etwas (+ Dativ)."
+    "hint": "Man erholt sich VON etwas (+ Dativ).",
+    "sentence_en": "The patient is slowly recovering from the surgery."
   },
   {
     "id": "vfp_011",
@@ -5241,7 +5528,8 @@
       "mit"
     ],
     "explanation": "'teilnehmen an' (+Dat) – 'der Rehabilitationsmaßnahme' ist Dativ feminin.",
-    "hint": "Man nimmt AN etwas teil (+ Dativ)."
+    "hint": "Man nimmt AN etwas teil (+ Dativ).",
+    "sentence_en": "Would you like to participate in the rehabilitation program?"
   },
   {
     "id": "vfp_012",
@@ -5259,7 +5547,8 @@
       "auf"
     ],
     "explanation": "'sich interessieren für' (+Akk) – 'alternative Heilmethoden' ist Akkusativ Plural.",
-    "hint": "Man interessiert sich FÜR etwas (+ Akkusativ)."
+    "hint": "Man interessiert sich FÜR etwas (+ Akkusativ).",
+    "sentence_en": "He is interested in alternative healing methods."
   },
   {
     "id": "vfp_013",
@@ -5277,7 +5566,8 @@
       "über"
     ],
     "explanation": "'verzichten auf' (+Akk) – 'zuckerhaltige Getränke' ist Akkusativ Plural.",
-    "hint": "Man verzichtet AUF etwas (+ Akkusativ)."
+    "hint": "Man verzichtet AUF etwas (+ Akkusativ).",
+    "sentence_en": "With diabetes, you have to give up sugary drinks."
   },
   {
     "id": "vfp_014",
@@ -5295,7 +5585,8 @@
       "für"
     ],
     "explanation": "'sich gewöhnen an' (+Akk) – 'die neue Prothese' ist Akkusativ feminin.",
-    "hint": "Man gewöhnt sich AN etwas (+ Akkusativ)."
+    "hint": "Man gewöhnt sich AN etwas (+ Akkusativ).",
+    "sentence_en": "The patient has to get used to the new prosthesis first."
   },
   {
     "id": "vfp_015",
@@ -5313,6 +5604,7 @@
       "in"
     ],
     "explanation": "'sich konzentrieren auf' (+Akk) – 'Ihre Atmung' ist Akkusativ feminin.",
-    "hint": "Man konzentriert sich AUF etwas (+ Akkusativ)."
+    "hint": "Man konzentriert sich AUF etwas (+ Akkusativ).",
+    "sentence_en": "Please concentrate on your breathing."
   }
 ]

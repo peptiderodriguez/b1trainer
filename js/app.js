@@ -963,7 +963,7 @@ const App = {
       question: ex.sentence,
       answer: ex.answer,
       options: (ex.options && ex.options.length) ? ex.options : null,
-      detail: ex.explanation || '',
+      detail: (ex.sentence_en ? 'EN: ' + ex.sentence_en + '\n' : '') + (ex.explanation || ''),
       also_accept: ex.also_accept || null,
     };
   },
