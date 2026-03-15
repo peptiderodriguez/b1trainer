@@ -1252,13 +1252,21 @@ const App = {
         const pronounMatch = exercise.question.match(/^(.+?) ___/);
         const pronoun = pronounMatch ? pronounMatch[1] : '';
         answerText = pronoun + ' ' + exercise.answer;
+      } else if (exercise.type === 'grammar') {
+        // Show the completed sentence with the answer filled in
+        answerText = exercise.question.replace(/___/g, exercise.answer);
       } else {
         answerText = exercise.answer;
       }
 
       let fbHtml = correct
-        ? '<span class="drill-feedback__answer">Richtig! — ' + escapeHtml(answerText) + '</span>'
-        : '<span class="drill-feedback__answer">Falsch — richtig: ' + escapeHtml(answerText) + '</span>';
+        ? '<span class="drill-feedback__answer">Richtig!</span>'
+        : '<span class="drill-feedback__answer">Falsch — richtig: ' + escapeHtml(exercise.answer) + '</span>';
+
+      // Show the completed sentence for grammar
+      if (exercise.type === 'grammar' || exercise.type === 'article' || exercise.type === 'conjugation') {
+        fbHtml += '<div class="drill-feedback__sentence">' + escapeHtml(answerText) + '</div>';
+      }
 
       // Always show translation/detail — each line separately
       if (exercise.detail) {

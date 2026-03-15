@@ -3040,6 +3040,12 @@ img {
   font-weight: 600;
 }
 
+.drill-feedback__sentence {
+  margin-top: var(--space-xs);
+  font-weight: 500;
+  font-style: italic;
+}
+
 .drill-feedback__detail {
   margin-top: var(--space-xs);
   font-size: var(--font-size-sm);
