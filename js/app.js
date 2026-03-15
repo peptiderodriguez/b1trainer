@@ -895,8 +895,7 @@ const App = {
   _genArticleEx(nouns) {
     const noun = nouns[Math.floor(Math.random() * nouns.length)];
     if (!noun.article || !noun.noun) return null;
-    const candidates = (noun.examples || []).concat(noun.sentence ? [noun.sentence] : []);
-    const germanEx = candidates.find(s => /[äöüßÄÖÜ]|^(Der |Die |Das |Ein |Ich |Er |Sie |Wir |Man )/.test(s)) || '';
+    const germanEx = (noun.examples && noun.examples[0]) || noun.sentence || '';
     const plural = noun.plural ? 'Pl: die ' + noun.plural : '';
     const parts = [
       germanEx ? germanEx : '',
@@ -930,8 +929,7 @@ const App = {
     const form = verb.conjugation.präsens[conjKey];
     if (!form) return null;
 
-    const verbCandidates = verb.examples || [];
-    const verbEx = verbCandidates.find(s => /[äöüßÄÖÜ]|^(Der |Die |Das |Ein |Ich |Er |Sie |Wir |Man |Bitte )/.test(s)) || verbCandidates[0] || '';
+    const verbEx = (verb.examples && verb.examples[0]) || '';
     const perfekt = verb.conjugation.perfekt ? 'Perfekt: ' + (verb.conjugation.withSein ? 'ist ' : 'hat ') + verb.conjugation.perfekt : '';
     const parts = [
       verbEx ? verbEx : '',
@@ -991,8 +989,7 @@ const App = {
     }
 
     // Ask for the German word given the English translation
-    const transCandidates = (item.examples || []).concat(item.sentence ? [item.sentence] : []);
-    const transEx = transCandidates.find(s => /[äöüßÄÖÜ]|^(Der |Die |Das |Ein |Ich |Er |Sie |Wir |Man |Bitte )/.test(s)) || '';
+    const transEx = (item.examples && item.examples[0]) || item.sentence || '';
     const parts = [
       transEx ? transEx : '',
       item.translation ? 'EN: ' + item.translation : '',
