@@ -1057,13 +1057,13 @@
       "de": "das MRT",
       "en": "MRI",
       "article": "das",
-      "description": "Magnetresonanztomographie zur detaillierten Darstellung von Weichteilen und Organen"
+      "description": "Magnetresonanztomografie zur detaillierten Darstellung von Weichteilen und Organen"
     },
     {
       "de": "das CT",
       "en": "CT scan",
       "article": "das",
-      "description": "Computertomographie zur Schnittbildgebung des Körpers mittels Röntgenstrahlen"
+      "description": "Computertomografie zur Schnittbildgebung des Körpers mittels Röntgenstrahlen"
     },
     {
       "de": "die Blutuntersuchung",
@@ -1387,7 +1387,7 @@
             "Ultraschall Abdomen",
             "EKG",
             "Lungenfunktionstest",
-            "Schilddrüsenszintigraphie"
+            "Schilddrüsenszintigrafie"
           ],
           "answer": 0
         },
@@ -2589,7 +2589,7 @@
           "Die Vitalzeichen bei Aufnahme: Blutdruck 100 zu 65 mmHg, Herzfrequenz 110 pro Minute, Sauerstoffsättigung 94 Prozent, Atemfrequenz 22 pro Minute, Temperatur 36,8 Grad.",
           "Im 12-Kanal-EKG zeigen sich ST-Hebungen in den Ableitungen V1 bis V4, vereinbar mit einem akuten Vorderwandinfarkt. Das Troponin I ist mit 5,2 ng/ml deutlich erhöht.",
           "Zusammenfassend gehe ich von einem akuten ST-Hebungsinfarkt der Vorderwand aus. Differenzialdiagnostisch wäre an eine Aortendissektion oder eine Lungenembolie zu denken, die jedoch aufgrund der typischen EKG-Veränderungen weniger wahrscheinlich sind.",
-          "Ich habe bereits eine venöse Zugangsanlage, die Gabe von ASS 500 mg i.v. und Heparin 5000 I.E. i.v. veranlasst sowie das Herzkatheterlabor informiert. Ich bitte um Ihre Freigabe für die sofortige Koronarangiografie."
+          "Ich habe bereits eine venöse Zugangsanlage, die Gabe von ASS 300 mg i.v. und Heparin 5000 I.E. i.v. veranlasst sowie das Herzkatheterlabor informiert. Ich bitte um Ihre Freigabe für die sofortige Koronarangiografie."
         ],
         "oberarzt_prompts": [
           "Was ist der Aufnahmegrund?",
@@ -2644,7 +2644,7 @@
           "Wie ist der Zeitverlauf? Wann genau traten die Symptome auf?",
           "Wie hoch ist der NIHSS?",
           "Nimmt die Patientin Antikoagulanzien ein?",
-          "Das ist entscheidend — prüfen Sie den letzten INR-Wert und den Apixaban-Spiegel. Wenn die letzte Einnahme mehr als 48 Stunden zurückliegt, können wir nach Blutungsausschluss im cCT lysieren.",
+          "Das ist entscheidend — prüfen Sie den Anti-Faktor-Xa-Spiegel zur Beurteilung der Apixaban-Wirkung. Wenn die letzte Einnahme mehr als 48 Stunden zurückliegt, können wir nach Blutungsausschluss im cCT lysieren.",
           "Einverstanden. Sofort zum cCT, dann Lyseentscheidung. Informieren Sie die Stroke Unit für die weitere Überwachung."
         ]
       },
