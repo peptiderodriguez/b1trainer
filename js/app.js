@@ -895,13 +895,16 @@ const App = {
   _genArticleEx(nouns) {
     const noun = nouns[Math.floor(Math.random() * nouns.length)];
     if (!noun.article || !noun.noun) return null;
+    const example = (noun.examples && noun.examples[0]) || noun.sentence || '';
+    const plural = noun.plural ? 'Plural: ' + noun.plural : '';
+    const parts = [noun.translation || '', plural, example].filter(Boolean);
     return {
       type: 'article',
       typeLabel: 'Artikel',
       question: 'Welcher Artikel? ___ ' + noun.noun,
       answer: noun.article,
       options: ['der', 'die', 'das'],
-      detail: noun.translation || '',
+      detail: parts.join('\n'),
     };
   },
 
@@ -922,12 +925,15 @@ const App = {
     const form = verb.conjugation.präsens[conjKey];
     if (!form) return null;
 
+    const example = (verb.examples && verb.examples[0]) || '';
+    const perfekt = verb.conjugation.perfekt ? 'Perfekt: ' + (verb.conjugation.withSein ? 'ist ' : 'hat ') + verb.conjugation.perfekt : '';
+    const parts = [verb.translation || '', perfekt, example].filter(Boolean);
     return {
       type: 'conjugation',
       typeLabel: 'Konjugation',
       question: pronoun + ' ___ (' + verb.word + ')',
       answer: form,
-      detail: verb.translation || '',
+      detail: parts.join('\n'),
     };
   },
 
@@ -1238,9 +1244,12 @@ const App = {
         ? '<span class="drill-feedback__answer">Richtig! — ' + escapeHtml(answerText) + '</span>'
         : '<span class="drill-feedback__answer">Falsch — richtig: ' + escapeHtml(answerText) + '</span>';
 
-      // Always show translation/detail
+      // Always show translation/detail — each line separately
       if (exercise.detail) {
-        fbHtml += '<div class="drill-feedback__detail">' + escapeHtml(exercise.detail) + '</div>';
+        const lines = exercise.detail.split('\n').filter(Boolean);
+        fbHtml += '<div class="drill-feedback__detail">' +
+          lines.map(l => escapeHtml(l)).join('<br>') +
+          '</div>';
       }
       feedbackEl.innerHTML = '<div class="drill-feedback ' + cls + '">' + fbHtml + '</div>';
     }
