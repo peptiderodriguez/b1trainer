@@ -850,7 +850,8 @@ const App = {
             type: 'grammar', typeLabel: 'Wiederholung',
             question: ex.sentence, answer: ex.answer,
             options: ex.options?.length ? ex.options : null,
-            detail: ex.explanation || '', also_accept: ex.also_accept || null,
+            detail: (ex.sentence_en ? 'EN: ' + ex.sentence_en + '\n' : '') + (ex.explanation || ''),
+            also_accept: ex.also_accept || null,
           };
         }
       }
@@ -1323,7 +1324,7 @@ const App = {
         module: srsModule,
         id: srsId,
         label: exercise.question,
-        detail: exercise.answer,
+        detail: exercise.detail || exercise.answer,
       });
     } else {
       // Correct answer — if this was an SRS review, record success
