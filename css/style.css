@@ -2928,21 +2928,24 @@ img {
   margin-top: var(--space-sm);
 }
 
+/* Kill ALL focus/active/hover styles on drill options — iOS Safari compat */
 .drill-option:focus,
 .drill-option:active,
-.drill-option:focus-visible {
+.drill-option:focus-visible,
+#drill-exercise-area *:focus,
+#drill-exercise-area *:active {
   outline: none !important;
   box-shadow: none !important;
-  border-color: var(--color-border) !important;
-  background: var(--color-bg) !important;
+  -webkit-tap-highlight-color: transparent !important;
 }
 
 .drill-option {
   -webkit-appearance: none;
   appearance: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
-.drill-option:not(:disabled):not(.drill-option--correct):not(.drill-option--wrong) {
+.drill-option:not(.drill-option--correct):not(.drill-option--wrong):not(.drill-option--locked) {
   border-color: var(--color-border) !important;
   background: var(--color-bg) !important;
 }

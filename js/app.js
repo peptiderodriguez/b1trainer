@@ -659,6 +659,8 @@ const App = {
     currentExercise: null,
     answered: false,
     advanceTimeout: null,
+    history: [],    // array of { exercise, given, correct }
+    historyIndex: -1, // -1 = on a new question, >= 0 = reviewing old
   },
 
   /**
@@ -686,6 +688,8 @@ const App = {
     this._drill.active = true;
     this._drill.totalSeconds = totalSeconds;
     this._drill.remainingSeconds = totalSeconds;
+    this._drill.history = [];
+    this._drill.historyIndex = -1;
     this._drill.score = 0;
     this._drill.total = 0;
     this._drill.answered = false;
@@ -1276,18 +1280,99 @@ const App = {
       }
     }
 
-    // Show "Weiter" button instead of auto-advancing
+    // Store in history
+    this._drill.history.push({ exercise, given, correct });
+
+    // Show navigation buttons
     const fbArea = document.getElementById('drill-feedback');
     if (fbArea) {
+      const navDiv = document.createElement('div');
+      navDiv.className = 'exercise-nav-btns';
+      navDiv.style.marginTop = '0.5rem';
+
+      if (this._drill.history.length > 1) {
+        const prevBtn = document.createElement('button');
+        prevBtn.className = 'btn btn--outline';
+        prevBtn.textContent = '← Zurück';
+        prevBtn.addEventListener('click', () => {
+          this._drill.historyIndex = this._drill.history.length - 2;
+          this._showDrillHistoryItem();
+        });
+        navDiv.appendChild(prevBtn);
+      }
+
       const nextBtn = document.createElement('button');
       nextBtn.className = 'btn btn--accent drill-next-btn';
-      nextBtn.textContent = 'Weiter';
-      nextBtn.style.marginTop = '0.5rem';
-      fbArea.appendChild(nextBtn);
+      nextBtn.textContent = 'Weiter →';
       nextBtn.addEventListener('click', () => {
+        this._drill.historyIndex = -1;
         if (this._drill.active) this._showNextDrillExercise();
       });
+      navDiv.appendChild(nextBtn);
+
+      fbArea.appendChild(navDiv);
     }
+  },
+
+  /**
+   * Show a previously answered drill exercise in review mode.
+   */
+  _showDrillHistoryItem() {
+    const idx = this._drill.historyIndex;
+    const item = this._drill.history[idx];
+    if (!item) return;
+
+    const area = document.getElementById('drill-exercise-area');
+    if (!area) return;
+
+    this._drill.answered = true;
+    const { exercise, given, correct } = item;
+
+    const questionHtml = escapeHtml(exercise.question)
+      .replace(/___/g, '<span class="drill-card__blank">&nbsp;&nbsp;&nbsp;</span>');
+
+    let optionsHtml = '';
+    const normalize = s => s.toLowerCase().trim();
+    if (exercise.options && exercise.options.length) {
+      optionsHtml = '<div class="drill-options">' +
+        exercise.options.map(opt => {
+          let cls = 'drill-option drill-option--locked';
+          if (normalize(opt) === normalize(exercise.answer)) cls += ' drill-option--correct';
+          else if (normalize(opt) === normalize(given) && !correct) cls += ' drill-option--wrong';
+          return '<div class="' + cls + '">' + escapeHtml(opt) + '</div>';
+        }).join('') + '</div>';
+    }
+
+    const fbCls = correct ? 'drill-feedback--correct' : 'drill-feedback--wrong';
+    const fbText = correct
+      ? '<span class="drill-feedback__answer">Richtig!</span>'
+      : '<span class="drill-feedback__answer">Falsch — richtig: ' + escapeHtml(exercise.answer) + '</span>';
+
+    // Navigation buttons
+    let navHtml = '<div class="exercise-nav-btns" style="margin-top:0.5rem">';
+    if (idx > 0) {
+      navHtml += '<button class="btn btn--outline" id="drill-hist-prev">← Zurück</button>';
+    }
+    if (idx < this._drill.history.length - 1) {
+      navHtml += '<button class="btn btn--outline" id="drill-hist-fwd">Vorwärts →</button>';
+    }
+    navHtml += '<button class="btn btn--accent drill-next-btn" id="drill-hist-new">Neue Frage →</button>';
+    navHtml += '</div>';
+
+    area.innerHTML =
+      '<div class="drill-card">' +
+        '<span class="drill-card__type">' + escapeHtml(exercise.typeLabel || '') + ' (Rückblick)</span>' +
+        '<div class="drill-card__question">' + questionHtml + '</div>' +
+        optionsHtml +
+        '<div id="drill-feedback"><div class="drill-feedback ' + fbCls + '">' + fbText + '</div>' + navHtml + '</div>' +
+      '</div>';
+
+    const prevBtn = document.getElementById('drill-hist-prev');
+    const fwdBtn = document.getElementById('drill-hist-fwd');
+    const newBtn = document.getElementById('drill-hist-new');
+    if (prevBtn) prevBtn.addEventListener('click', () => { this._drill.historyIndex--; this._showDrillHistoryItem(); });
+    if (fwdBtn) fwdBtn.addEventListener('click', () => { this._drill.historyIndex++; this._showDrillHistoryItem(); });
+    if (newBtn) newBtn.addEventListener('click', () => { this._drill.historyIndex = -1; this._showNextDrillExercise(); });
   },
 
   /**
