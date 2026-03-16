@@ -395,8 +395,78 @@ const App = {
     // Render weak areas section
     this._renderWeakAreas();
 
+    // Render bookmarks section
+    this._renderBookmarks();
+
     // Render exam countdown
     this._renderCountdown();
+  },
+
+  /**
+   * Render the bookmarks section on the dashboard.
+   * Groups by module, shows count per module, expandable to see items.
+   */
+  _renderBookmarks() {
+    const el = document.getElementById('dashboard-bookmarks');
+    if (!el) return;
+
+    const bookmarks = Storage.getBookmarks();
+    if (bookmarks.length === 0) {
+      el.innerHTML = '';
+      return;
+    }
+
+    // Group by module
+    const groups = {};
+    const moduleLabels = {
+      vocabulary: 'Vokabeln', grammar: 'Grammatik', reading: 'Lesen',
+      listening: 'Hören', writing: 'Schreiben', exam: 'Prüfung',
+      fsp: 'FSP', drill: 'Schnellübung',
+    };
+    for (const bm of bookmarks) {
+      const mod = bm.module || 'other';
+      if (!groups[mod]) groups[mod] = [];
+      groups[mod].push(bm);
+    }
+
+    let html = '<h2 class="section-title">Lesezeichen <span class="badge badge--info">' + bookmarks.length + '</span></h2>';
+    html += '<div class="bookmarks-groups">';
+
+    for (const [mod, items] of Object.entries(groups)) {
+      const label = moduleLabels[mod] || mod;
+      html +=
+        '<details class="bookmarks-group">' +
+          '<summary class="bookmarks-group__summary">' +
+            '<span class="bookmarks-group__label">' + escapeHtml(label) + '</span>' +
+            '<span class="badge badge--sm">' + items.length + '</span>' +
+          '</summary>' +
+          '<ul class="bookmarks-group__list">';
+
+      for (const item of items) {
+        html +=
+          '<li class="bookmarks-group__item">' +
+            '<div class="bookmarks-group__text">' +
+              '<span class="bookmarks-group__item-label">' + escapeHtml(item.label || item.id) + '</span>' +
+              (item.detail ? '<span class="bookmarks-group__item-detail">' + escapeHtml(item.detail) + '</span>' : '') +
+            '</div>' +
+            '<button class="bookmarks-group__remove" data-bm-module="' + escapeHtml(mod) + '" data-bm-id="' + escapeHtml(item.id) + '" title="Entfernen">&times;</button>' +
+          '</li>';
+      }
+
+      html += '</ul></details>';
+    }
+
+    html += '</div>';
+    el.innerHTML = html;
+
+    // Bind remove buttons
+    el.querySelectorAll('.bookmarks-group__remove').forEach(btn => {
+      btn.addEventListener('click', () => {
+        Storage.removeBookmark(btn.dataset.bmModule, btn.dataset.bmId);
+        showToast('Lesezeichen entfernt', 'info', 1500);
+        this._renderBookmarks();
+      });
+    });
   },
 
   /**
