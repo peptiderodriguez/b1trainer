@@ -216,6 +216,59 @@ const ReadingModule = (() => {
   }
 
   // ---------------------------------------------------------------------------
+  // Bookmark helpers
+  // ---------------------------------------------------------------------------
+
+  function _passageBookmarkHtml(passage) {
+    const bookmarkId = `passage_${passage.id}`;
+    const isMarked = Storage.isBookmarked('reading', bookmarkId);
+    return `<button class="bookmark-btn${isMarked ? ' bookmark-btn--active' : ''}"
+                    data-bookmark-id="${escapeHtml(bookmarkId)}"
+                    title="Lesezeichen">${isMarked ? '\u2605' : '\u2606'}</button>`;
+  }
+
+  function _questionBookmarkHtml(passage, q, index) {
+    const bookmarkId = q.id ? `q_${q.id}` : `passage_${passage.id}_q${index}`;
+    const isMarked = Storage.isBookmarked('reading', bookmarkId);
+    return `<button class="bookmark-btn${isMarked ? ' bookmark-btn--active' : ''}"
+                    data-bookmark-id="${escapeHtml(bookmarkId)}"
+                    title="Lesezeichen">${isMarked ? '\u2605' : '\u2606'}</button>`;
+  }
+
+  function _bindBookmarkHandlers(passage) {
+    container.querySelectorAll('.bookmark-btn[data-bookmark-id]').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const bookmarkId = btn.getAttribute('data-bookmark-id');
+
+        let label, detail;
+        if (bookmarkId.startsWith('passage_') && !bookmarkId.includes('_q')) {
+          // Passage-level bookmark
+          label = passage.title || '';
+          detail = passage.type ? (typeBadgeLabels[passage.type] || passage.type) : '';
+        } else {
+          // Question-level bookmark — find the question
+          const card = btn.closest('.question-card');
+          const qIndex = card ? parseInt(card.getAttribute('data-question-index'), 10) : -1;
+          const q = (passage.questions || [])[qIndex];
+          label = q ? q.question : '';
+          detail = passage.title || '';
+        }
+
+        const added = Storage.toggleBookmark({
+          module: 'reading',
+          id: bookmarkId,
+          label,
+          detail,
+        });
+        btn.textContent = added ? '\u2605' : '\u2606';
+        btn.classList.toggle('bookmark-btn--active', added);
+        showToast(added ? 'Lesezeichen gesetzt' : 'Lesezeichen entfernt', added ? 'success' : 'info', 1500);
+      });
+    });
+  }
+
+  // ---------------------------------------------------------------------------
   // Passage View
   // ---------------------------------------------------------------------------
 
@@ -233,6 +286,7 @@ const ReadingModule = (() => {
           <button class="btn btn--outline btn--sm" id="reading-vorlesen">
             <span aria-hidden="true">&#128264;</span> Vorlesen
           </button>
+          ${_passageBookmarkHtml(passage)}
           ${examMode ? `
           <div class="reading-view__timer">
             <span aria-hidden="true">&#9201;</span>
@@ -319,7 +373,10 @@ const ReadingModule = (() => {
 
     return `
       <div class="question-card" data-question-index="${index}" data-question-id="${q.id || index}">
-        <p class="question-card__text"><strong>${index + 1}.</strong> ${escapeHtml(q.question)}</p>
+        <div class="question-card__header">
+          <p class="question-card__text"><strong>${index + 1}.</strong> ${escapeHtml(q.question)}</p>
+          ${_questionBookmarkHtml(currentPassage, q, index)}
+        </div>
         <div class="question-card__options">${options}</div>
         <div class="question-card__feedback" hidden></div>
       </div>`;
@@ -328,7 +385,10 @@ const ReadingModule = (() => {
   function _renderTrueFalseQuestion(q, index) {
     return `
       <div class="question-card" data-question-index="${index}" data-question-id="${q.id || index}">
-        <p class="question-card__text"><strong>${index + 1}.</strong> ${escapeHtml(q.question)}</p>
+        <div class="question-card__header">
+          <p class="question-card__text"><strong>${index + 1}.</strong> ${escapeHtml(q.question)}</p>
+          ${_questionBookmarkHtml(currentPassage, q, index)}
+        </div>
         <div class="question-card__options question-card__options--inline">
           <label class="radio-option" for="q${index}_true">
             <input type="radio" id="q${index}_true" name="question_${index}" value="richtig" class="radio-input">
@@ -351,7 +411,10 @@ const ReadingModule = (() => {
 
     return `
       <div class="question-card" data-question-index="${index}" data-question-id="${q.id || index}">
-        <p class="question-card__text"><strong>${index + 1}.</strong> ${escapeHtml(q.question)}</p>
+        <div class="question-card__header">
+          <p class="question-card__text"><strong>${index + 1}.</strong> ${escapeHtml(q.question)}</p>
+          ${_questionBookmarkHtml(currentPassage, q, index)}
+        </div>
         <div class="question-card__options">
           <select class="select" name="question_${index}" aria-label="Zuordnung wählen">
             <option value="">-- Bitte wählen --</option>
@@ -381,6 +444,9 @@ const ReadingModule = (() => {
     if (checkBtn) {
       checkBtn.addEventListener('click', () => _checkAnswers(passage));
     }
+
+    // Bookmark buttons (passage-level + per-question)
+    _bindBookmarkHandlers(passage);
   }
 
   // ---------------------------------------------------------------------------

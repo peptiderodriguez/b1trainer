@@ -2506,6 +2506,8 @@ img {
 .question-card { background: var(--color-card); border-radius: var(--radius-md); padding: var(--space-md); box-shadow: var(--shadow-sm); margin-bottom: var(--space-md); }
 .question-card--correct { border-left: 4px solid var(--color-success); }
 .question-card--wrong { border-left: 4px solid var(--color-error); }
+.question-card__header { display: flex; align-items: flex-start; justify-content: space-between; gap: var(--space-sm); }
+.question-card__header .bookmark-btn { flex-shrink: 0; }
 .question-card__text { font-weight: 500; margin-bottom: var(--space-sm); }
 .question-card__options { margin-top: var(--space-sm); }
 .question-card__options--inline { display: flex; gap: var(--space-sm); flex-wrap: wrap; }

@@ -203,7 +203,9 @@ const FspModule = (() => {
       <div class="fsp-exercise">
         <div class="fsp-exercise__header">
           ${simActive ? '<span class="badge badge--accent">Teil 1 von 3 — Simulation</span>' : ''}
-          <h2>Arzt-Patienten-Gespräch</h2>
+          <h2>Arzt-Patienten-Gespräch
+            ${_bookmarkBtnHtml('patient-' + (scenario.id || 'fallback'), 'Arzt-Patienten-Gespräch: ' + (scenario.title || scenario.diagnosis), (scenario.patientName || scenario.patient.name) + ' — ' + (scenario.chiefComplaint || scenario.complaint))}
+          </h2>
           <div class="fsp-timer" id="fsp-timer">
             <span class="fsp-timer__icon" aria-hidden="true">&#9202;</span>
             <span class="fsp-timer__value" id="fsp-timer-value">20:00</span>
@@ -285,6 +287,7 @@ const FspModule = (() => {
 
     _startTimer();
     _renderRecordingControls();
+    _attachBookmarkHandlers();
   }
 
   function _collectPatientResults() {
@@ -326,7 +329,9 @@ const FspModule = (() => {
       <div class="fsp-exercise">
         <div class="fsp-exercise__header">
           ${simActive ? '<span class="badge badge--accent">Teil 2 von 3 — Simulation</span>' : ''}
-          <h2>Arzt-Arzt-Gespräch</h2>
+          <h2>Arzt-Arzt-Gespräch
+            ${_bookmarkBtnHtml('arzt-' + (scenario.id || 'fallback'), 'Arzt-Arzt-Gespräch: ' + (scenario.title || scenario.diagnosis), (scenario.patientName || scenario.patient.name) + ' — ' + scenario.diagnosis)}
+          </h2>
           <div class="fsp-timer" id="fsp-timer">
             <span class="fsp-timer__icon" aria-hidden="true">&#9202;</span>
             <span class="fsp-timer__value" id="fsp-timer-value">20:00</span>
@@ -410,6 +415,7 @@ const FspModule = (() => {
 
     _startTimer();
     _renderRecordingControls();
+    _attachBookmarkHandlers();
   }
 
   function _collectArztResults() {
@@ -474,7 +480,9 @@ const FspModule = (() => {
       <div class="fsp-exercise">
         <div class="fsp-exercise__header">
           ${simActive ? '<span class="badge badge--accent">Teil 3 von 3 — Simulation</span>' : ''}
-          <h2>Arztbrief</h2>
+          <h2>Arztbrief
+            ${_bookmarkBtnHtml('brief-' + (scenario.id || 'fallback'), 'Arztbrief: ' + (scenario.title || scenario.diagnosis), (scenario.patientName || scenario.patient.name) + ' — ' + scenario.diagnosis)}
+          </h2>
           <div class="fsp-timer" id="fsp-timer">
             <span class="fsp-timer__icon" aria-hidden="true">&#9202;</span>
             <span class="fsp-timer__value" id="fsp-timer-value">20:00</span>
@@ -571,6 +579,7 @@ const FspModule = (() => {
     }
 
     _startTimer();
+    _attachBookmarkHandlers();
   }
 
   function _updateBriefWordCount(textarea) {
@@ -977,6 +986,50 @@ const FspModule = (() => {
         timerEl.classList.toggle('fsp-timer--critical', timerRemaining <= 60 && timerRemaining > 0);
       }
     }
+  }
+
+  // ---------------------------------------------------------------------------
+  // Bookmark helpers
+  // ---------------------------------------------------------------------------
+
+  /**
+   * Build the HTML for a bookmark toggle button.
+   * @param {string} id - unique bookmark identifier
+   * @param {string} label - short label for the bookmark
+   * @param {string} detail - extra context stored with the bookmark
+   * @returns {string} HTML string
+   */
+  function _bookmarkBtnHtml(id, label, detail) {
+    const isMarked = Storage.isBookmarked('fsp', id);
+    return `<button class="bookmark-btn${isMarked ? ' bookmark-btn--active' : ''}"
+                    data-bookmark-fsp="${escapeHtml(id)}"
+                    data-bookmark-label="${escapeHtml(label)}"
+                    data-bookmark-detail="${escapeHtml(detail)}"
+                    aria-label="Lesezeichen setzen"
+                    title="Lesezeichen">${isMarked ? '\u2605' : '\u2606'}</button>`;
+  }
+
+  /**
+   * Attach click handlers to all bookmark buttons currently in the DOM.
+   */
+  function _attachBookmarkHandlers() {
+    container.querySelectorAll('[data-bookmark-fsp]').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const id = btn.getAttribute('data-bookmark-fsp');
+        const label = btn.getAttribute('data-bookmark-label');
+        const detail = btn.getAttribute('data-bookmark-detail');
+        const added = Storage.toggleBookmark({
+          module: 'fsp',
+          id,
+          label,
+          detail,
+        });
+        btn.textContent = added ? '\u2605' : '\u2606';
+        btn.classList.toggle('bookmark-btn--active', added);
+        showToast(added ? 'Lesezeichen gesetzt' : 'Lesezeichen entfernt', added ? 'success' : 'info', 1500);
+      });
+    });
   }
 
   // ---------------------------------------------------------------------------

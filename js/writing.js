@@ -431,6 +431,55 @@ const WritingModule = (() => {
   }
 
   // ---------------------------------------------------------------------------
+  // Bookmark helpers
+  // ---------------------------------------------------------------------------
+
+  /**
+   * Build a unique bookmark ID for a writing prompt.
+   * @param {object} prompt
+   * @returns {string}
+   */
+  function _bookmarkId(prompt) {
+    return prompt.type + ':' + prompt.title;
+  }
+
+  /**
+   * Build the HTML for a bookmark toggle button.
+   * @param {object} prompt - the current writing prompt
+   * @returns {string} HTML string
+   */
+  function _bookmarkBtnHtml(prompt) {
+    const id = _bookmarkId(prompt);
+    const isMarked = Storage.isBookmarked('writing', id);
+    return `<button class="bookmark-btn${isMarked ? ' bookmark-btn--active' : ''}"
+                    data-bookmark-writing="${escapeHtml(id)}"
+                    aria-label="Lesezeichen setzen"
+                    title="Lesezeichen">${isMarked ? '\u2605' : '\u2606'}</button>`;
+  }
+
+  /**
+   * Attach click handler to the bookmark button currently in the DOM.
+   * @param {object} prompt - the current writing prompt
+   */
+  function _attachBookmarkHandler(prompt) {
+    const btn = container.querySelector('[data-bookmark-writing]');
+    if (!btn) return;
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const id = _bookmarkId(prompt);
+      const added = Storage.toggleBookmark({
+        module: 'writing',
+        id,
+        label: prompt.title,
+        detail: _getTypeLabel(prompt.type) + ' — ' + (prompt.situation || '').substring(0, 80),
+      });
+      btn.textContent = added ? '\u2605' : '\u2606';
+      btn.classList.toggle('bookmark-btn--active', added);
+      showToast(added ? 'Lesezeichen gesetzt' : 'Lesezeichen entfernt', added ? 'success' : 'info', 1500);
+    });
+  }
+
+  // ---------------------------------------------------------------------------
   // Writing exercise
   // ---------------------------------------------------------------------------
 
@@ -478,7 +527,7 @@ const WritingModule = (() => {
         </div>
 
         <div class="writing-exercise__prompt">
-          <h3>${escapeHtml(prompt.title)}</h3>
+          <h3>${escapeHtml(prompt.title)} ${_bookmarkBtnHtml(prompt)}</h3>
           <p class="writing-exercise__situation">${escapeHtml(prompt.situation)}</p>
           ${pointsHtml ? `<div class="writing-exercise__points"><h4>Bearbeiten Sie folgende Punkte:</h4><ol>${pointsHtml}</ol></div>` : ''}
           ${patientInfoHtml}
@@ -503,6 +552,7 @@ const WritingModule = (() => {
       </div>`;
 
     _bindWritingEvents(prompt);
+    _attachBookmarkHandler(prompt);
   }
 
   function _getTypeLabel(type) {

@@ -382,7 +382,9 @@ const ExamModule = (() => {
         <div class="exam-section__exercises" id="exam-lesen-exercises">
           ${exercises.map((passage, pi) => `
             <div class="exam-exercise" id="exam-lesen-${pi}">
-              <h3 class="exam-exercise__title">Text ${pi + 1}: ${escapeHtml(passage.title)}</h3>
+              <h3 class="exam-exercise__title">Text ${pi + 1}: ${escapeHtml(passage.title)}
+                ${_bookmarkBtnHtml('lesen-' + (passage.id || pi), 'Lesen: ' + passage.title, 'Leseübung aus der Prüfungssimulation')}
+              </h3>
               <div class="exam-exercise__content" id="exam-lesen-content-${pi}"></div>
             </div>`).join('')}
         </div>
@@ -407,6 +409,8 @@ const ExamModule = (() => {
       _collectLesenResults();
       _advanceSection();
     });
+
+    _attachBookmarkHandlers();
   }
 
   function _collectLesenResults() {
@@ -461,7 +465,9 @@ const ExamModule = (() => {
         <div class="exam-section">
           <div class="exam-section__header">
             <span class="badge badge--accent">Abschnitt 2 von 4</span>
-            <h2>Hören — Übung ${idx + 1} von ${exercises.length}</h2>
+            <h2>Hören — Übung ${idx + 1} von ${exercises.length}
+              ${_bookmarkBtnHtml('hoeren-' + (passage.id || idx), 'Hören: ' + (passage.title || ('Übung ' + (idx + 1))), 'Hörübung aus der Prüfungssimulation')}
+            </h2>
             <p>Hören Sie den Text und beantworten Sie die Fragen. Sie dürfen den Text höchstens zweimal anhören.</p>
           </div>
 
@@ -497,6 +503,8 @@ const ExamModule = (() => {
           speak(passage.text);
         }
       });
+
+      _attachBookmarkHandlers();
 
       // Next/finish
       container.querySelector('#exam-hoeren-next').addEventListener('click', () => {
@@ -590,7 +598,9 @@ const ExamModule = (() => {
         </div>
 
         <div class="exam-schreiben__prompt">
-          <h3>${escapeHtml(prompt.title)}</h3>
+          <h3>${escapeHtml(prompt.title)}
+            ${_bookmarkBtnHtml('schreiben-' + (prompt.id || prompt.title), 'Schreiben: ' + prompt.title, prompt.situation || '')}
+          </h3>
           <p>${escapeHtml(prompt.situation)}</p>
           ${pointsHtml ? `<div class="writing-exercise__points"><h4>Bearbeiten Sie folgende Punkte:</h4><ol>${pointsHtml}</ol></div>` : ''}
         </div>
@@ -624,6 +634,8 @@ const ExamModule = (() => {
       _collectSchreibenResults();
       _advanceSection();
     });
+
+    _attachBookmarkHandlers();
   }
 
   function _collectSchreibenResults() {
@@ -687,7 +699,9 @@ const ExamModule = (() => {
           </div>
 
           <div class="exam-sprechen__task">
-            <h3>${escapeHtml(prompt.title)}</h3>
+            <h3>${escapeHtml(prompt.title)}
+              ${_bookmarkBtnHtml('sprechen-' + (prompt.id || prompt.title), 'Sprechen: ' + prompt.title, prompt.instruction || '')}
+            </h3>
             <p class="exam-sprechen__instruction">${escapeHtml(prompt.instruction)}</p>
             <div class="exam-sprechen__tips">
               <h4>Hinweise:</h4>
@@ -712,6 +726,8 @@ const ExamModule = (() => {
             <button class="btn btn--accent" id="exam-sprechen-next">${idx + 1 < prompts.length ? 'Nächste Aufgabe' : 'Prüfung abschließen'}</button>
           </div>
         </div>`;
+
+      _attachBookmarkHandlers();
 
       // Start preparation
       container.querySelector('#exam-sprechen-start-prep').addEventListener('click', () => {
@@ -995,6 +1011,50 @@ const ExamModule = (() => {
     });
 
     App.recordPractice();
+  }
+
+  // ---------------------------------------------------------------------------
+  // Bookmark helpers
+  // ---------------------------------------------------------------------------
+
+  /**
+   * Build the HTML for a bookmark toggle button.
+   * @param {string} id - unique bookmark identifier
+   * @param {string} label - short label for the bookmark
+   * @param {string} detail - extra context stored with the bookmark
+   * @returns {string} HTML string
+   */
+  function _bookmarkBtnHtml(id, label, detail) {
+    const isMarked = Storage.isBookmarked('exam', id);
+    return `<button class="bookmark-btn${isMarked ? ' bookmark-btn--active' : ''}"
+                    data-bookmark-exam="${escapeHtml(id)}"
+                    data-bookmark-label="${escapeHtml(label)}"
+                    data-bookmark-detail="${escapeHtml(detail)}"
+                    aria-label="Lesezeichen setzen"
+                    title="Lesezeichen">${isMarked ? '\u2605' : '\u2606'}</button>`;
+  }
+
+  /**
+   * Attach click handlers to all bookmark buttons currently in the DOM.
+   */
+  function _attachBookmarkHandlers() {
+    container.querySelectorAll('[data-bookmark-exam]').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const id = btn.getAttribute('data-bookmark-exam');
+        const label = btn.getAttribute('data-bookmark-label');
+        const detail = btn.getAttribute('data-bookmark-detail');
+        const added = Storage.toggleBookmark({
+          module: 'exam',
+          id,
+          label,
+          detail,
+        });
+        btn.textContent = added ? '\u2605' : '\u2606';
+        btn.classList.toggle('bookmark-btn--active', added);
+        showToast(added ? 'Lesezeichen gesetzt' : 'Lesezeichen entfernt', added ? 'success' : 'info', 1500);
+      });
+    });
   }
 
   // ---------------------------------------------------------------------------

@@ -270,6 +270,46 @@ const ListeningModule = (() => {
   }
 
   // ---------------------------------------------------------------------------
+  // Bookmark helpers
+  // ---------------------------------------------------------------------------
+
+  /**
+   * Build the HTML for a bookmark toggle button.
+   * @param {string} id - unique identifier for the exercise
+   * @returns {string} HTML string
+   */
+  function _bookmarkBtnHtml(id) {
+    const isMarked = Storage.isBookmarked('listening', id);
+    return `<button class="bookmark-btn${isMarked ? ' bookmark-btn--active' : ''}"
+                    data-bookmark-listening="${escapeHtml(id)}"
+                    aria-label="Lesezeichen setzen"
+                    title="Lesezeichen">${isMarked ? '\u2605' : '\u2606'}</button>`;
+  }
+
+  /**
+   * Attach click handler to the listening bookmark button currently in the DOM.
+   * @param {string} id - unique identifier
+   * @param {string} label - display label for the bookmark
+   * @param {string} detail - additional context
+   */
+  function _attachBookmarkHandler(id, label, detail) {
+    const btn = container.querySelector('[data-bookmark-listening]');
+    if (!btn) return;
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const added = Storage.toggleBookmark({
+        module: 'listening',
+        id,
+        label,
+        detail,
+      });
+      btn.textContent = added ? '\u2605' : '\u2606';
+      btn.classList.toggle('bookmark-btn--active', added);
+      showToast(added ? 'Lesezeichen gesetzt' : 'Lesezeichen entfernt', added ? 'success' : 'info', 1500);
+    });
+  }
+
+  // ---------------------------------------------------------------------------
   // Hörverstehen
   // ---------------------------------------------------------------------------
 
@@ -291,10 +331,13 @@ const ListeningModule = (() => {
     const passage = pickRandom(passages, 1)[0];
     currentExercise = passage;
 
+    const hvBookmarkId = 'hv-' + (passage.id || passage.title || '').replace(/\s+/g, '-').toLowerCase();
+
     container.innerHTML = `
       <div class="listening-exercise">
         <div class="listening-exercise__nav">
           <a href="#listening" class="btn btn--outline btn--sm">&larr; Zurück zur Auswahl</a>
+          ${_bookmarkBtnHtml(hvBookmarkId)}
           <span class="badge badge--info" id="replay-counter">Noch nicht abgespielt</span>
         </div>
 
@@ -332,6 +375,11 @@ const ListeningModule = (() => {
       </div>`;
 
     _bindHVEvents(passage);
+    _attachBookmarkHandler(
+      hvBookmarkId,
+      'Hörverstehen: ' + (passage.title || 'Lesetext'),
+      (passage.questions || []).length + ' Fragen'
+    );
   }
 
   function _renderHVQuestions(questions) {
@@ -517,10 +565,13 @@ const ListeningModule = (() => {
       const sentence = selected[idx];
       currentExercise = sentence;
 
+      const diktatBookmarkId = 'diktat-' + (sentence.word || '').replace(/\s+/g, '-').toLowerCase() + '-' + idx;
+
       container.innerHTML = `
         <div class="listening-exercise">
           <div class="listening-exercise__nav">
             <a href="#listening" class="btn btn--outline btn--sm">&larr; Zurück</a>
+            ${_bookmarkBtnHtml(diktatBookmarkId)}
             <span class="badge badge--info">Satz ${idx + 1} von ${selected.length}</span>
             <span class="badge badge--outline" id="replay-counter">Noch nicht abgespielt</span>
           </div>
@@ -578,6 +629,12 @@ const ListeningModule = (() => {
           }
         });
       });
+
+      _attachBookmarkHandler(
+        diktatBookmarkId,
+        'Diktat: ' + (sentence.word || 'Satz'),
+        sentence.text || ''
+      );
     }
 
     score = { correct: 0, total: selected.length };
@@ -694,10 +751,13 @@ const ListeningModule = (() => {
 
     const questions = _buildMedicalQuestions(scenario);
 
+    const medBookmarkId = 'med-' + (scenario.id || scenario.patientName || scenario.diagnosis || '').replace(/\s+/g, '-').toLowerCase();
+
     container.innerHTML = `
       <div class="listening-exercise">
         <div class="listening-exercise__nav">
           <a href="#listening" class="btn btn--outline btn--sm">&larr; Zurück</a>
+          ${_bookmarkBtnHtml(medBookmarkId)}
           <span class="badge badge--info" id="replay-counter">Noch nicht abgespielt</span>
         </div>
 
@@ -756,6 +816,12 @@ const ListeningModule = (() => {
     container.querySelector('#med-check').addEventListener('click', () => {
       _checkMedicalAnswers(questions, scenario);
     });
+
+    _attachBookmarkHandler(
+      medBookmarkId,
+      'Medizinisches Gespräch: ' + (scenario.patientName || scenario.diagnosis || 'Szenario'),
+      (scenario.symptoms || scenario.complaint || '') + ' — ' + (scenario.diagnosis || '')
+    );
   }
 
   function _buildMedicalDialogue(scenario) {
