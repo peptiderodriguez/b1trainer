@@ -613,12 +613,12 @@ const App = {
       '</a>';
     }).join('');
 
-    // Render preview of most-missed items
+    // Render top 5 most-missed items
     if (missedItems.length > 0) {
       previewEl.innerHTML =
         '<h3 class="section-title section-title--small">Häufigste Fehler</h3>' +
         '<div class="weak-items-list">' +
-        missedItems.slice(0, 8).map(item => {
+        missedItems.slice(0, 5).map(item => {
           const weight = item.missCount - (item.correctInReview || 0);
           return '<div class="weak-item">' +
             '<div class="weak-item__question">' + escapeHtml(item.question) + '</div>' +
