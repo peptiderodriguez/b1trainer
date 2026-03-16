@@ -848,6 +848,7 @@ const App = {
         if (ex && (ex.type === 'fill_blank' || ex.type === 'multiple_choice')) {
           return {
             type: 'grammar', typeLabel: 'Wiederholung',
+            grammarId: ex.id,
             question: ex.sentence, answer: ex.answer,
             options: ex.options?.length ? ex.options : null,
             germanExample: ex.sentence_en ? 'EN: ' + ex.sentence_en : '',
@@ -962,6 +963,7 @@ const App = {
     return {
       type: 'grammar',
       typeLabel: 'Grammatik',
+      grammarId: ex.id,
       question: ex.sentence,
       answer: ex.answer,
       options: (ex.options && ex.options.length) ? ex.options : null,
@@ -1019,16 +1021,19 @@ const App = {
     const id = srsItem.id;
 
     if (mod === 'grammar') {
-      const ex = grammar.find(e => e.id === id);
+      // Look up by id first, then fall back to matching by sentence (for old SRS items with bad ids)
+      const ex = grammar.find(e => e.id === id) ||
+                 grammar.find(e => e.sentence === srsItem.label && (e.type === 'fill_blank' || e.type === 'multiple_choice'));
       if (ex && (ex.type === 'fill_blank' || ex.type === 'multiple_choice')) {
         return {
           type: 'grammar', typeLabel: 'SRS-Wiederholung',
+          grammarId: ex.id,
           question: ex.sentence, answer: ex.answer,
           options: ex.options?.length ? ex.options : null,
           germanExample: ex.sentence_en ? 'EN: ' + ex.sentence_en : '',
           detail: ex.explanation || '',
           also_accept: ex.also_accept || null,
-          _srs: { module: mod, id: id },
+          _srs: { module: mod, id: ex.id },
         };
       }
     }
@@ -1307,8 +1312,8 @@ const App = {
       } else if (exercise.type === 'grammar') {
         category = 'grammar';
         srsModule = 'grammar';
-        // Use the exercise id if available (from _srs or exercise itself)
-        srsId = (exercise._srs && exercise._srs.id) || exercise.answer;
+        // Use the grammar exercise id (from _srs, grammarId, or fallback to answer)
+        srsId = (exercise._srs && exercise._srs.id) || exercise.grammarId || exercise.answer;
       } else if (exercise.type === 'translation') {
         category = 'flashcards';
         srsModule = 'translation';
