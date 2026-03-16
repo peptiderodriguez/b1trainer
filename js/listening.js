@@ -119,7 +119,7 @@ const ListeningModule = (() => {
           <label class="toggle-label">
             <input type="checkbox" id="listening-exam-mode" class="toggle-input">
             <span class="toggle-switch"></span>
-            Prüfungsmodus (kein Pause, kein Tempo, max. 2x hören)
+            Prüfungsmodus (keine Pause, kein Tempo, max. 2x hören)
           </label>
         </div>
       </div>`;

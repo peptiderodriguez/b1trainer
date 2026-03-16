@@ -464,7 +464,7 @@ const App = {
     // If no missed items yet, show encouraging message
     if (weakCats.length === 0 && missedItems.length === 0) {
       if (descEl) {
-        descEl.textContent = 'Noch keine Schwachstellen erkannt. Beginne mit den Übungen — verfehle Fragen werden hier gesammelt, damit du sie gezielt wiederholen kannst.';
+        descEl.textContent = 'Noch keine Schwachstellen erkannt. Beginne mit den Übungen — verfehlte Fragen werden hier gesammelt, damit du sie gezielt wiederholen kannst.';
       }
       categoriesEl.innerHTML = '';
       previewEl.innerHTML = '';

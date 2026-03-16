@@ -1223,7 +1223,7 @@ const GrammarModule = {
     const connectors = [
       { connector: 'weil', type: 'kausal', example: 'Er bleibt zu Hause, weil er krank ist.', position: 'Nebensatz (Verb am Ende)' },
       { connector: 'obwohl', type: 'konzessiv', example: 'Sie geht spazieren, obwohl es regnet.', position: 'Nebensatz (Verb am Ende)' },
-      { connector: 'dass', type: 'Inhaltssatz', example: 'Ich weiß, dass du recht hast.', position: 'Nebensatz (Verb am Ende)' },
+      { connector: 'dass', type: 'deklarativ', example: 'Ich weiß, dass du recht hast.', position: 'Nebensatz (Verb am Ende)' },
       { connector: 'wenn', type: 'konditional/temporal', example: 'Wenn es regnet, bleibe ich zu Hause.', position: 'Nebensatz (Verb am Ende)' },
       { connector: 'damit', type: 'final', example: 'Er lernt Deutsch, damit er in Deutschland arbeiten kann.', position: 'Nebensatz (Verb am Ende)' },
       { connector: 'deshalb', type: 'kausal', example: 'Es regnet, deshalb bleibe ich zu Hause.', position: 'Hauptsatz (Inversion: Verb nach Konnektor)' },
@@ -1632,7 +1632,7 @@ const GrammarModule = {
     let html = `
       <div class="grammar-transform">
         <div class="grammar-transform__source">
-          <strong>Originalssatz:</strong> ${escapeHtml(exercise.sentence)}
+          <strong>Originalsatz:</strong> ${escapeHtml(exercise.sentence)}
         </div>
         <textarea class="grammar-textarea" id="grammar-transform-input"
                   placeholder="Schreibe den umgeformten Satz..." rows="3"></textarea>
