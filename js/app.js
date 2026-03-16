@@ -850,7 +850,8 @@ const App = {
             type: 'grammar', typeLabel: 'Wiederholung',
             question: ex.sentence, answer: ex.answer,
             options: ex.options?.length ? ex.options : null,
-            detail: (ex.sentence_en ? 'EN: ' + ex.sentence_en + '\n' : '') + (ex.explanation || ''),
+            germanExample: ex.sentence_en ? 'EN: ' + ex.sentence_en : '',
+            detail: ex.explanation || '',
             also_accept: ex.also_accept || null,
           };
         }
@@ -898,8 +899,7 @@ const App = {
     if (!noun.article || !noun.noun) return null;
     const germanEx = (noun.examples && noun.examples[0]) || noun.sentence || '';
     const plural = noun.plural ? 'Pl: die ' + noun.plural : '';
-    const parts = [
-      germanEx ? germanEx : '',
+    const detailParts = [
       noun.translation ? 'EN: ' + noun.translation : '',
       plural,
     ].filter(Boolean);
@@ -909,7 +909,8 @@ const App = {
       question: 'Welcher Artikel? ___ ' + noun.noun,
       answer: noun.article,
       options: ['der', 'die', 'das'],
-      detail: parts.join('\n'),
+      germanExample: germanEx,
+      detail: detailParts.join('\n'),
     };
   },
 
@@ -932,8 +933,7 @@ const App = {
 
     const verbEx = (verb.examples && verb.examples[0]) || '';
     const perfekt = verb.conjugation.perfekt ? 'Perfekt: ' + (verb.conjugation.withSein ? 'ist ' : 'hat ') + verb.conjugation.perfekt : '';
-    const parts = [
-      verbEx ? verbEx : '',
+    const detailParts = [
       verb.translation ? 'EN: ' + verb.translation : '',
       perfekt,
     ].filter(Boolean);
@@ -942,7 +942,8 @@ const App = {
       typeLabel: 'Konjugation',
       question: pronoun + ' ___ (' + verb.word + ')',
       answer: form,
-      detail: parts.join('\n'),
+      germanExample: verbEx,
+      detail: detailParts.join('\n'),
     };
   },
 
@@ -964,7 +965,8 @@ const App = {
       question: ex.sentence,
       answer: ex.answer,
       options: (ex.options && ex.options.length) ? ex.options : null,
-      detail: (ex.sentence_en ? 'EN: ' + ex.sentence_en + '\n' : '') + (ex.explanation || ''),
+      germanExample: ex.sentence_en ? 'EN: ' + ex.sentence_en : '',
+      detail: ex.explanation || '',
       also_accept: ex.also_accept || null,
     };
   },
@@ -991,17 +993,14 @@ const App = {
 
     // Ask for the German word given the English translation
     const transEx = (item.examples && item.examples[0]) || item.sentence || '';
-    const parts = [
-      transEx ? transEx : '',
-      item.translation ? 'EN: ' + item.translation : '',
-    ].filter(Boolean);
     return {
       type: 'translation',
       typeLabel: 'Vokabel',
       question: 'Übersetze: ' + item.translation,
       answer: item.word,
       also_accept: alsoAccept.length > 0 ? alsoAccept : null,
-      detail: parts.join('\n'),
+      germanExample: transEx,
+      detail: '',
     };
   },
 
@@ -1026,7 +1025,8 @@ const App = {
           type: 'grammar', typeLabel: 'SRS-Wiederholung',
           question: ex.sentence, answer: ex.answer,
           options: ex.options?.length ? ex.options : null,
-          detail: (ex.sentence_en ? 'EN: ' + ex.sentence_en + '\n' : '') + (ex.explanation || ''),
+          germanExample: ex.sentence_en ? 'EN: ' + ex.sentence_en : '',
+          detail: ex.explanation || '',
           also_accept: ex.also_accept || null,
           _srs: { module: mod, id: id },
         };
@@ -1043,7 +1043,8 @@ const App = {
           question: 'Welcher Artikel? ___ ' + noun.noun,
           answer: noun.article,
           options: ['der', 'die', 'das'],
-          detail: [nEx, noun.translation ? 'EN: ' + noun.translation : '', nPlural].filter(Boolean).join('\n'),
+          germanExample: nEx,
+          detail: [noun.translation ? 'EN: ' + noun.translation : '', nPlural].filter(Boolean).join('\n'),
           _srs: { module: mod, id: id },
         };
       }
@@ -1063,7 +1064,8 @@ const App = {
             type: 'conjugation', typeLabel: 'SRS-Wiederholung',
             question: pronouns[idx] + ' ___ (' + verb.word + ')',
             answer: form,
-            detail: [vEx, verb.translation ? 'EN: ' + verb.translation : '', perfekt].filter(Boolean).join('\n'),
+            germanExample: vEx,
+            detail: [verb.translation ? 'EN: ' + verb.translation : '', perfekt].filter(Boolean).join('\n'),
             _srs: { module: mod, id: id },
           };
         }
@@ -1080,7 +1082,8 @@ const App = {
           type: 'translation', typeLabel: 'SRS-Wiederholung',
           question: 'Übersetze: ' + item.translation,
           answer: item.word,
-          detail: [tEx, item.translation ? 'EN: ' + item.translation : ''].filter(Boolean).join('\n'),
+          germanExample: tEx,
+          detail: '',
           _srs: { module: mod, id: id },
         };
       }
@@ -1245,7 +1248,7 @@ const App = {
     if (feedbackEl) {
       const cls = correct ? 'drill-feedback--correct' : 'drill-feedback--wrong';
 
-      // Build a rich answer line: for articles show "die Überschrift = heading"
+      // Build a rich answer line
       let answerText;
       if (exercise.type === 'article') {
         const nounMatch = exercise.question.match(/___ (.+)/);
@@ -1256,7 +1259,6 @@ const App = {
         const pronoun = pronounMatch ? pronounMatch[1] : '';
         answerText = pronoun + ' ' + exercise.answer;
       } else if (exercise.type === 'grammar') {
-        // Show the completed sentence with the answer filled in
         answerText = exercise.question.replace(/___/g, exercise.answer);
       } else {
         answerText = exercise.answer;
@@ -1266,12 +1268,15 @@ const App = {
         ? '<span class="drill-feedback__answer">Richtig!</span>'
         : '<span class="drill-feedback__answer">Falsch — richtig: ' + escapeHtml(exercise.answer) + '</span>';
 
-      // Show the completed sentence for grammar
-      if (exercise.type === 'grammar' || exercise.type === 'article' || exercise.type === 'conjugation') {
-        fbHtml += '<div class="drill-feedback__sentence">' + escapeHtml(answerText) + '</div>';
+      // Show completed answer prominently
+      fbHtml += '<div class="drill-feedback__sentence">' + escapeHtml(answerText) + '</div>';
+
+      // Show German example sentence prominently (separate from answer)
+      if (exercise.germanExample) {
+        fbHtml += '<div class="drill-feedback__sentence">' + escapeHtml(exercise.germanExample) + '</div>';
       }
 
-      // Always show translation/detail — each line separately
+      // Show supplementary detail (English translation, explanation, etc.)
       if (exercise.detail) {
         const lines = exercise.detail.split('\n').filter(Boolean);
         fbHtml += '<div class="drill-feedback__detail">' +
@@ -1343,16 +1348,19 @@ const App = {
       navDiv.className = 'exercise-nav-btns';
       navDiv.style.marginTop = '0.5rem';
 
+      // Always render Zurück (invisible on first question for stable layout)
+      const prevBtn = document.createElement('button');
+      prevBtn.className = 'btn btn--outline';
+      prevBtn.textContent = '← Zurück';
       if (this._drill.history.length > 1) {
-        const prevBtn = document.createElement('button');
-        prevBtn.className = 'btn btn--outline';
-        prevBtn.textContent = '← Zurück';
         prevBtn.addEventListener('click', () => {
           this._drill.historyIndex = this._drill.history.length - 2;
           this._showDrillHistoryItem();
         });
-        navDiv.appendChild(prevBtn);
+      } else {
+        prevBtn.style.visibility = 'hidden';
       }
+      navDiv.appendChild(prevBtn);
 
       const nextBtn = document.createElement('button');
       nextBtn.className = 'btn btn--accent drill-next-btn';
@@ -1401,11 +1409,9 @@ const App = {
       ? '<span class="drill-feedback__answer">Richtig!</span>'
       : '<span class="drill-feedback__answer">Falsch — richtig: ' + escapeHtml(exercise.answer) + '</span>';
 
-    // Navigation buttons
+    // Navigation buttons — always render all for stable layout
     let navHtml = '<div class="exercise-nav-btns" style="margin-top:0.5rem">';
-    if (idx > 0) {
-      navHtml += '<button class="btn btn--outline" id="drill-hist-prev">← Zurück</button>';
-    }
+    navHtml += '<button class="btn btn--outline" id="drill-hist-prev"' + (idx > 0 ? '' : ' style="visibility:hidden"') + '>← Zurück</button>';
     if (idx < this._drill.history.length - 1) {
       navHtml += '<button class="btn btn--outline" id="drill-hist-fwd">Vorwärts →</button>';
     }

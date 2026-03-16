@@ -2629,7 +2629,7 @@ img {
 /* Exercise navigation (back/next) */
 .exercise-nav-btns {
   display: flex;
-  gap: var(--space-sm);
+  justify-content: space-between;
   align-items: center;
 }
 
