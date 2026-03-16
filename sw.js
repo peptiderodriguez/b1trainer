@@ -2,7 +2,7 @@
 // Service Worker — B1/B2 Goethe Trainer (offline support)
 // =============================================================================
 
-const CACHE_VERSION = 'b1trainer-v7';
+const CACHE_VERSION = 'b1trainer-v8';
 
 const ASSETS_TO_CACHE = [
   './',
@@ -26,6 +26,7 @@ const ASSETS_TO_CACHE = [
   './manifest.json',
   './icons/icon-192.png',
   './icons/icon-512.png',
+  './icons/apple-touch-icon.png',
 ];
 
 // ---------------------------------------------------------------------------
