@@ -462,30 +462,32 @@ const App = {
     // Bind remove buttons
     el.querySelectorAll('.bookmarks-group__remove').forEach(btn => {
       btn.addEventListener('click', () => {
-        // Remember which groups are open
-        const openGroups = new Set();
-        el.querySelectorAll('details[open]').forEach(d => {
-          const label = d.querySelector('.bookmarks-group__label');
-          if (label) openGroups.add(label.textContent);
-        });
-
-        const li = btn.closest('.bookmarks-group__item');
-        if (li) {
-          li.style.opacity = '0';
-          li.style.transition = 'opacity 0.2s';
-        }
-
         Storage.removeBookmark(btn.dataset.bmModule, btn.dataset.bmId);
         showToast('Lesezeichen entfernt', 'info', 1500);
 
-        setTimeout(() => {
-          this._renderBookmarks();
-          // Restore open groups
-          el.querySelectorAll('details').forEach(d => {
-            const label = d.querySelector('.bookmarks-group__label');
-            if (label && openGroups.has(label.textContent)) d.open = true;
-          });
-        }, 200);
+        // Remove the item from DOM directly (no full re-render)
+        const li = btn.closest('.bookmarks-group__item');
+        const group = btn.closest('.bookmarks-group');
+        if (li) li.remove();
+
+        // Update group badge count, or remove group if empty
+        if (group) {
+          const remaining = group.querySelectorAll('.bookmarks-group__item');
+          if (remaining.length === 0) {
+            group.remove();
+          } else {
+            const badge = group.querySelector('.badge');
+            if (badge) badge.textContent = remaining.length;
+          }
+        }
+
+        // Update total count badge
+        const total = Storage.getBookmarks().length;
+        const titleBadge = el.querySelector('.section-title .badge');
+        if (titleBadge) titleBadge.textContent = total;
+
+        // Hide section if no bookmarks left
+        if (total === 0) el.innerHTML = '';
       });
     });
   },
