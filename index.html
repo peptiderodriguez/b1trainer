@@ -387,9 +387,11 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('./sw.js')
+        navigator.serviceWorker.register('./sw.js', { updateViaCache: 'none' })
           .then(reg => {
             console.log('[SW] Registered:', reg.scope);
+            // Check for updates immediately
+            reg.update();
             // Only show update banner when a NEW version replaces an existing one
             // (not on first install or same-version re-activation)
             const hasController = !!navigator.serviceWorker.controller;
