@@ -2860,6 +2860,13 @@ img {
   to   { opacity: 1; transform: translateY(0); }
 }
 
+.drill-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: var(--space-md);
+}
+
 .drill-card__type {
   display: inline-block;
   font-size: var(--font-size-xs);
@@ -2869,7 +2876,6 @@ img {
   background: var(--color-bg);
   padding: var(--space-xs) var(--space-sm);
   border-radius: var(--radius-sm);
-  margin-bottom: var(--space-md);
 }
 
 .drill-card__question {

@@ -1155,9 +1155,20 @@ const App = {
         '</form>';
     }
 
+    // Bookmark button
+    const bookmarkId = exercise.grammarId || exercise.answer;
+    const isMarked = Storage.isBookmarked('drill', bookmarkId);
+    const bookmarkHtml =
+      '<button class="bookmark-btn' + (isMarked ? ' bookmark-btn--active' : '') + '" id="drill-bookmark" title="Lesezeichen">' +
+        (isMarked ? '\u2605' : '\u2606') +
+      '</button>';
+
     area.innerHTML =
       '<div class="drill-card">' +
-        '<span class="drill-card__type">' + escapeHtml(exercise.typeLabel) + '</span>' +
+        '<div class="drill-card__header">' +
+          '<span class="drill-card__type">' + escapeHtml(exercise.typeLabel) + '</span>' +
+          bookmarkHtml +
+        '</div>' +
         '<div class="drill-card__question">' + questionHtml + '</div>' +
         inputHtml +
         '<div id="drill-feedback"></div>' +
@@ -1172,6 +1183,22 @@ const App = {
       const input = document.getElementById('drill-input');
       if (input) input.focus();
     }, 400);
+
+    // Bookmark handler
+    const bmBtn = document.getElementById('drill-bookmark');
+    if (bmBtn) {
+      bmBtn.addEventListener('click', () => {
+        const added = Storage.toggleBookmark({
+          module: 'drill',
+          id: bookmarkId,
+          label: exercise.question,
+          detail: exercise.answer + (exercise.germanExample ? ' — ' + exercise.germanExample : ''),
+        });
+        bmBtn.textContent = added ? '\u2605' : '\u2606';
+        bmBtn.classList.toggle('bookmark-btn--active', added);
+        showToast(added ? 'Lesezeichen gesetzt' : 'Lesezeichen entfernt', added ? 'success' : 'info', 1500);
+      });
+    }
 
     // Bind event handlers
     if (exercise.options && exercise.options.length) {
