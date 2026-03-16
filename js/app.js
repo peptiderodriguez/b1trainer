@@ -462,9 +462,30 @@ const App = {
     // Bind remove buttons
     el.querySelectorAll('.bookmarks-group__remove').forEach(btn => {
       btn.addEventListener('click', () => {
+        // Remember which groups are open
+        const openGroups = new Set();
+        el.querySelectorAll('details[open]').forEach(d => {
+          const label = d.querySelector('.bookmarks-group__label');
+          if (label) openGroups.add(label.textContent);
+        });
+
+        const li = btn.closest('.bookmarks-group__item');
+        if (li) {
+          li.style.opacity = '0';
+          li.style.transition = 'opacity 0.2s';
+        }
+
         Storage.removeBookmark(btn.dataset.bmModule, btn.dataset.bmId);
         showToast('Lesezeichen entfernt', 'info', 1500);
-        this._renderBookmarks();
+
+        setTimeout(() => {
+          this._renderBookmarks();
+          // Restore open groups
+          el.querySelectorAll('details').forEach(d => {
+            const label = d.querySelector('.bookmarks-group__label');
+            if (label && openGroups.has(label.textContent)) d.open = true;
+          });
+        }, 200);
       });
     });
   },
